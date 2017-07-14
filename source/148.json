@@ -1,0 +1,1 @@
+{"text": ["[148] Sort List  \t(File: 148.sort-list.py)\n", "\n", "https://leetcode.com/problems/sort-list\n", "\n", "* Medium (28.49%)\n", "* Total Accepted:    NaN\n", "* Total Submissions: NaN\n", "* Testcase Example:  '[]'\n", "\n", "Sort a linked list in O(n log n) time using constant space complexity.\n"], "filename": "148.sort-list.py"}
