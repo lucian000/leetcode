@@ -24,14 +24,14 @@ def prr(string):
     'print in red'
     print('\033[1;31m' +string+ '\033[0m')
 
-pry('Checking leetcode-cli and gedit...')
+pry('Checking leetcode-cli and xed...')
 if os.system("leetcode version")!=0:
     prr('Can not find leetcode!')
     prr('Please read:')
     print('https://skygragon.github.io/leetcode-cli/install')
     exit()
-if os.system("gedit --version")!=0:
-    prr('Can not find gedit!')
+if os.system("xed --version")!=0:
+    prr('Can not find xed!')
     exit()
 
 welcome='''
@@ -139,10 +139,10 @@ def do_all(ps,p, d = './source/'):
         os.system('leetcode show '+nq+' -g -x -l python')
         fname = './'+[f for f in os.listdir() if f not in fs0][0] # file name
     while True:
-        pry('Please write your codes in gedit, remember to save it...')
+        pry('Please write your codes in xed, remember to save it...')
         # the time used
         time0 = time.time()
-        os.system('gedit '+fname)
+        os.system('xed '+fname)
         tall = time.time()-time0
         # store the time used
         times = load('time.json') 
