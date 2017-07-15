@@ -70,6 +70,14 @@ def load(fname):
         data = json.load(json_file)
         return data
 
+class problem():
+    def __init__(self,n,d='./source/'):
+        self.n = int(n)
+        self.ns = str(n)
+        self.loaded = False
+    def load(self):
+        if os.path.exists(d+self.ns+'.json')
+
 def h():
     'help'
     print(hlp)
