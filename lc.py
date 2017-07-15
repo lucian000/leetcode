@@ -221,6 +221,8 @@ pry(welcome)
 while(True):
     ip = input(addy('\nleetcode >>> '))
     ips = ip.split()
+    if ips==[]:
+        continue
     cmd = ips[0]
     pars = ips[1:]
     par = " ".join(pars)
