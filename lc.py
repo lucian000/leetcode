@@ -57,27 +57,73 @@ download: download all souce files to the dir 'source'.
 
 You can also input the following codes:
 '''
-# json
+#%% json and text files
 def store(fname,data):
     if os.path.exists(fname):
         shutil.copy(fname, fname+'.bak')
     with open(fname, 'w') as json_file:
         json_file.write(json.dumps(data))
 def load(fname):
-    if os.path.exists(fname)==False:
-        store(fname,{})
+#    if os.path.exists(fname)==False:
+#        store(fname,{})
     with open(fname) as json_file:
         data = json.load(json_file)
-        return data
+    return data
+def readfile(fname):
+    with open(fname) as f:
+        text = f.read()
+    return text
 
-class problem():
-    def __init__(self,n,d='./source/'):
-        self.n = int(n)
-        self.ns = str(n)
+#%% define class
+class problem(object):
+    def __init__(self,n):
+        self.n = int(n) # index - int
+        self.ns = str(n) # index -str
         self.loaded = False
-    def load(self):
-        if os.path.exists(d+self.ns+'.json')
-
+    def download(self, d='./source/'):
+        'if cannot find json file in path d, download it and save it'
+        if os.path.exists(d+self.ns+'.json'):
+            return -1
+        else:
+            os.chdir(d)
+            text = get_cmd('leetcode show '+self.ns+' -g -x -l python')
+            fname = [j for j in os.listdir() if j.startswith(self.ns+'.') and j.endswith('.py')][0]
+            store(self.ns+'.json',{'text':text,'filename':fname})
+            os.chdir(sys.path[0])
+    def load(self, d='./source/'):
+        'load all information about the problem'
+        self.download(d)
+        source = load(d+self.ns+'.json')
+        text = source['text']
+        # py file name
+        self.filename = source['filename']
+        # py code text - str
+        self.file = readfile(d+self.filename) 
+        # title - str
+        self.title = text[0].split(']')[1].split('\t')[0].strip()
+        # url - str
+        self.url = text[2].strip()
+        # difficulty - str
+        self.difficulty = text[4].split('*')[1].split('(')[0].strip()
+        # ac_rate - str
+        self.ac_rate = text[4].split('(')[1].split('%)')[0].strip()
+        # total_accepted - str
+        self.total_ac = text[5].replace('* Total Accepted:','').strip()
+        # total_submissions - str
+        self.total_sub = text[6].replace('* Total Submissions:','').strip()
+        # test_code - str
+        self.test_code = text[7].replace('* Testcase Example:','').strip()
+        # description - str
+        self.description = ''.join(text[8:]).strip()
+        self.loaded = True
+    def save(self, dsave='./save/'):
+        if not self.loaded:
+            self.load()
+        if not os.path.exists(dsave):
+            os.mkdir(dsave)
+        store(dsave+self.ns+'.json',self.__dict__)
+    
+#%%################################
 def h():
     'help'
     print(hlp)
@@ -222,7 +268,7 @@ def down(d = './source/'):
 #        dic['filename'] = fname
 #        store('./source/' +str(i),dic)
 
-###############################
+#%%############################
 # the main part of the program
 ###############################
 pry(welcome)
