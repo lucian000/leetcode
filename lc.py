@@ -18,6 +18,7 @@ os.chdir(sys.path[0])
 dc = os.path.expanduser('~/.lc/') # dir of cache of leetcode
 d='./source/' #dir of saved source files
 dsave='./cache/' # dir of the cache of this program
+dt='./time/' # dir for time records
 
 if not os.path.exists(dc):
     os.makedirs(dc)
@@ -25,6 +26,10 @@ if not os.path.exists(d):
     os.makedirs(d)
 if not os.path.exists(dsave):
     os.makedirs(dsave)
+if not os.path.exists(dt):
+    os.makedirs(dt)
+if not os.path.exists('./submitted/'):
+    os.makedirs('./submitted/')
 
 welcome='''
 #######################################
@@ -65,7 +70,7 @@ def addr(string):
 
 #%% checking dependence
 pry('Checking leetcode-cli and xed...')
-if os.system("leetcode version")!=0:
+if os.system("leetcode user")!=0:
     prr('Can not find leetcode!')
     prr('Please read:')
     print('https://skygragon.github.io/leetcode-cli/install')
@@ -170,6 +175,7 @@ class problem(object):
             else:
                 get_cmd('leetcode show '+self.ids)
                 self.__dict__.update(load(f1))
+        self.testcase = "'"+self.testcase.replace('\n',r'\n')+"'"   
         self.loaded=True
     def download(self):
         'if cannot find json file in path d, save it'
@@ -183,17 +189,47 @@ class problem(object):
         if not self.loaded:
             self.load()
         store(dsave+self.ids+'.json',self.__dict__)
-    def show(self):
+    def show(self,pr = True):
         if not self.loaded:
             self.load()
-        pry('['+self.ids+'] '+self.name)
-        print(addy(' *'),self.level,'('+str(round(self.percent,2))+'%)')
-        print('')
-        print(self.desc.strip())
+        txt = '['+self.ids+'] '+self.name+'\n'
+        txt += '* '+self.level+'('+str(round(self.percent,2))+'%)'
+        txt += '\n\n'
+        txt += self.desc.strip()
+        if pr:
+            print(txt)
+        return(txt)
     def write(self):
-        pass
-
-
+        if not self.loaded:
+            self.load()
+        try:
+            codes = [i['defaultCode'] for i in self.templates if i['value']=='python3'][0]
+        except:
+            codes = [i['defaultCode'] for i in self.templates if i['value']=='python'][0]
+        txt = '#\n['+self.ids+'] '+self.name
+        txt += '\n'
+        txt += '\n* '+self.level+'('+str(round(self.percent,5))+'%)'
+        txt += '\n* Testcase Example: ' + self.testcase
+        txt += '\n* URL: ' + self.link
+        txt += '\n'
+        txt += '\n'+self.desc.strip()
+        txt += '\n'
+        txt = txt.replace('\n','\n# ')
+        txt += '\n'+ codes.replace('\n','\n')
+        fname = self.ids+'.'+self.key+'.py'
+        if os.path.exists(fname):
+            print('There is a file here. Please check!')
+            return -1
+        with open(fname,'w') as f:
+            f.write(txt)
+        return fname
+    def write_time(self,t):
+        f = dt+self.ids+'.json'
+        if not os.path.exists(f):
+            store(f,[])
+        ts = load(f)
+        ts.append(t)
+        store(f, ts)
 #%% functions for the codes accepted
 def h():
     'help'
@@ -235,39 +271,18 @@ def do_all(ps,p):
     ind = np.random.choice([i['id'] for i in lst]) # index of question
     prob = problem(ind)
     prob.load()
-    
-    
-    
-    if os.path.exists(d+nq+'.json'):
-        dic = load(d+nq+'.json')
-        fname = dic['filename']
-        if os.path.exists(fname):
-            prr('File '+fname+' exists, please check!')
-            return
-        if os.path.exists('./submitted/'+fname):
-            prr('File '+fname+' exists in "./submitted", please check!')
-            return
-        shutil.copy(d+fname, fname)
-        fname = './'+fname
-        print(''.join(dic['text']))
-    else:
-        fs0 = os.listdir()
-        os.system('leetcode show '+nq+' -g -x -l python')
-        fname = './'+[f for f in os.listdir() if f not in fs0][0] # file name
+    print('\n')
+    prob.show()
+    fname = prob.write()
+    if fname== -1:
+        return
     while True:
-        pry('Please write your codes in xed, remember to save it...')
+        pry('\nPlease write your codes in xed, remember to save it...')
         # the time used
         time0 = time.time()
         os.system('xed '+fname)
-        tall = time.time()-time0
-        # store the time used
-        times = load('time.json') 
-        if nq not in times: times[nq]=[]
-        times[nq].append(tall)
-        store('time.json',times)
-        
-        test_code = get_test_code(fname)
-        os.system('leetcode test '+fname+' -t '+test_code)
+        prob.write_time(time.time()-time0)# store the time used
+        os.system('leetcode test '+fname+' -t '+prob.testcase+' -vv')
         pry('What do you want next?')
         pry('c/[Enter] = change codes, s = submit, e = exit')
         ip2 = input(addy('?> '))
@@ -276,32 +291,26 @@ def do_all(ps,p):
         elif ip2.startswith('e'):
             return
         elif ip2.startswith('s'):
-            os.system('leetcode submit '+fname)
-            if not os.path.exists('./submitted/'):
-                os.makedirs('./submitted/')
-            shutil.move(fname,'./submitted/'+fname)
+            os.system('leetcode submit '+fname+' -vv')
             pry('Change your answer?')
             pry('y=yes, n=no')
             if input(addy('?> ')).startswith('y'):
                 continue
             else:
                 break
+    if os.path.exists('./submitted/'+fname): 
+        print('File exists error!')
+        return
+    shutil.move(fname,'./submitted/'+fname)
     os.system('leetcode stat')
     os.system('leetcode stat -g')
-
-  
-
-    
-    
-
-
 
 #%%############################
 # the main part of the program
 ###############################
 pry(welcome)
 while(True):
-    ip = input(addy('\nleetcode >>> '))
+    ip = input(addy('\nlc >>> '))
     ips = ip.split()
     if ips==[]:
         continue
