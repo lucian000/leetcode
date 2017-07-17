@@ -49,14 +49,17 @@ class progressbarClass:
 #            for i in range(self.blockcount,blockcount):
 #                self.f.write(self.block)
 #                self.f.flush()
-        self.f.write('\r')
+        
         for i in range(blockcount):
             self.f.write(self.block)
         self.f.write(str(round(100*count/self.finalcount,3)))
         self.f.write('%')
-
-        remain_time = str(round((time.time()-self.time)/count*(self.finalcount-count)/60,3))
-        self.f.write(' Remain: '+remain_time+' min')
+        if count==0:
+            remain_time = '-'
+        else:
+            remain_time = str(round((time.time()-self.time)/count*(self.finalcount-count)/60,3))
+        self.f.write(' Remain: '+remain_time+' min  ')
+        self.f.write('\r')
         self.f.flush()
         if percentcomplete == 100: self.f.write("\n")
         self.blockcount=blockcount
