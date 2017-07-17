@@ -12,7 +12,8 @@ import shutil # for copyong file
 import json
 import numpy as np
 import progressbar as pb
-import pandas as pd
+import webbrowser
+#import pandas as pd
 
 os.chdir(sys.path[0])
 dc = os.path.expanduser('~/.lc/') # dir of cache of leetcode
@@ -276,6 +277,7 @@ def do_all(ps,p):
     fname = prob.write()
     if fname== -1:
         return
+    webbrowser.open_new_tab(prob.link)
     while True:
         pry('\nPlease write your codes in xed, remember to save it...')
         # the time used
@@ -302,6 +304,7 @@ def do_all(ps,p):
         print('File exists error!')
         return
     shutil.move(fname,'./submitted/'+fname)
+    webbrowser.open_new_tab(prob.link+'/#/solution')
     os.system('leetcode stat')
     os.system('leetcode stat -g')
 
