@@ -229,10 +229,11 @@ class problem(object):
     def write_time(self,t):
         f = dt+self.ids+'.json'
         if not os.path.exists(f):
-            store(f,[])
-        ts = load(f)
-        ts.append(t)
-        store(f, ts)
+            store(f,[t])
+        else:
+            ts = load(f)
+            ts.append(t)
+            store(f, ts)
     def edit(self): #use xed to edit codes, and save the time used
         time0 = time.time()
         os.system('xed '+self.fname)
