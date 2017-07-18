@@ -1,1 +1,70 @@
-{"id":591,"name":"Tag Validator","key":"tag-validator","link":"https://leetcode.com/problems/tag-validator","percent":26.594331266607618,"level":"Hard","totalAC":"","totalSubmit":"","desc":"Given a string representing a code snippet, you need to implement a tag validator to parse the code and return whether it is valid. A code snippet is valid if all the following rules hold:\r\n\r\nThe code must be wrapped in a valid closed tag. Otherwise, the code is invalid.\r\nA closed tag (not necessarily valid) has exactly the following format : <TAG_NAME>TAG_CONTENT</TAG_NAME>. Among them, <TAG_NAME> is the start tag, and </TAG_NAME> is the end tag. The TAG_NAME in start and end tags should be the same. A closed tag is valid if and only if the TAG_NAME and TAG_CONTENT are valid.\r\nA valid TAG_NAME only contain upper-case letters, and has length in range [1,9]. Otherwise, the TAG_NAME is invalid.\r\nA valid TAG_CONTENT may contain other valid closed tags, cdata and any characters (see note1) EXCEPT unmatched <, unmatched start and end tag, and unmatched or closed tags with invalid TAG_NAME. Otherwise, the TAG_CONTENT is invalid.\r\nA start tag is unmatched if no end tag exists with the same TAG_NAME, and vice versa. However, you also need to consider the issue of unbalanced when tags are nested.\r\nA < is unmatched if you cannot find a subsequent >. And when you find a < or </, all the subsequent characters until the next > should be parsed as TAG_NAME  (not necessarily valid).\r\nThe cdata has the following format : <![CDATA[CDATA_CONTENT]]>. The range of CDATA_CONTENT is defined as the characters between <![CDATA[ and the first subsequent ]]>. \r\nCDATA_CONTENT may contain any characters. The function of cdata is to forbid the validator to parse CDATA_CONTENT, so even it has some characters that can be parsed as tag (no matter valid or invalid), you should treat it as regular characters. \r\n\r\n\r\nValid Code Examples:\r\n\r\nInput: \"<DIV>This is the first line <![CDATA[<div>]]></DIV>\"\r\nOutput: True\r\nExplanation: \r\nThe code is wrapped in a closed tag : <DIV> and </DIV>. \r\nThe TAG_NAME is valid, the TAG_CONTENT consists of some characters and cdata. \r\nAlthough CDATA_CONTENT has unmatched start tag with invalid TAG_NAME, it should be considered as plain text, not parsed as tag.\r\nSo TAG_CONTENT is valid, and then the code is valid. Thus return true.\r\n\r\nInput: \"<DIV>>>  ![cdata[]] <![CDATA[<div>]>]]>]]>>]</DIV>\"\r\nOutput: True\r\nExplanation:\r\nWe first separate the code into : start_tag|tag_content|end_tag.\r\nstart_tag -> \"<DIV>\"\r\nend_tag -> \"</DIV>\"\r\ntag_content could also be separated into : text1|cdata|text2.\r\ntext1 -> \">>  ![cdata[]] \"\r\ncdata -> \"<![CDATA[<div>]>]]>\", where the CDATA_CONTENT is \"<div>]>\"\r\ntext2 -> \"]]>>]\"\r\n\r\nThe reason why start_tag is NOT \"<DIV>>>\" is because of the rule 6.\r\nThe reason why cdata is NOT \"<![CDATA[<div>]>]]>]]>\" is because of the rule 7.\r\n\r\n\r\n\r\nInvalid Code Examples:\r\n\r\nInput: \"<A>  <B> </A>   </B>\"\r\nOutput: False\r\nExplanation: Unbalanced. If \"<A>\" is closed, then \"<B>\" must be unmatched, and vice versa.\r\n\r\nInput: \"<DIV>  div tag is not closed  <DIV>\"\r\nOutput: False\r\n\r\nInput: \"<DIV>  unmatched <  </DIV>\"\r\nOutput: False\r\n\r\nInput: \"<DIV> closed tags with invalid tag name  <b>123</b> </DIV>\"\r\nOutput: False\r\n\r\nInput: \"<DIV> unmatched tags with invalid tag name  </1234567890> and <CDATA[[]]>  </DIV>\"\r\nOutput: False\r\n\r\nInput: \"<DIV>  unmatched start tag <B>  and unmatched end tag </C>  </DIV>\"\r\nOutput: False\r\n\r\n\r\n\r\nNote:\r\n\r\nFor simplicity, you could assume the input code (including the any characters mentioned above) only contain letters, digits, '<','>','/','!','[',']' and ' '.\r\n\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    bool isValid(string code) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public boolean isValid(String code) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def isValid(self, code):\r\n        \"\"\"\r\n        :type code: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "},{"value":"python3","text":"Python3","defaultCode":"class Solution:\r\n    def isValid(self, code):\r\n        \"\"\"\r\n        :type code: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"bool isValid(char* code) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public bool IsValid(string code) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string} code\r\n * @return {boolean}\r\n */\r\nvar isValid = function(code) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String} code\r\n# @return {Boolean}\r\ndef is_valid(code)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func isValid(_ code: String) -> Bool {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func isValid(code string) bool {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def isValid(code: String): Boolean = {\n        \n    }\n}"}],"testcase":"\"<DIV>This is the first line <![CDATA[<div>]]></DIV>\"","testable":true}
+{
+ "id": 591,
+ "name": "Tag Validator",
+ "key": "tag-validator",
+ "link": "https://leetcode.com/problems/tag-validator",
+ "percent": 26.594331266607618,
+ "level": "Hard",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given a string representing a code snippet, you need to implement a tag validator to parse the code and return whether it is valid. A code snippet is valid if all the following rules hold:\r\n\r\nThe code must be wrapped in a valid closed tag. Otherwise, the code is invalid.\r\nA closed tag (not necessarily valid) has exactly the following format : <TAG_NAME>TAG_CONTENT</TAG_NAME>. Among them, <TAG_NAME> is the start tag, and </TAG_NAME> is the end tag. The TAG_NAME in start and end tags should be the same. A closed tag is valid if and only if the TAG_NAME and TAG_CONTENT are valid.\r\nA valid TAG_NAME only contain upper-case letters, and has length in range [1,9]. Otherwise, the TAG_NAME is invalid.\r\nA valid TAG_CONTENT may contain other valid closed tags, cdata and any characters (see note1) EXCEPT unmatched <, unmatched start and end tag, and unmatched or closed tags with invalid TAG_NAME. Otherwise, the TAG_CONTENT is invalid.\r\nA start tag is unmatched if no end tag exists with the same TAG_NAME, and vice versa. However, you also need to consider the issue of unbalanced when tags are nested.\r\nA < is unmatched if you cannot find a subsequent >. And when you find a < or </, all the subsequent characters until the next > should be parsed as TAG_NAME  (not necessarily valid).\r\nThe cdata has the following format : <![CDATA[CDATA_CONTENT]]>. The range of CDATA_CONTENT is defined as the characters between <![CDATA[ and the first subsequent ]]>. \r\nCDATA_CONTENT may contain any characters. The function of cdata is to forbid the validator to parse CDATA_CONTENT, so even it has some characters that can be parsed as tag (no matter valid or invalid), you should treat it as regular characters. \r\n\r\n\r\nValid Code Examples:\r\n\r\nInput: \"<DIV>This is the first line <![CDATA[<div>]]></DIV>\"\r\nOutput: True\r\nExplanation: \r\nThe code is wrapped in a closed tag : <DIV> and </DIV>. \r\nThe TAG_NAME is valid, the TAG_CONTENT consists of some characters and cdata. \r\nAlthough CDATA_CONTENT has unmatched start tag with invalid TAG_NAME, it should be considered as plain text, not parsed as tag.\r\nSo TAG_CONTENT is valid, and then the code is valid. Thus return true.\r\n\r\nInput: \"<DIV>>>  ![cdata[]] <![CDATA[<div>]>]]>]]>>]</DIV>\"\r\nOutput: True\r\nExplanation:\r\nWe first separate the code into : start_tag|tag_content|end_tag.\r\nstart_tag -> \"<DIV>\"\r\nend_tag -> \"</DIV>\"\r\ntag_content could also be separated into : text1|cdata|text2.\r\ntext1 -> \">>  ![cdata[]] \"\r\ncdata -> \"<![CDATA[<div>]>]]>\", where the CDATA_CONTENT is \"<div>]>\"\r\ntext2 -> \"]]>>]\"\r\n\r\nThe reason why start_tag is NOT \"<DIV>>>\" is because of the rule 6.\r\nThe reason why cdata is NOT \"<![CDATA[<div>]>]]>]]>\" is because of the rule 7.\r\n\r\n\r\n\r\nInvalid Code Examples:\r\n\r\nInput: \"<A>  <B> </A>   </B>\"\r\nOutput: False\r\nExplanation: Unbalanced. If \"<A>\" is closed, then \"<B>\" must be unmatched, and vice versa.\r\n\r\nInput: \"<DIV>  div tag is not closed  <DIV>\"\r\nOutput: False\r\n\r\nInput: \"<DIV>  unmatched <  </DIV>\"\r\nOutput: False\r\n\r\nInput: \"<DIV> closed tags with invalid tag name  <b>123</b> </DIV>\"\r\nOutput: False\r\n\r\nInput: \"<DIV> unmatched tags with invalid tag name  </1234567890> and <CDATA[[]]>  </DIV>\"\r\nOutput: False\r\n\r\nInput: \"<DIV>  unmatched start tag <B>  and unmatched end tag </C>  </DIV>\"\r\nOutput: False\r\n\r\n\r\n\r\nNote:\r\n\r\nFor simplicity, you could assume the input code (including the any characters mentioned above) only contain letters, digits, '<','>','/','!','[',']' and ' '.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool isValid(string code) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean isValid(String code) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def isValid(self, code):\r\n        \"\"\"\r\n        :type code: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "python3",
+   "text": "Python3",
+   "defaultCode": "class Solution:\r\n    def isValid(self, code):\r\n        \"\"\"\r\n        :type code: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool isValid(char* code) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool IsValid(string code) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} code\r\n * @return {boolean}\r\n */\r\nvar isValid = function(code) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} code\r\n# @return {Boolean}\r\ndef is_valid(code)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func isValid(_ code: String) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func isValid(code string) bool {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def isValid(code: String): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"<DIV>This is the first line <![CDATA[<div>]]></DIV>\"",
+ "testable": true
+}

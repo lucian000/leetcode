@@ -1,1 +1,65 @@
-{"id":520,"name":"Detect Capital","key":"detect-capital","link":"https://leetcode.com/problems/detect-capital","percent":52.094161891752854,"level":"Easy","totalAC":"","totalSubmit":"","desc":"\r\nGiven a word, you need to judge whether the usage of capitals in it is right or not.\r\n\r\n\r\n\r\nWe define the usage of capitals in a word to be right when one of the following cases holds:\r\n\r\nAll letters in this word are capitals, like \"USA\".\r\nAll letters in this word are not capitals, like \"leetcode\".\r\nOnly the first letter in this word is capital if it has more than one letter, like \"Google\".\r\n\r\nOtherwise, we define that this word doesn't use capitals in a right way.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: \"USA\"\r\nOutput: True\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \"FlaG\"\r\nOutput: False\r\n\r\n\r\n\r\nNote:\r\nThe input will be a non-empty word consisting of uppercase and lowercase latin letters.\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\npublic:\n    bool detectCapitalUse(string word) {\n        \n    }\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\n    public boolean detectCapitalUse(String word) {\n        \n    }\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\n    def detectCapitalUse(self, word):\n        \"\"\"\n        :type word: str\n        :rtype: bool\n        \"\"\"\n        "},{"value":"c","text":"C","defaultCode":"bool detectCapitalUse(char* word) {\n    \n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\n    public bool DetectCapitalUse(string word) {\n        \n    }\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\n * @param {string} word\n * @return {boolean}\n */\nvar detectCapitalUse = function(word) {\n    \n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String} word\n# @return {Boolean}\ndef detect_capital_use(word)\n    \nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\n    func detectCapitalUse(_ word: String) -> Bool {\n        \n    }\n}"},{"value":"golang","text":"Go","defaultCode":"func detectCapitalUse(word string) bool {\n    \n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def detectCapitalUse(word: String): Boolean = {\n        \n    }\n}"}],"testcase":"\"USA\"","testable":true}
+{
+ "id": 520,
+ "name": "Detect Capital",
+ "key": "detect-capital",
+ "link": "https://leetcode.com/problems/detect-capital",
+ "percent": 52.094161891752854,
+ "level": "Easy",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a word, you need to judge whether the usage of capitals in it is right or not.\r\n\r\n\r\n\r\nWe define the usage of capitals in a word to be right when one of the following cases holds:\r\n\r\nAll letters in this word are capitals, like \"USA\".\r\nAll letters in this word are not capitals, like \"leetcode\".\r\nOnly the first letter in this word is capital if it has more than one letter, like \"Google\".\r\n\r\nOtherwise, we define that this word doesn't use capitals in a right way.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: \"USA\"\r\nOutput: True\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \"FlaG\"\r\nOutput: False\r\n\r\n\r\n\r\nNote:\r\nThe input will be a non-empty word consisting of uppercase and lowercase latin letters.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\npublic:\n    bool detectCapitalUse(string word) {\n        \n    }\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\n    public boolean detectCapitalUse(String word) {\n        \n    }\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\n    def detectCapitalUse(self, word):\n        \"\"\"\n        :type word: str\n        :rtype: bool\n        \"\"\"\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool detectCapitalUse(char* word) {\n    \n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\n    public bool DetectCapitalUse(string word) {\n        \n    }\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\n * @param {string} word\n * @return {boolean}\n */\nvar detectCapitalUse = function(word) {\n    \n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} word\n# @return {Boolean}\ndef detect_capital_use(word)\n    \nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func detectCapitalUse(_ word: String) -> Bool {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func detectCapitalUse(word string) bool {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def detectCapitalUse(word: String): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"USA\"",
+ "testable": true
+}

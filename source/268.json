@@ -1,1 +1,65 @@
-{"id":268,"name":"Missing Number","key":"missing-number","link":"https://leetcode.com/problems/missing-number","percent":44.111938896888496,"level":"Easy","totalAC":"","totalSubmit":"","desc":"\r\nGiven an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.\r\n\r\n\r\nFor example,\r\nGiven nums = [0, 1, 3] return 2.\r\n\r\n\r\n\r\nNote:\r\nYour algorithm should run in linear runtime complexity. Could you implement it using only constant extra space complexity?\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    int missingNumber(vector<int>& nums) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public int missingNumber(int[] nums) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def missingNumber(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\""},{"value":"c","text":"C","defaultCode":"int missingNumber(int* nums, int numsSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public int MissingNumber(int[] nums) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar missingNumber = function(nums) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef missing_number(nums)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func missingNumber(_ nums: [Int]) -> Int {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func missingNumber(nums []int) int {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def missingNumber(nums: Array[Int]): Int = {\n        \n    }\n}"}],"testcase":"[0]","testable":true}
+{
+ "id": 268,
+ "name": "Missing Number",
+ "key": "missing-number",
+ "link": "https://leetcode.com/problems/missing-number",
+ "percent": 44.111938896888496,
+ "level": "Easy",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.\r\n\r\n\r\nFor example,\r\nGiven nums = [0, 1, 3] return 2.\r\n\r\n\r\n\r\nNote:\r\nYour algorithm should run in linear runtime complexity. Could you implement it using only constant extra space complexity?\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int missingNumber(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int missingNumber(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def missingNumber(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\""
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int missingNumber(int* nums, int numsSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int MissingNumber(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar missingNumber = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef missing_number(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func missingNumber(_ nums: [Int]) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func missingNumber(nums []int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def missingNumber(nums: Array[Int]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[0]",
+ "testable": true
+}

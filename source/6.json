@@ -1,0 +1,65 @@
+{
+ "id": 6,
+ "name": "ZigZag Conversion",
+ "key": "zigzag-conversion",
+ "link": "https://leetcode.com/problems/zigzag-conversion",
+ "percent": 26.679600549379916,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nThe string \"PAYPALISHIRING\" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)\r\n\r\nP   A   H   N\r\nA P L S I I G\r\nY   I   R\r\n\r\n\r\nAnd then read line by line: \"PAHNAPLSIIGYIR\"\r\n\r\n\r\nWrite the code that will take a string and make this conversion given a number of rows:\r\n\r\nstring convert(string text, int nRows);\r\n\r\nconvert(\"PAYPALISHIRING\", 3) should return \"PAHNAPLSIIGYIR\".\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    string convert(string s, int numRows) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public String convert(String s, int numRows) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def convert(self, s, numRows):\r\n        \"\"\"\r\n        :type s: str\r\n        :type numRows: int\r\n        :rtype: str\r\n        \"\"\""
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "char* convert(char* s, int numRows) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public string Convert(string s, int numRows) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @param {number} numRows\r\n * @return {string}\r\n */\r\nvar convert = function(s, numRows) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @param {Integer} num_rows\r\n# @return {String}\r\ndef convert(s, num_rows)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func convert(_ s: String, _ numRows: Int) -> String {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func convert(s string, numRows int) string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def convert(s: String, numRows: Int): String = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"\"\n1",
+ "testable": true
+}

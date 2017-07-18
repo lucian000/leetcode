@@ -1,1 +1,70 @@
-{"id": 152, "ids": "152", "state": "None", "name": "Maximum Product Subarray", "key": "maximum-product-subarray", "link": "https://leetcode.com/problems/maximum-product-subarray", "locked": false, "percent": 25.48525095756852, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nFind the contiguous subarray within an array (containing at least one number) which has the largest product.\r\n\r\n\r\n\r\nFor example, given the array [2,3,-2,4],\r\nthe contiguous subarray [2,3] has the largest product = 6.\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int maxProduct(vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int maxProduct(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def maxProduct(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int maxProduct(int* nums, int numsSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int MaxProduct(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar maxProduct = function(nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef max_product(nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func maxProduct(_ nums: [Int]) -> Int {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func maxProduct(nums []int) int {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def maxProduct(nums: Array[Int]): Int = {\n        \n    }\n}"}], "testcase": "[-2]", "testable": true}
+{
+ "id": 152,
+ "ids": "152",
+ "state": "None",
+ "name": "Maximum Product Subarray",
+ "key": "maximum-product-subarray",
+ "link": "https://leetcode.com/problems/maximum-product-subarray",
+ "locked": false,
+ "percent": 25.483767453314794,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nFind the contiguous subarray within an array (containing at least one number) which has the largest product.\r\n\r\n\r\n\r\nFor example, given the array [2,3,-2,4],\r\nthe contiguous subarray [2,3] has the largest product = 6.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int maxProduct(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int maxProduct(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def maxProduct(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int maxProduct(int* nums, int numsSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int MaxProduct(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar maxProduct = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef max_product(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func maxProduct(_ nums: [Int]) -> Int {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func maxProduct(nums []int) int {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def maxProduct(nums: Array[Int]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[-2]'",
+ "testable": true
+}

@@ -1,1 +1,70 @@
-{"id": 376, "ids": "376", "state": "None", "name": "Wiggle Subsequence", "key": "wiggle-subsequence", "link": "https://leetcode.com/problems/wiggle-subsequence", "locked": false, "percent": 35.55985705777248, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "A sequence of numbers is called a wiggle sequence if the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with fewer than two elements is trivially a wiggle sequence. \r\n\r\nFor example, [1,7,4,9,2,5] is a wiggle sequence because the differences (6,-3,5,-7,3) are alternately positive and negative. In contrast, [1,4,7,2,5] and [1,7,4,5,5] are not wiggle sequences, the first because its first two differences are positive and the second because its last difference is zero.\r\n\r\nGiven a sequence of integers, return the length of the longest subsequence that is a wiggle sequence. A subsequence is obtained by deleting some number of elements (eventually, also zero) from the original sequence, leaving the remaining elements in their original order.\r\n\r\nExamples:\r\n\r\nInput: [1,7,4,9,2,5]\r\nOutput: 6\r\nThe entire sequence is a wiggle sequence.\r\n\r\nInput: [1,17,5,10,13,15,10,5,16,8]\r\nOutput: 7\r\nThere are several subsequences that achieve this length. One is [1,17,10,13,10,16,8].\r\n\r\nInput: [1,2,3,4,5,6,7,8,9]\r\nOutput: 2\r\n\r\n\r\n\r\nFollow up:\r\nCan you do it in O(n) time?\r\n\r\n\r\nCredits:Special thanks to @agave and @StefanPochmann for adding this problem and creating all test cases.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int wiggleMaxLength(vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int wiggleMaxLength(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def wiggleMaxLength(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int wiggleMaxLength(int* nums, int numsSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int WiggleMaxLength(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar wiggleMaxLength = function(nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef wiggle_max_length(nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func wiggleMaxLength(_ nums: [Int]) -> Int {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func wiggleMaxLength(nums []int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def wiggleMaxLength(nums: Array[Int]): Int = {\n        \n    }\n}"}], "testcase": "[1,7,4,9,2,5]", "testable": true}
+{
+ "id": 376,
+ "ids": "376",
+ "state": "None",
+ "name": "Wiggle Subsequence",
+ "key": "wiggle-subsequence",
+ "link": "https://leetcode.com/problems/wiggle-subsequence",
+ "locked": false,
+ "percent": 35.557144346634495,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "A sequence of numbers is called a wiggle sequence if the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with fewer than two elements is trivially a wiggle sequence. \r\n\r\nFor example, [1,7,4,9,2,5] is a wiggle sequence because the differences (6,-3,5,-7,3) are alternately positive and negative. In contrast, [1,4,7,2,5] and [1,7,4,5,5] are not wiggle sequences, the first because its first two differences are positive and the second because its last difference is zero.\r\n\r\nGiven a sequence of integers, return the length of the longest subsequence that is a wiggle sequence. A subsequence is obtained by deleting some number of elements (eventually, also zero) from the original sequence, leaving the remaining elements in their original order.\r\n\r\nExamples:\r\n\r\nInput: [1,7,4,9,2,5]\r\nOutput: 6\r\nThe entire sequence is a wiggle sequence.\r\n\r\nInput: [1,17,5,10,13,15,10,5,16,8]\r\nOutput: 7\r\nThere are several subsequences that achieve this length. One is [1,17,10,13,10,16,8].\r\n\r\nInput: [1,2,3,4,5,6,7,8,9]\r\nOutput: 2\r\n\r\n\r\n\r\nFollow up:\r\nCan you do it in O(n) time?\r\n\r\n\r\nCredits:Special thanks to @agave and @StefanPochmann for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int wiggleMaxLength(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int wiggleMaxLength(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def wiggleMaxLength(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int wiggleMaxLength(int* nums, int numsSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int WiggleMaxLength(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar wiggleMaxLength = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef wiggle_max_length(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func wiggleMaxLength(_ nums: [Int]) -> Int {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func wiggleMaxLength(nums []int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def wiggleMaxLength(nums: Array[Int]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[1,7,4,9,2,5]'",
+ "testable": true
+}

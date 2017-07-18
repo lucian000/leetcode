@@ -1,1 +1,70 @@
-{"id": 110, "ids": "110", "state": "None", "name": "Balanced Binary Tree", "key": "balanced-binary-tree", "link": "https://leetcode.com/problems/balanced-binary-tree", "locked": false, "percent": 37.28840639426837, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given a binary tree, determine if it is height-balanced.\r\n\r\n\r\n\r\nFor this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     TreeNode *left;\r\n *     TreeNode *right;\r\n *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    bool isBalanced(TreeNode* root) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     int val;\r\n *     TreeNode left;\r\n *     TreeNode right;\r\n *     TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public boolean isBalanced(TreeNode root) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "# Definition for a binary tree node.\r\n# class TreeNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution(object):\r\n    def isBalanced(self, root):\r\n        \"\"\"\r\n        :type root: TreeNode\r\n        :rtype: bool\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     struct TreeNode *left;\r\n *     struct TreeNode *right;\r\n * };\r\n */\r\nbool isBalanced(struct TreeNode* root) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     public int val;\r\n *     public TreeNode left;\r\n *     public TreeNode right;\r\n *     public TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public bool IsBalanced(TreeNode root) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {boolean}\r\n */\r\nvar isBalanced = function(root) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# Definition for a binary tree node.\r\n# class TreeNode\r\n#     attr_accessor :val, :left, :right\r\n#     def initialize(val)\r\n#         @val = val\r\n#         @left, @right = nil, nil\r\n#     end\r\n# end\r\n\r\n# @param {TreeNode} root\r\n# @return {Boolean}\r\ndef is_balanced(root)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "/**\n * Definition for a binary tree node.\n * public class TreeNode {\n *     public var val: Int\n *     public var left: TreeNode?\n *     public var right: TreeNode?\n *     public init(_ val: Int) {\n *         self.val = val\n *         self.left = nil\n *         self.right = nil\n *     }\n * }\n */\nclass Solution {\n    func isBalanced(_ root: TreeNode?) -> Bool {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "/**\n * Definition for a binary tree node.\n * type TreeNode struct {\n *     Val int\n *     Left *TreeNode\n *     Right *TreeNode\n * }\n */\nfunc isBalanced(root *TreeNode) bool {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "/**\n * Definition for a binary tree node.\n * class TreeNode(var _value: Int) {\n *   var value: Int = _value\n *   var left: TreeNode = null\n *   var right: TreeNode = null\n * }\n */\nobject Solution {\n    def isBalanced(root: TreeNode): Boolean = {\n        \n    }\n}"}], "testcase": "[]", "testable": true}
+{
+ "id": 110,
+ "ids": "110",
+ "state": "ac",
+ "name": "Balanced Binary Tree",
+ "key": "balanced-binary-tree",
+ "link": "https://leetcode.com/problems/balanced-binary-tree",
+ "locked": false,
+ "percent": 37.28744062425748,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given a binary tree, determine if it is height-balanced.\r\n\r\n\r\n\r\nFor this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     TreeNode *left;\r\n *     TreeNode *right;\r\n *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    bool isBalanced(TreeNode* root) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     int val;\r\n *     TreeNode left;\r\n *     TreeNode right;\r\n *     TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public boolean isBalanced(TreeNode root) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "# Definition for a binary tree node.\r\n# class TreeNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution(object):\r\n    def isBalanced(self, root):\r\n        \"\"\"\r\n        :type root: TreeNode\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     struct TreeNode *left;\r\n *     struct TreeNode *right;\r\n * };\r\n */\r\nbool isBalanced(struct TreeNode* root) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     public int val;\r\n *     public TreeNode left;\r\n *     public TreeNode right;\r\n *     public TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public bool IsBalanced(TreeNode root) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {boolean}\r\n */\r\nvar isBalanced = function(root) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# Definition for a binary tree node.\r\n# class TreeNode\r\n#     attr_accessor :val, :left, :right\r\n#     def initialize(val)\r\n#         @val = val\r\n#         @left, @right = nil, nil\r\n#     end\r\n# end\r\n\r\n# @param {TreeNode} root\r\n# @return {Boolean}\r\ndef is_balanced(root)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "/**\n * Definition for a binary tree node.\n * public class TreeNode {\n *     public var val: Int\n *     public var left: TreeNode?\n *     public var right: TreeNode?\n *     public init(_ val: Int) {\n *         self.val = val\n *         self.left = nil\n *         self.right = nil\n *     }\n * }\n */\nclass Solution {\n    func isBalanced(_ root: TreeNode?) -> Bool {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "/**\n * Definition for a binary tree node.\n * type TreeNode struct {\n *     Val int\n *     Left *TreeNode\n *     Right *TreeNode\n * }\n */\nfunc isBalanced(root *TreeNode) bool {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "/**\n * Definition for a binary tree node.\n * class TreeNode(var _value: Int) {\n *   var value: Int = _value\n *   var left: TreeNode = null\n *   var right: TreeNode = null\n * }\n */\nobject Solution {\n    def isBalanced(root: TreeNode): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[]'",
+ "testable": true
+}

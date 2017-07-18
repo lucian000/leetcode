@@ -1,1 +1,70 @@
-{"id":583,"name":"Delete Operation for Two Strings","key":"delete-operation-for-two-strings","link":"https://leetcode.com/problems/delete-operation-for-two-strings","percent":44.24558587479936,"level":"Medium","totalAC":"","totalSubmit":"","desc":"\r\nGiven two words word1 and word2, find the minimum number of steps required to make word1 and word2 the same, where in each step you can delete one character in either string.\r\n\r\n\r\nExample 1:\r\n\r\nInput: \"sea\", \"eat\"\r\nOutput: 2\r\nExplanation: You need one step to make \"sea\" to \"ea\" and another step to make \"eat\" to \"ea\".\r\n\r\n\r\n\r\nNote:\r\n\r\nThe length of given words won't exceed 500.\r\nCharacters in given words can only be lower-case letters.\r\n\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\npublic:\n    int minDistance(string word1, string word2) {\n        \n    }\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\n    public int minDistance(String word1, String word2) {\n        \n    }\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\n    def minDistance(self, word1, word2):\n        \"\"\"\n        :type word1: str\n        :type word2: str\n        :rtype: int\n        \"\"\"\n        "},{"value":"python3","text":"Python3","defaultCode":"class Solution:\n    def minDistance(self, word1, word2):\n        \"\"\"\n        :type word1: str\n        :type word2: str\n        :rtype: int\n        \"\"\"\n        "},{"value":"c","text":"C","defaultCode":"int minDistance(char* word1, char* word2) {\n    \n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\n    public int MinDistance(string word1, string word2) {\n        \n    }\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\n * @param {string} word1\n * @param {string} word2\n * @return {number}\n */\nvar minDistance = function(word1, word2) {\n    \n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String} word1\n# @param {String} word2\n# @return {Integer}\ndef min_distance(word1, word2)\n    \nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\n    func minDistance(_ word1: String, _ word2: String) -> Int {\n        \n    }\n}"},{"value":"golang","text":"Go","defaultCode":"func minDistance(word1 string, word2 string) int {\n    \n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def minDistance(word1: String, word2: String): Int = {\n        \n    }\n}"}],"testcase":"\"sea\"\n\"eat\"","testable":true}
+{
+ "id": 583,
+ "name": "Delete Operation for Two Strings",
+ "key": "delete-operation-for-two-strings",
+ "link": "https://leetcode.com/problems/delete-operation-for-two-strings",
+ "percent": 44.24558587479936,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven two words word1 and word2, find the minimum number of steps required to make word1 and word2 the same, where in each step you can delete one character in either string.\r\n\r\n\r\nExample 1:\r\n\r\nInput: \"sea\", \"eat\"\r\nOutput: 2\r\nExplanation: You need one step to make \"sea\" to \"ea\" and another step to make \"eat\" to \"ea\".\r\n\r\n\r\n\r\nNote:\r\n\r\nThe length of given words won't exceed 500.\r\nCharacters in given words can only be lower-case letters.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\npublic:\n    int minDistance(string word1, string word2) {\n        \n    }\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\n    public int minDistance(String word1, String word2) {\n        \n    }\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\n    def minDistance(self, word1, word2):\n        \"\"\"\n        :type word1: str\n        :type word2: str\n        :rtype: int\n        \"\"\"\n        "
+  },
+  {
+   "value": "python3",
+   "text": "Python3",
+   "defaultCode": "class Solution:\n    def minDistance(self, word1, word2):\n        \"\"\"\n        :type word1: str\n        :type word2: str\n        :rtype: int\n        \"\"\"\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int minDistance(char* word1, char* word2) {\n    \n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\n    public int MinDistance(string word1, string word2) {\n        \n    }\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\n * @param {string} word1\n * @param {string} word2\n * @return {number}\n */\nvar minDistance = function(word1, word2) {\n    \n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} word1\n# @param {String} word2\n# @return {Integer}\ndef min_distance(word1, word2)\n    \nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func minDistance(_ word1: String, _ word2: String) -> Int {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func minDistance(word1 string, word2 string) int {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def minDistance(word1: String, word2: String): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"sea\"\n\"eat\"",
+ "testable": true
+}

@@ -1,1 +1,65 @@
-{"id":336,"name":"Palindrome Pairs","key":"palindrome-pairs","link":"https://leetcode.com/problems/palindrome-pairs","percent":25.990755320770052,"level":"Hard","totalAC":"","totalSubmit":"","desc":"\r\n    Given a list of unique words, find all pairs of distinct indices (i, j) in the given list, so that the concatenation of the two words, i.e. words[i] + words[j] is a palindrome.\r\n\r\n\r\n\r\n    Example 1:\r\n    Given words = [\"bat\", \"tab\", \"cat\"]\r\n    Return [[0, 1], [1, 0]]\r\n    The palindromes are [\"battab\", \"tabbat\"]\r\n\r\n\r\n    Example 2:\r\n    Given words = [\"abcd\", \"dcba\", \"lls\", \"s\", \"sssll\"]\r\n    Return [[0, 1], [1, 0], [3, 2], [2, 4]]\r\n    The palindromes are [\"dcbaabcd\", \"abcddcba\", \"slls\", \"llssssll\"]\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    vector<vector<int>> palindromePairs(vector<string>& words) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public List<List<Integer>> palindromePairs(String[] words) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def palindromePairs(self, words):\r\n        \"\"\"\r\n        :type words: List[str]\r\n        :rtype: List[List[int]]\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"/**\r\n * Return an array of arrays of size *returnSize.\r\n * The sizes of the arrays are returned as *columnSizes array.\r\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\r\n */\r\nint** palindromePairs(char** words, int wordsSize, int** columnSizes, int* returnSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public IList<IList<int>> PalindromePairs(string[] words) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string[]} words\r\n * @return {number[][]}\r\n */\r\nvar palindromePairs = function(words) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String[]} words\r\n# @return {Integer[][]}\r\ndef palindrome_pairs(words)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func palindromePairs(_ words: [String]) -> [[Int]] {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func palindromePairs(words []string) [][]int {\n    \n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def palindromePairs(words: Array[String]): List[List[Int]] = {\n        \n    }\n}"}],"testcase":"[\"abcd\",\"dcba\",\"lls\",\"s\",\"sssll\"]","testable":true}
+{
+ "id": 336,
+ "name": "Palindrome Pairs",
+ "key": "palindrome-pairs",
+ "link": "https://leetcode.com/problems/palindrome-pairs",
+ "percent": 25.990755320770052,
+ "level": "Hard",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\n    Given a list of unique words, find all pairs of distinct indices (i, j) in the given list, so that the concatenation of the two words, i.e. words[i] + words[j] is a palindrome.\r\n\r\n\r\n\r\n    Example 1:\r\n    Given words = [\"bat\", \"tab\", \"cat\"]\r\n    Return [[0, 1], [1, 0]]\r\n    The palindromes are [\"battab\", \"tabbat\"]\r\n\r\n\r\n    Example 2:\r\n    Given words = [\"abcd\", \"dcba\", \"lls\", \"s\", \"sssll\"]\r\n    Return [[0, 1], [1, 0], [3, 2], [2, 4]]\r\n    The palindromes are [\"dcbaabcd\", \"abcddcba\", \"slls\", \"llssssll\"]\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<vector<int>> palindromePairs(vector<string>& words) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<List<Integer>> palindromePairs(String[] words) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def palindromePairs(self, words):\r\n        \"\"\"\r\n        :type words: List[str]\r\n        :rtype: List[List[int]]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of arrays of size *returnSize.\r\n * The sizes of the arrays are returned as *columnSizes array.\r\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\r\n */\r\nint** palindromePairs(char** words, int wordsSize, int** columnSizes, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<IList<int>> PalindromePairs(string[] words) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string[]} words\r\n * @return {number[][]}\r\n */\r\nvar palindromePairs = function(words) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String[]} words\r\n# @return {Integer[][]}\r\ndef palindrome_pairs(words)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func palindromePairs(_ words: [String]) -> [[Int]] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func palindromePairs(words []string) [][]int {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def palindromePairs(words: Array[String]): List[List[Int]] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[\"abcd\",\"dcba\",\"lls\",\"s\",\"sssll\"]",
+ "testable": true
+}

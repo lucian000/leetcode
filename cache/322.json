@@ -1,1 +1,70 @@
-{"id": 322, "ids": "322", "state": "None", "name": "Coin Change", "key": "coin-change", "link": "https://leetcode.com/problems/coin-change", "locked": false, "percent": 26.4586414570005, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nYou are given coins of different denominations and a total amount of money amount. Write a function to compute the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.\r\n\r\n\r\n\r\nExample 1:\r\ncoins = [1, 2, 5], amount = 11\r\nreturn 3 (11 = 5 + 5 + 1)\r\n\r\n\r\n\r\nExample 2:\r\ncoins = [2], amount = 3\r\nreturn -1.\r\n\r\n\r\n\r\nNote:\r\nYou may assume that you have an infinite number of each kind of coin.\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int coinChange(vector<int>& coins, int amount) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int coinChange(int[] coins, int amount) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def coinChange(self, coins, amount):\r\n        \"\"\"\r\n        :type coins: List[int]\r\n        :type amount: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int coinChange(int* coins, int coinsSize, int amount) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int CoinChange(int[] coins, int amount) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} coins\r\n * @param {number} amount\r\n * @return {number}\r\n */\r\nvar coinChange = function(coins, amount) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} coins\r\n# @param {Integer} amount\r\n# @return {Integer}\r\ndef coin_change(coins, amount)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func coinChange(_ coins: [Int], _ amount: Int) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func coinChange(coins []int, amount int) int {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def coinChange(coins: Array[Int], amount: Int): Int = {\n        \n    }\n}"}], "testcase": "[1]\n0", "testable": true}
+{
+ "id": 322,
+ "ids": "322",
+ "state": "None",
+ "name": "Coin Change",
+ "key": "coin-change",
+ "link": "https://leetcode.com/problems/coin-change",
+ "locked": false,
+ "percent": 26.45870104622311,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nYou are given coins of different denominations and a total amount of money amount. Write a function to compute the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.\r\n\r\n\r\n\r\nExample 1:\r\ncoins = [1, 2, 5], amount = 11\r\nreturn 3 (11 = 5 + 5 + 1)\r\n\r\n\r\n\r\nExample 2:\r\ncoins = [2], amount = 3\r\nreturn -1.\r\n\r\n\r\n\r\nNote:\r\nYou may assume that you have an infinite number of each kind of coin.\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int coinChange(vector<int>& coins, int amount) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int coinChange(int[] coins, int amount) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def coinChange(self, coins, amount):\r\n        \"\"\"\r\n        :type coins: List[int]\r\n        :type amount: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int coinChange(int* coins, int coinsSize, int amount) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int CoinChange(int[] coins, int amount) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} coins\r\n * @param {number} amount\r\n * @return {number}\r\n */\r\nvar coinChange = function(coins, amount) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} coins\r\n# @param {Integer} amount\r\n# @return {Integer}\r\ndef coin_change(coins, amount)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func coinChange(_ coins: [Int], _ amount: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func coinChange(coins []int, amount int) int {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def coinChange(coins: Array[Int], amount: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[1]\\n0'",
+ "testable": true
+}

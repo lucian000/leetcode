@@ -1,1 +1,65 @@
-{"id":395,"name":"Longest Substring with At Least K Repeating Characters","key":"longest-substring-with-at-least-k-repeating-characters","link":"https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters","percent":35.46813747834807,"level":"Medium","totalAC":"","totalSubmit":"","desc":"\r\nFind the length of the longest substring T of a given string (consists of lowercase letters only) such that every character in T appears no less than k times.\r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\ns = \"aaabb\", k = 3\r\n\r\nOutput:\r\n3\r\n\r\nThe longest substring is \"aaa\", as 'a' is repeated 3 times.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\ns = \"ababbc\", k = 2\r\n\r\nOutput:\r\n5\r\n\r\nThe longest substring is \"ababb\", as 'a' is repeated 2 times and 'b' is repeated 3 times.\r\n\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    int longestSubstring(string s, int k) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public int longestSubstring(String s, int k) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def longestSubstring(self, s, k):\r\n        \"\"\"\r\n        :type s: str\r\n        :type k: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"int longestSubstring(char* s, int k) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public int LongestSubstring(string s, int k) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string} s\r\n * @param {number} k\r\n * @return {number}\r\n */\r\nvar longestSubstring = function(s, k) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String} s\r\n# @param {Integer} k\r\n# @return {Integer}\r\ndef longest_substring(s, k)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func longestSubstring(_ s: String, _ k: Int) -> Int {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func longestSubstring(s string, k int) int {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def longestSubstring(s: String, k: Int): Int = {\n        \n    }\n}"}],"testcase":"\"aaabb\"\n3","testable":true}
+{
+ "id": 395,
+ "name": "Longest Substring with At Least K Repeating Characters",
+ "key": "longest-substring-with-at-least-k-repeating-characters",
+ "link": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters",
+ "percent": 35.46813747834807,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nFind the length of the longest substring T of a given string (consists of lowercase letters only) such that every character in T appears no less than k times.\r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\ns = \"aaabb\", k = 3\r\n\r\nOutput:\r\n3\r\n\r\nThe longest substring is \"aaa\", as 'a' is repeated 3 times.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\ns = \"ababbc\", k = 2\r\n\r\nOutput:\r\n5\r\n\r\nThe longest substring is \"ababb\", as 'a' is repeated 2 times and 'b' is repeated 3 times.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int longestSubstring(string s, int k) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int longestSubstring(String s, int k) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def longestSubstring(self, s, k):\r\n        \"\"\"\r\n        :type s: str\r\n        :type k: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int longestSubstring(char* s, int k) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int LongestSubstring(string s, int k) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @param {number} k\r\n * @return {number}\r\n */\r\nvar longestSubstring = function(s, k) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @param {Integer} k\r\n# @return {Integer}\r\ndef longest_substring(s, k)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func longestSubstring(_ s: String, _ k: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func longestSubstring(s string, k int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def longestSubstring(s: String, k: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"aaabb\"\n3",
+ "testable": true
+}

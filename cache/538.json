@@ -1,1 +1,70 @@
-{"id": 538, "ids": "538", "state": "None", "name": "Convert BST to Greater Tree", "key": "convert-bst-to-greater-tree", "link": "https://leetcode.com/problems/convert-bst-to-greater-tree", "locked": false, "percent": 52.33035121303278, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus sum of all keys greater than the original key in BST.\r\n\r\n\r\nExample:\r\n\r\nInput: The root of a Binary Search Tree like this:\r\n              5\r\n            /   \\\r\n           2     13\r\n\r\nOutput: The root of a Greater Tree like this:\r\n             18\r\n            /   \\\r\n          20     13\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "/**\n * Definition for a binary tree node.\n * struct TreeNode {\n *     int val;\n *     TreeNode *left;\n *     TreeNode *right;\n *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}\n * };\n */\nclass Solution {\npublic:\n    TreeNode* convertBST(TreeNode* root) {\n        \n    }\n};"}, {"value": "java", "text": "Java", "defaultCode": "/**\n * Definition for a binary tree node.\n * public class TreeNode {\n *     int val;\n *     TreeNode left;\n *     TreeNode right;\n *     TreeNode(int x) { val = x; }\n * }\n */\npublic class Solution {\n    public TreeNode convertBST(TreeNode root) {\n        \n    }\n}"}, {"value": "python", "text": "Python", "defaultCode": "# Definition for a binary tree node.\n# class TreeNode(object):\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution(object):\n    def convertBST(self, root):\n        \"\"\"\n        :type root: TreeNode\n        :rtype: TreeNode\n        \"\"\"\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\n * Definition for a binary tree node.\n * struct TreeNode {\n *     int val;\n *     struct TreeNode *left;\n *     struct TreeNode *right;\n * };\n */\nstruct TreeNode* convertBST(struct TreeNode* root) {\n    \n}"}, {"value": "csharp", "text": "C#", "defaultCode": "/**\n * Definition for a binary tree node.\n * public class TreeNode {\n *     public int val;\n *     public TreeNode left;\n *     public TreeNode right;\n *     public TreeNode(int x) { val = x; }\n * }\n */\npublic class Solution {\n    public TreeNode ConvertBST(TreeNode root) {\n        \n    }\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode}\n */\nvar convertBST = function(root) {\n    \n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# Definition for a binary tree node.\n# class TreeNode\n#     attr_accessor :val, :left, :right\n#     def initialize(val)\n#         @val = val\n#         @left, @right = nil, nil\n#     end\n# end\n\n# @param {TreeNode} root\n# @return {TreeNode}\ndef convert_bst(root)\n    \nend"}, {"value": "swift", "text": "Swift", "defaultCode": "/**\n * Definition for a binary tree node.\n * public class TreeNode {\n *     public var val: Int\n *     public var left: TreeNode?\n *     public var right: TreeNode?\n *     public init(_ val: Int) {\n *         self.val = val\n *         self.left = nil\n *         self.right = nil\n *     }\n * }\n */\nclass Solution {\n    func convertBST(_ root: TreeNode?) -> TreeNode? {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "/**\n * Definition for a binary tree node.\n * type TreeNode struct {\n *     Val int\n *     Left *TreeNode\n *     Right *TreeNode\n * }\n */\nfunc convertBST(root *TreeNode) *TreeNode {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "/**\n * Definition for a binary tree node.\n * class TreeNode(var _value: Int) {\n *   var value: Int = _value\n *   var left: TreeNode = null\n *   var right: TreeNode = null\n * }\n */\nobject Solution {\n    def convertBST(root: TreeNode): TreeNode = {\n        \n    }\n}"}], "testcase": "[5,2,13]", "testable": true}
+{
+ "id": 538,
+ "ids": "538",
+ "state": "None",
+ "name": "Convert BST to Greater Tree",
+ "key": "convert-bst-to-greater-tree",
+ "link": "https://leetcode.com/problems/convert-bst-to-greater-tree",
+ "locked": false,
+ "percent": 52.366573859848636,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus sum of all keys greater than the original key in BST.\r\n\r\n\r\nExample:\r\n\r\nInput: The root of a Binary Search Tree like this:\r\n              5\r\n            /   \\\r\n           2     13\r\n\r\nOutput: The root of a Greater Tree like this:\r\n             18\r\n            /   \\\r\n          20     13\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "/**\n * Definition for a binary tree node.\n * struct TreeNode {\n *     int val;\n *     TreeNode *left;\n *     TreeNode *right;\n *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}\n * };\n */\nclass Solution {\npublic:\n    TreeNode* convertBST(TreeNode* root) {\n        \n    }\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "/**\n * Definition for a binary tree node.\n * public class TreeNode {\n *     int val;\n *     TreeNode left;\n *     TreeNode right;\n *     TreeNode(int x) { val = x; }\n * }\n */\npublic class Solution {\n    public TreeNode convertBST(TreeNode root) {\n        \n    }\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "# Definition for a binary tree node.\n# class TreeNode(object):\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution(object):\n    def convertBST(self, root):\n        \"\"\"\n        :type root: TreeNode\n        :rtype: TreeNode\n        \"\"\"\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\n * Definition for a binary tree node.\n * struct TreeNode {\n *     int val;\n *     struct TreeNode *left;\n *     struct TreeNode *right;\n * };\n */\nstruct TreeNode* convertBST(struct TreeNode* root) {\n    \n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "/**\n * Definition for a binary tree node.\n * public class TreeNode {\n *     public int val;\n *     public TreeNode left;\n *     public TreeNode right;\n *     public TreeNode(int x) { val = x; }\n * }\n */\npublic class Solution {\n    public TreeNode ConvertBST(TreeNode root) {\n        \n    }\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode}\n */\nvar convertBST = function(root) {\n    \n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# Definition for a binary tree node.\n# class TreeNode\n#     attr_accessor :val, :left, :right\n#     def initialize(val)\n#         @val = val\n#         @left, @right = nil, nil\n#     end\n# end\n\n# @param {TreeNode} root\n# @return {TreeNode}\ndef convert_bst(root)\n    \nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "/**\n * Definition for a binary tree node.\n * public class TreeNode {\n *     public var val: Int\n *     public var left: TreeNode?\n *     public var right: TreeNode?\n *     public init(_ val: Int) {\n *         self.val = val\n *         self.left = nil\n *         self.right = nil\n *     }\n * }\n */\nclass Solution {\n    func convertBST(_ root: TreeNode?) -> TreeNode? {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "/**\n * Definition for a binary tree node.\n * type TreeNode struct {\n *     Val int\n *     Left *TreeNode\n *     Right *TreeNode\n * }\n */\nfunc convertBST(root *TreeNode) *TreeNode {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "/**\n * Definition for a binary tree node.\n * class TreeNode(var _value: Int) {\n *   var value: Int = _value\n *   var left: TreeNode = null\n *   var right: TreeNode = null\n * }\n */\nobject Solution {\n    def convertBST(root: TreeNode): TreeNode = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[5,2,13]'",
+ "testable": true
+}

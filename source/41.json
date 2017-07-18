@@ -1,1 +1,65 @@
-{"id":41,"name":"First Missing Positive","key":"first-missing-positive","link":"https://leetcode.com/problems/first-missing-positive","percent":25.431986799178727,"level":"Hard","totalAC":"","totalSubmit":"","desc":"\r\nGiven an unsorted integer array, find the first missing positive integer.\r\n\r\n\r\n\r\nFor example,\r\nGiven [1,2,0] return 3,\r\nand [3,4,-1,1] return 2.\r\n\r\n\r\n\r\nYour algorithm should run in O(n) time and uses constant space.\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    int firstMissingPositive(vector<int>& nums) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public int firstMissingPositive(int[] nums) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def firstMissingPositive(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"int firstMissingPositive(int* nums, int numsSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public int FirstMissingPositive(int[] nums) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar firstMissingPositive = function(nums) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef first_missing_positive(nums)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func firstMissingPositive(_ nums: [Int]) -> Int {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func firstMissingPositive(nums []int) int {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def firstMissingPositive(nums: Array[Int]): Int = {\n        \n    }\n}"}],"testcase":"[]","testable":true}
+{
+ "id": 41,
+ "name": "First Missing Positive",
+ "key": "first-missing-positive",
+ "link": "https://leetcode.com/problems/first-missing-positive",
+ "percent": 25.431986799178727,
+ "level": "Hard",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven an unsorted integer array, find the first missing positive integer.\r\n\r\n\r\n\r\nFor example,\r\nGiven [1,2,0] return 3,\r\nand [3,4,-1,1] return 2.\r\n\r\n\r\n\r\nYour algorithm should run in O(n) time and uses constant space.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int firstMissingPositive(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int firstMissingPositive(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def firstMissingPositive(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int firstMissingPositive(int* nums, int numsSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int FirstMissingPositive(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar firstMissingPositive = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef first_missing_positive(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func firstMissingPositive(_ nums: [Int]) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func firstMissingPositive(nums []int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def firstMissingPositive(nums: Array[Int]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[]",
+ "testable": true
+}

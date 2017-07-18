@@ -1,1 +1,70 @@
-{"id": 447, "ids": "447", "state": "None", "name": "Number of Boomerangs", "key": "number-of-boomerangs", "link": "https://leetcode.com/problems/number-of-boomerangs", "locked": false, "percent": 44.76516729275746, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given n points in the plane that are all pairwise distinct, a \"boomerang\" is a tuple of points (i, j, k) such that the distance between i and j equals the distance between i and k (the order of the tuple matters).\r\n\r\nFind the number of boomerangs. You may assume that n will be at most 500 and coordinates of points are all in the range [-10000, 10000] (inclusive).\r\n\r\nExample:\r\n\r\nInput:\r\n[[0,0],[1,0],[2,0]]\r\n\r\nOutput:\r\n2\r\n\r\nExplanation:\r\nThe two boomerangs are [[1,0],[0,0],[2,0]] and [[1,0],[2,0],[0,0]]\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int numberOfBoomerangs(vector<pair<int, int>>& points) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int numberOfBoomerangs(int[][] points) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def numberOfBoomerangs(self, points):\r\n        \"\"\"\r\n        :type points: List[List[int]]\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int numberOfBoomerangs(int** points, int pointsRowSize, int pointsColSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int NumberOfBoomerangs(int[,] points) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[][]} points\r\n * @return {number}\r\n */\r\nvar numberOfBoomerangs = function(points) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[][]} points\r\n# @return {Integer}\r\ndef number_of_boomerangs(points)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func numberOfBoomerangs(_ points: [[Int]]) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func numberOfBoomerangs(points [][]int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def numberOfBoomerangs(points: Array[Array[Int]]): Int = {\n        \n    }\n}"}], "testcase": "[[0,0],[1,0],[2,0]]", "testable": true}
+{
+ "id": 447,
+ "ids": "447",
+ "state": "None",
+ "name": "Number of Boomerangs",
+ "key": "number-of-boomerangs",
+ "link": "https://leetcode.com/problems/number-of-boomerangs",
+ "locked": false,
+ "percent": 44.76527969781343,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given n points in the plane that are all pairwise distinct, a \"boomerang\" is a tuple of points (i, j, k) such that the distance between i and j equals the distance between i and k (the order of the tuple matters).\r\n\r\nFind the number of boomerangs. You may assume that n will be at most 500 and coordinates of points are all in the range [-10000, 10000] (inclusive).\r\n\r\nExample:\r\n\r\nInput:\r\n[[0,0],[1,0],[2,0]]\r\n\r\nOutput:\r\n2\r\n\r\nExplanation:\r\nThe two boomerangs are [[1,0],[0,0],[2,0]] and [[1,0],[2,0],[0,0]]\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int numberOfBoomerangs(vector<pair<int, int>>& points) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int numberOfBoomerangs(int[][] points) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def numberOfBoomerangs(self, points):\r\n        \"\"\"\r\n        :type points: List[List[int]]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int numberOfBoomerangs(int** points, int pointsRowSize, int pointsColSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int NumberOfBoomerangs(int[,] points) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[][]} points\r\n * @return {number}\r\n */\r\nvar numberOfBoomerangs = function(points) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[][]} points\r\n# @return {Integer}\r\ndef number_of_boomerangs(points)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func numberOfBoomerangs(_ points: [[Int]]) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func numberOfBoomerangs(points [][]int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def numberOfBoomerangs(points: Array[Array[Int]]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[[0,0],[1,0],[2,0]]'",
+ "testable": true
+}

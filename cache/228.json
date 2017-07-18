@@ -1,1 +1,70 @@
-{"id": 228, "ids": "228", "state": "None", "name": "Summary Ranges", "key": "summary-ranges", "link": "https://leetcode.com/problems/summary-ranges", "locked": false, "percent": 29.496845955731402, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven a sorted integer array without duplicates, return the summary of its ranges.\r\n\r\n\r\nFor example, given [0,1,2,4,5,7], return [\"0->2\",\"4->5\",\"7\"].\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<string> summaryRanges(vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public List<String> summaryRanges(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def summaryRanges(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** summaryRanges(int* nums, int numsSize, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public IList<string> SummaryRanges(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {string[]}\r\n */\r\nvar summaryRanges = function(nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @return {String[]}\r\ndef summary_ranges(nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func summaryRanges(_ nums: [Int]) -> [String] {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func summaryRanges(nums []int) []string {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def summaryRanges(nums: Array[Int]): List[String] = {\n        \n    }\n}"}], "testcase": "[]", "testable": true}
+{
+ "id": 228,
+ "ids": "228",
+ "state": "None",
+ "name": "Summary Ranges",
+ "key": "summary-ranges",
+ "link": "https://leetcode.com/problems/summary-ranges",
+ "locked": false,
+ "percent": 29.49672246196115,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a sorted integer array without duplicates, return the summary of its ranges.\r\n\r\n\r\nFor example, given [0,1,2,4,5,7], return [\"0->2\",\"4->5\",\"7\"].\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<string> summaryRanges(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<String> summaryRanges(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def summaryRanges(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** summaryRanges(int* nums, int numsSize, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<string> SummaryRanges(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {string[]}\r\n */\r\nvar summaryRanges = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {String[]}\r\ndef summary_ranges(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func summaryRanges(_ nums: [Int]) -> [String] {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func summaryRanges(nums []int) []string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def summaryRanges(nums: Array[Int]): List[String] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[]'",
+ "testable": true
+}

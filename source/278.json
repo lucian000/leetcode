@@ -1,1 +1,50 @@
-{"id":278,"name":"First Bad Version","key":"first-bad-version","link":"https://leetcode.com/problems/first-bad-version","percent":25.09755792846487,"level":"Easy","totalAC":"","totalSubmit":"","desc":"\r\nYou are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad. \r\n\r\n\r\n\r\nSuppose you have n versions [1, 2, ..., n] and you want to find out the first bad one, which causes all the following ones to be bad.\r\n\r\n\r\n\r\nYou are given an API bool isBadVersion(version) which will return whether version is bad. Implement a function to find the first bad version. You should minimize the number of calls to the API.\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.","templates":[{"value":"cpp","text":"C++","defaultCode":"// Forward declaration of isBadVersion API.\r\nbool isBadVersion(int version);\r\n\r\nclass Solution {\r\npublic:\r\n    int firstBadVersion(int n) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"/* The isBadVersion API is defined in the parent class VersionControl.\r\n      boolean isBadVersion(int version); */\r\n\r\npublic class Solution extends VersionControl {\r\n    public int firstBadVersion(int n) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"# The isBadVersion API is already defined for you.\r\n# @param version, an integer\r\n# @return a bool\r\n# def isBadVersion(version):\r\n\r\nclass Solution(object):\r\n    def firstBadVersion(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"// Forward declaration of isBadVersion API.\r\nbool isBadVersion(int version);\r\n\r\nint firstBadVersion(int n) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"/* The isBadVersion API is defined in the parent class VersionControl.\r\n      bool IsBadVersion(int version); */\r\n\r\npublic class Solution : VersionControl {\r\n    public int FirstBadVersion(int n) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * Definition for isBadVersion()\r\n * \r\n * @param {integer} version number\r\n * @return {boolean} whether the version is bad\r\n * isBadVersion = function(version) {\r\n *     ...\r\n * };\r\n */\r\n\r\n/**\r\n * @param {function} isBadVersion()\r\n * @return {function}\r\n */\r\nvar solution = function(isBadVersion) {\r\n    /**\r\n     * @param {integer} n Total versions\r\n     * @return {integer} The first bad version\r\n     */\r\n    return function(n) {\r\n        \r\n    };\r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# The is_bad_version API is already defined for you.\r\n# @param {Integer} version\r\n# @return {boolean} whether the version is bad\r\n# def is_bad_version(version):\r\n\r\n# @param {Integer} n\r\n# @return {Integer}\r\ndef first_bad_version(n)\r\n    \r\nend"}],"testcase":"1 version\n1 is the first bad version.","testable":false}
+{
+ "id": 278,
+ "name": "First Bad Version",
+ "key": "first-bad-version",
+ "link": "https://leetcode.com/problems/first-bad-version",
+ "percent": 25.09755792846487,
+ "level": "Easy",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nYou are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad. \r\n\r\n\r\n\r\nSuppose you have n versions [1, 2, ..., n] and you want to find out the first bad one, which causes all the following ones to be bad.\r\n\r\n\r\n\r\nYou are given an API bool isBadVersion(version) which will return whether version is bad. Implement a function to find the first bad version. You should minimize the number of calls to the API.\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "// Forward declaration of isBadVersion API.\r\nbool isBadVersion(int version);\r\n\r\nclass Solution {\r\npublic:\r\n    int firstBadVersion(int n) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "/* The isBadVersion API is defined in the parent class VersionControl.\r\n      boolean isBadVersion(int version); */\r\n\r\npublic class Solution extends VersionControl {\r\n    public int firstBadVersion(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "# The isBadVersion API is already defined for you.\r\n# @param version, an integer\r\n# @return a bool\r\n# def isBadVersion(version):\r\n\r\nclass Solution(object):\r\n    def firstBadVersion(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "// Forward declaration of isBadVersion API.\r\nbool isBadVersion(int version);\r\n\r\nint firstBadVersion(int n) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "/* The isBadVersion API is defined in the parent class VersionControl.\r\n      bool IsBadVersion(int version); */\r\n\r\npublic class Solution : VersionControl {\r\n    public int FirstBadVersion(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * Definition for isBadVersion()\r\n * \r\n * @param {integer} version number\r\n * @return {boolean} whether the version is bad\r\n * isBadVersion = function(version) {\r\n *     ...\r\n * };\r\n */\r\n\r\n/**\r\n * @param {function} isBadVersion()\r\n * @return {function}\r\n */\r\nvar solution = function(isBadVersion) {\r\n    /**\r\n     * @param {integer} n Total versions\r\n     * @return {integer} The first bad version\r\n     */\r\n    return function(n) {\r\n        \r\n    };\r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# The is_bad_version API is already defined for you.\r\n# @param {Integer} version\r\n# @return {boolean} whether the version is bad\r\n# def is_bad_version(version):\r\n\r\n# @param {Integer} n\r\n# @return {Integer}\r\ndef first_bad_version(n)\r\n    \r\nend"
+  }
+ ],
+ "testcase": "1 version\n1 is the first bad version.",
+ "testable": false
+}

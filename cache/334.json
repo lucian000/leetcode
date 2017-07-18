@@ -1,1 +1,70 @@
-{"id": 334, "ids": "334", "state": "None", "name": "Increasing Triplet Subsequence", "key": "increasing-triplet-subsequence", "link": "https://leetcode.com/problems/increasing-triplet-subsequence", "locked": false, "percent": 39.037886435932116, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven an unsorted array return whether an increasing subsequence of length 3 exists or not in the array.\r\n\r\n\r\nFormally the function should:\r\nReturn true if there exists i, j, k  \r\nsuch that arr[i] < arr[j] < arr[k] given 0 \u2264 i < j < k \u2264 n-1 \r\nelse return false.\r\n\r\n\r\n\r\nYour algorithm should run in O(n) time complexity and O(1) space complexity.\r\n\r\n\r\nExamples:\r\nGiven [1, 2, 3, 4, 5],\r\nreturn true.\r\n\r\n\r\nGiven [5, 4, 3, 2, 1],\r\nreturn false.\r\n\r\n\r\nCredits:Special thanks to @DjangoUnchained for adding this problem and creating all test cases.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    bool increasingTriplet(vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public boolean increasingTriplet(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def increasingTriplet(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: bool\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "bool increasingTriplet(int* nums, int numsSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public bool IncreasingTriplet(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {boolean}\r\n */\r\nvar increasingTriplet = function(nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @return {Boolean}\r\ndef increasing_triplet(nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func increasingTriplet(_ nums: [Int]) -> Bool {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func increasingTriplet(nums []int) bool {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def increasingTriplet(nums: Array[Int]): Boolean = {\n        \n    }\n}"}], "testcase": "[1,2,3,4,5]", "testable": true}
+{
+ "id": 334,
+ "ids": "334",
+ "state": "None",
+ "name": "Increasing Triplet Subsequence",
+ "key": "increasing-triplet-subsequence",
+ "link": "https://leetcode.com/problems/increasing-triplet-subsequence",
+ "locked": false,
+ "percent": 39.03616982767654,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven an unsorted array return whether an increasing subsequence of length 3 exists or not in the array.\r\n\r\n\r\nFormally the function should:\r\nReturn true if there exists i, j, k  \r\nsuch that arr[i] < arr[j] < arr[k] given 0 \u2264 i < j < k \u2264 n-1 \r\nelse return false.\r\n\r\n\r\n\r\nYour algorithm should run in O(n) time complexity and O(1) space complexity.\r\n\r\n\r\nExamples:\r\nGiven [1, 2, 3, 4, 5],\r\nreturn true.\r\n\r\n\r\nGiven [5, 4, 3, 2, 1],\r\nreturn false.\r\n\r\n\r\nCredits:Special thanks to @DjangoUnchained for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool increasingTriplet(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean increasingTriplet(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def increasingTriplet(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool increasingTriplet(int* nums, int numsSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool IncreasingTriplet(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {boolean}\r\n */\r\nvar increasingTriplet = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Boolean}\r\ndef increasing_triplet(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func increasingTriplet(_ nums: [Int]) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func increasingTriplet(nums []int) bool {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def increasingTriplet(nums: Array[Int]): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[1,2,3,4,5]'",
+ "testable": true
+}

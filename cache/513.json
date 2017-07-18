@@ -1,1 +1,70 @@
-{"id": 513, "ids": "513", "state": "None", "name": "Find Bottom Left Tree Value", "key": "find-bottom-left-tree-value", "link": "https://leetcode.com/problems/find-bottom-left-tree-value", "locked": false, "percent": 55.54698307970629, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven a binary tree, find the leftmost value in the last row of the tree. \r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\n\r\n    2\r\n   / \\\r\n  1   3\r\n\r\nOutput:\r\n1\r\n\r\n\r\n\r\n  Example 2: \r\n\r\nInput:\r\n\r\n        1\r\n       / \\\r\n      2   3\r\n     /   / \\\r\n    4   5   6\r\n       /\r\n      7\r\n\r\nOutput:\r\n7\r\n\r\n\r\n\r\nNote:\r\nYou may assume the tree (i.e., the given root node) is not NULL.\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     TreeNode *left;\r\n *     TreeNode *right;\r\n *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    int findBottomLeftValue(TreeNode* root) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     int val;\r\n *     TreeNode left;\r\n *     TreeNode right;\r\n *     TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public int findBottomLeftValue(TreeNode root) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "# Definition for a binary tree node.\r\n# class TreeNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution(object):\r\n    def findBottomLeftValue(self, root):\r\n        \"\"\"\r\n        :type root: TreeNode\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     struct TreeNode *left;\r\n *     struct TreeNode *right;\r\n * };\r\n */\r\nint findBottomLeftValue(struct TreeNode* root) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     public int val;\r\n *     public TreeNode left;\r\n *     public TreeNode right;\r\n *     public TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public int FindBottomLeftValue(TreeNode root) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {number}\r\n */\r\nvar findBottomLeftValue = function(root) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# Definition for a binary tree node.\r\n# class TreeNode\r\n#     attr_accessor :val, :left, :right\r\n#     def initialize(val)\r\n#         @val = val\r\n#         @left, @right = nil, nil\r\n#     end\r\n# end\r\n\r\n# @param {TreeNode} root\r\n# @return {Integer}\r\ndef find_bottom_left_value(root)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     public var val: Int\r\n *     public var left: TreeNode?\r\n *     public var right: TreeNode?\r\n *     public init(_ val: Int) {\r\n *         self.val = val\r\n *         self.left = nil\r\n *         self.right = nil\r\n *     }\r\n * }\r\n */\r\nclass Solution {\r\n    func findBottomLeftValue(_ root: TreeNode?) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * type TreeNode struct {\r\n *     Val int\r\n *     Left *TreeNode\r\n *     Right *TreeNode\r\n * }\r\n */\r\nfunc findBottomLeftValue(root *TreeNode) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "/**\n * Definition for a binary tree node.\n * class TreeNode(var _value: Int) {\n *   var value: Int = _value\n *   var left: TreeNode = null\n *   var right: TreeNode = null\n * }\n */\nobject Solution {\n    def findBottomLeftValue(root: TreeNode): Int = {\n        \n    }\n}"}], "testcase": "[2,1,3]", "testable": true}
+{
+ "id": 513,
+ "ids": "513",
+ "state": "None",
+ "name": "Find Bottom Left Tree Value",
+ "key": "find-bottom-left-tree-value",
+ "link": "https://leetcode.com/problems/find-bottom-left-tree-value",
+ "locked": false,
+ "percent": 55.55289229785874,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a binary tree, find the leftmost value in the last row of the tree. \r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\n\r\n    2\r\n   / \\\r\n  1   3\r\n\r\nOutput:\r\n1\r\n\r\n\r\n\r\n  Example 2: \r\n\r\nInput:\r\n\r\n        1\r\n       / \\\r\n      2   3\r\n     /   / \\\r\n    4   5   6\r\n       /\r\n      7\r\n\r\nOutput:\r\n7\r\n\r\n\r\n\r\nNote:\r\nYou may assume the tree (i.e., the given root node) is not NULL.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     TreeNode *left;\r\n *     TreeNode *right;\r\n *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    int findBottomLeftValue(TreeNode* root) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     int val;\r\n *     TreeNode left;\r\n *     TreeNode right;\r\n *     TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public int findBottomLeftValue(TreeNode root) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "# Definition for a binary tree node.\r\n# class TreeNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution(object):\r\n    def findBottomLeftValue(self, root):\r\n        \"\"\"\r\n        :type root: TreeNode\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     struct TreeNode *left;\r\n *     struct TreeNode *right;\r\n * };\r\n */\r\nint findBottomLeftValue(struct TreeNode* root) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     public int val;\r\n *     public TreeNode left;\r\n *     public TreeNode right;\r\n *     public TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public int FindBottomLeftValue(TreeNode root) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {number}\r\n */\r\nvar findBottomLeftValue = function(root) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# Definition for a binary tree node.\r\n# class TreeNode\r\n#     attr_accessor :val, :left, :right\r\n#     def initialize(val)\r\n#         @val = val\r\n#         @left, @right = nil, nil\r\n#     end\r\n# end\r\n\r\n# @param {TreeNode} root\r\n# @return {Integer}\r\ndef find_bottom_left_value(root)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     public var val: Int\r\n *     public var left: TreeNode?\r\n *     public var right: TreeNode?\r\n *     public init(_ val: Int) {\r\n *         self.val = val\r\n *         self.left = nil\r\n *         self.right = nil\r\n *     }\r\n * }\r\n */\r\nclass Solution {\r\n    func findBottomLeftValue(_ root: TreeNode?) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * type TreeNode struct {\r\n *     Val int\r\n *     Left *TreeNode\r\n *     Right *TreeNode\r\n * }\r\n */\r\nfunc findBottomLeftValue(root *TreeNode) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "/**\n * Definition for a binary tree node.\n * class TreeNode(var _value: Int) {\n *   var value: Int = _value\n *   var left: TreeNode = null\n *   var right: TreeNode = null\n * }\n */\nobject Solution {\n    def findBottomLeftValue(root: TreeNode): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[2,1,3]'",
+ "testable": true
+}

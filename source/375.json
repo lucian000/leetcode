@@ -1,1 +1,65 @@
-{"id":375,"name":"Guess Number Higher or Lower II","key":"guess-number-higher-or-lower-ii","link":"https://leetcode.com/problems/guess-number-higher-or-lower-ii","percent":35.68848456470116,"level":"Medium","totalAC":"","totalSubmit":"","desc":"We are playing the Guess Game. The game is as follows: \r\n\r\nI pick a number from 1 to n. You have to guess which number I picked.\r\n\r\nEvery time you guess wrong, I'll tell you whether the number I picked is higher or lower. \r\n\r\nHowever, when you guess a particular number x,  and you guess wrong, you pay $x. You win the game when you guess the number I picked.\r\n\r\n\r\nExample:\r\n\r\nn = 10, I pick 8.\r\n\r\nFirst round:  You guess 5, I tell you that it's higher. You pay $5.\r\nSecond round: You guess 7, I tell you that it's higher. You pay $7.\r\nThird round:  You guess 9, I tell you that it's lower. You pay $9.\r\n\r\nGame over. 8 is the number I picked.\r\n\r\nYou end up paying $5 + $7 + $9 = $21.\r\n\r\n\r\n\r\nGiven a particular n ≥ 1, find out how much money you need to have to guarantee a win.\r\n\r\nCredits:Special thanks to @agave and @StefanPochmann for adding this problem and creating all test cases.","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    int getMoneyAmount(int n) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public int getMoneyAmount(int n) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def getMoneyAmount(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"int getMoneyAmount(int n) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public int GetMoneyAmount(int n) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar getMoneyAmount = function(n) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {Integer} n\r\n# @return {Integer}\r\ndef get_money_amount(n)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func getMoneyAmount(_ n: Int) -> Int {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func getMoneyAmount(n int) int {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def getMoneyAmount(n: Int): Int = {\n        \n    }\n}"}],"testcase":"1","testable":true}
+{
+ "id": 375,
+ "name": "Guess Number Higher or Lower II",
+ "key": "guess-number-higher-or-lower-ii",
+ "link": "https://leetcode.com/problems/guess-number-higher-or-lower-ii",
+ "percent": 35.68848456470116,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "We are playing the Guess Game. The game is as follows: \r\n\r\nI pick a number from 1 to n. You have to guess which number I picked.\r\n\r\nEvery time you guess wrong, I'll tell you whether the number I picked is higher or lower. \r\n\r\nHowever, when you guess a particular number x,  and you guess wrong, you pay $x. You win the game when you guess the number I picked.\r\n\r\n\r\nExample:\r\n\r\nn = 10, I pick 8.\r\n\r\nFirst round:  You guess 5, I tell you that it's higher. You pay $5.\r\nSecond round: You guess 7, I tell you that it's higher. You pay $7.\r\nThird round:  You guess 9, I tell you that it's lower. You pay $9.\r\n\r\nGame over. 8 is the number I picked.\r\n\r\nYou end up paying $5 + $7 + $9 = $21.\r\n\r\n\r\n\r\nGiven a particular n \u2265 1, find out how much money you need to have to guarantee a win.\r\n\r\nCredits:Special thanks to @agave and @StefanPochmann for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int getMoneyAmount(int n) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int getMoneyAmount(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def getMoneyAmount(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int getMoneyAmount(int n) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int GetMoneyAmount(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar getMoneyAmount = function(n) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} n\r\n# @return {Integer}\r\ndef get_money_amount(n)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func getMoneyAmount(_ n: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func getMoneyAmount(n int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def getMoneyAmount(n: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "1",
+ "testable": true
+}

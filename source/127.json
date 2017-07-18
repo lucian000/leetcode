@@ -1,1 +1,65 @@
-{"id":127,"name":"Word Ladder","key":"word-ladder","link":"https://leetcode.com/problems/word-ladder","percent":19.326610602565058,"level":"Medium","totalAC":"","totalSubmit":"","desc":"\r\nGiven two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord, such that:\r\n\r\n\r\nOnly one letter can be changed at a time.\r\nEach transformed word must exist in the word list. Note that beginWord is not a transformed word.\r\n\r\n\r\n\r\nFor example,\r\n\r\n\r\nGiven:\r\nbeginWord = \"hit\"\r\nendWord = \"cog\"\r\nwordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]\r\n\r\n\r\nAs one shortest transformation is \"hit\" -> \"hot\" -> \"dot\" -> \"dog\" -> \"cog\",\r\nreturn its length 5.\r\n\r\n\r\n\r\nNote:\r\n\r\nReturn 0 if there is no such transformation sequence.\r\nAll words have the same length.\r\nAll words contain only lowercase alphabetic characters.\r\nYou may assume no duplicates in the word list.\r\nYou may assume beginWord and endWord are non-empty and are not the same.\r\n\r\n\r\n\r\n\r\nUPDATE (2017/1/20):\r\nThe wordList parameter had been changed to a list of strings (instead of a set of strings). Please reload the code definition to get the latest changes.\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public int ladderLength(String beginWord, String endWord, List<String> wordList) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def ladderLength(self, beginWord, endWord, wordList):\r\n        \"\"\"\r\n        :type beginWord: str\r\n        :type endWord: str\r\n        :type wordList: List[str]\r\n        :rtype: int\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"int ladderLength(char* beginWord, char* endWord, char** wordList, int wordListSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public int LadderLength(string beginWord, string endWord, IList<string> wordList) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string} beginWord\r\n * @param {string} endWord\r\n * @param {string[]} wordList\r\n * @return {number}\r\n */\r\nvar ladderLength = function(beginWord, endWord, wordList) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String} begin_word\r\n# @param {String} end_word\r\n# @param {String[]} word_list\r\n# @return {Integer}\r\ndef ladder_length(begin_word, end_word, word_list)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func ladderLength(beginWord string, endWord string, wordList []string) int {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def ladderLength(beginWord: String, endWord: String, wordList: List[String]): Int = {\n        \n    }\n}"}],"testcase":"\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]","testable":true}
+{
+ "id": 127,
+ "name": "Word Ladder",
+ "key": "word-ladder",
+ "link": "https://leetcode.com/problems/word-ladder",
+ "percent": 19.326610602565058,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord, such that:\r\n\r\n\r\nOnly one letter can be changed at a time.\r\nEach transformed word must exist in the word list. Note that beginWord is not a transformed word.\r\n\r\n\r\n\r\nFor example,\r\n\r\n\r\nGiven:\r\nbeginWord = \"hit\"\r\nendWord = \"cog\"\r\nwordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]\r\n\r\n\r\nAs one shortest transformation is \"hit\" -> \"hot\" -> \"dot\" -> \"dog\" -> \"cog\",\r\nreturn its length 5.\r\n\r\n\r\n\r\nNote:\r\n\r\nReturn 0 if there is no such transformation sequence.\r\nAll words have the same length.\r\nAll words contain only lowercase alphabetic characters.\r\nYou may assume no duplicates in the word list.\r\nYou may assume beginWord and endWord are non-empty and are not the same.\r\n\r\n\r\n\r\n\r\nUPDATE (2017/1/20):\r\nThe wordList parameter had been changed to a list of strings (instead of a set of strings). Please reload the code definition to get the latest changes.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int ladderLength(String beginWord, String endWord, List<String> wordList) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def ladderLength(self, beginWord, endWord, wordList):\r\n        \"\"\"\r\n        :type beginWord: str\r\n        :type endWord: str\r\n        :type wordList: List[str]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int ladderLength(char* beginWord, char* endWord, char** wordList, int wordListSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int LadderLength(string beginWord, string endWord, IList<string> wordList) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} beginWord\r\n * @param {string} endWord\r\n * @param {string[]} wordList\r\n * @return {number}\r\n */\r\nvar ladderLength = function(beginWord, endWord, wordList) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} begin_word\r\n# @param {String} end_word\r\n# @param {String[]} word_list\r\n# @return {Integer}\r\ndef ladder_length(begin_word, end_word, word_list)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func ladderLength(beginWord string, endWord string, wordList []string) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def ladderLength(beginWord: String, endWord: String, wordList: List[String]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]",
+ "testable": true
+}

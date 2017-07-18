@@ -1,1 +1,70 @@
-{"id": 313, "ids": "313", "state": "None", "name": "Super Ugly Number", "key": "super-ugly-number", "link": "https://leetcode.com/problems/super-ugly-number", "locked": false, "percent": 37.587829231211735, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\n    Write a program to find the nth super ugly number.\r\n\r\n\r\n\r\n    Super ugly numbers are positive numbers whose all prime factors are in the given prime list\r\n    primes of size k. For example, [1, 2, 4, 7, 8, 13, 14, 16, 19, 26, 28, 32]\r\n is the sequence of the first 12 super ugly numbers given primes\r\n    = [2, 7, 13, 19] of size 4.\r\n\r\n\r\n\r\n    Note:\r\n    (1) 1 is a super ugly number for any given primes.\r\n    (2) The given numbers in primes are in ascending order.\r\n    (3) 0 < k \u2264 100, 0 < n \u2264 106, 0 < primes[i] < 1000.\r\n    (4) The nth super ugly number is guaranteed to fit in a 32-bit signed integer.\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int nthSuperUglyNumber(int n, vector<int>& primes) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int nthSuperUglyNumber(int n, int[] primes) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def nthSuperUglyNumber(self, n, primes):\r\n        \"\"\"\r\n        :type n: int\r\n        :type primes: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int nthSuperUglyNumber(int n, int* primes, int primesSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int NthSuperUglyNumber(int n, int[] primes) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number} n\r\n * @param {number[]} primes\r\n * @return {number}\r\n */\r\nvar nthSuperUglyNumber = function(n, primes) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer} n\r\n# @param {Integer[]} primes\r\n# @return {Integer}\r\ndef nth_super_ugly_number(n, primes)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func nthSuperUglyNumber(_ n: Int, _ primes: [Int]) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func nthSuperUglyNumber(n int, primes []int) int {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def nthSuperUglyNumber(n: Int, primes: Array[Int]): Int = {\n        \n    }\n}"}], "testcase": "1\n[2,3,5]", "testable": true}
+{
+ "id": 313,
+ "ids": "313",
+ "state": "None",
+ "name": "Super Ugly Number",
+ "key": "super-ugly-number",
+ "link": "https://leetcode.com/problems/super-ugly-number",
+ "locked": false,
+ "percent": 37.59041591320072,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\n    Write a program to find the nth super ugly number.\r\n\r\n\r\n\r\n    Super ugly numbers are positive numbers whose all prime factors are in the given prime list\r\n    primes of size k. For example, [1, 2, 4, 7, 8, 13, 14, 16, 19, 26, 28, 32]\r\n is the sequence of the first 12 super ugly numbers given primes\r\n    = [2, 7, 13, 19] of size 4.\r\n\r\n\r\n\r\n    Note:\r\n    (1) 1 is a super ugly number for any given primes.\r\n    (2) The given numbers in primes are in ascending order.\r\n    (3) 0 < k \u2264 100, 0 < n \u2264 106, 0 < primes[i] < 1000.\r\n    (4) The nth super ugly number is guaranteed to fit in a 32-bit signed integer.\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int nthSuperUglyNumber(int n, vector<int>& primes) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int nthSuperUglyNumber(int n, int[] primes) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def nthSuperUglyNumber(self, n, primes):\r\n        \"\"\"\r\n        :type n: int\r\n        :type primes: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int nthSuperUglyNumber(int n, int* primes, int primesSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int NthSuperUglyNumber(int n, int[] primes) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number} n\r\n * @param {number[]} primes\r\n * @return {number}\r\n */\r\nvar nthSuperUglyNumber = function(n, primes) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} n\r\n# @param {Integer[]} primes\r\n# @return {Integer}\r\ndef nth_super_ugly_number(n, primes)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func nthSuperUglyNumber(_ n: Int, _ primes: [Int]) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func nthSuperUglyNumber(n int, primes []int) int {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def nthSuperUglyNumber(n: Int, primes: Array[Int]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'1\\n[2,3,5]'",
+ "testable": true
+}

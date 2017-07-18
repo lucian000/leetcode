@@ -1,0 +1,65 @@
+{
+ "id": 20,
+ "name": "Valid Parentheses",
+ "key": "valid-parentheses",
+ "link": "https://leetcode.com/problems/valid-parentheses",
+ "percent": 33.27542072957325,
+ "level": "Easy",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.\r\n\r\nThe brackets must close in the correct order, \"()\" and \"()[]{}\" are all valid but \"(]\" and \"([)]\" are not.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool isValid(string s) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean isValid(String s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def isValid(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool isValid(char* s) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool IsValid(string s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @return {boolean}\r\n */\r\nvar isValid = function(s) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @return {Boolean}\r\ndef is_valid(s)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func isValid(_ s: String) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func isValid(s string) bool {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def isValid(s: String): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"[\"",
+ "testable": true
+}

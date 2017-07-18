@@ -1,1 +1,65 @@
-{"id":62,"name":"Unique Paths","key":"unique-paths","link":"https://leetcode.com/problems/unique-paths","percent":40.79437449988199,"level":"Medium","totalAC":"","totalSubmit":"","desc":"A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).\r\n\r\nThe robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).\r\n\r\nHow many possible unique paths are there?\r\n\r\n\r\n\r\nAbove is a 3 x 7 grid. How many possible unique paths are there?\r\n\r\n\r\nNote: m and n will be at most 100.","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    int uniquePaths(int m, int n) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public int uniquePaths(int m, int n) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def uniquePaths(self, m, n):\r\n        \"\"\"\r\n        :type m: int\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"int uniquePaths(int m, int n) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public int UniquePaths(int m, int n) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {number} m\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar uniquePaths = function(m, n) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {Integer} m\r\n# @param {Integer} n\r\n# @return {Integer}\r\ndef unique_paths(m, n)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func uniquePaths(_ m: Int, _ n: Int) -> Int {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func uniquePaths(m int, n int) int {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def uniquePaths(m: Int, n: Int): Int = {\n        \n    }\n}"}],"testcase":"1\n2","testable":true}
+{
+ "id": 62,
+ "name": "Unique Paths",
+ "key": "unique-paths",
+ "link": "https://leetcode.com/problems/unique-paths",
+ "percent": 40.79437449988199,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).\r\n\r\nThe robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).\r\n\r\nHow many possible unique paths are there?\r\n\r\n\r\n\r\nAbove is a 3 x 7 grid. How many possible unique paths are there?\r\n\r\n\r\nNote: m and n will be at most 100.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int uniquePaths(int m, int n) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int uniquePaths(int m, int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def uniquePaths(self, m, n):\r\n        \"\"\"\r\n        :type m: int\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int uniquePaths(int m, int n) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int UniquePaths(int m, int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number} m\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar uniquePaths = function(m, n) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} m\r\n# @param {Integer} n\r\n# @return {Integer}\r\ndef unique_paths(m, n)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func uniquePaths(_ m: Int, _ n: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func uniquePaths(m int, n int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def uniquePaths(m: Int, n: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "1\n2",
+ "testable": true
+}

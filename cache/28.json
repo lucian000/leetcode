@@ -1,0 +1,70 @@
+{
+ "id": 28,
+ "ids": "28",
+ "state": "None",
+ "name": "Implement strStr()",
+ "key": "implement-strstr",
+ "link": "https://leetcode.com/problems/implement-strstr",
+ "locked": false,
+ "percent": 27.927861416429927,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nImplement strStr().\r\n\r\n\r\nReturns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int strStr(string haystack, string needle) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int strStr(String haystack, String needle) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def strStr(self, haystack, needle):\r\n        \"\"\"\r\n        :type haystack: str\r\n        :type needle: str\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int strStr(char* haystack, char* needle) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int StrStr(string haystack, string needle) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} haystack\r\n * @param {string} needle\r\n * @return {number}\r\n */\r\nvar strStr = function(haystack, needle) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} haystack\r\n# @param {String} needle\r\n# @return {Integer}\r\ndef str_str(haystack, needle)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func strStr(_ haystack: String, _ needle: String) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func strStr(haystack string, needle string) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def strStr(haystack: String, needle: String): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'\"\"\\n\"\"'",
+ "testable": true
+}

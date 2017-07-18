@@ -1,0 +1,65 @@
+{
+ "id": 30,
+ "name": "Substring with Concatenation of All Words",
+ "key": "substring-with-concatenation-of-all-words",
+ "link": "https://leetcode.com/problems/substring-with-concatenation-of-all-words",
+ "percent": 21.91017660801516,
+ "level": "Hard",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nYou are given a string, s, and a list of words, words, that are all of the same length. Find all starting indices of substring(s) in s that is a concatenation of each word in words exactly once and without any intervening characters.\r\n\r\n\r\n\r\nFor example, given:\r\ns: \"barfoothefoobarman\"\r\nwords: [\"foo\", \"bar\"]\r\n\r\n\r\n\r\nYou should return the indices: [0,9].\r\n(order does not matter).\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> findSubstring(string s, vector<string>& words) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<Integer> findSubstring(String s, String[] words) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def findSubstring(self, s, words):\r\n        \"\"\"\r\n        :type s: str\r\n        :type words: List[str]\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* findSubstring(char* s, char** words, int wordsSize, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<int> FindSubstring(string s, string[] words) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @param {string[]} words\r\n * @return {number[]}\r\n */\r\nvar findSubstring = function(s, words) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @param {String[]} words\r\n# @return {Integer[]}\r\ndef find_substring(s, words)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func findSubstring(_ s: String, _ words: [String]) -> [Int] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func findSubstring(s string, words []string) []int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def findSubstring(s: String, words: Array[String]): List[Int] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"barfoothefoobarman\"\n[\"foo\",\"bar\"]",
+ "testable": true
+}

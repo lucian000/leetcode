@@ -1,1 +1,65 @@
-{"id":87,"name":"Scramble String","key":"scramble-string","link":"https://leetcode.com/problems/scramble-string","percent":28.995012886773054,"level":"Hard","totalAC":"","totalSubmit":"","desc":"\r\nGiven a string s1, we may represent it as a binary tree by partitioning it to two non-empty substrings recursively.\r\n\r\n\r\nBelow is one possible representation of s1 = \"great\":\r\n\r\n\r\n    great\r\n   /    \\\r\n  gr    eat\r\n / \\    /  \\\r\ng   r  e   at\r\n           / \\\r\n          a   t\r\n\r\n\r\nTo scramble the string, we may choose any non-leaf node and swap its two children.\r\n\r\n\r\nFor example, if we choose the node \"gr\" and swap its two children, it produces a scrambled string \"rgeat\".\r\n\r\n\r\n    rgeat\r\n   /    \\\r\n  rg    eat\r\n / \\    /  \\\r\nr   g  e   at\r\n           / \\\r\n          a   t\r\n\r\n\r\nWe say that \"rgeat\" is a scrambled string of \"great\".\r\n\r\n\r\nSimilarly, if we continue to swap the children of nodes \"eat\" and \"at\", it produces a scrambled string \"rgtae\".\r\n\r\n\r\n    rgtae\r\n   /    \\\r\n  rg    tae\r\n / \\    /  \\\r\nr   g  ta  e\r\n       / \\\r\n      t   a\r\n\r\n\r\nWe say that \"rgtae\" is a scrambled string of \"great\".\r\n\r\n\r\nGiven two strings s1 and s2 of the same length, determine if s2 is a scrambled string of s1.\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    bool isScramble(string s1, string s2) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public boolean isScramble(String s1, String s2) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def isScramble(self, s1, s2):\r\n        \"\"\"\r\n        :type s1: str\r\n        :type s2: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"bool isScramble(char* s1, char* s2) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public bool IsScramble(string s1, string s2) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string} s1\r\n * @param {string} s2\r\n * @return {boolean}\r\n */\r\nvar isScramble = function(s1, s2) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String} s1\r\n# @param {String} s2\r\n# @return {Boolean}\r\ndef is_scramble(s1, s2)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func isScramble(_ s1: String, _ s2: String) -> Bool {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func isScramble(s1 string, s2 string) bool {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def isScramble(s1: String, s2: String): Boolean = {\n        \n    }\n}"}],"testcase":"\"a\"\n\"a\"","testable":true}
+{
+ "id": 87,
+ "name": "Scramble String",
+ "key": "scramble-string",
+ "link": "https://leetcode.com/problems/scramble-string",
+ "percent": 28.995012886773054,
+ "level": "Hard",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a string s1, we may represent it as a binary tree by partitioning it to two non-empty substrings recursively.\r\n\r\n\r\nBelow is one possible representation of s1 = \"great\":\r\n\r\n\r\n    great\r\n   /    \\\r\n  gr    eat\r\n / \\    /  \\\r\ng   r  e   at\r\n           / \\\r\n          a   t\r\n\r\n\r\nTo scramble the string, we may choose any non-leaf node and swap its two children.\r\n\r\n\r\nFor example, if we choose the node \"gr\" and swap its two children, it produces a scrambled string \"rgeat\".\r\n\r\n\r\n    rgeat\r\n   /    \\\r\n  rg    eat\r\n / \\    /  \\\r\nr   g  e   at\r\n           / \\\r\n          a   t\r\n\r\n\r\nWe say that \"rgeat\" is a scrambled string of \"great\".\r\n\r\n\r\nSimilarly, if we continue to swap the children of nodes \"eat\" and \"at\", it produces a scrambled string \"rgtae\".\r\n\r\n\r\n    rgtae\r\n   /    \\\r\n  rg    tae\r\n / \\    /  \\\r\nr   g  ta  e\r\n       / \\\r\n      t   a\r\n\r\n\r\nWe say that \"rgtae\" is a scrambled string of \"great\".\r\n\r\n\r\nGiven two strings s1 and s2 of the same length, determine if s2 is a scrambled string of s1.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool isScramble(string s1, string s2) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean isScramble(String s1, String s2) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def isScramble(self, s1, s2):\r\n        \"\"\"\r\n        :type s1: str\r\n        :type s2: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool isScramble(char* s1, char* s2) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool IsScramble(string s1, string s2) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s1\r\n * @param {string} s2\r\n * @return {boolean}\r\n */\r\nvar isScramble = function(s1, s2) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s1\r\n# @param {String} s2\r\n# @return {Boolean}\r\ndef is_scramble(s1, s2)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func isScramble(_ s1: String, _ s2: String) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func isScramble(s1 string, s2 string) bool {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def isScramble(s1: String, s2: String): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"a\"\n\"a\"",
+ "testable": true
+}

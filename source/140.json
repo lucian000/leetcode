@@ -1,1 +1,65 @@
-{"id":140,"name":"Word Break II","key":"word-break-ii","link":"https://leetcode.com/problems/word-break-ii","percent":23.070731435877395,"level":"Hard","totalAC":"","totalSubmit":"","desc":"\r\nGiven a non-empty string s and a dictionary wordDict containing a list of non-empty words, add spaces in s to construct a sentence where each word is a valid dictionary word. You may assume the dictionary does not contain duplicate words.\r\n\r\n\r\n\r\nReturn all such possible sentences.\r\n\r\n\r\n\r\nFor example, given\r\ns = \"catsanddog\",\r\ndict = [\"cat\", \"cats\", \"and\", \"sand\", \"dog\"].\r\n\r\n\r\n\r\nA solution is [\"cats and dog\", \"cat sand dog\"].\r\n\r\n\r\n\r\nUPDATE (2017/1/4):\r\nThe wordDict parameter had been changed to a list of strings (instead of a set of strings). Please reload the code definition to get the latest changes.\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    vector<string> wordBreak(string s, vector<string>& wordDict) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public List<String> wordBreak(String s, List<String> wordDict) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def wordBreak(self, s, wordDict):\r\n        \"\"\"\r\n        :type s: str\r\n        :type wordDict: List[str]\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** wordBreak(char* s, char** wordDict, int wordDictSize, int* returnSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public IList<string> WordBreak(string s, IList<string> wordDict) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string} s\r\n * @param {string[]} wordDict\r\n * @return {string[]}\r\n */\r\nvar wordBreak = function(s, wordDict) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String} s\r\n# @param {String[]} word_dict\r\n# @return {String[]}\r\ndef word_break(s, word_dict)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func wordBreak(_ s: String, _ wordDict: [String]) -> [String] {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func wordBreak(s string, wordDict []string) []string {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def wordBreak(s: String, wordDict: List[String]): List[String] = {\n        \n    }\n}"}],"testcase":"\"catsanddog\"\n[\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]","testable":true}
+{
+ "id": 140,
+ "name": "Word Break II",
+ "key": "word-break-ii",
+ "link": "https://leetcode.com/problems/word-break-ii",
+ "percent": 23.070731435877395,
+ "level": "Hard",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a non-empty string s and a dictionary wordDict containing a list of non-empty words, add spaces in s to construct a sentence where each word is a valid dictionary word. You may assume the dictionary does not contain duplicate words.\r\n\r\n\r\n\r\nReturn all such possible sentences.\r\n\r\n\r\n\r\nFor example, given\r\ns = \"catsanddog\",\r\ndict = [\"cat\", \"cats\", \"and\", \"sand\", \"dog\"].\r\n\r\n\r\n\r\nA solution is [\"cats and dog\", \"cat sand dog\"].\r\n\r\n\r\n\r\nUPDATE (2017/1/4):\r\nThe wordDict parameter had been changed to a list of strings (instead of a set of strings). Please reload the code definition to get the latest changes.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<string> wordBreak(string s, vector<string>& wordDict) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<String> wordBreak(String s, List<String> wordDict) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def wordBreak(self, s, wordDict):\r\n        \"\"\"\r\n        :type s: str\r\n        :type wordDict: List[str]\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** wordBreak(char* s, char** wordDict, int wordDictSize, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<string> WordBreak(string s, IList<string> wordDict) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @param {string[]} wordDict\r\n * @return {string[]}\r\n */\r\nvar wordBreak = function(s, wordDict) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @param {String[]} word_dict\r\n# @return {String[]}\r\ndef word_break(s, word_dict)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func wordBreak(_ s: String, _ wordDict: [String]) -> [String] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func wordBreak(s string, wordDict []string) []string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def wordBreak(s: String, wordDict: List[String]): List[String] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"catsanddog\"\n[\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]",
+ "testable": true
+}

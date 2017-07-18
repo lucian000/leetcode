@@ -1,1 +1,70 @@
-{"id": 506, "ids": "506", "state": "None", "name": "Relative Ranks", "key": "relative-ranks", "link": "https://leetcode.com/problems/relative-ranks", "locked": false, "percent": 46.753071418928045, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven scores of N athletes, find their relative ranks and the people with the top three highest scores, who will be awarded medals: \"Gold Medal\", \"Silver Medal\" and \"Bronze Medal\".\r\n\r\nExample 1:\r\n\r\nInput: [5, 4, 3, 2, 1]\r\nOutput: [\"Gold Medal\", \"Silver Medal\", \"Bronze Medal\", \"4\", \"5\"]\r\nExplanation: The first three athletes got the top three highest scores, so they got \"Gold Medal\", \"Silver Medal\" and \"Bronze Medal\". For the left two athletes, you just need to output their relative ranks according to their scores.\r\n\r\n\r\n\r\nNote:\r\n\r\nN is a positive integer and won't exceed 10,000.\r\nAll the scores of athletes are guaranteed to be unique.\r\n\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<string> findRelativeRanks(vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public String[] findRelativeRanks(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def findRelativeRanks(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** findRelativeRanks(int* nums, int numsSize, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public string[] FindRelativeRanks(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {string[]}\r\n */\r\nvar findRelativeRanks = function(nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @return {String[]}\r\ndef find_relative_ranks(nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func findRelativeRanks(_ nums: [Int]) -> [String] {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func findRelativeRanks(nums []int) []string {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def findRelativeRanks(nums: Array[Int]): Array[String] = {\n        \n    }\n}"}], "testcase": "[5,4,3,2,1]", "testable": true}
+{
+ "id": 506,
+ "ids": "506",
+ "state": "None",
+ "name": "Relative Ranks",
+ "key": "relative-ranks",
+ "link": "https://leetcode.com/problems/relative-ranks",
+ "locked": false,
+ "percent": 46.76124847993514,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven scores of N athletes, find their relative ranks and the people with the top three highest scores, who will be awarded medals: \"Gold Medal\", \"Silver Medal\" and \"Bronze Medal\".\r\n\r\nExample 1:\r\n\r\nInput: [5, 4, 3, 2, 1]\r\nOutput: [\"Gold Medal\", \"Silver Medal\", \"Bronze Medal\", \"4\", \"5\"]\r\nExplanation: The first three athletes got the top three highest scores, so they got \"Gold Medal\", \"Silver Medal\" and \"Bronze Medal\". For the left two athletes, you just need to output their relative ranks according to their scores.\r\n\r\n\r\n\r\nNote:\r\n\r\nN is a positive integer and won't exceed 10,000.\r\nAll the scores of athletes are guaranteed to be unique.\r\n\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<string> findRelativeRanks(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public String[] findRelativeRanks(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def findRelativeRanks(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** findRelativeRanks(int* nums, int numsSize, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public string[] FindRelativeRanks(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {string[]}\r\n */\r\nvar findRelativeRanks = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {String[]}\r\ndef find_relative_ranks(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func findRelativeRanks(_ nums: [Int]) -> [String] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func findRelativeRanks(nums []int) []string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def findRelativeRanks(nums: Array[Int]): Array[String] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[5,4,3,2,1]'",
+ "testable": true
+}

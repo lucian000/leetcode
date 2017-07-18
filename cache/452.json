@@ -1,1 +1,70 @@
-{"id": 452, "ids": "452", "state": "None", "name": "Minimum Number of Arrows to Burst Balloons", "key": "minimum-number-of-arrows-to-burst-balloons", "link": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons", "locked": false, "percent": 43.87083433849123, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "There are a number of spherical balloons spread in two-dimensional space. For each balloon, provided input is the start and end coordinates of the horizontal diameter. Since it's horizontal, y-coordinates don't matter and hence the x-coordinates of start and end of the diameter suffice. Start is always smaller than end. There will be at most 104 balloons.\r\n\r\nAn arrow can be shot up exactly vertically from different points along the x-axis. A balloon with xstart and xend bursts by an arrow shot at x if xstart \u2264 x \u2264 xend. There is no limit to the number of arrows that can be shot. An arrow once shot keeps travelling up infinitely. The problem is to find the minimum number of arrows that must be shot to burst all balloons. \r\n\r\nExample:\r\n\r\nInput:\r\n[[10,16], [2,8], [1,6], [7,12]]\r\n\r\nOutput:\r\n2\r\n\r\nExplanation:\r\nOne way is to shoot one arrow for example at x = 6 (bursting the balloons [2,8] and [1,6]) and another arrow at x = 11 (bursting the other two balloons).\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int findMinArrowShots(vector<pair<int, int>>& points) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int findMinArrowShots(int[][] points) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def findMinArrowShots(self, points):\r\n        \"\"\"\r\n        :type points: List[List[int]]\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int findMinArrowShots(int** points, int pointsRowSize, int pointsColSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int FindMinArrowShots(int[,] points) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[][]} points\r\n * @return {number}\r\n */\r\nvar findMinArrowShots = function(points) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[][]} points\r\n# @return {Integer}\r\ndef find_min_arrow_shots(points)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func findMinArrowShots(_ points: [[Int]]) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func findMinArrowShots(points [][]int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def findMinArrowShots(points: Array[Array[Int]]): Int = {\n        \n    }\n}"}], "testcase": "[[10,16],[2,8],[1,6],[7,12]]", "testable": true}
+{
+ "id": 452,
+ "ids": "452",
+ "state": "None",
+ "name": "Minimum Number of Arrows to Burst Balloons",
+ "key": "minimum-number-of-arrows-to-burst-balloons",
+ "link": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons",
+ "locked": false,
+ "percent": 43.86073767666322,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "There are a number of spherical balloons spread in two-dimensional space. For each balloon, provided input is the start and end coordinates of the horizontal diameter. Since it's horizontal, y-coordinates don't matter and hence the x-coordinates of start and end of the diameter suffice. Start is always smaller than end. There will be at most 104 balloons.\r\n\r\nAn arrow can be shot up exactly vertically from different points along the x-axis. A balloon with xstart and xend bursts by an arrow shot at x if xstart \u2264 x \u2264 xend. There is no limit to the number of arrows that can be shot. An arrow once shot keeps travelling up infinitely. The problem is to find the minimum number of arrows that must be shot to burst all balloons. \r\n\r\nExample:\r\n\r\nInput:\r\n[[10,16], [2,8], [1,6], [7,12]]\r\n\r\nOutput:\r\n2\r\n\r\nExplanation:\r\nOne way is to shoot one arrow for example at x = 6 (bursting the balloons [2,8] and [1,6]) and another arrow at x = 11 (bursting the other two balloons).\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int findMinArrowShots(vector<pair<int, int>>& points) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int findMinArrowShots(int[][] points) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def findMinArrowShots(self, points):\r\n        \"\"\"\r\n        :type points: List[List[int]]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int findMinArrowShots(int** points, int pointsRowSize, int pointsColSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int FindMinArrowShots(int[,] points) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[][]} points\r\n * @return {number}\r\n */\r\nvar findMinArrowShots = function(points) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[][]} points\r\n# @return {Integer}\r\ndef find_min_arrow_shots(points)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func findMinArrowShots(_ points: [[Int]]) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func findMinArrowShots(points [][]int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def findMinArrowShots(points: Array[Array[Int]]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[[10,16],[2,8],[1,6],[7,12]]'",
+ "testable": true
+}

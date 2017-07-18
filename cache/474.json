@@ -1,1 +1,70 @@
-{"id": 474, "ids": "474", "state": "None", "name": "Ones and Zeroes", "key": "ones-and-zeroes", "link": "https://leetcode.com/problems/ones-and-zeroes", "locked": false, "percent": 38.66774161040008, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "In the computer world, use restricted resource you have to generate maximum benefit is what we always want to pursue.\r\nFor now, suppose you are a dominator of m 0s and n 1s respectively. On the other hand, there is an array with strings consisting of only 0s and 1s.\r\n\r\n\r\nNow your task is to find the maximum number of strings that you can form with given m 0s and n 1s. Each 0 and 1 can be used at most once.\r\n\r\n\r\n\r\nNote:\r\n\r\nThe given numbers of 0s and 1s will both not exceed 100\r\nThe size of given string array won't exceed 600.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: Array = {\"10\", \"0001\", \"111001\", \"1\", \"0\"}, m = 5, n = 3\r\nOutput: 4\r\n\r\nExplanation: This are totally 4 strings can be formed by the using of 5 0s and 3 1s, which are \u201c10,\u201d0001\u201d,\u201d1\u201d,\u201d0\u201d\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: Array = {\"10\", \"0\", \"1\"}, m = 1, n = 1\r\nOutput: 2\r\n\r\nExplanation: You could form \"10\", but then you'd have nothing left. Better form \"0\" and \"1\".\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int findMaxForm(vector<string>& strs, int m, int n) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int findMaxForm(String[] strs, int m, int n) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def findMaxForm(self, strs, m, n):\r\n        \"\"\"\r\n        :type strs: List[str]\r\n        :type m: int\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int findMaxForm(char** strs, int strsSize, int m, int n) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int FindMaxForm(string[] strs, int m, int n) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {string[]} strs\r\n * @param {number} m\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar findMaxForm = function(strs, m, n) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String[]} strs\r\n# @param {Integer} m\r\n# @param {Integer} n\r\n# @return {Integer}\r\ndef find_max_form(strs, m, n)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func findMaxForm(_ strs: [String], _ m: Int, _ n: Int) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func findMaxForm(strs []string, m int, n int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def findMaxForm(strs: Array[String], m: Int, n: Int): Int = {\n        \n    }\n}"}], "testcase": "[\"10\",\"0001\",\"111001\",\"1\",\"0\"]\n5\n3", "testable": true}
+{
+ "id": 474,
+ "ids": "474",
+ "state": "None",
+ "name": "Ones and Zeroes",
+ "key": "ones-and-zeroes",
+ "link": "https://leetcode.com/problems/ones-and-zeroes",
+ "locked": false,
+ "percent": 38.65080165372593,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "In the computer world, use restricted resource you have to generate maximum benefit is what we always want to pursue.\r\nFor now, suppose you are a dominator of m 0s and n 1s respectively. On the other hand, there is an array with strings consisting of only 0s and 1s.\r\n\r\n\r\nNow your task is to find the maximum number of strings that you can form with given m 0s and n 1s. Each 0 and 1 can be used at most once.\r\n\r\n\r\n\r\nNote:\r\n\r\nThe given numbers of 0s and 1s will both not exceed 100\r\nThe size of given string array won't exceed 600.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: Array = {\"10\", \"0001\", \"111001\", \"1\", \"0\"}, m = 5, n = 3\r\nOutput: 4\r\n\r\nExplanation: This are totally 4 strings can be formed by the using of 5 0s and 3 1s, which are \u201c10,\u201d0001\u201d,\u201d1\u201d,\u201d0\u201d\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: Array = {\"10\", \"0\", \"1\"}, m = 1, n = 1\r\nOutput: 2\r\n\r\nExplanation: You could form \"10\", but then you'd have nothing left. Better form \"0\" and \"1\".\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int findMaxForm(vector<string>& strs, int m, int n) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int findMaxForm(String[] strs, int m, int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def findMaxForm(self, strs, m, n):\r\n        \"\"\"\r\n        :type strs: List[str]\r\n        :type m: int\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int findMaxForm(char** strs, int strsSize, int m, int n) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int FindMaxForm(string[] strs, int m, int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string[]} strs\r\n * @param {number} m\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar findMaxForm = function(strs, m, n) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String[]} strs\r\n# @param {Integer} m\r\n# @param {Integer} n\r\n# @return {Integer}\r\ndef find_max_form(strs, m, n)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func findMaxForm(_ strs: [String], _ m: Int, _ n: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func findMaxForm(strs []string, m int, n int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def findMaxForm(strs: Array[String], m: Int, n: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[\"10\",\"0001\",\"111001\",\"1\",\"0\"]\\n5\\n3'",
+ "testable": true
+}

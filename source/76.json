@@ -1,1 +1,65 @@
-{"id":76,"name":"Minimum Window Substring","key":"minimum-window-substring","link":"https://leetcode.com/problems/minimum-window-substring","percent":25.055505442299598,"level":"Hard","totalAC":"","totalSubmit":"","desc":"\r\nGiven a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).\r\n\r\n\r\n\r\nFor example,\r\nS = \"ADOBECODEBANC\"\r\nT = \"ABC\"\r\n\r\n\r\nMinimum window is \"BANC\".\r\n\r\n\r\n\r\nNote:\r\nIf there is no such window in S that covers all characters in T, return the empty string \"\".\r\n\r\n\r\nIf there are multiple such windows, you are guaranteed that there will always be only one unique minimum window in S.\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    string minWindow(string s, string t) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public String minWindow(String s, String t) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def minWindow(self, s, t):\r\n        \"\"\"\r\n        :type s: str\r\n        :type t: str\r\n        :rtype: str\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"char* minWindow(char* s, char* t) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public string MinWindow(string s, string t) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string} s\r\n * @param {string} t\r\n * @return {string}\r\n */\r\nvar minWindow = function(s, t) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String} s\r\n# @param {String} t\r\n# @return {String}\r\ndef min_window(s, t)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func minWindow(_ s: String, _ t: String) -> String {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func minWindow(s string, t string) string {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def minWindow(s: String, t: String): String = {\n        \n    }\n}"}],"testcase":"\"a\"\n\"a\"","testable":true}
+{
+ "id": 76,
+ "name": "Minimum Window Substring",
+ "key": "minimum-window-substring",
+ "link": "https://leetcode.com/problems/minimum-window-substring",
+ "percent": 25.055505442299598,
+ "level": "Hard",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).\r\n\r\n\r\n\r\nFor example,\r\nS = \"ADOBECODEBANC\"\r\nT = \"ABC\"\r\n\r\n\r\nMinimum window is \"BANC\".\r\n\r\n\r\n\r\nNote:\r\nIf there is no such window in S that covers all characters in T, return the empty string \"\".\r\n\r\n\r\nIf there are multiple such windows, you are guaranteed that there will always be only one unique minimum window in S.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    string minWindow(string s, string t) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public String minWindow(String s, String t) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def minWindow(self, s, t):\r\n        \"\"\"\r\n        :type s: str\r\n        :type t: str\r\n        :rtype: str\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "char* minWindow(char* s, char* t) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public string MinWindow(string s, string t) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @param {string} t\r\n * @return {string}\r\n */\r\nvar minWindow = function(s, t) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @param {String} t\r\n# @return {String}\r\ndef min_window(s, t)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func minWindow(_ s: String, _ t: String) -> String {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func minWindow(s string, t string) string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def minWindow(s: String, t: String): String = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"a\"\n\"a\"",
+ "testable": true
+}

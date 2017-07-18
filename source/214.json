@@ -1,1 +1,65 @@
-{"id":214,"name":"Shortest Palindrome","key":"shortest-palindrome","link":"https://leetcode.com/problems/shortest-palindrome","percent":24.04769001490313,"level":"Hard","totalAC":"","totalSubmit":"","desc":"\r\nGiven a string S, you are allowed to convert it to a palindrome by adding characters in front of it. Find and return the shortest palindrome you can find by performing this transformation.\r\n\r\n\r\nFor example: \r\nGiven \"aacecaaa\", return \"aaacecaaa\".\r\nGiven \"abcd\", return \"dcbabcd\".\r\n\r\nCredits:Special thanks to @ifanchu for adding this problem and creating all test cases. Thanks to @Freezen for additional test cases.","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    string shortestPalindrome(string s) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public String shortestPalindrome(String s) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def shortestPalindrome(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: str\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"char* shortestPalindrome(char* s) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public string ShortestPalindrome(string s) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string} s\r\n * @return {string}\r\n */\r\nvar shortestPalindrome = function(s) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String} s\r\n# @return {String}\r\ndef shortest_palindrome(s)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func shortestPalindrome(_ s: String) -> String {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func shortestPalindrome(s string) string {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def shortestPalindrome(s: String): String = {\n        \n    }\n}"}],"testcase":"\"aacecaaa\"","testable":true}
+{
+ "id": 214,
+ "name": "Shortest Palindrome",
+ "key": "shortest-palindrome",
+ "link": "https://leetcode.com/problems/shortest-palindrome",
+ "percent": 24.04769001490313,
+ "level": "Hard",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a string S, you are allowed to convert it to a palindrome by adding characters in front of it. Find and return the shortest palindrome you can find by performing this transformation.\r\n\r\n\r\nFor example: \r\nGiven \"aacecaaa\", return \"aaacecaaa\".\r\nGiven \"abcd\", return \"dcbabcd\".\r\n\r\nCredits:Special thanks to @ifanchu for adding this problem and creating all test cases. Thanks to @Freezen for additional test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    string shortestPalindrome(string s) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public String shortestPalindrome(String s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def shortestPalindrome(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: str\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "char* shortestPalindrome(char* s) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public string ShortestPalindrome(string s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @return {string}\r\n */\r\nvar shortestPalindrome = function(s) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @return {String}\r\ndef shortest_palindrome(s)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func shortestPalindrome(_ s: String) -> String {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func shortestPalindrome(s string) string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def shortestPalindrome(s: String): String = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"aacecaaa\"",
+ "testable": true
+}

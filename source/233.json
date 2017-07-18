@@ -1,1 +1,65 @@
-{"id":233,"name":"Number of Digit One","key":"number-of-digit-one","link":"https://leetcode.com/problems/number-of-digit-one","percent":28.22340374574891,"level":"Hard","totalAC":"","totalSubmit":"","desc":"Given an integer n, count the total number of digit 1 appearing in all non-negative integers less than or equal to n.\r\n\r\n\r\nFor example: \r\nGiven n = 13,\r\nReturn 6, because digit 1 occurred in the following numbers: 1, 10, 11, 12, 13.\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    int countDigitOne(int n) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public int countDigitOne(int n) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def countDigitOne(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"int countDigitOne(int n) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public int CountDigitOne(int n) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar countDigitOne = function(n) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {Integer} n\r\n# @return {Integer}\r\ndef count_digit_one(n)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func countDigitOne(_ n: Int) -> Int {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func countDigitOne(n int) int {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def countDigitOne(n: Int): Int = {\n        \n    }\n}"}],"testcase":"-1","testable":true}
+{
+ "id": 233,
+ "name": "Number of Digit One",
+ "key": "number-of-digit-one",
+ "link": "https://leetcode.com/problems/number-of-digit-one",
+ "percent": 28.22340374574891,
+ "level": "Hard",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given an integer n, count the total number of digit 1 appearing in all non-negative integers less than or equal to n.\r\n\r\n\r\nFor example: \r\nGiven n = 13,\r\nReturn 6, because digit 1 occurred in the following numbers: 1, 10, 11, 12, 13.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int countDigitOne(int n) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int countDigitOne(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def countDigitOne(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int countDigitOne(int n) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int CountDigitOne(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar countDigitOne = function(n) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} n\r\n# @return {Integer}\r\ndef count_digit_one(n)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func countDigitOne(_ n: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func countDigitOne(n int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def countDigitOne(n: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "-1",
+ "testable": true
+}

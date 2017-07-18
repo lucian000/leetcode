@@ -1,1 +1,65 @@
-{"id":74,"name":"Search a 2D Matrix","key":"search-a-2d-matrix","link":"https://leetcode.com/problems/search-a-2d-matrix","percent":35.1388282203779,"level":"Medium","totalAC":"","totalSubmit":"","desc":"Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:\r\n\r\n\r\n\r\nIntegers in each row are sorted from left to right.\r\nThe first integer of each row is greater than the last integer of the previous row.\r\n\r\n\r\n\r\n\r\nFor example,\r\n\r\nConsider the following matrix:\r\n\r\n\r\n[\r\n  [1,   3,  5,  7],\r\n  [10, 11, 16, 20],\r\n  [23, 30, 34, 50]\r\n]\r\n\r\n\r\nGiven target = 3, return true.","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    bool searchMatrix(vector<vector<int>>& matrix, int target) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public boolean searchMatrix(int[][] matrix, int target) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def searchMatrix(self, matrix, target):\r\n        \"\"\"\r\n        :type matrix: List[List[int]]\r\n        :type target: int\r\n        :rtype: bool\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"bool searchMatrix(int** matrix, int matrixRowSize, int matrixColSize, int target) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public bool SearchMatrix(int[,] matrix, int target) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {number[][]} matrix\r\n * @param {number} target\r\n * @return {boolean}\r\n */\r\nvar searchMatrix = function(matrix, target) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {Integer[][]} matrix\r\n# @param {Integer} target\r\n# @return {Boolean}\r\ndef search_matrix(matrix, target)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func searchMatrix(matrix [][]int, target int) bool {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def searchMatrix(matrix: Array[Array[Int]], target: Int): Boolean = {\n        \n    }\n}"}],"testcase":"[[1,3,5,7],[10,11,16,20],[23,30,34,50]]\n3","testable":true}
+{
+ "id": 74,
+ "name": "Search a 2D Matrix",
+ "key": "search-a-2d-matrix",
+ "link": "https://leetcode.com/problems/search-a-2d-matrix",
+ "percent": 35.1388282203779,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:\r\n\r\n\r\n\r\nIntegers in each row are sorted from left to right.\r\nThe first integer of each row is greater than the last integer of the previous row.\r\n\r\n\r\n\r\n\r\nFor example,\r\n\r\nConsider the following matrix:\r\n\r\n\r\n[\r\n  [1,   3,  5,  7],\r\n  [10, 11, 16, 20],\r\n  [23, 30, 34, 50]\r\n]\r\n\r\n\r\nGiven target = 3, return true.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool searchMatrix(vector<vector<int>>& matrix, int target) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean searchMatrix(int[][] matrix, int target) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def searchMatrix(self, matrix, target):\r\n        \"\"\"\r\n        :type matrix: List[List[int]]\r\n        :type target: int\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool searchMatrix(int** matrix, int matrixRowSize, int matrixColSize, int target) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool SearchMatrix(int[,] matrix, int target) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[][]} matrix\r\n * @param {number} target\r\n * @return {boolean}\r\n */\r\nvar searchMatrix = function(matrix, target) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[][]} matrix\r\n# @param {Integer} target\r\n# @return {Boolean}\r\ndef search_matrix(matrix, target)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func searchMatrix(matrix [][]int, target int) bool {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def searchMatrix(matrix: Array[Array[Int]], target: Int): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[[1,3,5,7],[10,11,16,20],[23,30,34,50]]\n3",
+ "testable": true
+}

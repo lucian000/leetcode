@@ -1,0 +1,65 @@
+{
+ "id": 8,
+ "name": "String to Integer (atoi)",
+ "key": "string-to-integer-atoi",
+ "link": "https://leetcode.com/problems/string-to-integer-atoi",
+ "percent": 13.95681016411882,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Implement atoi to convert a string to an integer.\r\n\r\nHint: Carefully consider all possible input cases. If you want a challenge, please do not see below and ask yourself what are the possible input cases.\r\n\r\n\r\nNotes: \r\nIt is intended for this problem to be specified vaguely (ie, no given input specs). You are responsible to gather all the input requirements up front. \r\n\r\n\r\nUpdate (2015-02-10):\r\nThe signature of the C++ function had been updated. If you still see your function signature accepts a const char * argument, please click the reload button  to reset your code definition.\r\n\r\n\r\nspoilers alert... click to show requirements for atoi.\r\n\r\nRequirements for atoi:\r\n\r\nThe function first discards as many whitespace characters as necessary until the first non-whitespace character is found. Then, starting from this character, takes an optional initial plus or minus sign followed by as many numerical digits as possible, and interprets them as a numerical value.\r\n\r\nThe string can contain additional characters after those that form the integral number, which are ignored and have no effect on the behavior of this function.\r\n\r\nIf the first sequence of non-whitespace characters in str is not a valid integral number, or if no such sequence exists because either str is empty or it contains only whitespace characters, no conversion is performed.\r\n\r\nIf no valid conversion could be performed, a zero value is returned. If the correct value is out of the range of representable values, INT_MAX (2147483647) or INT_MIN (-2147483648) is returned.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int myAtoi(string str) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int myAtoi(String str) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def myAtoi(self, str):\r\n        \"\"\"\r\n        :type str: str\r\n        :rtype: int\r\n        \"\"\""
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int myAtoi(char* str) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int MyAtoi(string str) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} str\r\n * @return {number}\r\n */\r\nvar myAtoi = function(str) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} str\r\n# @return {Integer}\r\ndef my_atoi(str)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func myAtoi(_ str: String) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func myAtoi(str string) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def myAtoi(str: String): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"\"",
+ "testable": true
+}

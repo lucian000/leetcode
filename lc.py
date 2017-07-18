@@ -51,6 +51,7 @@ d/do: do an excercise! Some letters can follow, including:
     If not, it will automatically choose the easiest level left.
 sh: execute a command after 'sh'.
 download: download all souce files to the dir 'source'.
+indent: make all json files have indent
 
 You can also input the following codes:
 '''
@@ -85,7 +86,7 @@ def store(fname,data):
     if os.path.exists(fname):
         shutil.copy(fname, fname+'.bak')
     with open(fname, 'w') as json_file:
-        json_file.write(json.dumps(data))
+        json_file.write(json.dumps(data, indent=True))
 def load(fname):
     with open(fname) as json_file:
         data = json.load(json_file)
@@ -163,6 +164,7 @@ class problem(object):
         self.id = int(n) # index - int
         self.ids = str(n) # index -str
         self.__dict__.update(get_list(self.id))
+        self.fname = self.ids+'.'+self.key+'.py'
         self.loaded = False
     def load(self):
         'load all information about the problem'
@@ -216,14 +218,13 @@ class problem(object):
         txt += '\n'+self.desc.strip()
         txt += '\n'
         txt = txt.replace('\n','\n# ')
-        txt += '\n'+ codes.replace('\n','\n')
-        fname = self.ids+'.'+self.key+'.py'
-        if os.path.exists(fname):
+        txt += '\n'+ codes
+        txt = txt.replace('\r\n','\n')
+        if os.path.exists(self.fname):
             print('There is a file here. Please check!')
             return -1
-        with open(fname,'w') as f:
+        with open(self.fname,'w') as f:
             f.write(txt)
-        return fname
     def write_time(self,t):
         f = dt+self.ids+'.json'
         if not os.path.exists(f):
@@ -231,11 +232,24 @@ class problem(object):
         ts = load(f)
         ts.append(t)
         store(f, ts)
+    def edit(self): #use xed to edit codes, and save the time used
+        time0 = time.time()
+        os.system('xed '+self.fname)
+        self.write_time(time.time()-time0)# store the time used
+    def test(self): #test
+        os.system('leetcode test '+self.fname+' -t '+self.testcase+' -vv')
+    def submit(self):
+        os.system('leetcode submit '+self.fname+' -vv')
 #%% functions for the codes accepted
 def h():
     'help'
     print(hlp)
     os.system('leetcode help')
+
+def indent(d):
+    fs = [i for i in os.listdir(d) if i.endswith('.json')]
+    for f in fs:
+        store(d+f, load(d+f))
 
 def down():
     'download all source files'
@@ -277,14 +291,12 @@ def do_all(ps,p):
     fname = prob.write()
     if fname== -1:
         return
-    webbrowser.open_new_tab(prob.link)
+    # webbrowser.open_new_tab(prob.link)
     while True:
         pry('\nPlease write your codes in xed, remember to save it...')
         # the time used
-        time0 = time.time()
-        os.system('xed '+fname)
-        prob.write_time(time.time()-time0)# store the time used
-        os.system('leetcode test '+fname+' -t '+prob.testcase+' -vv')
+        prob.edit()
+        prob.test()
         pry('What do you want next?')
         pry('c/[Enter] = change codes, s = submit, e = exit')
         ip2 = input(addy('?> '))
@@ -293,7 +305,7 @@ def do_all(ps,p):
         elif ip2.startswith('e'):
             return
         elif ip2.startswith('s'):
-            os.system('leetcode submit '+fname+' -vv')
+            prob.submit()
             pry('Change your answer?')
             pry('y=yes, n=no')
             if input(addy('?> ')).startswith('y'):
@@ -305,6 +317,7 @@ def do_all(ps,p):
         return
     shutil.move(fname,'./submitted/'+fname)
     webbrowser.open_new_tab(prob.link+'/#/solution')
+    prob.cache()
     os.system('leetcode stat')
     os.system('leetcode stat -g')
 
@@ -332,5 +345,7 @@ while(True):
         down()
     elif cmd=='cwd':
         print(sys.path[0])
+    elif cmd=='indent':
+        indent(d),indent(dsave),indent(dt)
     else:
         os.system('leetcode '+ip)

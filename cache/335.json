@@ -1,1 +1,70 @@
-{"id": 335, "ids": "335", "state": "None", "name": "Self Crossing", "key": "self-crossing", "link": "https://leetcode.com/problems/self-crossing", "locked": false, "percent": 25.021395924759183, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\n    You are given an array x of n positive numbers. You start at point (0,0) and moves x[0] metres to the north, then x[1] metres to the west,\r\n    x[2] metres to the south,\r\n    x[3] metres to the east and so on. In other words, after each move your direction changes\r\n    counter-clockwise.\r\n\r\n\r\n    Write a one-pass algorithm with O(1) extra space to determine, if your path crosses itself, or not.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nGiven x = [2, 1, 1, 2],\r\n?????\r\n?   ?\r\n???????>\r\n    ?\r\n\r\nReturn true (self crossing)\r\n\r\n\r\n\r\n\r\nExample 2:\r\n\r\nGiven x = [1, 2, 3, 4],\r\n????????\r\n?      ?\r\n?\r\n?\r\n?????????????>\r\n\r\nReturn false (not self crossing)\r\n\r\n\r\n\r\n\r\nExample 3:\r\n\r\nGiven x = [1, 1, 1, 1],\r\n?????\r\n?   ?\r\n?????>\r\n\r\nReturn true (self crossing)\r\n\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    bool isSelfCrossing(vector<int>& x) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public boolean isSelfCrossing(int[] x) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def isSelfCrossing(self, x):\r\n        \"\"\"\r\n        :type x: List[int]\r\n        :rtype: bool\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "bool isSelfCrossing(int* x, int xSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public bool IsSelfCrossing(int[] x) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} x\r\n * @return {boolean}\r\n */\r\nvar isSelfCrossing = function(x) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} x\r\n# @return {Boolean}\r\ndef is_self_crossing(x)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func isSelfCrossing(_ x: [Int]) -> Bool {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func isSelfCrossing(x []int) bool {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def isSelfCrossing(x: Array[Int]): Boolean = {\n        \n    }\n}"}], "testcase": "[2,1,1,2]", "testable": true}
+{
+ "id": 335,
+ "ids": "335",
+ "state": "None",
+ "name": "Self Crossing",
+ "key": "self-crossing",
+ "link": "https://leetcode.com/problems/self-crossing",
+ "locked": false,
+ "percent": 25.02276618220231,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\n    You are given an array x of n positive numbers. You start at point (0,0) and moves x[0] metres to the north, then x[1] metres to the west,\r\n    x[2] metres to the south,\r\n    x[3] metres to the east and so on. In other words, after each move your direction changes\r\n    counter-clockwise.\r\n\r\n\r\n    Write a one-pass algorithm with O(1) extra space to determine, if your path crosses itself, or not.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nGiven x = [2, 1, 1, 2],\r\n?????\r\n?   ?\r\n???????>\r\n    ?\r\n\r\nReturn true (self crossing)\r\n\r\n\r\n\r\n\r\nExample 2:\r\n\r\nGiven x = [1, 2, 3, 4],\r\n????????\r\n?      ?\r\n?\r\n?\r\n?????????????>\r\n\r\nReturn false (not self crossing)\r\n\r\n\r\n\r\n\r\nExample 3:\r\n\r\nGiven x = [1, 1, 1, 1],\r\n?????\r\n?   ?\r\n?????>\r\n\r\nReturn true (self crossing)\r\n\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool isSelfCrossing(vector<int>& x) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean isSelfCrossing(int[] x) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def isSelfCrossing(self, x):\r\n        \"\"\"\r\n        :type x: List[int]\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool isSelfCrossing(int* x, int xSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool IsSelfCrossing(int[] x) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} x\r\n * @return {boolean}\r\n */\r\nvar isSelfCrossing = function(x) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} x\r\n# @return {Boolean}\r\ndef is_self_crossing(x)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func isSelfCrossing(_ x: [Int]) -> Bool {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func isSelfCrossing(x []int) bool {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def isSelfCrossing(x: Array[Int]): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[2,1,1,2]'",
+ "testable": true
+}

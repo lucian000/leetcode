@@ -1,1 +1,70 @@
-{"id": 78, "ids": "78", "state": "None", "name": "Subsets", "key": "subsets", "link": "https://leetcode.com/problems/subsets", "locked": false, "percent": 39.906789159569676, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven a set of distinct integers, nums, return all possible subsets.\r\n\r\nNote: The solution set must not contain duplicate subsets.\r\n\r\n\r\nFor example,\r\nIf nums = [1,2,3], a solution is:\r\n\r\n\r\n\r\n[\r\n  [3],\r\n  [1],\r\n  [2],\r\n  [1,2,3],\r\n  [1,3],\r\n  [2,3],\r\n  [1,2],\r\n  []\r\n]\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<vector<int>> subsets(vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public List<List<Integer>> subsets(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def subsets(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[List[int]]\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of arrays of size *returnSize.\r\n * The sizes of the arrays are returned as *columnSizes array.\r\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\r\n */\r\nint** subsets(int* nums, int numsSize, int** columnSizes, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public IList<IList<int>> Subsets(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number[][]}\r\n */\r\nvar subsets = function(nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer[][]}\r\ndef subsets(nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func subsets(_ nums: [Int]) -> [[Int]] {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func subsets(nums []int) [][]int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def subsets(nums: Array[Int]): List[List[Int]] = {\n        \n    }\n}"}], "testcase": "[1,2,3]", "testable": true}
+{
+ "id": 78,
+ "ids": "78",
+ "state": "None",
+ "name": "Subsets",
+ "key": "subsets",
+ "link": "https://leetcode.com/problems/subsets",
+ "locked": false,
+ "percent": 39.903712574850296,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a set of distinct integers, nums, return all possible subsets.\r\n\r\nNote: The solution set must not contain duplicate subsets.\r\n\r\n\r\nFor example,\r\nIf nums = [1,2,3], a solution is:\r\n\r\n\r\n\r\n[\r\n  [3],\r\n  [1],\r\n  [2],\r\n  [1,2,3],\r\n  [1,3],\r\n  [2,3],\r\n  [1,2],\r\n  []\r\n]\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<vector<int>> subsets(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<List<Integer>> subsets(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def subsets(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[List[int]]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of arrays of size *returnSize.\r\n * The sizes of the arrays are returned as *columnSizes array.\r\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\r\n */\r\nint** subsets(int* nums, int numsSize, int** columnSizes, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<IList<int>> Subsets(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number[][]}\r\n */\r\nvar subsets = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer[][]}\r\ndef subsets(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func subsets(_ nums: [Int]) -> [[Int]] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func subsets(nums []int) [][]int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def subsets(nums: Array[Int]): List[List[Int]] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[1,2,3]'",
+ "testable": true
+}

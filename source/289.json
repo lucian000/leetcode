@@ -1,1 +1,65 @@
-{"id":289,"name":"Game of Life","key":"game-of-life","link":"https://leetcode.com/problems/game-of-life","percent":36.752974215748296,"level":"Medium","totalAC":"","totalSubmit":"","desc":"\r\nAccording to the Wikipedia's article: \"The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.\"\r\n\r\n\r\n\r\nGiven a board with m by n cells, each cell has an initial state live (1) or dead (0). Each cell interacts with its eight neighbors (horizontal, vertical, diagonal) using the following four rules (taken from the above Wikipedia article):\r\n\r\n\r\n\r\n\r\nAny live cell with fewer than two live neighbors dies, as if caused by under-population.\r\nAny live cell with two or three live neighbors lives on to the next generation.\r\nAny live cell with more than three live neighbors dies, as if by over-population..\r\nAny dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.\r\n\r\n\r\n\r\n\r\nWrite a function to compute the next state (after one update) of the board given its current state.\r\n\r\n\r\nFollow up: \r\n\r\nCould you solve it in-place? Remember that the board needs to be updated at the same time: You cannot update some cells first and then use their updated values to update other cells.\r\nIn this question, we represent the board using a 2D array. In principle, the board is infinite, which would cause problems when the active area encroaches the border of the array. How would you address these problems?\r\n\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    void gameOfLife(vector<vector<int>>& board) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public void gameOfLife(int[][] board) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def gameOfLife(self, board):\r\n        \"\"\"\r\n        :type board: List[List[int]]\r\n        :rtype: void Do not return anything, modify board in-place instead.\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"void gameOfLife(int** board, int boardRowSize, int boardColSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public void GameOfLife(int[,] board) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {number[][]} board\r\n * @return {void} Do not return anything, modify board in-place instead.\r\n */\r\nvar gameOfLife = function(board) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {Integer[][]} board\r\n# @return {Void} Do not return anything, modify board in-place instead.\r\ndef game_of_life(board)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\n    func gameOfLife(_ board: inout [[Int]]) {\n        \n    }\n}"},{"value":"golang","text":"Go","defaultCode":"func gameOfLife(board [][]int)  {\n    \n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def gameOfLife(board: Array[Array[Int]]): Unit = {\n        \n    }\n}"}],"testcase":"[[]]","testable":true}
+{
+ "id": 289,
+ "name": "Game of Life",
+ "key": "game-of-life",
+ "link": "https://leetcode.com/problems/game-of-life",
+ "percent": 36.752974215748296,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nAccording to the Wikipedia's article: \"The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.\"\r\n\r\n\r\n\r\nGiven a board with m by n cells, each cell has an initial state live (1) or dead (0). Each cell interacts with its eight neighbors (horizontal, vertical, diagonal) using the following four rules (taken from the above Wikipedia article):\r\n\r\n\r\n\r\n\r\nAny live cell with fewer than two live neighbors dies, as if caused by under-population.\r\nAny live cell with two or three live neighbors lives on to the next generation.\r\nAny live cell with more than three live neighbors dies, as if by over-population..\r\nAny dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.\r\n\r\n\r\n\r\n\r\nWrite a function to compute the next state (after one update) of the board given its current state.\r\n\r\n\r\nFollow up: \r\n\r\nCould you solve it in-place? Remember that the board needs to be updated at the same time: You cannot update some cells first and then use their updated values to update other cells.\r\nIn this question, we represent the board using a 2D array. In principle, the board is infinite, which would cause problems when the active area encroaches the border of the array. How would you address these problems?\r\n\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    void gameOfLife(vector<vector<int>>& board) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public void gameOfLife(int[][] board) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def gameOfLife(self, board):\r\n        \"\"\"\r\n        :type board: List[List[int]]\r\n        :rtype: void Do not return anything, modify board in-place instead.\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "void gameOfLife(int** board, int boardRowSize, int boardColSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public void GameOfLife(int[,] board) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[][]} board\r\n * @return {void} Do not return anything, modify board in-place instead.\r\n */\r\nvar gameOfLife = function(board) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[][]} board\r\n# @return {Void} Do not return anything, modify board in-place instead.\r\ndef game_of_life(board)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func gameOfLife(_ board: inout [[Int]]) {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func gameOfLife(board [][]int)  {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def gameOfLife(board: Array[Array[Int]]): Unit = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[[]]",
+ "testable": true
+}

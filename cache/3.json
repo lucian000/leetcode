@@ -1,0 +1,70 @@
+{
+ "id": 3,
+ "ids": "3",
+ "state": "None",
+ "name": "Longest Substring Without Repeating Characters",
+ "key": "longest-substring-without-repeating-characters",
+ "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+ "locked": false,
+ "percent": 24.22783274285896,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given a string, find the length of the longest substring without repeating characters.\r\n\r\nExamples:\r\n\r\nGiven \"abcabcbb\", the answer is \"abc\", which the length is 3.\r\n\r\nGiven \"bbbbb\", the answer is \"b\", with the length of 1.\r\n\r\nGiven \"pwwkew\", the answer is \"wke\", with the length of 3. Note that the answer must be a substring, \"pwke\" is a subsequence and not a substring.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int lengthOfLongestSubstring(string s) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int lengthOfLongestSubstring(String s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def lengthOfLongestSubstring(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int lengthOfLongestSubstring(char* s) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int LengthOfLongestSubstring(string s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @return {number}\r\n */\r\nvar lengthOfLongestSubstring = function(s) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @return {Integer}\r\ndef length_of_longest_substring(s)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func lengthOfLongestSubstring(_ s: String) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func lengthOfLongestSubstring(s string) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def lengthOfLongestSubstring(s: String): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'\"abcabcbb\"'",
+ "testable": true
+}

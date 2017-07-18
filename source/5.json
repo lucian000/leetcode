@@ -1,0 +1,65 @@
+{
+ "id": 5,
+ "name": "Longest Palindromic Substring",
+ "key": "longest-palindromic-substring",
+ "link": "https://leetcode.com/problems/longest-palindromic-substring",
+ "percent": 25.15664733159373,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.\r\n\r\nExample:\r\n\r\nInput: \"babad\"\r\n\r\nOutput: \"bab\"\r\n\r\nNote: \"aba\" is also a valid answer.\r\n\r\n\r\n\r\nExample:\r\n\r\nInput: \"cbbd\"\r\n\r\nOutput: \"bb\"\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    string longestPalindrome(string s) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public String longestPalindrome(String s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def longestPalindrome(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: str\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "char* longestPalindrome(char* s) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public string LongestPalindrome(string s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @return {string}\r\n */\r\nvar longestPalindrome = function(s) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @return {String}\r\ndef longest_palindrome(s)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func longestPalindrome(_ s: String) -> String {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func longestPalindrome(s string) string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def longestPalindrome(s: String): String = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"babad\"",
+ "testable": true
+}

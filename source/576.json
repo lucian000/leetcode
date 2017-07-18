@@ -1,1 +1,70 @@
-{"id":576,"name":"Out of Boundary Paths","key":"out-of-boundary-paths","link":"https://leetcode.com/problems/out-of-boundary-paths","percent":33.091857432628224,"level":"Medium","totalAC":"","totalSubmit":"","desc":"There is an m by n grid with a ball. Given the start coordinate (i,j) of the ball, you can move the ball to adjacent cell or cross the grid boundary in four directions (up, down, left, right). However, you can at most move N times. Find out the number of paths to move the ball out of grid boundary. The answer may be very large, return it after mod 109 + 7.\r\n\r\nExample 1:\r\n\r\nInput:m = 2, n = 2, N = 2, i = 0, j = 0\r\nOutput: 6\r\nExplanation:\r\n\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:m = 1, n = 3, N = 3, i = 0, j = 1\r\nOutput: 12\r\nExplanation:\r\n\r\n\r\n\r\n\r\nNote:\r\n\r\nOnce you move the ball out of boundary, you cannot move it back.\r\nThe length and height of the grid is in range [1,50].\r\nN is in range [0,50].\r\n\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\npublic:\n    int findPaths(int m, int n, int N, int i, int j) {\n        \n    }\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\n    public int findPaths(int m, int n, int N, int i, int j) {\n        \n    }\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\n    def findPaths(self, m, n, N, i, j):\n        \"\"\"\n        :type m: int\n        :type n: int\n        :type N: int\n        :type i: int\n        :type j: int\n        :rtype: int\n        \"\"\"\n        "},{"value":"python3","text":"Python3","defaultCode":"class Solution:\n    def findPaths(self, m, n, N, i, j):\n        \"\"\"\n        :type m: int\n        :type n: int\n        :type N: int\n        :type i: int\n        :type j: int\n        :rtype: int\n        \"\"\"\n        "},{"value":"c","text":"C","defaultCode":"int findPaths(int m, int n, int N, int i, int j) {\n    \n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\n    public int FindPaths(int m, int n, int N, int i, int j) {\n        \n    }\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\n * @param {number} m\n * @param {number} n\n * @param {number} N\n * @param {number} i\n * @param {number} j\n * @return {number}\n */\nvar findPaths = function(m, n, N, i, j) {\n    \n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {Integer} m\n# @param {Integer} n\n# @param {Integer} n\n# @param {Integer} i\n# @param {Integer} j\n# @return {Integer}\ndef find_paths(m, n, n, i, j)\n    \nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\n    func findPaths(_ m: Int, _ n: Int, _ N: Int, _ i: Int, _ j: Int) -> Int {\n        \n    }\n}"},{"value":"golang","text":"Go","defaultCode":"func findPaths(m int, n int, N int, i int, j int) int {\n    \n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def findPaths(m: Int, n: Int, N: Int, i: Int, j: Int): Int = {\n        \n    }\n}"}],"testcase":"2\n2\n2\n0\n0","testable":true}
+{
+ "id": 576,
+ "name": "Out of Boundary Paths",
+ "key": "out-of-boundary-paths",
+ "link": "https://leetcode.com/problems/out-of-boundary-paths",
+ "percent": 33.091857432628224,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "There is an m by n grid with a ball. Given the start coordinate (i,j) of the ball, you can move the ball to adjacent cell or cross the grid boundary in four directions (up, down, left, right). However, you can at most move N times. Find out the number of paths to move the ball out of grid boundary. The answer may be very large, return it after mod 109 + 7.\r\n\r\nExample 1:\r\n\r\nInput:m = 2, n = 2, N = 2, i = 0, j = 0\r\nOutput: 6\r\nExplanation:\r\n\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:m = 1, n = 3, N = 3, i = 0, j = 1\r\nOutput: 12\r\nExplanation:\r\n\r\n\r\n\r\n\r\nNote:\r\n\r\nOnce you move the ball out of boundary, you cannot move it back.\r\nThe length and height of the grid is in range [1,50].\r\nN is in range [0,50].\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\npublic:\n    int findPaths(int m, int n, int N, int i, int j) {\n        \n    }\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\n    public int findPaths(int m, int n, int N, int i, int j) {\n        \n    }\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\n    def findPaths(self, m, n, N, i, j):\n        \"\"\"\n        :type m: int\n        :type n: int\n        :type N: int\n        :type i: int\n        :type j: int\n        :rtype: int\n        \"\"\"\n        "
+  },
+  {
+   "value": "python3",
+   "text": "Python3",
+   "defaultCode": "class Solution:\n    def findPaths(self, m, n, N, i, j):\n        \"\"\"\n        :type m: int\n        :type n: int\n        :type N: int\n        :type i: int\n        :type j: int\n        :rtype: int\n        \"\"\"\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int findPaths(int m, int n, int N, int i, int j) {\n    \n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\n    public int FindPaths(int m, int n, int N, int i, int j) {\n        \n    }\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\n * @param {number} m\n * @param {number} n\n * @param {number} N\n * @param {number} i\n * @param {number} j\n * @return {number}\n */\nvar findPaths = function(m, n, N, i, j) {\n    \n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} m\n# @param {Integer} n\n# @param {Integer} n\n# @param {Integer} i\n# @param {Integer} j\n# @return {Integer}\ndef find_paths(m, n, n, i, j)\n    \nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func findPaths(_ m: Int, _ n: Int, _ N: Int, _ i: Int, _ j: Int) -> Int {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func findPaths(m int, n int, N int, i int, j int) int {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def findPaths(m: Int, n: Int, N: Int, i: Int, j: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "2\n2\n2\n0\n0",
+ "testable": true
+}

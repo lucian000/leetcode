@@ -1,1 +1,70 @@
-{"id": 134, "ids": "134", "state": "None", "name": "Gas Station", "key": "gas-station", "link": "https://leetcode.com/problems/gas-station", "locked": false, "percent": 29.193015828046637, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nThere are N gas stations along a circular route, where the amount of gas at station i is gas[i].\r\n\r\n\r\n\r\nYou have a car with an unlimited gas tank and it costs cost[i] of gas to travel from station i to its next station (i+1). You begin the journey with an empty tank at one of the gas stations.\r\n\r\n\r\n\r\nReturn the starting gas station's index if you can travel around the circuit once, otherwise return -1.\r\n\r\n\r\n\r\nNote:\r\nThe solution is guaranteed to be unique.\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int canCompleteCircuit(int[] gas, int[] cost) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def canCompleteCircuit(self, gas, cost):\r\n        \"\"\"\r\n        :type gas: List[int]\r\n        :type cost: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int canCompleteCircuit(int* gas, int gasSize, int* cost, int costSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int CanCompleteCircuit(int[] gas, int[] cost) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} gas\r\n * @param {number[]} cost\r\n * @return {number}\r\n */\r\nvar canCompleteCircuit = function(gas, cost) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} gas\r\n# @param {Integer[]} cost\r\n# @return {Integer}\r\ndef can_complete_circuit(gas, cost)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func canCompleteCircuit(_ gas: [Int], _ cost: [Int]) -> Int {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func canCompleteCircuit(gas []int, cost []int) int {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def canCompleteCircuit(gas: Array[Int], cost: Array[Int]): Int = {\n        \n    }\n}"}], "testcase": "[4]\n[5]", "testable": true}
+{
+ "id": 134,
+ "ids": "134",
+ "state": "None",
+ "name": "Gas Station",
+ "key": "gas-station",
+ "link": "https://leetcode.com/problems/gas-station",
+ "locked": false,
+ "percent": 29.19161222211354,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nThere are N gas stations along a circular route, where the amount of gas at station i is gas[i].\r\n\r\n\r\n\r\nYou have a car with an unlimited gas tank and it costs cost[i] of gas to travel from station i to its next station (i+1). You begin the journey with an empty tank at one of the gas stations.\r\n\r\n\r\n\r\nReturn the starting gas station's index if you can travel around the circuit once, otherwise return -1.\r\n\r\n\r\n\r\nNote:\r\nThe solution is guaranteed to be unique.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int canCompleteCircuit(int[] gas, int[] cost) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def canCompleteCircuit(self, gas, cost):\r\n        \"\"\"\r\n        :type gas: List[int]\r\n        :type cost: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int canCompleteCircuit(int* gas, int gasSize, int* cost, int costSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int CanCompleteCircuit(int[] gas, int[] cost) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} gas\r\n * @param {number[]} cost\r\n * @return {number}\r\n */\r\nvar canCompleteCircuit = function(gas, cost) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} gas\r\n# @param {Integer[]} cost\r\n# @return {Integer}\r\ndef can_complete_circuit(gas, cost)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func canCompleteCircuit(_ gas: [Int], _ cost: [Int]) -> Int {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func canCompleteCircuit(gas []int, cost []int) int {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def canCompleteCircuit(gas: Array[Int], cost: Array[Int]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[4]\\n[5]'",
+ "testable": true
+}

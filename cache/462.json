@@ -1,1 +1,70 @@
-{"id": 462, "ids": "462", "state": "None", "name": "Minimum Moves to Equal Array Elements II", "key": "minimum-moves-to-equal-array-elements-ii", "link": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii", "locked": false, "percent": 51.37851902129998, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given a non-empty integer array, find the minimum number of moves required to make all array elements equal, where a move is incrementing a selected element by 1 or decrementing a selected element by 1.\r\n\r\nYou may assume the array's length is at most 10,000.\r\n\r\nExample:\r\n\r\nInput:\r\n[1,2,3]\r\n\r\nOutput:\r\n2\r\n\r\nExplanation:\r\nOnly two moves are needed (remember each move increments or decrements one element):\r\n\r\n[1,2,3]  =>  [2,2,3]  =>  [2,2,2]\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int minMoves2(vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int minMoves2(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def minMoves2(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int minMoves2(int* nums, int numsSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int MinMoves2(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar minMoves2 = function(nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef min_moves2(nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func minMoves2(_ nums: [Int]) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func minMoves2(nums []int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def minMoves2(nums: Array[Int]): Int = {\n        \n    }\n}"}], "testcase": "[1,2,3]", "testable": true}
+{
+ "id": 462,
+ "ids": "462",
+ "state": "None",
+ "name": "Minimum Moves to Equal Array Elements II",
+ "key": "minimum-moves-to-equal-array-elements-ii",
+ "link": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii",
+ "locked": false,
+ "percent": 51.40876999805687,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given a non-empty integer array, find the minimum number of moves required to make all array elements equal, where a move is incrementing a selected element by 1 or decrementing a selected element by 1.\r\n\r\nYou may assume the array's length is at most 10,000.\r\n\r\nExample:\r\n\r\nInput:\r\n[1,2,3]\r\n\r\nOutput:\r\n2\r\n\r\nExplanation:\r\nOnly two moves are needed (remember each move increments or decrements one element):\r\n\r\n[1,2,3]  =>  [2,2,3]  =>  [2,2,2]\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int minMoves2(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int minMoves2(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def minMoves2(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int minMoves2(int* nums, int numsSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int MinMoves2(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar minMoves2 = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef min_moves2(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func minMoves2(_ nums: [Int]) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func minMoves2(nums []int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def minMoves2(nums: Array[Int]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[1,2,3]'",
+ "testable": true
+}

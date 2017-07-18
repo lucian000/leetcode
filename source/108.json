@@ -1,1 +1,65 @@
-{"id":108,"name":"Convert Sorted Array to Binary Search Tree","key":"convert-sorted-array-to-binary-search-tree","link":"https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree","percent":41.89220977796364,"level":"Easy","totalAC":"","totalSubmit":"","desc":"Given an array where elements are sorted in ascending order, convert it to a height balanced BST.","templates":[{"value":"cpp","text":"C++","defaultCode":"/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     TreeNode *left;\r\n *     TreeNode *right;\r\n *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    TreeNode* sortedArrayToBST(vector<int>& nums) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     int val;\r\n *     TreeNode left;\r\n *     TreeNode right;\r\n *     TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public TreeNode sortedArrayToBST(int[] nums) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"# Definition for a binary tree node.\r\n# class TreeNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution(object):\r\n    def sortedArrayToBST(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: TreeNode\r\n        \"\"\""},{"value":"c","text":"C","defaultCode":"/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     struct TreeNode *left;\r\n *     struct TreeNode *right;\r\n * };\r\n */\r\nstruct TreeNode* sortedArrayToBST(int* nums, int numsSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     public int val;\r\n *     public TreeNode left;\r\n *     public TreeNode right;\r\n *     public TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public TreeNode SortedArrayToBST(int[] nums) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {number[]} nums\r\n * @return {TreeNode}\r\n */\r\nvar sortedArrayToBST = function(nums) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# Definition for a binary tree node.\r\n# class TreeNode\r\n#     attr_accessor :val, :left, :right\r\n#     def initialize(val)\r\n#         @val = val\r\n#         @left, @right = nil, nil\r\n#     end\r\n# end\r\n\r\n# @param {Integer[]} nums\r\n# @return {TreeNode}\r\ndef sorted_array_to_bst(nums)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     public var val: Int\r\n *     public var left: TreeNode?\r\n *     public var right: TreeNode?\r\n *     public init(_ val: Int) {\r\n *         self.val = val\r\n *         self.left = nil\r\n *         self.right = nil\r\n *     }\r\n * }\r\n */\r\nclass Solution {\r\n    func sortedArrayToBST(_ nums: [Int]) -> TreeNode? {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"/**\r\n * Definition for a binary tree node.\r\n * type TreeNode struct {\r\n *     Val int\r\n *     Left *TreeNode\r\n *     Right *TreeNode\r\n * }\r\n */\r\nfunc sortedArrayToBST(nums []int) *TreeNode {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"/**\n * Definition for a binary tree node.\n * class TreeNode(var _value: Int) {\n *   var value: Int = _value\n *   var left: TreeNode = null\n *   var right: TreeNode = null\n * }\n */\nobject Solution {\n    def sortedArrayToBST(nums: Array[Int]): TreeNode = {\n        \n    }\n}"}],"testcase":"[]","testable":true}
+{
+ "id": 108,
+ "name": "Convert Sorted Array to Binary Search Tree",
+ "key": "convert-sorted-array-to-binary-search-tree",
+ "link": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree",
+ "percent": 41.89220977796364,
+ "level": "Easy",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given an array where elements are sorted in ascending order, convert it to a height balanced BST.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     TreeNode *left;\r\n *     TreeNode *right;\r\n *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    TreeNode* sortedArrayToBST(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     int val;\r\n *     TreeNode left;\r\n *     TreeNode right;\r\n *     TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public TreeNode sortedArrayToBST(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "# Definition for a binary tree node.\r\n# class TreeNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution(object):\r\n    def sortedArrayToBST(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: TreeNode\r\n        \"\"\""
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     struct TreeNode *left;\r\n *     struct TreeNode *right;\r\n * };\r\n */\r\nstruct TreeNode* sortedArrayToBST(int* nums, int numsSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     public int val;\r\n *     public TreeNode left;\r\n *     public TreeNode right;\r\n *     public TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public TreeNode SortedArrayToBST(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {number[]} nums\r\n * @return {TreeNode}\r\n */\r\nvar sortedArrayToBST = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# Definition for a binary tree node.\r\n# class TreeNode\r\n#     attr_accessor :val, :left, :right\r\n#     def initialize(val)\r\n#         @val = val\r\n#         @left, @right = nil, nil\r\n#     end\r\n# end\r\n\r\n# @param {Integer[]} nums\r\n# @return {TreeNode}\r\ndef sorted_array_to_bst(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     public var val: Int\r\n *     public var left: TreeNode?\r\n *     public var right: TreeNode?\r\n *     public init(_ val: Int) {\r\n *         self.val = val\r\n *         self.left = nil\r\n *         self.right = nil\r\n *     }\r\n * }\r\n */\r\nclass Solution {\r\n    func sortedArrayToBST(_ nums: [Int]) -> TreeNode? {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * type TreeNode struct {\r\n *     Val int\r\n *     Left *TreeNode\r\n *     Right *TreeNode\r\n * }\r\n */\r\nfunc sortedArrayToBST(nums []int) *TreeNode {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "/**\n * Definition for a binary tree node.\n * class TreeNode(var _value: Int) {\n *   var value: Int = _value\n *   var left: TreeNode = null\n *   var right: TreeNode = null\n * }\n */\nobject Solution {\n    def sortedArrayToBST(nums: Array[Int]): TreeNode = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[]",
+ "testable": true
+}

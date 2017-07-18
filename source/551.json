@@ -1,1 +1,65 @@
-{"id":551,"name":"Student Attendance Record I","key":"student-attendance-record-i","link":"https://leetcode.com/problems/student-attendance-record-i","percent":43.65727356482511,"level":"Easy","totalAC":"","totalSubmit":"","desc":"You are given a string representing an attendance record for a student. The record only contains the following three characters:\r\n\r\n\r\n\r\n'A' : Absent. \r\n'L' : Late.\r\n 'P' : Present. \r\n\r\n\r\n\r\n\r\nA student could be rewarded if his attendance record doesn't contain more than one 'A' (absent) or more than two continuous 'L' (late).    \r\n\r\nYou need to return whether the student could be rewarded according to his attendance record.\r\n\r\nExample 1:\r\n\r\nInput: \"PPALLP\"\r\nOutput: True\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \"PPALLL\"\r\nOutput: False\r\n\r\n\r\n\r\n\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    bool checkRecord(string s) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public boolean checkRecord(String s) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def checkRecord(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"bool checkRecord(char* s) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public bool CheckRecord(string s) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string} s\r\n * @return {boolean}\r\n */\r\nvar checkRecord = function(s) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String} s\r\n# @return {Boolean}\r\ndef check_record(s)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func checkRecord(_ s: String) -> Bool {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func checkRecord(s string) bool {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def checkRecord(s: String): Boolean = {\n        \n    }\n}"}],"testcase":"\"PPALLP\"","testable":true}
+{
+ "id": 551,
+ "name": "Student Attendance Record I",
+ "key": "student-attendance-record-i",
+ "link": "https://leetcode.com/problems/student-attendance-record-i",
+ "percent": 43.65727356482511,
+ "level": "Easy",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "You are given a string representing an attendance record for a student. The record only contains the following three characters:\r\n\r\n\r\n\r\n'A' : Absent. \r\n'L' : Late.\r\n 'P' : Present. \r\n\r\n\r\n\r\n\r\nA student could be rewarded if his attendance record doesn't contain more than one 'A' (absent) or more than two continuous 'L' (late).    \r\n\r\nYou need to return whether the student could be rewarded according to his attendance record.\r\n\r\nExample 1:\r\n\r\nInput: \"PPALLP\"\r\nOutput: True\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \"PPALLL\"\r\nOutput: False\r\n\r\n\r\n\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool checkRecord(string s) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean checkRecord(String s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def checkRecord(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool checkRecord(char* s) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool CheckRecord(string s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @return {boolean}\r\n */\r\nvar checkRecord = function(s) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @return {Boolean}\r\ndef check_record(s)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func checkRecord(_ s: String) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func checkRecord(s string) bool {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def checkRecord(s: String): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"PPALLP\"",
+ "testable": true
+}

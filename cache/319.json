@@ -1,1 +1,70 @@
-{"id": 319, "ids": "319", "state": "None", "name": "Bulb Switcher", "key": "bulb-switcher", "link": "https://leetcode.com/problems/bulb-switcher", "locked": false, "percent": 42.36846618927147, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nThere are n bulbs that are initially off. You first turn on all the bulbs. Then, you turn off every second bulb. On the third round, you toggle every third bulb (turning on if it's off or turning off if it's on). For the ith round, you toggle every i bulb. For the nth round, you only toggle the last bulb.\r\n\r\nFind how many bulbs are on after n rounds.\r\n\r\n\r\n\r\nExample:\r\n\r\nGiven n = 3. \r\nAt first, the three bulbs are [off, off, off].\r\nAfter first round, the three bulbs are [on, on, on].\r\nAfter second round, the three bulbs are [on, off, on].\r\nAfter third round, the three bulbs are [on, off, off]. \r\nSo you should return 1, because there is only one bulb is on.\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int bulbSwitch(int n) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int bulbSwitch(int n) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def bulbSwitch(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int bulbSwitch(int n) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int BulbSwitch(int n) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar bulbSwitch = function(n) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer} n\r\n# @return {Integer}\r\ndef bulb_switch(n)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func bulbSwitch(_ n: Int) -> Int {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func bulbSwitch(n int) int {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def bulbSwitch(n: Int): Int = {\n        \n    }\n}"}], "testcase": "0", "testable": true}
+{
+ "id": 319,
+ "ids": "319",
+ "state": "None",
+ "name": "Bulb Switcher",
+ "key": "bulb-switcher",
+ "link": "https://leetcode.com/problems/bulb-switcher",
+ "locked": false,
+ "percent": 42.36575741979756,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nThere are n bulbs that are initially off. You first turn on all the bulbs. Then, you turn off every second bulb. On the third round, you toggle every third bulb (turning on if it's off or turning off if it's on). For the ith round, you toggle every i bulb. For the nth round, you only toggle the last bulb.\r\n\r\nFind how many bulbs are on after n rounds.\r\n\r\n\r\n\r\nExample:\r\n\r\nGiven n = 3. \r\nAt first, the three bulbs are [off, off, off].\r\nAfter first round, the three bulbs are [on, on, on].\r\nAfter second round, the three bulbs are [on, off, on].\r\nAfter third round, the three bulbs are [on, off, off]. \r\nSo you should return 1, because there is only one bulb is on.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int bulbSwitch(int n) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int bulbSwitch(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def bulbSwitch(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int bulbSwitch(int n) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int BulbSwitch(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar bulbSwitch = function(n) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} n\r\n# @return {Integer}\r\ndef bulb_switch(n)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func bulbSwitch(_ n: Int) -> Int {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func bulbSwitch(n int) int {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def bulbSwitch(n: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'0'",
+ "testable": true
+}

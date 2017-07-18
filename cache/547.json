@@ -1,1 +1,70 @@
-{"id": 547, "ids": "547", "state": "None", "name": "Friend Circles", "key": "friend-circles", "link": "https://leetcode.com/problems/friend-circles", "locked": false, "percent": 49.49226756102105, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nThere are N students in a class. Some of them are friends, while some are not. Their friendship is transitive in nature. For example, if A is a direct friend of B, and B is a direct friend of C, then A is an indirect friend of C. And we defined a friend circle is a group of students who are direct or indirect friends.\r\n\r\n\r\n\r\nGiven a N*N matrix M representing the friend relationship between students in the class. If M[i][j] = 1, then the ith and jth students are direct friends with each other, otherwise not. And you have to output the total number of friend circles among all the students.\r\n\r\n\r\nExample 1:\r\n\r\nInput: \r\n[[1,1,0],\r\n [1,1,0],\r\n [0,0,1]]\r\nOutput: 2\r\nExplanation:The 0th and 1st students are direct friends, so they are in a friend circle. The 2nd student himself is in a friend circle. So return 2.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \r\n[[1,1,0],\r\n [1,1,1],\r\n [0,1,1]]\r\nOutput: 1\r\nExplanation:The 0th and 1st students are direct friends, the 1st and 2nd students are direct friends, so the 0th and 2nd students are indirect friends. All of them are in the same friend circle, so return 1.\r\n\r\n\r\n\r\n\r\nNote:\r\n\r\nN is in range [1,200].\r\nM[i][i] = 1 for all students.\r\nIf M[i][j] = 1, then M[j][i] = 1.\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "\nclass Solution {\npublic:\n    int findCircleNum(vector<vector<int>>& M) {\n        \n    }\n};"}, {"value": "java", "text": "Java", "defaultCode": "\n\npublic class Solution {\n    public int findCircleNum(int[][] M) {\n        \n    }\n}"}, {"value": "python", "text": "Python", "defaultCode": "\nclass Solution(object):\n    def findCircleNum(self, M):\n        \"\"\"\n        :type M: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "}, {"value": "c", "text": "C", "defaultCode": "int findCircleNum(int** M, int MRowSize, int MColSize) {\n    \n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\n    public int FindCircleNum(int[,] M) {\n        \n    }\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\n * @param {number[][]} M\n * @return {number}\n */\n\nvar findCircleNum = function(M) {\n    \n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[][]} m\n# @return {Integer}\ndef find_circle_num(m)\n    \nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func findCircleNum(_ M: [[Int]]) -> Int {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func findCircleNum(M [][]int) int {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def findCircleNum(M: Array[Array[Int]]): Int = {\n        \n    }\n}"}], "testcase": "[[1,1,0],[1,1,0],[0,0,1]]", "testable": true}
+{
+ "id": 547,
+ "ids": "547",
+ "state": "None",
+ "name": "Friend Circles",
+ "key": "friend-circles",
+ "link": "https://leetcode.com/problems/friend-circles",
+ "locked": false,
+ "percent": 49.475255375717154,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nThere are N students in a class. Some of them are friends, while some are not. Their friendship is transitive in nature. For example, if A is a direct friend of B, and B is a direct friend of C, then A is an indirect friend of C. And we defined a friend circle is a group of students who are direct or indirect friends.\r\n\r\n\r\n\r\nGiven a N*N matrix M representing the friend relationship between students in the class. If M[i][j] = 1, then the ith and jth students are direct friends with each other, otherwise not. And you have to output the total number of friend circles among all the students.\r\n\r\n\r\nExample 1:\r\n\r\nInput: \r\n[[1,1,0],\r\n [1,1,0],\r\n [0,0,1]]\r\nOutput: 2\r\nExplanation:The 0th and 1st students are direct friends, so they are in a friend circle. The 2nd student himself is in a friend circle. So return 2.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \r\n[[1,1,0],\r\n [1,1,1],\r\n [0,1,1]]\r\nOutput: 1\r\nExplanation:The 0th and 1st students are direct friends, the 1st and 2nd students are direct friends, so the 0th and 2nd students are indirect friends. All of them are in the same friend circle, so return 1.\r\n\r\n\r\n\r\n\r\nNote:\r\n\r\nN is in range [1,200].\r\nM[i][i] = 1 for all students.\r\nIf M[i][j] = 1, then M[j][i] = 1.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "\nclass Solution {\npublic:\n    int findCircleNum(vector<vector<int>>& M) {\n        \n    }\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "\n\npublic class Solution {\n    public int findCircleNum(int[][] M) {\n        \n    }\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "\nclass Solution(object):\n    def findCircleNum(self, M):\n        \"\"\"\n        :type M: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int findCircleNum(int** M, int MRowSize, int MColSize) {\n    \n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\n    public int FindCircleNum(int[,] M) {\n        \n    }\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\n * @param {number[][]} M\n * @return {number}\n */\n\nvar findCircleNum = function(M) {\n    \n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[][]} m\n# @return {Integer}\ndef find_circle_num(m)\n    \nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func findCircleNum(_ M: [[Int]]) -> Int {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func findCircleNum(M [][]int) int {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def findCircleNum(M: Array[Array[Int]]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[[1,1,0],[1,1,0],[0,0,1]]'",
+ "testable": true
+}

@@ -1,1 +1,65 @@
-{"id":556,"name":"Next Greater Element III","key":"next-greater-element-iii","link":"https://leetcode.com/problems/next-greater-element-iii","percent":28.46522303163357,"level":"Medium","totalAC":"","totalSubmit":"","desc":"\r\nGiven a positive 32-bit integer n, you need to find the smallest 32-bit integer which has exactly the same digits existing in the integer n and is greater in value than n. If no such positive 32-bit integer exists, you need to return -1.\r\n\r\nExample 1:\r\n\r\nInput: 12\r\nOutput: 21\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: 21\r\nOutput: -1\r\n\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    int nextGreaterElement(int n) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public int nextGreaterElement(int n) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def nextGreaterElement(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"int nextGreaterElement(int n) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public int NextGreaterElement(int n) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar nextGreaterElement = function(n) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {Integer} n\r\n# @return {Integer}\r\ndef next_greater_element(n)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func nextGreaterElement(_ n: Int) -> Int {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func nextGreaterElement(n int) int {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def nextGreaterElement(n: Int): Int = {\n        \n    }\n}"}],"testcase":"12","testable":true}
+{
+ "id": 556,
+ "name": "Next Greater Element III",
+ "key": "next-greater-element-iii",
+ "link": "https://leetcode.com/problems/next-greater-element-iii",
+ "percent": 28.46522303163357,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a positive 32-bit integer n, you need to find the smallest 32-bit integer which has exactly the same digits existing in the integer n and is greater in value than n. If no such positive 32-bit integer exists, you need to return -1.\r\n\r\nExample 1:\r\n\r\nInput: 12\r\nOutput: 21\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: 21\r\nOutput: -1\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int nextGreaterElement(int n) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int nextGreaterElement(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def nextGreaterElement(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int nextGreaterElement(int n) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int NextGreaterElement(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar nextGreaterElement = function(n) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} n\r\n# @return {Integer}\r\ndef next_greater_element(n)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func nextGreaterElement(_ n: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func nextGreaterElement(n int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def nextGreaterElement(n: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "12",
+ "testable": true
+}

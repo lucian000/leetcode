@@ -1,1 +1,65 @@
-{"id":318,"name":"Maximum Product of Word Lengths","key":"maximum-product-of-word-lengths","link":"https://leetcode.com/problems/maximum-product-of-word-lengths","percent":43.914878649314105,"level":"Medium","totalAC":"","totalSubmit":"","desc":"\r\n    Given a string array words, find the maximum value of length(word[i]) * length(word[j]) where the two words do not share common letters.\r\n    You may assume that each word will contain only lower case letters.\r\n    If no such two words exist, return 0.\r\n\r\n\r\n\r\n    Example 1:\r\n\r\n\r\n    Given [\"abcw\", \"baz\", \"foo\", \"bar\", \"xtfn\", \"abcdef\"]\r\n    Return 16\r\n    The two words can be \"abcw\", \"xtfn\".\r\n\r\n\r\n    Example 2:\r\n\r\n\r\n    Given [\"a\", \"ab\", \"abc\", \"d\", \"cd\", \"bcd\", \"abcd\"]\r\n    Return 4\r\n    The two words can be \"ab\", \"cd\".\r\n\r\n\r\n    Example 3:\r\n\r\n\r\n    Given [\"a\", \"aa\", \"aaa\", \"aaaa\"]\r\n    Return 0\r\n    No such pair of words.    \r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    int maxProduct(vector<string>& words) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public int maxProduct(String[] words) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def maxProduct(self, words):\r\n        \"\"\"\r\n        :type words: List[str]\r\n        :rtype: int\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"int maxProduct(char** words, int wordsSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public int MaxProduct(string[] words) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string[]} words\r\n * @return {number}\r\n */\r\nvar maxProduct = function(words) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String[]} words\r\n# @return {Integer}\r\ndef max_product(words)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func maxProduct(_ words: [String]) -> Int {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func maxProduct(words []string) int {\n    \n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def maxProduct(words: Array[String]): Int = {\n        \n    }\n}"}],"testcase":"[\"abcw\",\"baz\",\"foo\",\"bar\",\"xtfn\",\"abcdef\"]","testable":true}
+{
+ "id": 318,
+ "name": "Maximum Product of Word Lengths",
+ "key": "maximum-product-of-word-lengths",
+ "link": "https://leetcode.com/problems/maximum-product-of-word-lengths",
+ "percent": 43.914878649314105,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\n    Given a string array words, find the maximum value of length(word[i]) * length(word[j]) where the two words do not share common letters.\r\n    You may assume that each word will contain only lower case letters.\r\n    If no such two words exist, return 0.\r\n\r\n\r\n\r\n    Example 1:\r\n\r\n\r\n    Given [\"abcw\", \"baz\", \"foo\", \"bar\", \"xtfn\", \"abcdef\"]\r\n    Return 16\r\n    The two words can be \"abcw\", \"xtfn\".\r\n\r\n\r\n    Example 2:\r\n\r\n\r\n    Given [\"a\", \"ab\", \"abc\", \"d\", \"cd\", \"bcd\", \"abcd\"]\r\n    Return 4\r\n    The two words can be \"ab\", \"cd\".\r\n\r\n\r\n    Example 3:\r\n\r\n\r\n    Given [\"a\", \"aa\", \"aaa\", \"aaaa\"]\r\n    Return 0\r\n    No such pair of words.    \r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int maxProduct(vector<string>& words) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int maxProduct(String[] words) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def maxProduct(self, words):\r\n        \"\"\"\r\n        :type words: List[str]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int maxProduct(char** words, int wordsSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int MaxProduct(string[] words) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string[]} words\r\n * @return {number}\r\n */\r\nvar maxProduct = function(words) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String[]} words\r\n# @return {Integer}\r\ndef max_product(words)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func maxProduct(_ words: [String]) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func maxProduct(words []string) int {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def maxProduct(words: Array[String]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[\"abcw\",\"baz\",\"foo\",\"bar\",\"xtfn\",\"abcdef\"]",
+ "testable": true
+}

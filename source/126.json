@@ -1,1 +1,65 @@
-{"id":126,"name":"Word Ladder II","key":"word-ladder-ii","link":"https://leetcode.com/problems/word-ladder-ii","percent":14.036236221257917,"level":"Hard","totalAC":"","totalSubmit":"","desc":"\r\nGiven two words (beginWord and endWord), and a dictionary's word list, find all shortest transformation sequence(s) from beginWord to endWord, such that:\r\n\r\n\r\nOnly one letter can be changed at a time\r\nEach transformed word must exist in the word list. Note that beginWord is not a transformed word.\r\n\r\n\r\n\r\nFor example,\r\n\r\n\r\nGiven:\r\nbeginWord = \"hit\"\r\nendWord = \"cog\"\r\nwordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]\r\n\r\n\r\nReturn\r\n\r\n  [\r\n    [\"hit\",\"hot\",\"dot\",\"dog\",\"cog\"],\r\n    [\"hit\",\"hot\",\"lot\",\"log\",\"cog\"]\r\n  ]\r\n\r\n\r\n\r\n\r\nNote:\r\n\r\nReturn an empty list if there is no such transformation sequence.\r\nAll words have the same length.\r\nAll words contain only lowercase alphabetic characters.\r\nYou may assume no duplicates in the word list.\r\nYou may assume beginWord and endWord are non-empty and are not the same.\r\n\r\n\r\n\r\n\r\nUPDATE (2017/1/20):\r\nThe wordList parameter had been changed to a list of strings (instead of a set of strings). Please reload the code definition to get the latest changes.\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def findLadders(self, beginWord, endWord, wordList):\r\n        \"\"\"\r\n        :type beginWord: str\r\n        :type endWord: str\r\n        :type wordList: List[str]\r\n        :rtype: List[List[str]]\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"/**\r\n * Return an array of arrays of size *returnSize.\r\n * The sizes of the arrays are returned as *columnSizes array.\r\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\r\n */\r\nchar*** findLadders(char* beginWord, char* endWord, char** wordList, int wordListSize, int** columnSizes, int* returnSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public IList<IList<string>> FindLadders(string beginWord, string endWord, IList<string> wordList) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string} beginWord\r\n * @param {string} endWord\r\n * @param {string[]} wordList\r\n * @return {string[][]}\r\n */\r\nvar findLadders = function(beginWord, endWord, wordList) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String} begin_word\r\n# @param {String} end_word\r\n# @param {String[]} word_list\r\n# @return {String[][]}\r\ndef find_ladders(begin_word, end_word, word_list)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func findLadders(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> [[String]] {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func findLadders(beginWord string, endWord string, wordList []string) [][]string {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def findLadders(beginWord: String, endWord: String, wordList: List[String]): List[List[String]] = {\n        \n    }\n}"}],"testcase":"\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]","testable":true}
+{
+ "id": 126,
+ "name": "Word Ladder II",
+ "key": "word-ladder-ii",
+ "link": "https://leetcode.com/problems/word-ladder-ii",
+ "percent": 14.036236221257917,
+ "level": "Hard",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven two words (beginWord and endWord), and a dictionary's word list, find all shortest transformation sequence(s) from beginWord to endWord, such that:\r\n\r\n\r\nOnly one letter can be changed at a time\r\nEach transformed word must exist in the word list. Note that beginWord is not a transformed word.\r\n\r\n\r\n\r\nFor example,\r\n\r\n\r\nGiven:\r\nbeginWord = \"hit\"\r\nendWord = \"cog\"\r\nwordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]\r\n\r\n\r\nReturn\r\n\r\n  [\r\n    [\"hit\",\"hot\",\"dot\",\"dog\",\"cog\"],\r\n    [\"hit\",\"hot\",\"lot\",\"log\",\"cog\"]\r\n  ]\r\n\r\n\r\n\r\n\r\nNote:\r\n\r\nReturn an empty list if there is no such transformation sequence.\r\nAll words have the same length.\r\nAll words contain only lowercase alphabetic characters.\r\nYou may assume no duplicates in the word list.\r\nYou may assume beginWord and endWord are non-empty and are not the same.\r\n\r\n\r\n\r\n\r\nUPDATE (2017/1/20):\r\nThe wordList parameter had been changed to a list of strings (instead of a set of strings). Please reload the code definition to get the latest changes.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def findLadders(self, beginWord, endWord, wordList):\r\n        \"\"\"\r\n        :type beginWord: str\r\n        :type endWord: str\r\n        :type wordList: List[str]\r\n        :rtype: List[List[str]]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of arrays of size *returnSize.\r\n * The sizes of the arrays are returned as *columnSizes array.\r\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\r\n */\r\nchar*** findLadders(char* beginWord, char* endWord, char** wordList, int wordListSize, int** columnSizes, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<IList<string>> FindLadders(string beginWord, string endWord, IList<string> wordList) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} beginWord\r\n * @param {string} endWord\r\n * @param {string[]} wordList\r\n * @return {string[][]}\r\n */\r\nvar findLadders = function(beginWord, endWord, wordList) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} begin_word\r\n# @param {String} end_word\r\n# @param {String[]} word_list\r\n# @return {String[][]}\r\ndef find_ladders(begin_word, end_word, word_list)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func findLadders(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> [[String]] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func findLadders(beginWord string, endWord string, wordList []string) [][]string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def findLadders(beginWord: String, endWord: String, wordList: List[String]): List[List[String]] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]",
+ "testable": true
+}

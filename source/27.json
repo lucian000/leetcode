@@ -1,0 +1,65 @@
+{
+ "id": 27,
+ "name": "Remove Element",
+ "key": "remove-element",
+ "link": "https://leetcode.com/problems/remove-element",
+ "percent": 38.7314409195088,
+ "level": "Easy",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given an array and a value, remove all instances of that value in place and return the new length.\r\n\r\n\r\nDo not allocate extra space for another array, you must do this in place with constant memory.\r\n\r\nThe order of elements can be changed. It doesn't matter what you leave beyond the new length.\r\n\r\n\r\nExample:\r\nGiven input array nums = [3,2,2,3], val = 3\r\n\r\n\r\nYour function should return length = 2, with the first two elements of nums being 2.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int removeElement(vector<int>& nums, int val) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int removeElement(int[] nums, int val) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def removeElement(self, nums, val):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :type val: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int removeElement(int* nums, int numsSize, int val) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int RemoveElement(int[] nums, int val) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @param {number} val\r\n * @return {number}\r\n */\r\nvar removeElement = function(nums, val) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @param {Integer} val\r\n# @return {Integer}\r\ndef remove_element(nums, val)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func removeElement(_ nums: inout [Int], _ val: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func removeElement(nums []int, val int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def removeElement(nums: Array[Int], val: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[3,2,2,3]\n3",
+ "testable": true
+}

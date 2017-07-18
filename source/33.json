@@ -1,0 +1,65 @@
+{
+ "id": 33,
+ "name": "Search in Rotated Sorted Array",
+ "key": "search-in-rotated-sorted-array",
+ "link": "https://leetcode.com/problems/search-in-rotated-sorted-array",
+ "percent": 32.12195642692779,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.\r\n\r\n(i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).\r\n\r\nYou are given a target value to search. If found in the array return its index, otherwise return -1.\r\n\r\nYou may assume no duplicate exists in the array.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int search(vector<int>& nums, int target) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int search(int[] nums, int target) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def search(self, nums, target):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :type target: int\r\n        :rtype: int\r\n        \"\"\""
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int search(int* nums, int numsSize, int target) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int Search(int[] nums, int target) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @param {number} target\r\n * @return {number}\r\n */\r\nvar search = function(nums, target) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @param {Integer} target\r\n# @return {Integer}\r\ndef search(nums, target)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func search(_ nums: [Int], _ target: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func search(nums []int, target int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def search(nums: Array[Int], target: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[]\n5",
+ "testable": true
+}

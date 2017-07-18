@@ -1,1 +1,70 @@
-{"id": 363, "ids": "363", "state": "None", "name": "Max Sum of Rectangle No Larger Than K", "key": "max-sum-of-rectangle-no-larger-than-k", "link": "https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k", "locked": false, "percent": 32.91393452539379, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given a non-empty 2D matrix matrix and an integer k, find the max sum of a rectangle in the matrix such that its sum is no larger than k.\r\n\r\nExample:\r\nGiven matrix = [\r\n  [1,  0, 1],\r\n  [0, -2, 3]\r\n]\r\nk = 2\r\n\r\n\r\n\r\nThe answer is 2. Because the sum of rectangle [[0, 1], [-2, 3]] is 2 and 2 is the max number no larger than k (k = 2).\r\n\r\nNote:\r\n\r\nThe rectangle inside the matrix must have an area > 0.\r\nWhat if the number of rows is much larger than the number of columns?\r\n\r\n\r\n\r\nCredits:Special thanks to @fujiaozhu for adding this problem and creating all test cases.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int maxSumSubmatrix(vector<vector<int>>& matrix, int k) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int maxSumSubmatrix(int[][] matrix, int k) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def maxSumSubmatrix(self, matrix, k):\r\n        \"\"\"\r\n        :type matrix: List[List[int]]\r\n        :type k: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int maxSumSubmatrix(int** matrix, int matrixRowSize, int matrixColSize, int k) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int MaxSumSubmatrix(int[,] matrix, int k) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[][]} matrix\r\n * @param {number} k\r\n * @return {number}\r\n */\r\nvar maxSumSubmatrix = function(matrix, k) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[][]} matrix\r\n# @param {Integer} k\r\n# @return {Integer}\r\ndef max_sum_submatrix(matrix, k)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func maxSumSubmatrix(_ matrix: [[Int]], _ k: Int) -> Int {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func maxSumSubmatrix(matrix [][]int, k int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def maxSumSubmatrix(matrix: Array[Array[Int]], k: Int): Int = {\n        \n    }\n}"}], "testcase": "[[1,0,1],[0,-2,3]]\n2", "testable": true}
+{
+ "id": 363,
+ "ids": "363",
+ "state": "None",
+ "name": "Max Sum of Rectangle No Larger Than K",
+ "key": "max-sum-of-rectangle-no-larger-than-k",
+ "link": "https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k",
+ "locked": false,
+ "percent": 32.90563114317533,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given a non-empty 2D matrix matrix and an integer k, find the max sum of a rectangle in the matrix such that its sum is no larger than k.\r\n\r\nExample:\r\nGiven matrix = [\r\n  [1,  0, 1],\r\n  [0, -2, 3]\r\n]\r\nk = 2\r\n\r\n\r\n\r\nThe answer is 2. Because the sum of rectangle [[0, 1], [-2, 3]] is 2 and 2 is the max number no larger than k (k = 2).\r\n\r\nNote:\r\n\r\nThe rectangle inside the matrix must have an area > 0.\r\nWhat if the number of rows is much larger than the number of columns?\r\n\r\n\r\n\r\nCredits:Special thanks to @fujiaozhu for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int maxSumSubmatrix(vector<vector<int>>& matrix, int k) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int maxSumSubmatrix(int[][] matrix, int k) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def maxSumSubmatrix(self, matrix, k):\r\n        \"\"\"\r\n        :type matrix: List[List[int]]\r\n        :type k: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int maxSumSubmatrix(int** matrix, int matrixRowSize, int matrixColSize, int k) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int MaxSumSubmatrix(int[,] matrix, int k) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[][]} matrix\r\n * @param {number} k\r\n * @return {number}\r\n */\r\nvar maxSumSubmatrix = function(matrix, k) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[][]} matrix\r\n# @param {Integer} k\r\n# @return {Integer}\r\ndef max_sum_submatrix(matrix, k)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func maxSumSubmatrix(_ matrix: [[Int]], _ k: Int) -> Int {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func maxSumSubmatrix(matrix [][]int, k int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def maxSumSubmatrix(matrix: Array[Array[Int]], k: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[[1,0,1],[0,-2,3]]\\n2'",
+ "testable": true
+}

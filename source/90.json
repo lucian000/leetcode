@@ -1,1 +1,65 @@
-{"id":90,"name":"Subsets II","key":"subsets-ii","link":"https://leetcode.com/problems/subsets-ii","percent":35.8034156907094,"level":"Medium","totalAC":"","totalSubmit":"","desc":"\r\nGiven a collection of integers that might contain duplicates, nums, return all possible subsets.\r\n\r\nNote: The solution set must not contain duplicate subsets.\r\n\r\n\r\nFor example,\r\nIf nums = [1,2,2], a solution is:\r\n\r\n\r\n\r\n[\r\n  [2],\r\n  [1],\r\n  [1,2,2],\r\n  [2,2],\r\n  [1,2],\r\n  []\r\n]\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    vector<vector<int>> subsetsWithDup(vector<int>& nums) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public List<List<Integer>> subsetsWithDup(int[] nums) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def subsetsWithDup(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[List[int]]\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"/**\r\n * Return an array of arrays of size *returnSize.\r\n * The sizes of the arrays are returned as *columnSizes array.\r\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\r\n */\r\nint** subsetsWithDup(int* nums, int numsSize, int** columnSizes, int* returnSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public IList<IList<int>> SubsetsWithDup(int[] nums) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {number[]} nums\r\n * @return {number[][]}\r\n */\r\nvar subsetsWithDup = function(nums) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {Integer[]} nums\r\n# @return {Integer[][]}\r\ndef subsets_with_dup(nums)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\n    func subsetsWithDup(_ nums: [Int]) -> [[Int]] {\n        \n    }\n}"},{"value":"golang","text":"Go","defaultCode":"func subsetsWithDup(nums []int) [][]int {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def subsetsWithDup(nums: Array[Int]): List[List[Int]] = {\n        \n    }\n}"}],"testcase":"[1,2,2]","testable":true}
+{
+ "id": 90,
+ "name": "Subsets II",
+ "key": "subsets-ii",
+ "link": "https://leetcode.com/problems/subsets-ii",
+ "percent": 35.8034156907094,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a collection of integers that might contain duplicates, nums, return all possible subsets.\r\n\r\nNote: The solution set must not contain duplicate subsets.\r\n\r\n\r\nFor example,\r\nIf nums = [1,2,2], a solution is:\r\n\r\n\r\n\r\n[\r\n  [2],\r\n  [1],\r\n  [1,2,2],\r\n  [2,2],\r\n  [1,2],\r\n  []\r\n]\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<vector<int>> subsetsWithDup(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<List<Integer>> subsetsWithDup(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def subsetsWithDup(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[List[int]]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of arrays of size *returnSize.\r\n * The sizes of the arrays are returned as *columnSizes array.\r\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\r\n */\r\nint** subsetsWithDup(int* nums, int numsSize, int** columnSizes, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<IList<int>> SubsetsWithDup(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number[][]}\r\n */\r\nvar subsetsWithDup = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer[][]}\r\ndef subsets_with_dup(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func subsetsWithDup(_ nums: [Int]) -> [[Int]] {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func subsetsWithDup(nums []int) [][]int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def subsetsWithDup(nums: Array[Int]): List[List[Int]] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[1,2,2]",
+ "testable": true
+}

@@ -1,1 +1,50 @@
-{"id": 398, "ids": "398", "state": "None", "name": "Random Pick Index", "key": "random-pick-index", "link": "https://leetcode.com/problems/random-pick-index", "locked": false, "percent": 42.36531782570067, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven an array of integers with possible duplicates, randomly output the index of a given target number. You can assume that the given target number must exist in the array.\r\n\r\n\r\n\r\nNote:\r\nThe array size can be very large. Solution that uses too much extra space will not pass the judge.\r\n\r\n\r\nExample:\r\n\r\nint[] nums = new int[] {1,2,3,3,3};\r\nSolution solution = new Solution(nums);\r\n\r\n// pick(3) should return either index 2, 3, or 4 randomly. Each index should have equal probability of returning.\r\nsolution.pick(3);\r\n\r\n// pick(1) should return 0. Since in the array only nums[0] is equal to 1.\r\nsolution.pick(1);\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    Solution(vector<int> nums) {\r\n        \r\n    }\r\n    \r\n    int pick(int target) {\r\n        \r\n    }\r\n};\r\n\r\n/**\r\n * Your Solution object will be instantiated and called as such:\r\n * Solution obj = new Solution(nums);\r\n * int param_1 = obj.pick(target);\r\n */"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n\r\n    public Solution(int[] nums) {\r\n        \r\n    }\r\n    \r\n    public int pick(int target) {\r\n        \r\n    }\r\n}\r\n\r\n/**\r\n * Your Solution object will be instantiated and called as such:\r\n * Solution obj = new Solution(nums);\r\n * int param_1 = obj.pick(target);\r\n */"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n\r\n    def __init__(self, nums):\r\n        \"\"\"\r\n        \r\n        :type nums: List[int]\r\n        :type numsSize: int\r\n        \"\"\"\r\n        \r\n\r\n    def pick(self, target):\r\n        \"\"\"\r\n        :type target: int\r\n        :rtype: int\r\n        \"\"\"\r\n        \r\n\r\n\r\n# Your Solution object will be instantiated and called as such:\r\n# obj = Solution(nums)\r\n# param_1 = obj.pick(target)"}, {"value": "c", "text": "C", "defaultCode": "typedef struct {\n    \n} Solution;\n\nSolution* solutionCreate(int* nums, int numsSize) {\n    \n}\n\nint solutionPick(Solution* obj, int target) {\n    \n}\n\nvoid solutionFree(Solution* obj) {\n    \n}\n\n/**\n * Your Solution struct will be instantiated and called as such:\n * struct Solution* obj = solutionCreate(nums, numsSize);\n * int param_1 = solutionPick(obj, target);\n * solutionFree(obj);\n */"}, {"value": "golang", "text": "Go", "defaultCode": "type Solution struct {\r\n    \r\n}\r\n\r\n\r\nfunc Constructor(nums []int) Solution {\r\n    \r\n}\r\n\r\n\r\nfunc (this *Solution) Pick(target int) int {\r\n    \r\n}\r\n\r\n\r\n/**\r\n * Your Solution object will be instantiated and called as such:\r\n * obj := Constructor(nums);\r\n * param_1 := obj.Pick(target);\r\n */"}, {"value": "scala", "text": "Scala", "defaultCode": "class Solution(var _nums: Array[Int]) {\n    \n    def pick(int target) : Int = {\n\n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(nums);\n * Int param_1 = obj.pick(target);\n */"}], "testcase": "[\"Solution\",\"pick\"]\n[[[1,2,3,3,3]],[3]]", "testable": true}
+{
+ "id": 398,
+ "ids": "398",
+ "state": "None",
+ "name": "Random Pick Index",
+ "key": "random-pick-index",
+ "link": "https://leetcode.com/problems/random-pick-index",
+ "locked": false,
+ "percent": 42.357955119271246,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven an array of integers with possible duplicates, randomly output the index of a given target number. You can assume that the given target number must exist in the array.\r\n\r\n\r\n\r\nNote:\r\nThe array size can be very large. Solution that uses too much extra space will not pass the judge.\r\n\r\n\r\nExample:\r\n\r\nint[] nums = new int[] {1,2,3,3,3};\r\nSolution solution = new Solution(nums);\r\n\r\n// pick(3) should return either index 2, 3, or 4 randomly. Each index should have equal probability of returning.\r\nsolution.pick(3);\r\n\r\n// pick(1) should return 0. Since in the array only nums[0] is equal to 1.\r\nsolution.pick(1);\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    Solution(vector<int> nums) {\r\n        \r\n    }\r\n    \r\n    int pick(int target) {\r\n        \r\n    }\r\n};\r\n\r\n/**\r\n * Your Solution object will be instantiated and called as such:\r\n * Solution obj = new Solution(nums);\r\n * int param_1 = obj.pick(target);\r\n */"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n\r\n    public Solution(int[] nums) {\r\n        \r\n    }\r\n    \r\n    public int pick(int target) {\r\n        \r\n    }\r\n}\r\n\r\n/**\r\n * Your Solution object will be instantiated and called as such:\r\n * Solution obj = new Solution(nums);\r\n * int param_1 = obj.pick(target);\r\n */"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n\r\n    def __init__(self, nums):\r\n        \"\"\"\r\n        \r\n        :type nums: List[int]\r\n        :type numsSize: int\r\n        \"\"\"\r\n        \r\n\r\n    def pick(self, target):\r\n        \"\"\"\r\n        :type target: int\r\n        :rtype: int\r\n        \"\"\"\r\n        \r\n\r\n\r\n# Your Solution object will be instantiated and called as such:\r\n# obj = Solution(nums)\r\n# param_1 = obj.pick(target)"
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "typedef struct {\n    \n} Solution;\n\nSolution* solutionCreate(int* nums, int numsSize) {\n    \n}\n\nint solutionPick(Solution* obj, int target) {\n    \n}\n\nvoid solutionFree(Solution* obj) {\n    \n}\n\n/**\n * Your Solution struct will be instantiated and called as such:\n * struct Solution* obj = solutionCreate(nums, numsSize);\n * int param_1 = solutionPick(obj, target);\n * solutionFree(obj);\n */"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "type Solution struct {\r\n    \r\n}\r\n\r\n\r\nfunc Constructor(nums []int) Solution {\r\n    \r\n}\r\n\r\n\r\nfunc (this *Solution) Pick(target int) int {\r\n    \r\n}\r\n\r\n\r\n/**\r\n * Your Solution object will be instantiated and called as such:\r\n * obj := Constructor(nums);\r\n * param_1 := obj.Pick(target);\r\n */"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "class Solution(var _nums: Array[Int]) {\n    \n    def pick(int target) : Int = {\n\n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(nums);\n * Int param_1 = obj.pick(target);\n */"
+  }
+ ],
+ "testcase": "'[\"Solution\",\"pick\"]\\n[[[1,2,3,3,3]],[3]]'",
+ "testable": true
+}

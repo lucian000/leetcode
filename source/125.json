@@ -1,1 +1,65 @@
-{"id":125,"name":"Valid Palindrome","key":"valid-palindrome","link":"https://leetcode.com/problems/valid-palindrome","percent":26.0927041181425,"level":"Easy","totalAC":"","totalSubmit":"","desc":"\r\nGiven a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.\r\n\r\n\r\n\r\nFor example,\r\n\"A man, a plan, a canal: Panama\" is a palindrome.\r\n\"race a car\" is not a palindrome.\r\n\r\n\r\n\r\nNote:\r\nHave you consider that the string might be empty? This is a good question to ask during an interview.\r\n\r\nFor the purpose of this problem, we define empty string as valid palindrome.\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    bool isPalindrome(string s) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public boolean isPalindrome(String s) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def isPalindrome(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"bool isPalindrome(char* s) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public bool IsPalindrome(string s) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string} s\r\n * @return {boolean}\r\n */\r\nvar isPalindrome = function(s) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String} s\r\n# @return {Boolean}\r\ndef is_palindrome(s)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\n    func isPalindrome(_ s: String) -> Bool {\n        \n    }\n}"},{"value":"golang","text":"Go","defaultCode":"func isPalindrome(s string) bool {\n    \n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def isPalindrome(s: String): Boolean = {\n        \n    }\n}"}],"testcase":"\"\"","testable":true}
+{
+ "id": 125,
+ "name": "Valid Palindrome",
+ "key": "valid-palindrome",
+ "link": "https://leetcode.com/problems/valid-palindrome",
+ "percent": 26.0927041181425,
+ "level": "Easy",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.\r\n\r\n\r\n\r\nFor example,\r\n\"A man, a plan, a canal: Panama\" is a palindrome.\r\n\"race a car\" is not a palindrome.\r\n\r\n\r\n\r\nNote:\r\nHave you consider that the string might be empty? This is a good question to ask during an interview.\r\n\r\nFor the purpose of this problem, we define empty string as valid palindrome.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool isPalindrome(string s) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean isPalindrome(String s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def isPalindrome(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool isPalindrome(char* s) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool IsPalindrome(string s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @return {boolean}\r\n */\r\nvar isPalindrome = function(s) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @return {Boolean}\r\ndef is_palindrome(s)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func isPalindrome(_ s: String) -> Bool {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func isPalindrome(s string) bool {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def isPalindrome(s: String): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"\"",
+ "testable": true
+}

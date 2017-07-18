@@ -1,0 +1,65 @@
+{
+ "id": 10,
+ "name": "Regular Expression Matching",
+ "key": "regular-expression-matching",
+ "link": "https://leetcode.com/problems/regular-expression-matching",
+ "percent": 24.044384397056923,
+ "level": "Hard",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Implement regular expression matching with support for '.' and '*'.\r\n\r\n\r\n'.' Matches any single character.\r\n'*' Matches zero or more of the preceding element.\r\n\r\nThe matching should cover the entire input string (not partial).\r\n\r\nThe function prototype should be:\r\nbool isMatch(const char *s, const char *p)\r\n\r\nSome examples:\r\nisMatch(\"aa\",\"a\") ? false\r\nisMatch(\"aa\",\"aa\") ? true\r\nisMatch(\"aaa\",\"aa\") ? false\r\nisMatch(\"aa\", \"a*\") ? true\r\nisMatch(\"aa\", \".*\") ? true\r\nisMatch(\"ab\", \".*\") ? true\r\nisMatch(\"aab\", \"c*a*b\") ? true\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool isMatch(string s, string p) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean isMatch(String s, String p) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def isMatch(self, s, p):\r\n        \"\"\"\r\n        :type s: str\r\n        :type p: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool isMatch(char* s, char* p) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool IsMatch(string s, string p) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @param {string} p\r\n * @return {boolean}\r\n */\r\nvar isMatch = function(s, p) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @param {String} p\r\n# @return {Boolean}\r\ndef is_match(s, p)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func isMatch(_ s: String, _ p: String) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func isMatch(s string, p string) bool {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def isMatch(s: String, p: String): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"aa\"\n\"a\"",
+ "testable": true
+}

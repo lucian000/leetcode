@@ -1,1 +1,70 @@
-{"id": 282, "ids": "282", "state": "None", "name": "Expression Add Operators", "key": "expression-add-operators", "link": "https://leetcode.com/problems/expression-add-operators", "locked": false, "percent": 29.531977180603512, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven a string that contains only digits 0-9 and a target value, return all possibilities to add binary operators (not unary) +, -, or * between the digits so they evaluate to the target value.\r\n\r\n\r\nExamples: \r\n\"123\", 6 -> [\"1+2+3\", \"1*2*3\"] \r\n\"232\", 8 -> [\"2*3+2\", \"2+3*2\"]\r\n\"105\", 5 -> [\"1*0+5\",\"10-5\"]\r\n\"00\", 0 -> [\"0+0\", \"0-0\", \"0*0\"]\r\n\"3456237490\", 9191 -> []\r\n\r\n\r\nCredits:Special thanks to @davidtan1890 for adding this problem and creating all test cases.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<string> addOperators(string num, int target) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public List<String> addOperators(String num, int target) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def addOperators(self, num, target):\r\n        \"\"\"\r\n        :type num: str\r\n        :type target: int\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** addOperators(char* num, int target, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public IList<string> AddOperators(string num, int target) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {string} num\r\n * @param {number} target\r\n * @return {string[]}\r\n */\r\nvar addOperators = function(num, target) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String} num\r\n# @param {Integer} target\r\n# @return {String[]}\r\ndef add_operators(num, target)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func addOperators(_ num: String, _ target: Int) -> [String] {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func addOperators(num string, target int) []string {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def addOperators(num: String, target: Int): List[String] = {\n        \n    }\n}"}], "testcase": "\"123\"\n6", "testable": true}
+{
+ "id": 282,
+ "ids": "282",
+ "state": "None",
+ "name": "Expression Add Operators",
+ "key": "expression-add-operators",
+ "link": "https://leetcode.com/problems/expression-add-operators",
+ "locked": false,
+ "percent": 29.529735259063223,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a string that contains only digits 0-9 and a target value, return all possibilities to add binary operators (not unary) +, -, or * between the digits so they evaluate to the target value.\r\n\r\n\r\nExamples: \r\n\"123\", 6 -> [\"1+2+3\", \"1*2*3\"] \r\n\"232\", 8 -> [\"2*3+2\", \"2+3*2\"]\r\n\"105\", 5 -> [\"1*0+5\",\"10-5\"]\r\n\"00\", 0 -> [\"0+0\", \"0-0\", \"0*0\"]\r\n\"3456237490\", 9191 -> []\r\n\r\n\r\nCredits:Special thanks to @davidtan1890 for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<string> addOperators(string num, int target) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<String> addOperators(String num, int target) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def addOperators(self, num, target):\r\n        \"\"\"\r\n        :type num: str\r\n        :type target: int\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** addOperators(char* num, int target, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<string> AddOperators(string num, int target) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} num\r\n * @param {number} target\r\n * @return {string[]}\r\n */\r\nvar addOperators = function(num, target) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} num\r\n# @param {Integer} target\r\n# @return {String[]}\r\ndef add_operators(num, target)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func addOperators(_ num: String, _ target: Int) -> [String] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func addOperators(num string, target int) []string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def addOperators(num: String, target: Int): List[String] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'\"123\"\\n6'",
+ "testable": true
+}

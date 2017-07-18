@@ -1,1 +1,70 @@
-{"id": 66, "ids": "66", "state": "None", "name": "Plus One", "key": "plus-one", "link": "https://leetcode.com/problems/plus-one", "locked": false, "percent": 38.39852766584723, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given a non-negative integer represented as a non-empty array of digits, plus one to the integer.\r\n\r\nYou may assume the integer do not contain any leading zero, except the number 0 itself.\r\n\r\nThe digits are stored such that the most significant digit is at the head of the list.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> plusOne(vector<int>& digits) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int[] plusOne(int[] digits) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def plusOne(self, digits):\r\n        \"\"\"\r\n        :type digits: List[int]\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* plusOne(int* digits, int digitsSize, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int[] PlusOne(int[] digits) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} digits\r\n * @return {number[]}\r\n */\r\nvar plusOne = function(digits) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} digits\r\n# @return {Integer[]}\r\ndef plus_one(digits)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func plusOne(_ digits: [Int]) -> [Int] {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func plusOne(digits []int) []int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def plusOne(digits: Array[Int]): Array[Int] = {\n        \n    }\n}"}], "testcase": "[0]", "testable": true}
+{
+ "id": 66,
+ "ids": "66",
+ "state": "None",
+ "name": "Plus One",
+ "key": "plus-one",
+ "link": "https://leetcode.com/problems/plus-one",
+ "locked": false,
+ "percent": 38.39742542699858,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given a non-negative integer represented as a non-empty array of digits, plus one to the integer.\r\n\r\nYou may assume the integer do not contain any leading zero, except the number 0 itself.\r\n\r\nThe digits are stored such that the most significant digit is at the head of the list.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> plusOne(vector<int>& digits) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int[] plusOne(int[] digits) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def plusOne(self, digits):\r\n        \"\"\"\r\n        :type digits: List[int]\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* plusOne(int* digits, int digitsSize, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int[] PlusOne(int[] digits) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} digits\r\n * @return {number[]}\r\n */\r\nvar plusOne = function(digits) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} digits\r\n# @return {Integer[]}\r\ndef plus_one(digits)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func plusOne(_ digits: [Int]) -> [Int] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func plusOne(digits []int) []int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def plusOne(digits: Array[Int]): Array[Int] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[0]'",
+ "testable": true
+}

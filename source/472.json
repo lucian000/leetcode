@@ -1,1 +1,65 @@
-{"id":472,"name":"Concatenated Words","key":"concatenated-words","link":"https://leetcode.com/problems/concatenated-words","percent":30.08313753840593,"level":"Hard","totalAC":"","totalSubmit":"","desc":"Given a list of words (without duplicates), please write a program that returns all concatenated words in the given list of words.\r\nA concatenated word is defined as a string that is comprised entirely of at least two shorter words in the given array.\r\n\r\nExample:\r\n\r\nInput: [\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]\r\n\r\nOutput: [\"catsdogcats\",\"dogcatsdog\",\"ratcatdogcat\"]\r\n\r\nExplanation: \"catsdogcats\" can be concatenated by \"cats\", \"dog\" and \"cats\";  \"dogcatsdog\" can be concatenated by \"dog\", \"cats\" and \"dog\"; \"ratcatdogcat\" can be concatenated by \"rat\", \"cat\", \"dog\" and \"cat\".\r\n\r\n\r\n\r\nNote:\r\n\r\nThe number of elements of the given array will not exceed 10,000 \r\nThe length sum of elements in the given array will not exceed 600,000. \r\nAll the input string will only include lower case letters.\r\nThe returned elements order does not matter. \r\n\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    vector<string> findAllConcatenatedWordsInADict(vector<string>& words) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public List<String> findAllConcatenatedWordsInADict(String[] words) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def findAllConcatenatedWordsInADict(self, words):\r\n        \"\"\"\r\n        :type words: List[str]\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** findAllConcatenatedWordsInADict(char** words, int wordsSize, int* returnSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public IList<string> FindAllConcatenatedWordsInADict(string[] words) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string[]} words\r\n * @return {string[]}\r\n */\r\nvar findAllConcatenatedWordsInADict = function(words) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String[]} words\r\n# @return {String[]}\r\ndef find_all_concatenated_words_in_a_dict(words)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func findAllConcatenatedWordsInADict(_ words: [String]) -> [String] {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func findAllConcatenatedWordsInADict(words []string) []string {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def findAllConcatenatedWordsInADict(words: Array[String]): List[String] = {\n        \n    }\n}"}],"testcase":"[\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]","testable":true}
+{
+ "id": 472,
+ "name": "Concatenated Words",
+ "key": "concatenated-words",
+ "link": "https://leetcode.com/problems/concatenated-words",
+ "percent": 30.08313753840593,
+ "level": "Hard",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given a list of words (without duplicates), please write a program that returns all concatenated words in the given list of words.\r\nA concatenated word is defined as a string that is comprised entirely of at least two shorter words in the given array.\r\n\r\nExample:\r\n\r\nInput: [\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]\r\n\r\nOutput: [\"catsdogcats\",\"dogcatsdog\",\"ratcatdogcat\"]\r\n\r\nExplanation: \"catsdogcats\" can be concatenated by \"cats\", \"dog\" and \"cats\";  \"dogcatsdog\" can be concatenated by \"dog\", \"cats\" and \"dog\"; \"ratcatdogcat\" can be concatenated by \"rat\", \"cat\", \"dog\" and \"cat\".\r\n\r\n\r\n\r\nNote:\r\n\r\nThe number of elements of the given array will not exceed 10,000 \r\nThe length sum of elements in the given array will not exceed 600,000. \r\nAll the input string will only include lower case letters.\r\nThe returned elements order does not matter. \r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<string> findAllConcatenatedWordsInADict(vector<string>& words) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<String> findAllConcatenatedWordsInADict(String[] words) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def findAllConcatenatedWordsInADict(self, words):\r\n        \"\"\"\r\n        :type words: List[str]\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** findAllConcatenatedWordsInADict(char** words, int wordsSize, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<string> FindAllConcatenatedWordsInADict(string[] words) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string[]} words\r\n * @return {string[]}\r\n */\r\nvar findAllConcatenatedWordsInADict = function(words) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String[]} words\r\n# @return {String[]}\r\ndef find_all_concatenated_words_in_a_dict(words)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func findAllConcatenatedWordsInADict(_ words: [String]) -> [String] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func findAllConcatenatedWordsInADict(words []string) []string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def findAllConcatenatedWordsInADict(words: Array[String]): List[String] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]",
+ "testable": true
+}

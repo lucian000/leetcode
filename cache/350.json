@@ -1,1 +1,70 @@
-{"id": 350, "ids": "350", "state": "None", "name": "Intersection of Two Arrays II", "key": "intersection-of-two-arrays-ii", "link": "https://leetcode.com/problems/intersection-of-two-arrays-ii", "locked": false, "percent": 44.53336632631798, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven two arrays, write a function to compute their intersection.\r\n\r\n\r\nExample:\r\nGiven nums1 = [1, 2, 2, 1], nums2 = [2, 2], return [2, 2].\r\n\r\n\r\nNote:\r\n\r\nEach element in the result should appear as many times as it shows in both arrays.\r\nThe result can be in any order.\r\n\r\n\r\n\r\nFollow up:\r\n\r\nWhat if the given array is already sorted? How would you optimize your algorithm?\r\nWhat if nums1's size is small compared to nums2's size? Which algorithm is better?\r\nWhat if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int[] intersect(int[] nums1, int[] nums2) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def intersect(self, nums1, nums2):\r\n        \"\"\"\r\n        :type nums1: List[int]\r\n        :type nums2: List[int]\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int[] Intersect(int[] nums1, int[] nums2) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums1\r\n * @param {number[]} nums2\r\n * @return {number[]}\r\n */\r\nvar intersect = function(nums1, nums2) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums1\r\n# @param {Integer[]} nums2\r\n# @return {Integer[]}\r\ndef intersect(nums1, nums2)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func intersect(nums1 []int, nums2 []int) []int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def intersect(nums1: Array[Int], nums2: Array[Int]): Array[Int] = {\n        \n    }\n}"}], "testcase": "[]\n[]", "testable": true}
+{
+ "id": 350,
+ "ids": "350",
+ "state": "None",
+ "name": "Intersection of Two Arrays II",
+ "key": "intersection-of-two-arrays-ii",
+ "link": "https://leetcode.com/problems/intersection-of-two-arrays-ii",
+ "locked": false,
+ "percent": 44.53651227933034,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven two arrays, write a function to compute their intersection.\r\n\r\n\r\nExample:\r\nGiven nums1 = [1, 2, 2, 1], nums2 = [2, 2], return [2, 2].\r\n\r\n\r\nNote:\r\n\r\nEach element in the result should appear as many times as it shows in both arrays.\r\nThe result can be in any order.\r\n\r\n\r\n\r\nFollow up:\r\n\r\nWhat if the given array is already sorted? How would you optimize your algorithm?\r\nWhat if nums1's size is small compared to nums2's size? Which algorithm is better?\r\nWhat if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int[] intersect(int[] nums1, int[] nums2) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def intersect(self, nums1, nums2):\r\n        \"\"\"\r\n        :type nums1: List[int]\r\n        :type nums2: List[int]\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int[] Intersect(int[] nums1, int[] nums2) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums1\r\n * @param {number[]} nums2\r\n * @return {number[]}\r\n */\r\nvar intersect = function(nums1, nums2) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums1\r\n# @param {Integer[]} nums2\r\n# @return {Integer[]}\r\ndef intersect(nums1, nums2)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func intersect(nums1 []int, nums2 []int) []int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def intersect(nums1: Array[Int], nums2: Array[Int]): Array[Int] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[]\\n[]'",
+ "testable": true
+}

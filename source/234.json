@@ -1,1 +1,65 @@
-{"id":234,"name":"Palindrome Linked List","key":"palindrome-linked-list","link":"https://leetcode.com/problems/palindrome-linked-list","percent":32.55030012584462,"level":"Easy","totalAC":"","totalSubmit":"","desc":"Given a singly linked list, determine if it is a palindrome.\r\n\r\nFollow up:\r\nCould you do it in O(n) time and O(1) space?","templates":[{"value":"cpp","text":"C++","defaultCode":"/**\r\n * Definition for singly-linked list.\r\n * struct ListNode {\r\n *     int val;\r\n *     ListNode *next;\r\n *     ListNode(int x) : val(x), next(NULL) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    bool isPalindrome(ListNode* head) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"/**\r\n * Definition for singly-linked list.\r\n * public class ListNode {\r\n *     int val;\r\n *     ListNode next;\r\n *     ListNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public boolean isPalindrome(ListNode head) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"# Definition for singly-linked list.\r\n# class ListNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.next = None\r\n\r\nclass Solution(object):\r\n    def isPalindrome(self, head):\r\n        \"\"\"\r\n        :type head: ListNode\r\n        :rtype: bool\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"/**\r\n * Definition for singly-linked list.\r\n * struct ListNode {\r\n *     int val;\r\n *     struct ListNode *next;\r\n * };\r\n */\r\nbool isPalindrome(struct ListNode* head) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"/**\r\n * Definition for singly-linked list.\r\n * public class ListNode {\r\n *     public int val;\r\n *     public ListNode next;\r\n *     public ListNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public bool IsPalindrome(ListNode head) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * Definition for singly-linked list.\r\n * function ListNode(val) {\r\n *     this.val = val;\r\n *     this.next = null;\r\n * }\r\n */\r\n/**\r\n * @param {ListNode} head\r\n * @return {boolean}\r\n */\r\nvar isPalindrome = function(head) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# Definition for singly-linked list.\r\n# class ListNode\r\n#     attr_accessor :val, :next\r\n#     def initialize(val)\r\n#         @val = val\r\n#         @next = nil\r\n#     end\r\n# end\r\n\r\n# @param {ListNode} head\r\n# @return {Boolean}\r\ndef is_palindrome(head)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"/**\r\n * Definition for singly-linked list.\r\n * public class ListNode {\r\n *     public var val: Int\r\n *     public var next: ListNode?\r\n *     public init(_ val: Int) {\r\n *         self.val = val\r\n *         self.next = nil\r\n *     }\r\n * }\r\n */\r\nclass Solution {\r\n    func isPalindrome(_ head: ListNode?) -> Bool {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"/**\r\n * Definition for singly-linked list.\r\n * type ListNode struct {\r\n *     Val int\r\n *     Next *ListNode\r\n * }\r\n */\r\nfunc isPalindrome(head *ListNode) bool {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"/**\n * Definition for singly-linked list.\n * class ListNode(var _x: Int = 0) {\n *   var next: ListNode = null\n *   var x: Int = _x\n * }\n */\nobject Solution {\n    def isPalindrome(head: ListNode): Boolean = {\n        \n    }\n}"}],"testcase":"[]","testable":true}
+{
+ "id": 234,
+ "name": "Palindrome Linked List",
+ "key": "palindrome-linked-list",
+ "link": "https://leetcode.com/problems/palindrome-linked-list",
+ "percent": 32.55030012584462,
+ "level": "Easy",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given a singly linked list, determine if it is a palindrome.\r\n\r\nFollow up:\r\nCould you do it in O(n) time and O(1) space?",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "/**\r\n * Definition for singly-linked list.\r\n * struct ListNode {\r\n *     int val;\r\n *     ListNode *next;\r\n *     ListNode(int x) : val(x), next(NULL) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    bool isPalindrome(ListNode* head) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "/**\r\n * Definition for singly-linked list.\r\n * public class ListNode {\r\n *     int val;\r\n *     ListNode next;\r\n *     ListNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public boolean isPalindrome(ListNode head) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "# Definition for singly-linked list.\r\n# class ListNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.next = None\r\n\r\nclass Solution(object):\r\n    def isPalindrome(self, head):\r\n        \"\"\"\r\n        :type head: ListNode\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Definition for singly-linked list.\r\n * struct ListNode {\r\n *     int val;\r\n *     struct ListNode *next;\r\n * };\r\n */\r\nbool isPalindrome(struct ListNode* head) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "/**\r\n * Definition for singly-linked list.\r\n * public class ListNode {\r\n *     public int val;\r\n *     public ListNode next;\r\n *     public ListNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public bool IsPalindrome(ListNode head) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * Definition for singly-linked list.\r\n * function ListNode(val) {\r\n *     this.val = val;\r\n *     this.next = null;\r\n * }\r\n */\r\n/**\r\n * @param {ListNode} head\r\n * @return {boolean}\r\n */\r\nvar isPalindrome = function(head) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# Definition for singly-linked list.\r\n# class ListNode\r\n#     attr_accessor :val, :next\r\n#     def initialize(val)\r\n#         @val = val\r\n#         @next = nil\r\n#     end\r\n# end\r\n\r\n# @param {ListNode} head\r\n# @return {Boolean}\r\ndef is_palindrome(head)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "/**\r\n * Definition for singly-linked list.\r\n * public class ListNode {\r\n *     public var val: Int\r\n *     public var next: ListNode?\r\n *     public init(_ val: Int) {\r\n *         self.val = val\r\n *         self.next = nil\r\n *     }\r\n * }\r\n */\r\nclass Solution {\r\n    func isPalindrome(_ head: ListNode?) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "/**\r\n * Definition for singly-linked list.\r\n * type ListNode struct {\r\n *     Val int\r\n *     Next *ListNode\r\n * }\r\n */\r\nfunc isPalindrome(head *ListNode) bool {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "/**\n * Definition for singly-linked list.\n * class ListNode(var _x: Int = 0) {\n *   var next: ListNode = null\n *   var x: Int = _x\n * }\n */\nobject Solution {\n    def isPalindrome(head: ListNode): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[]",
+ "testable": true
+}

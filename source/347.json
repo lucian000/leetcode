@@ -1,1 +1,65 @@
-{"id":347,"name":"Top K Frequent Elements","key":"top-k-frequent-elements","link":"https://leetcode.com/problems/top-k-frequent-elements","percent":47.82287661017941,"level":"Medium","totalAC":"","totalSubmit":"","desc":"\r\nGiven a non-empty array of integers, return the k most frequent elements.\r\n\r\nFor example,\r\nGiven [1,1,1,2,2,3] and k = 2, return [1,2].\r\n\r\n\r\nNote: \r\n\r\nYou may assume k is always valid, 1 ? k ? number of unique elements.\r\nYour algorithm's time complexity must be better than O(n log n), where n is the array's size.\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    vector<int> topKFrequent(vector<int>& nums, int k) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public List<Integer> topKFrequent(int[] nums, int k) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def topKFrequent(self, nums, k):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :type k: int\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* topKFrequent(int* nums, int numsSize, int k, int* returnSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public IList<int> TopKFrequent(int[] nums, int k) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {number[]} nums\r\n * @param {number} k\r\n * @return {number[]}\r\n */\r\nvar topKFrequent = function(nums, k) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {Integer[]} nums\r\n# @param {Integer} k\r\n# @return {Integer[]}\r\ndef top_k_frequent(nums, k)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func topKFrequent(nums []int, k int) []int {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def topKFrequent(nums: Array[Int], k: Int): List[Int] = {\n        \n    }\n}"}],"testcase":"[1,1,1,2,2,3]\n2","testable":true}
+{
+ "id": 347,
+ "name": "Top K Frequent Elements",
+ "key": "top-k-frequent-elements",
+ "link": "https://leetcode.com/problems/top-k-frequent-elements",
+ "percent": 47.82287661017941,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a non-empty array of integers, return the k most frequent elements.\r\n\r\nFor example,\r\nGiven [1,1,1,2,2,3] and k = 2, return [1,2].\r\n\r\n\r\nNote: \r\n\r\nYou may assume k is always valid, 1 ? k ? number of unique elements.\r\nYour algorithm's time complexity must be better than O(n log n), where n is the array's size.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> topKFrequent(vector<int>& nums, int k) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<Integer> topKFrequent(int[] nums, int k) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def topKFrequent(self, nums, k):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :type k: int\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* topKFrequent(int* nums, int numsSize, int k, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<int> TopKFrequent(int[] nums, int k) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @param {number} k\r\n * @return {number[]}\r\n */\r\nvar topKFrequent = function(nums, k) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @param {Integer} k\r\n# @return {Integer[]}\r\ndef top_k_frequent(nums, k)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func topKFrequent(nums []int, k int) []int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def topKFrequent(nums: Array[Int], k: Int): List[Int] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[1,1,1,2,2,3]\n2",
+ "testable": true
+}

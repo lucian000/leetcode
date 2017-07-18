@@ -1,1 +1,70 @@
-{"id": 324, "ids": "324", "state": "None", "name": "Wiggle Sort II", "key": "wiggle-sort-ii", "link": "https://leetcode.com/problems/wiggle-sort-ii", "locked": false, "percent": 25.864815556445514, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\n    Given an unsorted array nums, reorder it such that\r\n    nums[0] < nums[1] > nums[2] < nums[3]....\r\n\r\n\r\n\r\n    Example:\r\n    (1) Given nums = [1, 5, 1, 1, 6, 4], one possible answer is [1, 4, 1, 5, 1, 6]. \r\n    (2) Given nums = [1, 3, 2, 2, 3, 1], one possible answer is [2, 3, 1, 3, 1, 2].\r\n\r\n\r\n\r\n    Note:\r\n    You may assume all input has valid answer.\r\n\r\n\r\n\r\n    Follow Up:\r\n    Can you do it in O(n) time and/or in-place with O(1) extra space?\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    void wiggleSort(vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public void wiggleSort(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def wiggleSort(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: void Do not return anything, modify nums in-place instead.\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "void wiggleSort(int* nums, int numsSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public void WiggleSort(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {void} Do not return anything, modify nums in-place instead.\r\n */\r\nvar wiggleSort = function(nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @return {Void} Do not return anything, modify nums in-place instead.\r\ndef wiggle_sort(nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func wiggleSort(_ nums: inout [Int]) {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func wiggleSort(nums []int)  {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def wiggleSort(nums: Array[Int]): Unit = {\n        \n    }\n}"}], "testcase": "[1,5,1,1,6,4]", "testable": true}
+{
+ "id": 324,
+ "ids": "324",
+ "state": "None",
+ "name": "Wiggle Sort II",
+ "key": "wiggle-sort-ii",
+ "link": "https://leetcode.com/problems/wiggle-sort-ii",
+ "locked": false,
+ "percent": 25.862989799006606,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\n    Given an unsorted array nums, reorder it such that\r\n    nums[0] < nums[1] > nums[2] < nums[3]....\r\n\r\n\r\n\r\n    Example:\r\n    (1) Given nums = [1, 5, 1, 1, 6, 4], one possible answer is [1, 4, 1, 5, 1, 6]. \r\n    (2) Given nums = [1, 3, 2, 2, 3, 1], one possible answer is [2, 3, 1, 3, 1, 2].\r\n\r\n\r\n\r\n    Note:\r\n    You may assume all input has valid answer.\r\n\r\n\r\n\r\n    Follow Up:\r\n    Can you do it in O(n) time and/or in-place with O(1) extra space?\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    void wiggleSort(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public void wiggleSort(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def wiggleSort(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: void Do not return anything, modify nums in-place instead.\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "void wiggleSort(int* nums, int numsSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public void WiggleSort(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {void} Do not return anything, modify nums in-place instead.\r\n */\r\nvar wiggleSort = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Void} Do not return anything, modify nums in-place instead.\r\ndef wiggle_sort(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func wiggleSort(_ nums: inout [Int]) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func wiggleSort(nums []int)  {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def wiggleSort(nums: Array[Int]): Unit = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[1,5,1,1,6,4]'",
+ "testable": true
+}

@@ -1,1 +1,65 @@
-{"id":57,"name":"Insert Interval","key":"insert-interval","link":"https://leetcode.com/problems/insert-interval","percent":27.389105604034242,"level":"Hard","totalAC":"","totalSubmit":"","desc":"Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).\r\n\r\nYou may assume that the intervals were initially sorted according to their start times.\r\n\r\n\r\nExample 1:\r\nGiven intervals [1,3],[6,9], insert and merge [2,5] in as [1,5],[6,9].\r\n\r\n\r\n\r\nExample 2:\r\nGiven [1,2],[3,5],[6,7],[8,10],[12,16], insert and merge [4,9] in as [1,2],[3,10],[12,16].\r\n\r\n\r\n\r\nThis is because the new interval [4,9] overlaps with [3,5],[6,7],[8,10].\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"/**\r\n * Definition for an interval.\r\n * struct Interval {\r\n *     int start;\r\n *     int end;\r\n *     Interval() : start(0), end(0) {}\r\n *     Interval(int s, int e) : start(s), end(e) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    vector<Interval> insert(vector<Interval>& intervals, Interval newInterval) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"/**\r\n * Definition for an interval.\r\n * public class Interval {\r\n *     int start;\r\n *     int end;\r\n *     Interval() { start = 0; end = 0; }\r\n *     Interval(int s, int e) { start = s; end = e; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public List<Interval> insert(List<Interval> intervals, Interval newInterval) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"# Definition for an interval.\r\n# class Interval(object):\r\n#     def __init__(self, s=0, e=0):\r\n#         self.start = s\r\n#         self.end = e\r\n\r\nclass Solution(object):\r\n    def insert(self, intervals, newInterval):\r\n        \"\"\"\r\n        :type intervals: List[Interval]\r\n        :type newInterval: Interval\r\n        :rtype: List[Interval]\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"/**\r\n * Definition for an interval.\r\n * struct Interval {\r\n *     int start;\r\n *     int end;\r\n * };\r\n */\r\n/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nstruct Interval* insert(struct Interval* intervals, int intervalsSize, struct Interval newInterval, int* returnSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"/**\r\n * Definition for an interval.\r\n * public class Interval {\r\n *     public int start;\r\n *     public int end;\r\n *     public Interval() { start = 0; end = 0; }\r\n *     public Interval(int s, int e) { start = s; end = e; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public IList<Interval> Insert(IList<Interval> intervals, Interval newInterval) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * Definition for an interval.\r\n * function Interval(start, end) {\r\n *     this.start = start;\r\n *     this.end = end;\r\n * }\r\n */\r\n/**\r\n * @param {Interval[]} intervals\r\n * @param {Interval} newInterval\r\n * @return {Interval[]}\r\n */\r\nvar insert = function(intervals, newInterval) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# Definition for an interval.\r\n# class Interval\r\n#     attr_accessor :start, :end\r\n#     def initialize(s=0, e=0)\r\n#         @start = s\r\n#         @end = e\r\n#     end\r\n# end\r\n\r\n# @param {Interval[]} intervals\r\n# @param {Interval} new_interval\r\n# @return {Interval[]}\r\ndef insert(intervals, new_interval)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"/**\r\n * Definition for an interval.\r\n * public class Interval {\r\n *   public var start: Int\r\n *   public var end: Int\r\n *   public init(_ start: Int, _ end: Int) {\r\n *     self.start = start\r\n *     self.end = end\r\n *   }\r\n * }\r\n */\r\nclass Solution {\r\n    func insert(_ intervals: [Interval], _ newInterval: Interval) -> [Interval] {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"/**\r\n * Definition for an interval.\r\n * type Interval struct {\r\n *\t   Start int\r\n *\t   End   int\r\n * }\r\n */\r\nfunc insert(intervals []Interval, newInterval Interval) []Interval {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"/**\n * Definition for an interval.\n * class Interval(var _start: Int = 0, var _end: Int = 0) {\n *   var start: Int = _start\n *   var end: Int = _end\n * }\n */\nobject Solution {\n    def insert(intervals: List[Interval], newInterval: Interval): List[Interval] = {\n        \n    }\n}"}],"testcase":"[[1,3],[6,9]]\n[2,5]","testable":true}
+{
+ "id": 57,
+ "name": "Insert Interval",
+ "key": "insert-interval",
+ "link": "https://leetcode.com/problems/insert-interval",
+ "percent": 27.389105604034242,
+ "level": "Hard",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).\r\n\r\nYou may assume that the intervals were initially sorted according to their start times.\r\n\r\n\r\nExample 1:\r\nGiven intervals [1,3],[6,9], insert and merge [2,5] in as [1,5],[6,9].\r\n\r\n\r\n\r\nExample 2:\r\nGiven [1,2],[3,5],[6,7],[8,10],[12,16], insert and merge [4,9] in as [1,2],[3,10],[12,16].\r\n\r\n\r\n\r\nThis is because the new interval [4,9] overlaps with [3,5],[6,7],[8,10].\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "/**\r\n * Definition for an interval.\r\n * struct Interval {\r\n *     int start;\r\n *     int end;\r\n *     Interval() : start(0), end(0) {}\r\n *     Interval(int s, int e) : start(s), end(e) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    vector<Interval> insert(vector<Interval>& intervals, Interval newInterval) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "/**\r\n * Definition for an interval.\r\n * public class Interval {\r\n *     int start;\r\n *     int end;\r\n *     Interval() { start = 0; end = 0; }\r\n *     Interval(int s, int e) { start = s; end = e; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public List<Interval> insert(List<Interval> intervals, Interval newInterval) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "# Definition for an interval.\r\n# class Interval(object):\r\n#     def __init__(self, s=0, e=0):\r\n#         self.start = s\r\n#         self.end = e\r\n\r\nclass Solution(object):\r\n    def insert(self, intervals, newInterval):\r\n        \"\"\"\r\n        :type intervals: List[Interval]\r\n        :type newInterval: Interval\r\n        :rtype: List[Interval]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Definition for an interval.\r\n * struct Interval {\r\n *     int start;\r\n *     int end;\r\n * };\r\n */\r\n/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nstruct Interval* insert(struct Interval* intervals, int intervalsSize, struct Interval newInterval, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "/**\r\n * Definition for an interval.\r\n * public class Interval {\r\n *     public int start;\r\n *     public int end;\r\n *     public Interval() { start = 0; end = 0; }\r\n *     public Interval(int s, int e) { start = s; end = e; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public IList<Interval> Insert(IList<Interval> intervals, Interval newInterval) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * Definition for an interval.\r\n * function Interval(start, end) {\r\n *     this.start = start;\r\n *     this.end = end;\r\n * }\r\n */\r\n/**\r\n * @param {Interval[]} intervals\r\n * @param {Interval} newInterval\r\n * @return {Interval[]}\r\n */\r\nvar insert = function(intervals, newInterval) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# Definition for an interval.\r\n# class Interval\r\n#     attr_accessor :start, :end\r\n#     def initialize(s=0, e=0)\r\n#         @start = s\r\n#         @end = e\r\n#     end\r\n# end\r\n\r\n# @param {Interval[]} intervals\r\n# @param {Interval} new_interval\r\n# @return {Interval[]}\r\ndef insert(intervals, new_interval)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "/**\r\n * Definition for an interval.\r\n * public class Interval {\r\n *   public var start: Int\r\n *   public var end: Int\r\n *   public init(_ start: Int, _ end: Int) {\r\n *     self.start = start\r\n *     self.end = end\r\n *   }\r\n * }\r\n */\r\nclass Solution {\r\n    func insert(_ intervals: [Interval], _ newInterval: Interval) -> [Interval] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "/**\r\n * Definition for an interval.\r\n * type Interval struct {\r\n *\t   Start int\r\n *\t   End   int\r\n * }\r\n */\r\nfunc insert(intervals []Interval, newInterval Interval) []Interval {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "/**\n * Definition for an interval.\n * class Interval(var _start: Int = 0, var _end: Int = 0) {\n *   var start: Int = _start\n *   var end: Int = _end\n * }\n */\nobject Solution {\n    def insert(intervals: List[Interval], newInterval: Interval): List[Interval] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[[1,3],[6,9]]\n[2,5]",
+ "testable": true
+}

@@ -1,1 +1,65 @@
-{"id":139,"name":"Word Break","key":"word-break","link":"https://leetcode.com/problems/word-break","percent":29.613667057698564,"level":"Medium","totalAC":"","totalSubmit":"","desc":"\r\nGiven a non-empty string s and a dictionary wordDict containing a list of non-empty words, determine if s can be segmented into a space-separated sequence of one or more dictionary words. You may assume the dictionary does not contain duplicate words.\r\n\r\n\r\nFor example, given\r\ns = \"leetcode\",\r\ndict = [\"leet\", \"code\"].\r\n\r\n\r\n\r\nReturn true because \"leetcode\" can be segmented as \"leet code\".\r\n\r\n\r\n\r\nUPDATE (2017/1/4):\r\nThe wordDict parameter had been changed to a list of strings (instead of a set of strings). Please reload the code definition to get the latest changes.\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    bool wordBreak(string s, vector<string>& wordDict) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public boolean wordBreak(String s, List<String> wordDict) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def wordBreak(self, s, wordDict):\r\n        \"\"\"\r\n        :type s: str\r\n        :type wordDict: List[str]\r\n        :rtype: bool\r\n        \"\"\"\r\n        "},{"value":"c","text":"C","defaultCode":"bool wordBreak(char* s, char** wordDict, int wordDictSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public bool WordBreak(string s, IList<string> wordDict) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {string} s\r\n * @param {string[]} wordDict\r\n * @return {boolean}\r\n */\r\nvar wordBreak = function(s, wordDict) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {String} s\r\n# @param {String[]} word_dict\r\n# @return {Boolean}\r\ndef word_break(s, word_dict)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func wordBreak(s string, wordDict []string) bool {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def wordBreak(s: String, wordDict: List[String]): Boolean = {\n        \n    }\n}"}],"testcase":"\"leetcode\"\n[\"leet\",\"code\"]","testable":true}
+{
+ "id": 139,
+ "name": "Word Break",
+ "key": "word-break",
+ "link": "https://leetcode.com/problems/word-break",
+ "percent": 29.613667057698564,
+ "level": "Medium",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "\r\nGiven a non-empty string s and a dictionary wordDict containing a list of non-empty words, determine if s can be segmented into a space-separated sequence of one or more dictionary words. You may assume the dictionary does not contain duplicate words.\r\n\r\n\r\nFor example, given\r\ns = \"leetcode\",\r\ndict = [\"leet\", \"code\"].\r\n\r\n\r\n\r\nReturn true because \"leetcode\" can be segmented as \"leet code\".\r\n\r\n\r\n\r\nUPDATE (2017/1/4):\r\nThe wordDict parameter had been changed to a list of strings (instead of a set of strings). Please reload the code definition to get the latest changes.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool wordBreak(string s, vector<string>& wordDict) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean wordBreak(String s, List<String> wordDict) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def wordBreak(self, s, wordDict):\r\n        \"\"\"\r\n        :type s: str\r\n        :type wordDict: List[str]\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool wordBreak(char* s, char** wordDict, int wordDictSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool WordBreak(string s, IList<string> wordDict) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @param {string[]} wordDict\r\n * @return {boolean}\r\n */\r\nvar wordBreak = function(s, wordDict) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @param {String[]} word_dict\r\n# @return {Boolean}\r\ndef word_break(s, word_dict)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func wordBreak(s string, wordDict []string) bool {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def wordBreak(s: String, wordDict: List[String]): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "\"leetcode\"\n[\"leet\",\"code\"]",
+ "testable": true
+}

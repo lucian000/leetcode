@@ -1,1 +1,65 @@
-{"id":167,"name":"Two Sum II - Input array is sorted","key":"two-sum-ii-input-array-is-sorted","link":"https://leetcode.com/problems/two-sum-ii-input-array-is-sorted","percent":47.08992913577315,"level":"Easy","totalAC":"","totalSubmit":"","desc":"Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.\r\n\r\nThe function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.\r\n\r\nYou may assume that each input would have exactly one solution and you may not use the same element twice.\r\n\r\n\r\nInput: numbers={2, 7, 11, 15}, target=9\r\nOutput: index1=1, index2=2\r\n","templates":[{"value":"cpp","text":"C++","defaultCode":"class Solution {\r\npublic:\r\n    vector<int> twoSum(vector<int>& numbers, int target) {\r\n        \r\n    }\r\n};"},{"value":"java","text":"Java","defaultCode":"public class Solution {\r\n    public int[] twoSum(int[] numbers, int target) {\r\n        \r\n    }\r\n}"},{"value":"python","text":"Python","defaultCode":"class Solution(object):\r\n    def twoSum(self, numbers, target):\r\n        \"\"\"\r\n        :type numbers: List[int]\r\n        :type target: int\r\n        :rtype: List[int]\r\n        \"\"\""},{"value":"c","text":"C","defaultCode":"/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* twoSum(int* numbers, int numbersSize, int target, int* returnSize) {\r\n    \r\n}"},{"value":"csharp","text":"C#","defaultCode":"public class Solution {\r\n    public int[] TwoSum(int[] numbers, int target) {\r\n        \r\n    }\r\n}"},{"value":"javascript","text":"JavaScript","defaultCode":"/**\r\n * @param {number[]} numbers\r\n * @param {number} target\r\n * @return {number[]}\r\n */\r\nvar twoSum = function(numbers, target) {\r\n    \r\n};"},{"value":"ruby","text":"Ruby","defaultCode":"# @param {Integer[]} numbers\r\n# @param {Integer} target\r\n# @return {Integer[]}\r\ndef two_sum(numbers, target)\r\n    \r\nend"},{"value":"swift","text":"Swift","defaultCode":"class Solution {\r\n    func twoSum(_ numbers: [Int], _ target: Int) -> [Int] {\r\n        \r\n    }\r\n}"},{"value":"golang","text":"Go","defaultCode":"func twoSum(numbers []int, target int) []int {\r\n    \r\n}"},{"value":"scala","text":"Scala","defaultCode":"object Solution {\n    def twoSum(numbers: Array[Int], target: Int): Array[Int] = {\n        \n    }\n}"}],"testcase":"[2,3,4]\n6","testable":true}
+{
+ "id": 167,
+ "name": "Two Sum II - Input array is sorted",
+ "key": "two-sum-ii-input-array-is-sorted",
+ "link": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted",
+ "percent": 47.08992913577315,
+ "level": "Easy",
+ "totalAC": "",
+ "totalSubmit": "",
+ "desc": "Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.\r\n\r\nThe function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.\r\n\r\nYou may assume that each input would have exactly one solution and you may not use the same element twice.\r\n\r\n\r\nInput: numbers={2, 7, 11, 15}, target=9\r\nOutput: index1=1, index2=2\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> twoSum(vector<int>& numbers, int target) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int[] twoSum(int[] numbers, int target) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def twoSum(self, numbers, target):\r\n        \"\"\"\r\n        :type numbers: List[int]\r\n        :type target: int\r\n        :rtype: List[int]\r\n        \"\"\""
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* twoSum(int* numbers, int numbersSize, int target, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int[] TwoSum(int[] numbers, int target) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} numbers\r\n * @param {number} target\r\n * @return {number[]}\r\n */\r\nvar twoSum = function(numbers, target) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} numbers\r\n# @param {Integer} target\r\n# @return {Integer[]}\r\ndef two_sum(numbers, target)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func twoSum(_ numbers: [Int], _ target: Int) -> [Int] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func twoSum(numbers []int, target int) []int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def twoSum(numbers: Array[Int], target: Int): Array[Int] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "[2,3,4]\n6",
+ "testable": true
+}
