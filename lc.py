@@ -225,6 +225,7 @@ class problem(object):
             return -1
         with open(self.fname,'w') as f:
             f.write(txt)
+        return 0
     def write_time(self,t):
         f = dt+self.ids+'.json'
         if not os.path.exists(f):
@@ -288,9 +289,9 @@ def do_all(ps,p):
     prob.load()
     print('\n')
     prob.show()
-    fname = prob.write()
-    if fname== -1:
-        return
+    returncode = prob.write()
+    if returncode== -1:
+        return -1
     # webbrowser.open_new_tab(prob.link)
     while True:
         pry('\nPlease write your codes in xed, remember to save it...')
@@ -312,10 +313,10 @@ def do_all(ps,p):
                 continue
             else:
                 break
-    if os.path.exists('./submitted/'+fname): 
+    if os.path.exists('./submitted/'+prob.fname): 
         print('File exists error!')
         return
-    shutil.move(fname,'./submitted/'+fname)
+    shutil.move(prob.fname,'./submitted/'+prob.fname)
     webbrowser.open_new_tab(prob.link+'/#/solution')
     prob.cache()
     os.system('leetcode stat')
