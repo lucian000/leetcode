@@ -21,6 +21,7 @@ dsave='./cache/' # dir of the cache of this program
 dt='./time/' # dir for time records
 lc_cli = './leetcode-cli/leetcode '
 
+
 if not os.path.exists(dc):
     os.makedirs(dc)
 if not os.path.exists(d):
@@ -146,6 +147,10 @@ def rm_dir(dire,exception=[]):
             shutil.move(dire+i,dire+'bak/')
 
 #%% define class
+if os.path.exists('./debug_mode'):
+    db = ' -vv'
+else:
+    db = ''
 class problem(object):
     def __init__(self,n):
         # n can be both int or str!
@@ -227,9 +232,9 @@ class problem(object):
         os.system('xed '+self.fname)
         self.write_time(time.time()-time0)# store the time used
     def test(self): #test
-        os.system(lc_cli + 'test '+self.fname+' -t '+self.testcase+' -vv')
+        os.system(lc_cli + 'test '+self.fname+' -t '+self.testcase+db)
     def submit(self):
-        os.system(lc_cli + 'submit '+self.fname+' -vv')
+        os.system(lc_cli + 'submit '+self.fname+db)
 
 #%% checking dependence
 if not os.path.exists('./do_not_check'):
