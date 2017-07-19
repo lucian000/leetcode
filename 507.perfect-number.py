@@ -27,14 +27,19 @@ class Solution(object):
         :type num: int
         :rtype: bool
         """
-        s = 1
-        n = 1
+        if num==1:
+            return False
+        s = 1.0
+        n = 2.0
+        num = float(num)
         while n**2 <= num:
-            n+=1
             n2 = num/n
-            if n2==int(n2):
+            if n2-int(n2)==0:
                 s+=n+n2
-            if s>num:
+            if s>num+1:
                 return False
+            n+=1
         if s==num:
             return True
+        else:
+            return False

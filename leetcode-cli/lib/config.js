@@ -17,7 +17,7 @@ var DEFAULT_CONFIG = {
   URL_FAVORITE_DELETE: 'https://leetcode.com/list/api/questions/$hash/$id',
 
   // but you will want change these
-  LANG:        'cpp', // avail: [c,cpp,csharp,golang,java,javascript,python,ruby,swift]
+  LANG:        'python', // avail: [c,cpp,csharp,golang,java,javascript,python,ruby,swift]
   AUTO_LOGIN:  false,
   USE_COLOR:   true,
   COLOR_THEME: 'default',
