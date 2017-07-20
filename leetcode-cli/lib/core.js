@@ -3,44 +3,72 @@ var path = require('path');
 var util = require('util');
 
 var _ = require('underscore');
-var log = require('loglevel');
 
+var log = require('./log');
 var cache = require('./cache');
 var config = require('./config');
 var client = require('./leetcode_client');
+var queue = require('./queue');
 var h = require('./helper');
+
+var KEY_USER = '.user';
+var KEY_PROBLEMS = 'problems';
+
+function getkey(problem) {
+  return problem.id + '.' + problem.slug + '.' + problem.category;
+}
 
 function saveProblem(problem) {
   // it would be better to leave specific problem cache being user
   // independent, thus try to reuse existing cache as much as possible
   // after changing user.
   var p = _.omit(problem, ['locked', 'state', 'starred']);
-  return cache.set(p.key, p);
+  return cache.set(getkey(p), p);
 }
 
 function saveUser(user) {
   // when auto login enabled, have to save password to re-login later
   // otherwise don't dump password for the sake of security.
   var u = _.omit(user, config.AUTO_LOGIN ? [] : ['pass']);
-  cache.set('.user', u);
+  cache.set(KEY_USER, u);
 }
 
 var core = {};
 
 core.getProblems = function(cb) {
-  var problems = cache.get('all');
+  var problems = cache.get(KEY_PROBLEMS);
   if (problems) {
-    log.debug('loading from all.json');
+    log.debug('loading from problems.json');
     return cb(null, problems);
   }
 
-  log.debug('running getProblems');
   var user = this.getUser();
-  client.getProblems(user, function(e, problems) {
+  var KEY_TMP = '.tmp';
+
+  var doTask = function(category, taskDone) {
+    log.debug(category + ': running getProblems');
+    client.getProblems(category, user, function(e, problems) {
+      if (e) {
+        log.debug(category + ': failed to getProblems: ' + e.msg);
+      } else {
+        log.debug(category + ': getProblems got ' +
+            problems.length + ' problems');
+        problems = cache.get(KEY_TMP).concat(problems);
+        cache.set(KEY_TMP, problems);
+      }
+      return taskDone(e);
+    });
+  };
+
+  cache.set(KEY_TMP, []);
+  queue.run(config.CATEGORIES, doTask, function(e) {
     if (e) return cb(e);
 
     saveUser(user);
-    cache.set('all', problems);
+    var problems = cache.get(KEY_TMP);
+    cache.set(KEY_PROBLEMS, problems);
+    cache.del(KEY_TMP);
+
     return cb(null, problems);
   });
 };
@@ -54,14 +82,15 @@ core.getProblem = function(keyword, cb) {
     var problem = _.find(problems, function(x) {
       return x.id === keyword ||
              x.name === keyword ||
-             x.key === keyword;
+             x.slug === keyword;
     });
     if (!problem)
       return cb('Problem not found!');
 
-    var problemDetail = cache.get(problem.key);
+    var cachekey = getkey(problem);
+    var problemDetail = cache.get(cachekey);
     if (problemDetail) {
-      log.debug('loading from ' + problem.key + '.json');
+      log.debug('loading from ' + cachekey + '.json');
       _.extendOwn(problem, problemDetail);
       return cb(null, problem);
     }
@@ -97,7 +126,7 @@ core.submitProblem = function(problem, cb) {
 };
 
 core.updateProblem = function(problem, kv) {
-  var problems = cache.get('all');
+  var problems = cache.get(KEY_PROBLEMS);
   if (!problems) return false;
 
   var oldProblem = _.find(problems, function(x) {
@@ -109,7 +138,7 @@ core.updateProblem = function(problem, kv) {
   _.extend(problem, kv);
 
   var singleUpdated = saveProblem(problem);
-  var allUpdated = cache.set('all', problems);
+  var allUpdated = cache.set(KEY_PROBLEMS, problems);
   return singleUpdated && allUpdated;
 };
 
@@ -125,11 +154,14 @@ core.starProblem = function(problem, starred, cb) {
 
 core.exportProblem = function(problem, f, codeOnly) {
   var output = '';
+  problem.code = problem.code.replace(/\r\n/g, '\n');
 
   if (codeOnly) {
     output = problem.code;
   } else {
-    var input = h.langToCommentStyle(h.extToLang(f));
+    var input = {
+      comment: h.langToCommentStyle(h.extToLang(f))
+    };
     // copy problem attrs thus we can render it in template
     _.extend(input, problem);
     input.percent = input.percent.toFixed(2);
@@ -137,16 +169,20 @@ core.exportProblem = function(problem, f, codeOnly) {
 
     // NOTE: wordwrap internally uses '\n' as EOL, so here we have to
     // remove all '\r' in the raw string.
-    // FIXME: while in template file we still use '\r\n' for the sake
-    // of windows, is it really necessary?
     var desc = input.desc.replace(/\r\n/g, '\n')
                          .replace(/^ /mg, '⁠');
 
-    var wrap = require('wordwrap')(79 - input.commentLine.length);
+    var wrap = require('wordwrap')(79 - input.comment.line.length);
     input.desc = wrap(desc).split('\n');
 
     var tpl = fs.readFileSync(path.resolve(__dirname, '../source.tpl'), 'utf-8');
     output = _.template(tpl)(input);
+  }
+
+  if (h.isWindows()) {
+    output = output.replace(/\n/g, '\r\n');
+  } else {
+    output = output.replace(/\r\n/g, '\n');
   }
 
   fs.writeFileSync(f, output);
@@ -176,14 +212,14 @@ core.login = function(user, cb) {
 
 core.logout = function(purge) {
   var user = this.getUser();
-  if (purge) cache.del('.user');
+  if (purge) cache.del(KEY_USER);
   // NOTE: need invalidate any user related cache
-  cache.del('all');
+  cache.del(KEY_PROBLEMS);
   return user;
 };
 
 core.getUser = function() {
-  return cache.get('.user');
+  return cache.get(KEY_USER);
 };
 
 core.isLogin = function() {

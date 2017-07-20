@@ -1,11 +1,11 @@
 var _ = require('underscore');
 var sprintf = require('sprintf-js').sprintf;
-var log = require('loglevel');
 
-var chalk = require('../chalk');
-var core = require('../core');
 var h = require('../helper');
+var chalk = require('../chalk');
 var icon = require('../icon');
+var log = require('../log');
+var core = require('../core');
 
 var cmd = {
   command: 'list [keyword]',
@@ -29,6 +29,12 @@ var cmd = {
       type:     'boolean',
       default:  false,
       describe: 'Show problems statistics'
+    },
+    tag: {
+      alias:    't',
+      type:     'string',
+      default:  '',
+      describe: 'Filter problems by tags'
     }
   }
 };
@@ -76,6 +82,12 @@ cmd.handler = function(argv) {
         if (!f) return;
 
         problems = _.filter(problems, _.partial(f, _, q));
+      });
+    }
+
+    if (argv.tag) {
+      problems = _.filter(problems, function(x) {
+        return x.category === argv.tag;
       });
     }
 

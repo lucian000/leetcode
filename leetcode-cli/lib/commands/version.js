@@ -1,5 +1,9 @@
-var log = require('loglevel');
+var _ = require('underscore');
 var sprintf = require('sprintf-js').sprintf;
+
+var chalk = require('../chalk');
+var icon = require('../icon');
+var log = require('../log');
 
 var cmd = {
   command: 'version',
@@ -26,7 +30,7 @@ function getVersion() {
 cmd.handler = function(argv) {
   var version = getVersion();
 
-  if (log.getLevel() >= log.levels.INFO)
+  if (!log.isEnabled('DEBUG'))
     return log.info(version);
 
   var logo = [
@@ -50,9 +54,13 @@ cmd.handler = function(argv) {
   prettyLine('Config', h.getConfigFile());
 
   log.info('\n[Configuration]');
-  Object.getOwnPropertyNames(config).sort().forEach(function(k) {
-    prettyLine(k, config[k]);
+  _.each(config.getUserConfig(), function(v, k) {
+    prettyLine(k, v);
   });
+
+  log.info('\n[Themes]');
+  prettyLine('Colors', _.keys(chalk.themes));
+  prettyLine('Icons', _.keys(icon.themes));
 };
 
 module.exports = cmd;

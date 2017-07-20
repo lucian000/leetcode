@@ -2,14 +2,14 @@ var fs = require('fs');
 var util = require('util');
 
 var _ = require('underscore');
-var log = require('loglevel');
 var sprintf = require('sprintf-js').sprintf;
 
+var h = require('../helper');
 var chalk = require('../chalk');
+var icon = require('../icon');
+var log = require('../log');
 var config = require('../config');
 var core = require('../core');
-var h = require('../helper');
-var icon = require('../icon');
 
 var cmd = {
   command: 'show <keyword>',
@@ -25,7 +25,8 @@ var cmd = {
       alias:    'l',
       type:     'string',
       default:  config.LANG,
-      describe: 'Program language to use'
+      describe: 'Program language to use',
+      choices:  config.LANGS
     },
     extra: {
       alias:    'x',
@@ -63,11 +64,11 @@ cmd.handler = function(argv) {
       problem.code = template.defaultCode;
 
       // try to use a new filename to avoid overwrite by mistake
-      var filename = problem.id + '.' + problem.key + h.langToExt(argv.lang);
+      var filename = problem.id + '.' + problem.slug + h.langToExt(argv.lang);
       var i = 0;
       while (fs.existsSync(filename)) {
         filename = problem.id + '.' +
-                   problem.key + '.' +
+                   problem.slug + '.' +
                    (i++) +
                    h.langToExt(argv.lang);
       }
@@ -83,9 +84,10 @@ cmd.handler = function(argv) {
             (problem.starred ? chalk.yellow(icon.like) : ' '),
             fileinfo));
       log.info(sprintf('%s\n', chalk.underline(problem.link)));
+      log.info(sprintf('* %s', problem.category));
       log.info(sprintf('* %s (%.2f%%)', problem.level, problem.percent));
-      log.info(sprintf('* Total Accepted:    %d', problem.totalAC));
-      log.info(sprintf('* Total Submissions: %d', problem.totalSubmit));
+      log.info(sprintf('* Total Accepted:    %s', problem.totalAC));
+      log.info(sprintf('* Total Submissions: %s', problem.totalSubmit));
       if (problem.testable && problem.testcase) {
         log.info(sprintf('* Testcase Example:  %s',
               chalk.yellow(util.inspect(problem.testcase))));

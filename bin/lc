@@ -54,6 +54,10 @@ sh: execute a command after 'sh'.
 download: download all souce files to the dir 'source'.
 indent: make all json files have indent
 
+If you use Python, you can add the following to ~/.vimrc:
+    :set ts=4
+    :set expandtab
+
 You can also input the following codes:
 '''
 #%% functions for print
@@ -227,9 +231,9 @@ class problem(object):
             ts = load(f)
             ts.append(t)
             store(f, ts)
-    def edit(self): #use xed to edit codes, and save the time used
+    def edit(self): #use vi to edit codes, and save the time used
         time0 = time.time()
-        os.system('xed '+self.fname)
+        os.system('vi '+self.fname)
         self.write_time(time.time()-time0)# store the time used
     def test(self): #test
         os.system(lc_cli + 'test '+self.fname+' -t '+self.testcase+db)
@@ -238,14 +242,14 @@ class problem(object):
 
 #%% checking dependence
 if not os.path.exists('./do_not_check'):
-    pry('Checking leetcode-cli and xed...')
+    pry('Checking leetcode-cli and vi...')
     if os.system("leetcode user")!=0:
         prr('Can not find leetcode!')
         prr('Please read:')
         print('https://skygragon.github.io/leetcode-cli/install')
         exit()
-    if os.system("xed --version")!=0:
-        prr('Can not find xed!')
+    if os.system("vi --version")!=0:
+        prr('Can not find vi!')
         exit()
 
 
@@ -302,7 +306,7 @@ def do_all(ps,p):
         return -1
     # webbrowser.open_new_tab(prob.link)
     while True:
-        pry('\nPlease write your codes in xed, remember to save it...')
+        pry('\nPlease write your codes in vi, remember to save it...')
         # the time used
         prob.edit()
         prob.test()
@@ -325,11 +329,24 @@ def do_all(ps,p):
         print('File exists error!')
         return
     shutil.move(prob.fname,'./submitted/'+prob.fname)
-    webbrowser.open_new_tab(prob.link+'/#/solution')
+    webbrowser.open(prob.link+'/#/discuss')
     prob.cache()
     os.system(lc_cli + 'stat')
     os.system(lc_cli + 'stat -g')
 
+comment = '''
+def get_submission():
+      opts.headers.Cookie = 'LEETCODE_SESSION=' + user.sessionId +
+                        ';csrftoken=' + user.sessionCSRF + ';';
+  opts.headers['X-CSRFToken'] = user.sessionCSRF;
+  opts.headers['X-Requested-With'] = 'XMLHttpRequest';
+  
+        headers: {
+        Origin:  config.URL_BASE,
+        Referer: config.URL_LOGIN,
+        Cookie:  'csrftoken=' + user.loginCSRF + ';'
+      }
+'''
 #%%############################
 # main program
 ###############################

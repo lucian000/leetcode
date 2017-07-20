@@ -1,9 +1,9 @@
 var _ = require('underscore');
 var cheerio = require('cheerio');
 var he = require('he');
-var log = require('loglevel');
 var request = require('request');
 
+var log = require('./log');
 var config = require('./config');
 var h = require('./helper');
 
@@ -58,7 +58,7 @@ function relogin(opts, cb) {
 
   core.login(user, function(e, user) {
     if (e) {
-      log.debug('login failed:' + e);
+      log.debug('login failed:' + e.msg);
     } else {
       log.debug('login successfully, cont\'d...');
       signOpts(opts, user);
@@ -101,8 +101,8 @@ function requestWithReLogin(opts, cb) {
 
 var leetcodeClient = {};
 
-leetcodeClient.getProblems = function(user, cb) {
-  var opts = makeOpts(config.URL_PROBLEMS);
+leetcodeClient.getProblems = function(category, user, cb) {
+  var opts = makeOpts(config.URL_PROBLEMS.replace('$category', category));
 
   requestWithReLogin(opts, function(e, resp, body) {
     if (e) return cb(e);
@@ -123,27 +123,21 @@ leetcodeClient.getProblems = function(user, cb) {
         })
         .map(function(p) {
           return {
-            state:   p.status || 'None',
-            id:      p.stat.question_id,
-            name:    p.stat.question__title,
-            key:     p.stat.question__title_slug,
-            link:    config.URL_PROBLEM.replace('$id', p.stat.question__title_slug),
-            locked:  p.paid_only,
-            percent: p.stat.total_acs * 100 / p.stat.total_submitted,
-            level:   h.levelToName(p.difficulty.level),
-            starred: p.is_favor
+            state:    p.status || 'None',
+            id:       p.stat.question_id,
+            name:     p.stat.question__title,
+            slug:     p.stat.question__title_slug,
+            link:     config.URL_PROBLEM.replace('$slug', p.stat.question__title_slug),
+            locked:   p.paid_only,
+            percent:  p.stat.total_acs * 100 / p.stat.total_submitted,
+            level:    h.levelToName(p.difficulty.level),
+            starred:  p.is_favor,
+            category: json.category_slug
           };
         });
 
     return cb(null, problems);
   });
-};
-
-// hacking ;P
-var aceCtrl = {
-  init: function() {
-    return Array.prototype.slice.call(arguments);
-  }
 };
 
 leetcodeClient.getProblem = function(user, problem, cb) {
@@ -153,10 +147,11 @@ leetcodeClient.getProblem = function(user, problem, cb) {
     if (e) return cb(e);
 
     var $ = cheerio.load(body);
-    var info = $('div[class^=question-info] ul li strong');
+    var spans = $('ul[class=side-bar-list] li[class=list-item] span');
 
-    problem.totalAC = $(info[0]).text();
-    problem.totalSubmit = $(info[1]).text();
+    problem.totalAC = $(spans[3]).text();
+    problem.totalSubmit = $(spans[5]).text();
+
     // TODO: revisit this if later leetcode remove this element.
     //       Then we need parse the body to get the description.
     problem.desc = $('meta[name="description"]').attr('content');
@@ -182,8 +177,8 @@ leetcodeClient.getProblem = function(user, problem, cb) {
 
 leetcodeClient.getSubmissions = function(problem, cb) {
   var opts = makeOpts();
-  opts.url = config.URL_SUBMISSIONS.replace('$key', problem.key);
-  opts.headers.Referer = config.URL_PROBLEM.replace('$id', problem.key);
+  opts.url = config.URL_SUBMISSIONS.replace('$slug', problem.slug);
+  opts.headers.Referer = config.URL_PROBLEM.replace('$slug', problem.slug);
 
   requestWithReLogin(opts, function(e, resp, body) {
     if (e) return cb(e);
@@ -295,10 +290,10 @@ function runCode(opts, problem, cb) {
 
   opts.body = opts.body || {};
   _.extendOwn(opts.body, {
-    'lang':        h.extToLang(problem.file),
-    'question_id': parseInt(problem.id, 10),
-    'test_mode':   false,
-    'typed_code':  h.getFileData(problem.file)
+    lang:        h.extToLang(problem.file),
+    question_id: parseInt(problem.id, 10),
+    test_mode:   false,
+    typed_code:  h.getFileData(problem.file)
   });
 
   requestWithReLogin(opts, function(e, resp, body) {
@@ -328,8 +323,8 @@ function runCode(opts, problem, cb) {
 
 leetcodeClient.testProblem = function(problem, cb) {
   var opts = makeOpts();
-  opts.url = config.URL_TEST.replace('$key', problem.key);
-  opts.body = {'data_input': problem.testcase};
+  opts.url = config.URL_TEST.replace('$slug', problem.slug);
+  opts.body = {data_input: problem.testcase};
 
   runCode(opts, problem, function(e, task) {
     if (e) return cb(e);
@@ -344,8 +339,8 @@ leetcodeClient.testProblem = function(problem, cb) {
 
 leetcodeClient.submitProblem = function(problem, cb) {
   var opts = makeOpts();
-  opts.url = config.URL_SUBMIT.replace('$key', problem.key);
-  opts.body = {'judge_type': 'large'};
+  opts.url = config.URL_SUBMIT.replace('$slug', problem.slug);
+  opts.body = {judge_type: 'large'};
 
   runCode(opts, problem, function(e, task) {
     if (e) return cb(e);
@@ -362,8 +357,8 @@ leetcodeClient.starProblem = function(user, problem, starred, cb) {
     opts.method = 'POST';
     opts.json = true;
     opts.body = {
-      'favorite_id_hash': user.hash,
-      'question_id':      problem.id
+      favorite_id_hash: user.hash,
+      question_id:      problem.id
     };
   } else {
     opts.url = config.URL_FAVORITE_DELETE
