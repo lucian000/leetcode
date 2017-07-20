@@ -44,7 +44,7 @@ var DEFAULT_USER_CONFIG = {
   AUTO_LOGIN:  false,
   COLOR_THEME: 'default',
   ICON_THEME:  '',
-  LANG:        'cpp',
+  LANG:        'python3',
   MAX_WORKERS: 10,
   USE_COLOR:   true
 };

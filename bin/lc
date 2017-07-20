@@ -5,6 +5,10 @@ for using leetcode easily
 author: Lucian
 """
 #%% import and setup
+try: # for using arrow keys, don't remove this line!
+    import gnureadline 
+except:
+    import readline
 import time
 import shutil # for copyong file
 import json
@@ -20,7 +24,7 @@ d='./source/' #dir of saved source files
 dsave='./cache/' # dir of the cache of this program
 dt='./time/' # dir for time records
 lc_cli = './leetcode-cli/leetcode '
-
+editor = 'vim '
 
 if not os.path.exists(dc):
     os.makedirs(dc)
@@ -55,8 +59,8 @@ download: download all souce files to the dir 'source'.
 indent: make all json files have indent
 
 If you use Python, you can add the following to ~/.vimrc:
-    :set ts=4
-    :set expandtab
+:set ts=4
+:set expandtab
 
 You can also input the following codes:
 '''
@@ -231,9 +235,9 @@ class problem(object):
             ts = load(f)
             ts.append(t)
             store(f, ts)
-    def edit(self): #use vi to edit codes, and save the time used
+    def edit(self): #use editor to edit codes, and save the time used
         time0 = time.time()
-        os.system('vi '+self.fname)
+        os.system(editor+''+self.fname)
         self.write_time(time.time()-time0)# store the time used
     def test(self): #test
         os.system(lc_cli + 'test '+self.fname+' -t '+self.testcase+db)
@@ -242,16 +246,15 @@ class problem(object):
 
 #%% checking dependence
 if not os.path.exists('./do_not_check'):
-    pry('Checking leetcode-cli and vi...')
-    if os.system("leetcode user")!=0:
-        prr('Can not find leetcode!')
+    pry('Checking node and editor...')
+    if os.system("node -v")!=0:
+        prr('Can not find node.js!')
         prr('Please read:')
-        print('https://skygragon.github.io/leetcode-cli/install')
+        print('https://nodejs.org/')
         exit()
-    if os.system("vi --version")!=0:
+    if os.system(editor+' --version')!=0:
         prr('Can not find vi!')
         exit()
-
 
 #%% functions for the codes accepted
 def h():
@@ -334,26 +337,13 @@ def do_all(ps,p):
     os.system(lc_cli + 'stat')
     os.system(lc_cli + 'stat -g')
 
-comment = '''
-def get_submission():
-      opts.headers.Cookie = 'LEETCODE_SESSION=' + user.sessionId +
-                        ';csrftoken=' + user.sessionCSRF + ';';
-  opts.headers['X-CSRFToken'] = user.sessionCSRF;
-  opts.headers['X-Requested-With'] = 'XMLHttpRequest';
-  
-        headers: {
-        Origin:  config.URL_BASE,
-        Referer: config.URL_LOGIN,
-        Cookie:  'csrftoken=' + user.loginCSRF + ';'
-      }
-'''
 #%%############################
 # main program
 ###############################
 if not os.path.exists('./not_welcome'):
     pry(welcome)
 while(True):
-    ip = input(addy('\nlc >>> '))
+    ip = input(addy('\nlc >> '))
     ips = ip.split()
     if ips==[]:
         continue
