@@ -70,7 +70,7 @@ cmd.handler = function(argv) {
           });
 
           line = util.format(' Your runtime beats %d %% of %s submissions',
-              ratio.toFixed(2),
+              ratio.toFixed(4),
               lang);
           log.info(INDENT + h.prettyText(line, ok));
         });
