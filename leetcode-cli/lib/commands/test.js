@@ -93,6 +93,11 @@ function runTest(argv) {
            prettyLine(results[i], null, k);
          });
       }
+        // ADD BY LUCIAN {
+            var fs = require('fs');
+            fs.writeFile('./test_results.tmp', JSON.stringify(results))
+            //fs.writeFileSync('./dist_chart.tmp', JSON.stringify(submission))
+        // ADD BY LUCIAN }
     });
   });
 }

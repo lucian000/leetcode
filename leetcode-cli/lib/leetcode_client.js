@@ -206,11 +206,6 @@ leetcodeClient.getSubmission = function(submission, cb) {
     }
     re = body.match(/distribution_formatted:\s('[^']*')/);
     if (re) {
-    // ADD BY LUCIAN {
-        var fs = require('fs');
-        fs.writeFileSync('./dist_chart.json', eval(re[1]))
-        //fs.writeFileSync('./dist_chart.json', JSON.stringify(v))
-    // ADD BY LUCIAN }
       submission.distributionChart = JSON.parse(eval(re[1]));
     }
     return cb(null, submission);

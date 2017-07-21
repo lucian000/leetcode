@@ -62,7 +62,11 @@ cmd.handler = function(argv) {
           var lang = submission.distributionChart.lang;
           var scores = submission.distributionChart.distribution;
           var myRuntime = parseFloat(result.status_runtime);
-
+            // ADD BY LUCIAN {
+                var fs = require('fs');
+                fs.writeFile('./dist_chart.tmp', JSON.stringify([submission,result]))
+                //fs.writeFileSync('./dist_chart.tmp', JSON.stringify(submission))
+            // ADD BY LUCIAN }
           var ratio = 0.0;
           scores.forEach(function(score) {
             if (parseFloat(score[0]) > myRuntime)

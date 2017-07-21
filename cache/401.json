@@ -66,5 +66,36 @@
   }
  ],
  "testcase": "'0'",
- "testable": true
+ "testable": true,
+ "fname": "401.binary-watch.py",
+ "test_your": {
+  "code_answer": [
+   "null"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "29 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1500613508.27_784204_7"
+ },
+ "test_expected": {
+  "code_answer": [
+   "[\"0:00\"]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "35 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1500613508.29_784204_7"
+ }
 }

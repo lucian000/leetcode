@@ -17,6 +17,7 @@ import progressbar as pb
 import webbrowser
 import os
 import sys
+import matplotlib.pyplot as plt
 
 os.chdir(sys.path[0]+'/../') # change dir to the root dir
 dc = os.path.expanduser('~/.lc/') # dir of cache of leetcode
@@ -181,6 +182,7 @@ class problem(object):
                 self.__dict__.update(load(f1))
         self.testcase = "'"+self.testcase.replace('\n',r'\n')+"'"   
         self.loaded=True
+        self.cache()
     def download(self):
         'if cannot find json file in path d, save it'
         f1 = dc+self.key+'.json'
@@ -192,7 +194,13 @@ class problem(object):
     def cache(self):
         if not self.loaded:
             self.load()
-        store(dsave+self.ids+'.json',self.__dict__)
+        fname = dsave+self.ids+'.json'
+        if os.path.exists(fname):
+            dict0 = load(fname)
+            dict0.update(self.__dict__)
+            store(fname,dict0)
+        else:
+            store(fname,self.__dict__)
     def show(self,pr = True):
         if not self.loaded:
             self.load()
@@ -240,10 +248,50 @@ class problem(object):
         os.system(editor+''+self.fname)
         self.write_time(time.time()-time0)# store the time used
     def test(self): #test
+        if not self.testable:
+            prr('This question is not testable, please submit to check.')
+            return 1
         os.system(lc_cli + 'test '+self.fname+' -t '+self.testcase+db)
+        if os.path.exists('test_results.tmp'):
+            test_results = load('test_results.tmp')
+            self.test_your = test_results[0]
+            self.test_expected = test_results[1]
+            os.remove('test_results.tmp')
+        else:
+            prr('Something is wrong!')
+            return -1
+        self.cache()
+        return 0
     def submit(self):
         os.system(lc_cli + 'submit '+self.fname+db)
-
+        if os.path.exists('dist_chart.tmp'):
+            submit_info = load('dist_chart.tmp')
+            self.submit_chart = submit_info[0]['distributionChart']['distribution']
+            self.submit_your = submit_info[1]
+            os.remove('dist_chart.tmp')
+        else:
+            prr('Something is wrong!')
+            return -1
+        self.plot_chart()
+        self.cache()
+        return 0
+    def plot_chart(self):
+        if ((not 'submit_chart' in self.__dict__) or (not 'submit_your' in self.__dict__)):
+            prr('Data are not enough!')
+            return -1
+        x,y = zip(*self.submit_chart)
+        x,y = [float(i) for i in x],[float(i) for i in y]
+        yourx = self.submit_your['status_runtime']
+        yourx = float(yourx.replace('ms',''))
+        plt.figure()
+        bound = max(y)*1.2
+        plt.ylim([0,bound])
+        plt.bar(x,y,width=1)
+        plt.plot(x,y,'g',alpha=0.5)
+        plt.vlines(yourx,min(y),bound,'r',alpha=0.7)
+        plt.xlabel('Runtime (ms)')
+        plt.ylabel('Frequency (%)')        
+        plt.text(yourx,bound*0.95,str(yourx)+' ms')
 #%% checking dependence
 if not os.path.exists('./do_not_check'):
     pry('Checking node and editor...')
@@ -253,7 +301,7 @@ if not os.path.exists('./do_not_check'):
         print('https://nodejs.org/')
         exit()
     if os.system(editor+' --version')!=0:
-        prr('Can not find vi!')
+        prr('Can not find the editor!')
         exit()
 
 #%% functions for the codes accepted
@@ -309,10 +357,12 @@ def do_all(ps,p):
         return -1
     # webbrowser.open_new_tab(prob.link)
     while True:
-        pry('\nPlease write your codes in vi, remember to save it...')
+        pry('\nPlease write your codes in vim, remember to save it...')
         # the time used
         prob.edit()
-        prob.test()
+        testnum = prob.test()
+        if testnum==-1:
+            return -1
         pry('What do you want next?')
         pry('c/[Enter] = change codes, s = submit, e = exit')
         ip2 = input(addy('?> '))
@@ -324,10 +374,10 @@ def do_all(ps,p):
             prob.submit()
             pry('Change your answer?')
             pry('y=yes, n=no')
-            if input(addy('?> ')).startswith('y'):
-                continue
-            else:
+            if input(addy('?> ')).startswith('n'):
                 break
+            else:
+                continue
     if os.path.exists('./submitted/'+prob.fname): 
         print('File exists error!')
         return
