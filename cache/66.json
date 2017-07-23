@@ -6,12 +6,12 @@
  "key": "plus-one",
  "link": "https://leetcode.com/problems/plus-one",
  "locked": false,
- "percent": 38.39742542699858,
+ "percent": 38.42791885523215,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "175.2K",
+ "totalSubmit": "456K",
  "desc": "Given a non-negative integer represented as a non-empty array of digits, plus one to the integer.\r\n\r\nYou may assume the integer do not contain any leading zero, except the number 0 itself.\r\n\r\nThe digits are stored such that the most significant digit is at the head of the list.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[0]'",
- "testable": true
+ "testable": true,
+ "slug": "plus-one",
+ "category": "algorithms",
+ "fname": "66.plus-one.algorithms.py"
 }

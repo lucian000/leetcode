@@ -1,1 +1,68 @@
-{"id": 460, "ids": "460", "state": "None", "name": "LFU Cache", "key": "lfu-cache", "link": "https://leetcode.com/problems/lfu-cache", "locked": false, "percent": 23.205143709436854, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Design and implement a data structure for Least Frequently Used (LFU) cache. It should support the following operations: get and put.\r\n\r\n\r\n\r\nget(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.\r\nput(key, value) - Set or insert the value if the key is not already present. When the cache reaches its capacity, it should invalidate the least frequently used item before inserting a new item. For the purpose of this problem, when there is a tie (i.e., two or more keys that have the same frequency), the least recently used key would be evicted.\r\n\r\n\r\nFollow up:\r\nCould you do both operations in O(1) time complexity?\r\n\r\nExample:\r\n\r\nLFUCache cache = new LFUCache( 2 /* capacity */ );\r\n\r\ncache.put(1, 1);\r\ncache.put(2, 2);\r\ncache.get(1);       // returns 1\r\ncache.put(3, 3);    // evicts key 2\r\ncache.get(2);       // returns -1 (not found)\r\ncache.get(3);       // returns 3.\r\ncache.put(4, 4);    // evicts key 1.\r\ncache.get(1);       // returns -1 (not found)\r\ncache.get(3);       // returns 3\r\ncache.get(4);       // returns 4\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class LFUCache {\r\npublic:\r\n    LFUCache(int capacity) {\r\n        \r\n    }\r\n    \r\n    int get(int key) {\r\n        \r\n    }\r\n    \r\n    void put(int key, int value) {\r\n        \r\n    }\r\n};\r\n\r\n/**\r\n * Your LFUCache object will be instantiated and called as such:\r\n * LFUCache obj = new LFUCache(capacity);\r\n * int param_1 = obj.get(key);\r\n * obj.put(key,value);\r\n */"}, {"value": "java", "text": "Java", "defaultCode": "public class LFUCache {\r\n\r\n    public LFUCache(int capacity) {\r\n        \r\n    }\r\n    \r\n    public int get(int key) {\r\n        \r\n    }\r\n    \r\n    public void put(int key, int value) {\r\n        \r\n    }\r\n}\r\n\r\n/**\r\n * Your LFUCache object will be instantiated and called as such:\r\n * LFUCache obj = new LFUCache(capacity);\r\n * int param_1 = obj.get(key);\r\n * obj.put(key,value);\r\n */"}, {"value": "python", "text": "Python", "defaultCode": "class LFUCache(object):\r\n\r\n    def __init__(self, capacity):\r\n        \"\"\"\r\n        :type capacity: int\r\n        \"\"\"\r\n        \r\n\r\n    def get(self, key):\r\n        \"\"\"\r\n        :type key: int\r\n        :rtype: int\r\n        \"\"\"\r\n        \r\n\r\n    def put(self, key, value):\r\n        \"\"\"\r\n        :type key: int\r\n        :type value: int\r\n        :rtype: void\r\n        \"\"\"\r\n        \r\n\r\n\r\n# Your LFUCache object will be instantiated and called as such:\r\n# obj = LFUCache(capacity)\r\n# param_1 = obj.get(key)\r\n# obj.put(key,value)"}, {"value": "c", "text": "C", "defaultCode": "typedef struct {\n    \n} LFUCache;\n\nLFUCache* lFUCacheCreate(int capacity) {\n    \n}\n\nint lFUCacheGet(LFUCache* obj, int key) {\n    \n}\n\nvoid lFUCachePut(LFUCache* obj, int key, int value) {\n    \n}\n\nvoid lFUCacheFree(LFUCache* obj) {\n    \n}\n\n/**\n * Your LFUCache struct will be instantiated and called as such:\n * struct LFUCache* obj = lFUCacheCreate(capacity);\n * int param_1 = lFUCacheGet(obj, key);\n * lFUCachePut(obj, key, value);\n * lFUCacheFree(obj);\n */"}, {"value": "csharp", "text": "C#", "defaultCode": "public class LFUCache {\r\n\r\n    public LFUCache(int capacity) {\r\n        \r\n    }\r\n    \r\n    public int Get(int key) {\r\n        \r\n    }\r\n    \r\n    public void Put(int key, int value) {\r\n        \r\n    }\r\n}\r\n\r\n/**\r\n * Your LFUCache object will be instantiated and called as such:\r\n * LFUCache obj = new LFUCache(capacity);\r\n * int param_1 = obj.Get(key);\r\n * obj.Put(key,value);\r\n */"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number} capacity\r\n */\r\nvar LFUCache = function(capacity) {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} key\r\n * @return {number}\r\n */\r\nLFUCache.prototype.get = function(key) {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} key \r\n * @param {number} value\r\n * @return {void}\r\n */\r\nLFUCache.prototype.put = function(key, value) {\r\n    \r\n};\r\n\r\n/** \r\n * Your LFUCache object will be instantiated and called as such:\r\n * var obj = Object.create(LFUCache).createNew(capacity)\r\n * var param_1 = obj.get(key)\r\n * obj.put(key,value)\r\n */"}, {"value": "ruby", "text": "Ruby", "defaultCode": "class LFUCache\r\n\r\n=begin\r\n    :type capacity: Integer\r\n=end\r\n    def initialize(capacity)\r\n        \r\n    end\r\n\r\n\r\n=begin\r\n    :type key: Integer\r\n    :rtype: Integer\r\n=end\r\n    def get(key)\r\n        \r\n    end\r\n\r\n\r\n=begin\r\n    :type key: Integer\r\n    :type value: Integer\r\n    :rtype: Void\r\n=end\r\n    def put(key, value)\r\n        \r\n    end\r\n\r\n\r\nend\r\n\r\n# Your LFUCache object will be instantiated and called as such:\r\n# obj = LFUCache.new(capacity)\r\n# param_1 = obj.get(key)\r\n# obj.put(key,value)"}, {"value": "golang", "text": "Go", "defaultCode": "type LFUCache struct {\r\n    \r\n}\r\n\r\n\r\nfunc Constructor(capacity int) LFUCache {\r\n    \r\n}\r\n\r\n\r\nfunc (this *LFUCache) Get(key int) int {\r\n    \r\n}\r\n\r\n\r\nfunc (this *LFUCache) Put(key int, value int)  {\r\n    \r\n}\r\n\r\n\r\n/**\r\n * Your LFUCache object will be instantiated and called as such:\r\n * obj := Constructor(capacity);\r\n * param_1 := obj.Get(key);\r\n * obj.Put(key,value);\r\n */"}, {"value": "scala", "text": "Scala", "defaultCode": "class LFUCache(var _capacity: Int) {\n    \n    def get(int key) : Int = {\n\n    }\n    \n    def put(int key, int value) {\n\n    }\n}\n\n/**\n * Your LFUCache object will be instantiated and called as such:\n * var obj = new LFUCache(capacity);\n * Int param_1 = obj.get(key);\n * obj.put(key,value);\n */"}], "testcase": "'[\"LFUCache\",\"put\",\"put\",\"get\",\"put\",\"get\",\"get\",\"put\",\"get\",\"get\",\"get\"]\\n[[2],[1,1],[2,2],[1],[3,3],[2],[3],[4,4],[1],[3],[4]]'", "testable": true}
+{
+ "id": 460,
+ "ids": "460",
+ "state": "None",
+ "name": "LFU Cache",
+ "key": "lfu-cache",
+ "link": "https://leetcode.com/problems/lfu-cache",
+ "locked": false,
+ "percent": 23.240136811963094,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "11.7K",
+ "totalSubmit": "50.3K",
+ "desc": "Design and implement a data structure for Least Frequently Used (LFU) cache. It should support the following operations: get and put.\r\n\r\n\r\n\r\nget(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.\r\nput(key, value) - Set or insert the value if the key is not already present. When the cache reaches its capacity, it should invalidate the least frequently used item before inserting a new item. For the purpose of this problem, when there is a tie (i.e., two or more keys that have the same frequency), the least recently used key would be evicted.\r\n\r\n\r\nFollow up:\r\nCould you do both operations in O(1) time complexity?\r\n\r\nExample:\r\n\r\nLFUCache cache = new LFUCache( 2 /* capacity */ );\r\n\r\ncache.put(1, 1);\r\ncache.put(2, 2);\r\ncache.get(1);       // returns 1\r\ncache.put(3, 3);    // evicts key 2\r\ncache.get(2);       // returns -1 (not found)\r\ncache.get(3);       // returns 3.\r\ncache.put(4, 4);    // evicts key 1.\r\ncache.get(1);       // returns -1 (not found)\r\ncache.get(3);       // returns 3\r\ncache.get(4);       // returns 4\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class LFUCache {\r\npublic:\r\n    LFUCache(int capacity) {\r\n        \r\n    }\r\n    \r\n    int get(int key) {\r\n        \r\n    }\r\n    \r\n    void put(int key, int value) {\r\n        \r\n    }\r\n};\r\n\r\n/**\r\n * Your LFUCache object will be instantiated and called as such:\r\n * LFUCache obj = new LFUCache(capacity);\r\n * int param_1 = obj.get(key);\r\n * obj.put(key,value);\r\n */"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class LFUCache {\r\n\r\n    public LFUCache(int capacity) {\r\n        \r\n    }\r\n    \r\n    public int get(int key) {\r\n        \r\n    }\r\n    \r\n    public void put(int key, int value) {\r\n        \r\n    }\r\n}\r\n\r\n/**\r\n * Your LFUCache object will be instantiated and called as such:\r\n * LFUCache obj = new LFUCache(capacity);\r\n * int param_1 = obj.get(key);\r\n * obj.put(key,value);\r\n */"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class LFUCache(object):\r\n\r\n    def __init__(self, capacity):\r\n        \"\"\"\r\n        :type capacity: int\r\n        \"\"\"\r\n        \r\n\r\n    def get(self, key):\r\n        \"\"\"\r\n        :type key: int\r\n        :rtype: int\r\n        \"\"\"\r\n        \r\n\r\n    def put(self, key, value):\r\n        \"\"\"\r\n        :type key: int\r\n        :type value: int\r\n        :rtype: void\r\n        \"\"\"\r\n        \r\n\r\n\r\n# Your LFUCache object will be instantiated and called as such:\r\n# obj = LFUCache(capacity)\r\n# param_1 = obj.get(key)\r\n# obj.put(key,value)"
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "typedef struct {\n    \n} LFUCache;\n\nLFUCache* lFUCacheCreate(int capacity) {\n    \n}\n\nint lFUCacheGet(LFUCache* obj, int key) {\n    \n}\n\nvoid lFUCachePut(LFUCache* obj, int key, int value) {\n    \n}\n\nvoid lFUCacheFree(LFUCache* obj) {\n    \n}\n\n/**\n * Your LFUCache struct will be instantiated and called as such:\n * struct LFUCache* obj = lFUCacheCreate(capacity);\n * int param_1 = lFUCacheGet(obj, key);\n * lFUCachePut(obj, key, value);\n * lFUCacheFree(obj);\n */"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class LFUCache {\r\n\r\n    public LFUCache(int capacity) {\r\n        \r\n    }\r\n    \r\n    public int Get(int key) {\r\n        \r\n    }\r\n    \r\n    public void Put(int key, int value) {\r\n        \r\n    }\r\n}\r\n\r\n/**\r\n * Your LFUCache object will be instantiated and called as such:\r\n * LFUCache obj = new LFUCache(capacity);\r\n * int param_1 = obj.Get(key);\r\n * obj.Put(key,value);\r\n */"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number} capacity\r\n */\r\nvar LFUCache = function(capacity) {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} key\r\n * @return {number}\r\n */\r\nLFUCache.prototype.get = function(key) {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} key \r\n * @param {number} value\r\n * @return {void}\r\n */\r\nLFUCache.prototype.put = function(key, value) {\r\n    \r\n};\r\n\r\n/** \r\n * Your LFUCache object will be instantiated and called as such:\r\n * var obj = Object.create(LFUCache).createNew(capacity)\r\n * var param_1 = obj.get(key)\r\n * obj.put(key,value)\r\n */"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "class LFUCache\r\n\r\n=begin\r\n    :type capacity: Integer\r\n=end\r\n    def initialize(capacity)\r\n        \r\n    end\r\n\r\n\r\n=begin\r\n    :type key: Integer\r\n    :rtype: Integer\r\n=end\r\n    def get(key)\r\n        \r\n    end\r\n\r\n\r\n=begin\r\n    :type key: Integer\r\n    :type value: Integer\r\n    :rtype: Void\r\n=end\r\n    def put(key, value)\r\n        \r\n    end\r\n\r\n\r\nend\r\n\r\n# Your LFUCache object will be instantiated and called as such:\r\n# obj = LFUCache.new(capacity)\r\n# param_1 = obj.get(key)\r\n# obj.put(key,value)"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "type LFUCache struct {\r\n    \r\n}\r\n\r\n\r\nfunc Constructor(capacity int) LFUCache {\r\n    \r\n}\r\n\r\n\r\nfunc (this *LFUCache) Get(key int) int {\r\n    \r\n}\r\n\r\n\r\nfunc (this *LFUCache) Put(key int, value int)  {\r\n    \r\n}\r\n\r\n\r\n/**\r\n * Your LFUCache object will be instantiated and called as such:\r\n * obj := Constructor(capacity);\r\n * param_1 := obj.Get(key);\r\n * obj.Put(key,value);\r\n */"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "class LFUCache(var _capacity: Int) {\n    \n    def get(int key) : Int = {\n\n    }\n    \n    def put(int key, int value) {\n\n    }\n}\n\n/**\n * Your LFUCache object will be instantiated and called as such:\n * var obj = new LFUCache(capacity);\n * Int param_1 = obj.get(key);\n * obj.put(key,value);\n */"
+  }
+ ],
+ "testcase": "'[\"LFUCache\",\"put\",\"put\",\"get\",\"put\",\"get\",\"get\",\"put\",\"get\",\"get\",\"get\"]\\n[[2],[1,1],[2,2],[1],[3,3],[2],[3],[4,4],[1],[3],[4]]'",
+ "testable": true,
+ "slug": "lfu-cache",
+ "category": "algorithms",
+ "fname": "460.lfu-cache.algorithms.py"
+}

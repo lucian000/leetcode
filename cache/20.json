@@ -6,12 +6,12 @@
  "key": "valid-parentheses",
  "link": "https://leetcode.com/problems/valid-parentheses",
  "locked": false,
- "percent": 33.27542072957325,
+ "percent": 33.2828665937127,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "214.1K",
+ "totalSubmit": "643.3K",
  "desc": "Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.\r\n\r\nThe brackets must close in the correct order, \"()\" and \"()[]{}\" are all valid but \"(]\" and \"([)]\" are not.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"[\"'",
- "testable": true
+ "testable": true,
+ "slug": "valid-parentheses",
+ "category": "algorithms",
+ "fname": "20.valid-parentheses.algorithms.py"
 }

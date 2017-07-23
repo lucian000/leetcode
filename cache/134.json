@@ -6,12 +6,12 @@
  "key": "gas-station",
  "link": "https://leetcode.com/problems/gas-station",
  "locked": false,
- "percent": 29.19161222211354,
+ "percent": 29.211385122632304,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "86.8K",
+ "totalSubmit": "297.2K",
  "desc": "\r\nThere are N gas stations along a circular route, where the amount of gas at station i is gas[i].\r\n\r\n\r\n\r\nYou have a car with an unlimited gas tank and it costs cost[i] of gas to travel from station i to its next station (i+1). You begin the journey with an empty tank at one of the gas stations.\r\n\r\n\r\n\r\nReturn the starting gas station's index if you can travel around the circuit once, otherwise return -1.\r\n\r\n\r\n\r\nNote:\r\nThe solution is guaranteed to be unique.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[4]\\n[5]'",
- "testable": true
+ "testable": true,
+ "slug": "gas-station",
+ "category": "algorithms",
+ "fname": "134.gas-station.algorithms.py"
 }

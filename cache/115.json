@@ -6,12 +6,12 @@
  "key": "distinct-subsequences",
  "link": "https://leetcode.com/problems/distinct-subsequences",
  "locked": false,
- "percent": 31.370895436266633,
+ "percent": 31.387904449665292,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "70.9K",
+ "totalSubmit": "226K",
  "desc": "\r\nGiven a string S and a string T, count the number of distinct subsequences of S which equals T.\r\n\r\n\r\n\r\nA subsequence of a string is a new string which is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie, \"ACE\" is a subsequence of \"ABCDE\" while \"AEC\" is not).\r\n\r\n\r\n\r\nHere is an example:\r\nS = \"rabbbit\", T = \"rabbit\"\r\n\r\n\r\nReturn 3.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"\"\\n\"a\"'",
- "testable": true
+ "testable": true,
+ "slug": "distinct-subsequences",
+ "category": "algorithms",
+ "fname": "115.distinct-subsequences.algorithms.py"
 }

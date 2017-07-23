@@ -1,0 +1,27 @@
+{
+ "id": 196,
+ "ids": "196",
+ "state": "None",
+ "name": "Delete Duplicate Emails",
+ "slug": "delete-duplicate-emails",
+ "link": "https://leetcode.com/problems/delete-duplicate-emails",
+ "locked": false,
+ "percent": 20.230604920152864,
+ "level": "Easy",
+ "starred": false,
+ "category": "database",
+ "fname": "196.delete-duplicate-emails.database.py",
+ "loaded": true,
+ "totalAC": "27.8K",
+ "totalSubmit": "137.6K",
+ "desc": "\r\nWrite a SQL query to delete all duplicate email entries in a table named Person, keeping only unique emails based on its smallest Id.\r\n\r\n\r\n+----+------------------+\r\n| Id | Email            |\r\n+----+------------------+\r\n| 1  | john@example.com |\r\n| 2  | bob@example.com  |\r\n| 3  | john@example.com |\r\n+----+------------------+\r\nId is the primary key column for this table.\r\n\r\n\r\nFor example, after running your query, the above Person table should have the following rows:\r\n\r\n+----+------------------+\r\n| Id | Email            |\r\n+----+------------------+\r\n| 1  | john@example.com |\r\n| 2  | bob@example.com  |\r\n+----+------------------+\r\n",
+ "templates": [
+  {
+   "value": "mysql",
+   "text": "MySQL",
+   "defaultCode": "# Write your MySQL query statement below"
+  }
+ ],
+ "testcase": "'{\"headers\": {\"Person\": [\"Id\", \"Email\"]}, \"rows\": {\"Person\": [[1, \"john@example.com\"], [2, \"bob@example.com\"], [3, \"john@example.com\"]]}}'",
+ "testable": true
+}

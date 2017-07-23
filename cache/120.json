@@ -6,12 +6,12 @@
  "key": "triangle",
  "link": "https://leetcode.com/problems/triangle",
  "locked": false,
- "percent": 33.56008568074746,
+ "percent": 33.59655759409873,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "106.6K",
+ "totalSubmit": "317.2K",
  "desc": "Given a triangle, find the minimum path sum from top to bottom. Each step you may move to adjacent numbers on the row below.\r\n\r\n\r\nFor example, given the following triangle\r\n\r\n[\r\n     [2],\r\n    [3,4],\r\n   [6,5,7],\r\n  [4,1,8,3]\r\n]\r\n\r\n\r\n\r\nThe minimum path sum from top to bottom is 11 (i.e., 2 + 3 + 5 + 1 = 11).\r\n\r\n\r\n\r\nNote:\r\nBonus point if you are able to do this using only O(n) extra space, where n is the total number of rows in the triangle.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[-10]]'",
- "testable": true
+ "testable": true,
+ "slug": "triangle",
+ "category": "algorithms",
+ "fname": "120.triangle.algorithms.py"
 }

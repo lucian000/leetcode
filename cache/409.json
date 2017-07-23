@@ -6,12 +6,12 @@
  "key": "longest-palindrome",
  "link": "https://leetcode.com/problems/longest-palindrome",
  "locked": false,
- "percent": 45.343818931619836,
+ "percent": 45.30379173383061,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "43K",
+ "totalSubmit": "94.9K",
  "desc": "Given a string which consists of lowercase or uppercase letters, find the length of the longest palindromes that can be built with those letters.\r\n\r\nThis is case sensitive, for example \"Aa\" is not considered a palindrome here.\r\n\r\nNote:\r\nAssume the length of given string will not exceed 1,010.\r\n\r\n\r\nExample: \r\n\r\nInput:\r\n\"abccccdd\"\r\n\r\nOutput:\r\n7\r\n\r\nExplanation:\r\nOne longest palindrome that can be built is \"dccaccd\", whose length is 7.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"abccccdd\"'",
- "testable": true
+ "testable": true,
+ "slug": "longest-palindrome",
+ "category": "algorithms",
+ "fname": "409.longest-palindrome.algorithms.py"
 }

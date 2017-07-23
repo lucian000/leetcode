@@ -6,12 +6,12 @@
  "key": "power-of-two",
  "link": "https://leetcode.com/problems/power-of-two",
  "locked": false,
- "percent": 40.015093987755805,
+ "percent": 40.04091522423574,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "138K",
+ "totalSubmit": "344.6K",
  "desc": "\r\nGiven an integer, write a function to determine if it is a power of two.\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'1'",
- "testable": true
+ "testable": true,
+ "slug": "power-of-two",
+ "category": "algorithms",
+ "fname": "231.power-of-two.algorithms.py"
 }

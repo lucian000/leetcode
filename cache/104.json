@@ -6,12 +6,12 @@
  "key": "maximum-depth-of-binary-tree",
  "link": "https://leetcode.com/problems/maximum-depth-of-binary-tree",
  "locked": false,
- "percent": 52.38267193756018,
+ "percent": 52.432770954698675,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "249.5K",
+ "totalSubmit": "475.9K",
  "desc": "Given a binary tree, find its maximum depth.\r\n\r\nThe maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "maximum-depth-of-binary-tree",
+ "category": "algorithms",
+ "fname": "104.maximum-depth-of-binary-tree.algorithms.py"
 }

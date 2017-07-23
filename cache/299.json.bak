@@ -1,1 +1,73 @@
-{"id": 299, "ids": "299", "state": "None", "name": "Bulls and Cows", "key": "bulls-and-cows", "link": "https://leetcode.com/problems/bulls-and-cows", "locked": false, "percent": 34.54748376623377, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "You are playing the following Bulls and Cows game with your friend: You write down a number and ask your friend to guess what the number is. Each time your friend makes a guess, you provide a hint that indicates how many digits in said guess match your secret number exactly in both digit and position (called \"bulls\") and how many digits match the secret number but locate in the wrong position (called \"cows\"). Your friend will use successive guesses and hints to eventually derive the secret number.\r\n\r\n\r\nFor example:\r\n\r\nSecret number:  \"1807\"\r\nFriend's guess: \"7810\"\r\n\r\nHint: 1 bull and 3 cows. (The bull is 8, the cows are 0, 1 and 7.)\r\n\r\n\r\nWrite a function to return a hint according to the secret number and friend's guess, use A to indicate the bulls and B to indicate the cows. In the above example, your function should return \"1A3B\". \r\n\r\nPlease note that both secret number and friend's guess may contain duplicate digits, for example:\r\n\r\nSecret number:  \"1123\"\r\nFriend's guess: \"0111\"\r\n\r\nIn this case, the 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow, and your function should return \"1A1B\".\r\n\r\n\r\nYou may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.\r\n\r\nCredits:Special thanks to @jeantimex for adding this problem and creating all test cases.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    string getHint(string secret, string guess) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public String getHint(String secret, String guess) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def getHint(self, secret, guess):\r\n        \"\"\"\r\n        :type secret: str\r\n        :type guess: str\r\n        :rtype: str\r\n        \"\"\""}, {"value": "c", "text": "C", "defaultCode": "char* getHint(char* secret, char* guess) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public string GetHint(string secret, string guess) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {string} secret\r\n * @param {string} guess\r\n * @return {string}\r\n */\r\nvar getHint = function(secret, guess) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String} secret\r\n# @param {String} guess\r\n# @return {String}\r\ndef get_hint(secret, guess)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func getHint(_ secret: String, _ guess: String) -> String {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func getHint(secret string, guess string) string {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def getHint(secret: String, guess: String): String = {\n        \n    }\n}"}], "testcase": "'\"1807\"\\n\"7810\"'", "testable": true}
+{
+ "id": 299,
+ "ids": "299",
+ "state": "None",
+ "name": "Bulls and Cows",
+ "key": "bulls-and-cows",
+ "link": "https://leetcode.com/problems/bulls-and-cows",
+ "locked": false,
+ "percent": 34.58629165203626,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "58.1K",
+ "totalSubmit": "168K",
+ "desc": "You are playing the following Bulls and Cows game with your friend: You write down a number and ask your friend to guess what the number is. Each time your friend makes a guess, you provide a hint that indicates how many digits in said guess match your secret number exactly in both digit and position (called \"bulls\") and how many digits match the secret number but locate in the wrong position (called \"cows\"). Your friend will use successive guesses and hints to eventually derive the secret number.\r\n\r\n\r\nFor example:\r\n\r\nSecret number:  \"1807\"\r\nFriend's guess: \"7810\"\r\n\r\nHint: 1 bull and 3 cows. (The bull is 8, the cows are 0, 1 and 7.)\r\n\r\n\r\nWrite a function to return a hint according to the secret number and friend's guess, use A to indicate the bulls and B to indicate the cows. In the above example, your function should return \"1A3B\". \r\n\r\nPlease note that both secret number and friend's guess may contain duplicate digits, for example:\r\n\r\nSecret number:  \"1123\"\r\nFriend's guess: \"0111\"\r\n\r\nIn this case, the 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow, and your function should return \"1A1B\".\r\n\r\n\r\nYou may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.\r\n\r\nCredits:Special thanks to @jeantimex for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    string getHint(string secret, string guess) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public String getHint(String secret, String guess) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def getHint(self, secret, guess):\r\n        \"\"\"\r\n        :type secret: str\r\n        :type guess: str\r\n        :rtype: str\r\n        \"\"\""
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "char* getHint(char* secret, char* guess) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public string GetHint(string secret, string guess) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} secret\r\n * @param {string} guess\r\n * @return {string}\r\n */\r\nvar getHint = function(secret, guess) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} secret\r\n# @param {String} guess\r\n# @return {String}\r\ndef get_hint(secret, guess)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func getHint(_ secret: String, _ guess: String) -> String {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func getHint(secret string, guess string) string {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def getHint(secret: String, guess: String): String = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'\"1807\"\\n\"7810\"'",
+ "testable": true,
+ "slug": "bulls-and-cows",
+ "category": "algorithms",
+ "fname": "299.bulls-and-cows.algorithms.py"
+}

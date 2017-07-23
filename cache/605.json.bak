@@ -1,1 +1,78 @@
-{"id": 605, "ids": "605", "state": "None", "name": "Can Place Flowers", "key": "can-place-flowers", "link": "https://leetcode.com/problems/can-place-flowers", "locked": false, "percent": 30.00094017361873, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Suppose you have a long flowerbed in which some of the plots are planted and some are not. However, flowers cannot be planted in adjacent plots - they would compete for water and both would die.\r\n\r\nGiven a flowerbed (represented as an array containing 0 and 1, where 0 means empty and 1 means not empty), and a number n, return if n new flowers can be planted in it without violating the no-adjacent-flowers rule.\r\n\r\nExample 1:\r\n\r\nInput: flowerbed = [1,0,0,0,1], n = 1\r\nOutput: True\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: flowerbed = [1,0,0,0,1], n = 2\r\nOutput: False\r\n\r\n\r\n\r\nNote:\r\n\r\nThe input array won't violate no-adjacent-flowers rule.\r\nThe input array size is in the range of [1, 20000].\r\nn is a non-negative integer which won't exceed the input array size.\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    bool canPlaceFlowers(vector<int>& flowerbed, int n) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public boolean canPlaceFlowers(int[] flowerbed, int n) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def canPlaceFlowers(self, flowerbed, n):\r\n        \"\"\"\r\n        :type flowerbed: List[int]\r\n        :type n: int\r\n        :rtype: bool\r\n        \"\"\"\r\n        "}, {"value": "python3", "text": "Python3", "defaultCode": "class Solution:\r\n    def canPlaceFlowers(self, flowerbed, n):\r\n        \"\"\"\r\n        :type flowerbed: List[int]\r\n        :type n: int\r\n        :rtype: bool\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "bool canPlaceFlowers(int* flowerbed, int flowerbedSize, int n) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public bool CanPlaceFlowers(int[] flowerbed, int n) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} flowerbed\r\n * @param {number} n\r\n * @return {boolean}\r\n */\r\nvar canPlaceFlowers = function(flowerbed, n) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} flowerbed\r\n# @param {Integer} n\r\n# @return {Boolean}\r\ndef can_place_flowers(flowerbed, n)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func canPlaceFlowers(_ flowerbed: [Int], _ n: Int) -> Bool {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func canPlaceFlowers(flowerbed []int, n int) bool {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def canPlaceFlowers(flowerbed: Array[Int], n: Int): Boolean = {\n        \n    }\n}"}], "testcase": "'[1,0,0,0,1]\\n1'", "testable": true}
+{
+ "id": 605,
+ "ids": "605",
+ "state": "None",
+ "name": "Can Place Flowers",
+ "key": "can-place-flowers",
+ "link": "https://leetcode.com/problems/can-place-flowers",
+ "locked": false,
+ "percent": 29.94612614221508,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "10.1K",
+ "totalSubmit": "33.6K",
+ "desc": "Suppose you have a long flowerbed in which some of the plots are planted and some are not. However, flowers cannot be planted in adjacent plots - they would compete for water and both would die.\r\n\r\nGiven a flowerbed (represented as an array containing 0 and 1, where 0 means empty and 1 means not empty), and a number n, return if n new flowers can be planted in it without violating the no-adjacent-flowers rule.\r\n\r\nExample 1:\r\n\r\nInput: flowerbed = [1,0,0,0,1], n = 1\r\nOutput: True\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: flowerbed = [1,0,0,0,1], n = 2\r\nOutput: False\r\n\r\n\r\n\r\nNote:\r\n\r\nThe input array won't violate no-adjacent-flowers rule.\r\nThe input array size is in the range of [1, 20000].\r\nn is a non-negative integer which won't exceed the input array size.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool canPlaceFlowers(vector<int>& flowerbed, int n) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean canPlaceFlowers(int[] flowerbed, int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def canPlaceFlowers(self, flowerbed, n):\r\n        \"\"\"\r\n        :type flowerbed: List[int]\r\n        :type n: int\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "python3",
+   "text": "Python3",
+   "defaultCode": "class Solution:\r\n    def canPlaceFlowers(self, flowerbed, n):\r\n        \"\"\"\r\n        :type flowerbed: List[int]\r\n        :type n: int\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool canPlaceFlowers(int* flowerbed, int flowerbedSize, int n) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool CanPlaceFlowers(int[] flowerbed, int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} flowerbed\r\n * @param {number} n\r\n * @return {boolean}\r\n */\r\nvar canPlaceFlowers = function(flowerbed, n) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} flowerbed\r\n# @param {Integer} n\r\n# @return {Boolean}\r\ndef can_place_flowers(flowerbed, n)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func canPlaceFlowers(_ flowerbed: [Int], _ n: Int) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func canPlaceFlowers(flowerbed []int, n int) bool {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def canPlaceFlowers(flowerbed: Array[Int], n: Int): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[1,0,0,0,1]\\n1'",
+ "testable": true,
+ "slug": "can-place-flowers",
+ "category": "algorithms",
+ "fname": "605.can-place-flowers.algorithms.py"
+}

@@ -6,12 +6,12 @@
  "key": "reverse-bits",
  "link": "https://leetcode.com/problems/reverse-bits",
  "locked": false,
- "percent": 29.549194272614194,
+ "percent": 29.542022871100254,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "106.4K",
+ "totalSubmit": "360.3K",
  "desc": "Reverse bits of a given 32 bits unsigned integer.\r\n\r\nFor example, given input 43261596 (represented in binary as 00000010100101000001111010011100), return 964176192 (represented in binary as 00111001011110000010100101000000).\r\n\r\n\r\nFollow up:\r\nIf this function is called many times, how would you optimize it?\r\n\r\n\r\nRelated problem: Reverse Integer\r\n\r\nCredits:Special thanks to @ts for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -51,5 +51,8 @@
   }
  ],
  "testcase": "'           0 (00000000000000000000000000000000)'",
- "testable": false
+ "testable": false,
+ "slug": "reverse-bits",
+ "category": "algorithms",
+ "fname": "190.reverse-bits.algorithms.py"
 }

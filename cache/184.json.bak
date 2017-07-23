@@ -1,0 +1,27 @@
+{
+ "id": 184,
+ "ids": "184",
+ "state": "None",
+ "name": "Department Highest Salary",
+ "slug": "department-highest-salary",
+ "link": "https://leetcode.com/problems/department-highest-salary",
+ "locked": false,
+ "percent": 19.51110230317861,
+ "level": "Medium",
+ "starred": false,
+ "category": "database",
+ "fname": "184.department-highest-salary.database.py",
+ "loaded": true,
+ "totalAC": "22.6K",
+ "totalSubmit": "116.1K",
+ "desc": "\r\nThe Employee table holds all employees. Every employee has an Id, a salary, and there is also a column for the department Id.\r\n\r\n\r\n+----+-------+--------+--------------+\r\n| Id | Name  | Salary | DepartmentId |\r\n+----+-------+--------+--------------+\r\n| 1  | Joe   | 70000  | 1            |\r\n| 2  | Henry | 80000  | 2            |\r\n| 3  | Sam   | 60000  | 2            |\r\n| 4  | Max   | 90000  | 1            |\r\n+----+-------+--------+--------------+\r\n\r\n\r\n\r\nThe Department table holds all departments of the company.\r\n\r\n+----+----------+\r\n| Id | Name     |\r\n+----+----------+\r\n| 1  | IT       |\r\n| 2  | Sales    |\r\n+----+----------+\r\n\r\n\r\nWrite a SQL query to find employees who have the highest salary in each of the departments. For the above tables, Max has the highest salary in the IT department and Henry has the highest salary in the Sales department.\r\n\r\n\r\n+------------+----------+--------+\r\n| Department | Employee | Salary |\r\n+------------+----------+--------+\r\n| IT         | Max      | 90000  |\r\n| Sales      | Henry    | 80000  |\r\n+------------+----------+--------+\r\n",
+ "templates": [
+  {
+   "value": "mysql",
+   "text": "MySQL",
+   "defaultCode": "# Write your MySQL query statement below\r\n"
+  }
+ ],
+ "testcase": "'{\"headers\": {\"Employee\": [\"Id\", \"Name\", \"Salary\", \"DepartmentId\"], \"Department\": [\"Id\", \"Name\"]}, \"rows\": {\"Employee\": [[1, \"Joe\", 70000, 1], [2, \"Henry\", 80000, 2], [3, \"Sam\", 60000, 2], [4, \"Max\", 90000, 1]], \"Department\": [[1, \"IT\"], [2, \"Sales\"]]}}'",
+ "testable": true
+}

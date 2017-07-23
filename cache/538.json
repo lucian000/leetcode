@@ -6,12 +6,12 @@
  "key": "convert-bst-to-greater-tree",
  "link": "https://leetcode.com/problems/convert-bst-to-greater-tree",
  "locked": false,
- "percent": 52.366573859848636,
+ "percent": 51.892842745629785,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "14.2K",
+ "totalSubmit": "27.3K",
  "desc": "Given a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus sum of all keys greater than the original key in BST.\r\n\r\n\r\nExample:\r\n\r\nInput: The root of a Binary Search Tree like this:\r\n              5\r\n            /   \\\r\n           2     13\r\n\r\nOutput: The root of a Greater Tree like this:\r\n             18\r\n            /   \\\r\n          20     13\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[5,2,13]'",
- "testable": true
+ "testable": true,
+ "slug": "convert-bst-to-greater-tree",
+ "category": "algorithms",
+ "fname": "538.convert-bst-to-greater-tree.algorithms.py"
 }

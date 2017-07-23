@@ -1,1 +1,73 @@
-{"id": 400, "ids": "400", "state": "None", "name": "Nth Digit", "key": "nth-digit", "link": "https://leetcode.com/problems/nth-digit", "locked": false, "percent": 30.15404148366953, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Find the nth digit of the infinite integer sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... \r\n\r\nNote:\r\nn is positive and will fit within the range of a 32-bit signed integer (n < 231).\r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\n3\r\n\r\nOutput:\r\n3\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\n11\r\n\r\nOutput:\r\n0\r\n\r\nExplanation:\r\nThe 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, which is part of the number 10.\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int findNthDigit(int n) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int findNthDigit(int n) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def findNthDigit(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int findNthDigit(int n) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int FindNthDigit(int n) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar findNthDigit = function(n) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer} n\r\n# @return {Integer}\r\ndef find_nth_digit(n)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func findNthDigit(_ n: Int) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func findNthDigit(n int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def findNthDigit(n: Int): Int = {\n        \n    }\n}"}], "testcase": "'3'", "testable": true}
+{
+ "id": 400,
+ "ids": "400",
+ "state": "None",
+ "name": "Nth Digit",
+ "key": "nth-digit",
+ "link": "https://leetcode.com/problems/nth-digit",
+ "locked": false,
+ "percent": 30.061420198434487,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "23.5K",
+ "totalSubmit": "78.3K",
+ "desc": "Find the nth digit of the infinite integer sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... \r\n\r\nNote:\r\nn is positive and will fit within the range of a 32-bit signed integer (n < 231).\r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\n3\r\n\r\nOutput:\r\n3\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\n11\r\n\r\nOutput:\r\n0\r\n\r\nExplanation:\r\nThe 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, which is part of the number 10.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int findNthDigit(int n) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int findNthDigit(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def findNthDigit(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int findNthDigit(int n) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int FindNthDigit(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar findNthDigit = function(n) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} n\r\n# @return {Integer}\r\ndef find_nth_digit(n)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func findNthDigit(_ n: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func findNthDigit(n int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def findNthDigit(n: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'3'",
+ "testable": true,
+ "slug": "nth-digit",
+ "category": "algorithms",
+ "fname": "400.nth-digit.algorithms.py"
+}

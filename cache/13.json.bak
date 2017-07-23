@@ -1,1 +1,73 @@
-{"id": 13, "ids": "13", "state": "None", "name": "Roman to Integer", "key": "roman-to-integer", "link": "https://leetcode.com/problems/roman-to-integer", "locked": false, "percent": 45.425252317437504, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given a roman numeral, convert it to an integer.\r\n\r\nInput is guaranteed to be within the range from 1 to 3999.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int romanToInt(string s) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int romanToInt(String s) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def romanToInt(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int romanToInt(char* s) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int RomanToInt(string s) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {string} s\r\n * @return {number}\r\n */\r\nvar romanToInt = function(s) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String} s\r\n# @return {Integer}\r\ndef roman_to_int(s)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func romanToInt(_ s: String) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func romanToInt(s string) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def romanToInt(s: String): Int = {\n        \n    }\n}"}], "testcase": "'\"DCXXI\"'", "testable": true}
+{
+ "id": 13,
+ "ids": "13",
+ "state": "None",
+ "name": "Roman to Integer",
+ "key": "roman-to-integer",
+ "link": "https://leetcode.com/problems/roman-to-integer",
+ "locked": false,
+ "percent": 45.47837521328419,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "158.1K",
+ "totalSubmit": "347.5K",
+ "desc": "Given a roman numeral, convert it to an integer.\r\n\r\nInput is guaranteed to be within the range from 1 to 3999.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int romanToInt(string s) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int romanToInt(String s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def romanToInt(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int romanToInt(char* s) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int RomanToInt(string s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @return {number}\r\n */\r\nvar romanToInt = function(s) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @return {Integer}\r\ndef roman_to_int(s)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func romanToInt(_ s: String) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func romanToInt(s string) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def romanToInt(s: String): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'\"DCXXI\"'",
+ "testable": true,
+ "slug": "roman-to-integer",
+ "category": "algorithms",
+ "fname": "13.roman-to-integer.algorithms.py"
+}

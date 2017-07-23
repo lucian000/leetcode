@@ -6,12 +6,12 @@
  "key": "valid-perfect-square",
  "link": "https://leetcode.com/problems/valid-perfect-square",
  "locked": false,
- "percent": 38.05972622717179,
+ "percent": 38.05184384620423,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "46.5K",
+ "totalSubmit": "122.1K",
  "desc": "Given a positive integer num, write a function which returns True if num is a perfect square else False.\r\n\r\n\r\nNote: Do not use any built-in library function such as sqrt.\r\n\r\n\r\nExample 1:\r\n\r\nInput: 16\r\nReturns: True\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: 14\r\nReturns: False\r\n\r\n\r\n\r\nCredits:Special thanks to @elmirap for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'16'",
- "testable": true
+ "testable": true,
+ "slug": "valid-perfect-square",
+ "category": "algorithms",
+ "fname": "367.valid-perfect-square.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "range-addition-ii",
  "link": "https://leetcode.com/problems/range-addition-ii",
  "locked": false,
- "percent": 48.56184084372004,
+ "percent": 48.597707105382476,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "7.5K",
+ "totalSubmit": "15.4K",
  "desc": "Given an m * n matrix M initialized with all 0's and several update operations.\r\nOperations are represented by a 2D array, and each operation is represented by an array with two positive integers a and b, which means M[i][j] should be added by one for all 0 <= i < a and 0 <= j < b. \r\nYou need to count and return the number of maximum integers in the matrix after performing all the operations.\r\n\r\nExample 1:\r\n\r\nInput: \r\nm = 3, n = 3\r\noperations = [[2,2],[3,3]]\r\nOutput: 4\r\nExplanation: \r\nInitially, M = \r\n[[0, 0, 0],\r\n [0, 0, 0],\r\n [0, 0, 0]]\r\n\r\nAfter performing [2,2], M = \r\n[[1, 1, 0],\r\n [1, 1, 0],\r\n [0, 0, 0]]\r\n\r\nAfter performing [3,3], M = \r\n[[2, 2, 1],\r\n [2, 2, 1],\r\n [1, 1, 1]]\r\n\r\nSo the maximum integer in M is 2, and there are four of it in M. So return 4.\r\n\r\n\r\n\r\nNote:\r\n\r\nThe range of m and n is [1,40000].\r\nThe range of a is [1,m], and the range of b is [1,n].\r\nThe range of operations size won't exceed 10,000.\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'3\\n3\\n[[2,2],[3,3]]'",
- "testable": true
+ "testable": true,
+ "slug": "range-addition-ii",
+ "category": "algorithms",
+ "fname": "598.range-addition-ii.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "sqrtx",
  "link": "https://leetcode.com/problems/sqrtx",
  "locked": false,
- "percent": 27.71953750164831,
+ "percent": 27.741055195421254,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "160.9K",
+ "totalSubmit": "580.1K",
  "desc": "Implement int sqrt(int x).\r\n\r\nCompute and return the square root of x.",
  "templates": [
   {
@@ -67,7 +67,7 @@
  ],
  "testcase": "'0'",
  "testable": true,
- "fname": "69.sqrtx.py",
+ "fname": "69.sqrtx.algorithms.py",
  "submit_chart": [
   [
    "32",
@@ -371,5 +371,7 @@
   "question_id": 69,
   "name": "Your",
   "id": 110493828
- }
+ },
+ "slug": "sqrtx",
+ "category": "algorithms"
 }

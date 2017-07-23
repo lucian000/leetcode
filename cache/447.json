@@ -6,12 +6,12 @@
  "key": "number-of-boomerangs",
  "link": "https://leetcode.com/problems/number-of-boomerangs",
  "locked": false,
- "percent": 44.76527969781343,
+ "percent": 44.77775429021658,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "23.3K",
+ "totalSubmit": "52K",
  "desc": "Given n points in the plane that are all pairwise distinct, a \"boomerang\" is a tuple of points (i, j, k) such that the distance between i and j equals the distance between i and k (the order of the tuple matters).\r\n\r\nFind the number of boomerangs. You may assume that n will be at most 500 and coordinates of points are all in the range [-10000, 10000] (inclusive).\r\n\r\nExample:\r\n\r\nInput:\r\n[[0,0],[1,0],[2,0]]\r\n\r\nOutput:\r\n2\r\n\r\nExplanation:\r\nThe two boomerangs are [[1,0],[0,0],[2,0]] and [[1,0],[2,0],[0,0]]\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[0,0],[1,0],[2,0]]'",
- "testable": true
+ "testable": true,
+ "slug": "number-of-boomerangs",
+ "category": "algorithms",
+ "fname": "447.number-of-boomerangs.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "count-the-repetitions",
  "link": "https://leetcode.com/problems/count-the-repetitions",
  "locked": false,
- "percent": 27.7511579619869,
+ "percent": 27.824037706205814,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "3.5K",
+ "totalSubmit": "12.7K",
  "desc": "Define S = [s,n] as the string S which consists of n connected strings s. For example, [\"abc\", 3] =\"abcabcabc\". \r\nOn the other hand, we define that string s1 can be obtained from string s2 if we can remove some characters from s2 such that it becomes s1. For example, \u201cabc\u201d  can be obtained from \u201cabdbec\u201d based on our definition, but it can not be obtained from \u201cacbbe\u201d.\r\nYou are given two non-empty strings s1 and s2 (each at most 100 characters long) and two integers 0 \u2264 n1 \u2264 106 and 1 \u2264 n2 \u2264 106. Now consider the strings S1 and S2, where S1=[s1,n1] and S2=[s2,n2]. Find the maximum integer M such that [S2,M] can be obtained from S1.\r\n\r\nExample:\r\n\r\nInput:\r\ns1=\"acb\", n1=4\r\ns2=\"ab\", n2=2\r\n\r\nReturn:\r\n2\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"acb\"\\n4\\n\"ab\"\\n2'",
- "testable": true
+ "testable": true,
+ "slug": "count-the-repetitions",
+ "category": "algorithms",
+ "fname": "466.count-the-repetitions.algorithms.py"
 }

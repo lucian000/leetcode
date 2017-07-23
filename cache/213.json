@@ -6,12 +6,12 @@
  "key": "house-robber-ii",
  "link": "https://leetcode.com/problems/house-robber-ii",
  "locked": false,
- "percent": 33.80505113754957,
+ "percent": 33.83682933916891,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "57.1K",
+ "totalSubmit": "168.6K",
  "desc": "Note: This is an extension of House Robber.\r\n\r\nAfter robbing those houses on that street, the thief has found himself a new place for his thievery so that he will not get too much attention. This time, all houses at this place are arranged in a circle. That means the first house is the neighbor of the last one. Meanwhile, the security system for these houses remain the same as for those in the previous street. \r\n\r\nGiven a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight without alerting the police.\r\n\r\nCredits:Special thanks to @Freezen for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "house-robber-ii",
+ "category": "algorithms",
+ "fname": "213.house-robber-ii.algorithms.py"
 }

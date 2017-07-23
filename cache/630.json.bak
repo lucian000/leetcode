@@ -1,1 +1,78 @@
-{"id": 630, "ids": "630", "state": "None", "name": "Course Schedule III", "key": "course-schedule-iii", "link": "https://leetcode.com/problems/course-schedule-iii", "locked": false, "percent": 22.344600582352196, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nThere are n different online courses numbered from 1 to n. Each course has some duration(course length)  t and closed on dth day. A course should be taken continuously for t days and must be finished before or on the dth day. You will start at the 1st day.\r\n\r\n\r\n\r\nGiven n online courses represented by pairs (t,d), your task is to find the maximal number of courses that can be taken.\r\n\r\n\r\n\r\nExample:\r\n\r\nInput: [[100, 200], [200, 1300], [1000, 1250], [2000, 3200]]\r\nOutput: 3\r\nExplanation: \r\nThere're totally 4 courses, but you can take 3 courses at most:\r\nFirst, take the 1st course, it costs 100 days so you will finish it on the 100th day, and ready to take the next course on the 101st day.\r\nSecond, take the 3rd course, it costs 1000 days so you will finish it on the 1100th day, and ready to take the next course on the 1101st day. \r\nThird, take the 2nd course, it costs 200 days so you will finish it on the 1300th day. \r\nThe 4th course cannot be taken now, since you will finish it on the 3300th day, which exceeds the closed date.\r\n\r\n\r\n\r\n\r\nNote:\r\n\r\nThe integer 1 <= d, t, n <= 10,000. \r\nYou can't take two courses simultaneously.\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int scheduleCourse(vector<vector<int>>& courses) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int scheduleCourse(int[][] courses) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def scheduleCourse(self, courses):\r\n        \"\"\"\r\n        :type courses: List[List[int]]\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "python3", "text": "Python3", "defaultCode": "class Solution:\r\n    def scheduleCourse(self, courses):\r\n        \"\"\"\r\n        :type courses: List[List[int]]\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int scheduleCourse(int** courses, int coursesRowSize, int coursesColSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int ScheduleCourse(int[,] courses) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[][]} courses\r\n * @return {number}\r\n */\r\nvar scheduleCourse = function(courses) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[][]} courses\r\n# @return {Integer}\r\ndef schedule_course(courses)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func scheduleCourse(_ courses: [[Int]]) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func scheduleCourse(courses [][]int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\r\n    def scheduleCourse(courses: Array[Array[Int]]): Int = {\r\n        \r\n    }\r\n}"}], "testcase": "'[[100,200],[200,1300],[1000,1250],[2000,3200]]'", "testable": true}
+{
+ "id": 630,
+ "ids": "630",
+ "state": "None",
+ "name": "Course Schedule III",
+ "key": "course-schedule-iii",
+ "link": "https://leetcode.com/problems/course-schedule-iii",
+ "locked": false,
+ "percent": 22.820419546501757,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "1.9K",
+ "totalSubmit": "8.2K",
+ "desc": "\r\nThere are n different online courses numbered from 1 to n. Each course has some duration(course length)  t and closed on dth day. A course should be taken continuously for t days and must be finished before or on the dth day. You will start at the 1st day.\r\n\r\n\r\n\r\nGiven n online courses represented by pairs (t,d), your task is to find the maximal number of courses that can be taken.\r\n\r\n\r\n\r\nExample:\r\n\r\nInput: [[100, 200], [200, 1300], [1000, 1250], [2000, 3200]]\r\nOutput: 3\r\nExplanation: \r\nThere're totally 4 courses, but you can take 3 courses at most:\r\nFirst, take the 1st course, it costs 100 days so you will finish it on the 100th day, and ready to take the next course on the 101st day.\r\nSecond, take the 3rd course, it costs 1000 days so you will finish it on the 1100th day, and ready to take the next course on the 1101st day. \r\nThird, take the 2nd course, it costs 200 days so you will finish it on the 1300th day. \r\nThe 4th course cannot be taken now, since you will finish it on the 3300th day, which exceeds the closed date.\r\n\r\n\r\n\r\n\r\nNote:\r\n\r\nThe integer 1 <= d, t, n <= 10,000. \r\nYou can't take two courses simultaneously.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int scheduleCourse(vector<vector<int>>& courses) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int scheduleCourse(int[][] courses) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def scheduleCourse(self, courses):\r\n        \"\"\"\r\n        :type courses: List[List[int]]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "python3",
+   "text": "Python3",
+   "defaultCode": "class Solution:\r\n    def scheduleCourse(self, courses):\r\n        \"\"\"\r\n        :type courses: List[List[int]]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int scheduleCourse(int** courses, int coursesRowSize, int coursesColSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int ScheduleCourse(int[,] courses) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[][]} courses\r\n * @return {number}\r\n */\r\nvar scheduleCourse = function(courses) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[][]} courses\r\n# @return {Integer}\r\ndef schedule_course(courses)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func scheduleCourse(_ courses: [[Int]]) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func scheduleCourse(courses [][]int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\r\n    def scheduleCourse(courses: Array[Array[Int]]): Int = {\r\n        \r\n    }\r\n}"
+  }
+ ],
+ "testcase": "'[[100,200],[200,1300],[1000,1250],[2000,3200]]'",
+ "testable": true,
+ "slug": "course-schedule-iii",
+ "category": "algorithms",
+ "fname": "630.course-schedule-iii.algorithms.py"
+}

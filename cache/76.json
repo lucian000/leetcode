@@ -6,12 +6,12 @@
  "key": "minimum-window-substring",
  "link": "https://leetcode.com/problems/minimum-window-substring",
  "locked": false,
- "percent": 25.05389175456155,
+ "percent": 25.08965381768354,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "104.7K",
+ "totalSubmit": "417.5K",
  "desc": "\r\nGiven a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).\r\n\r\n\r\n\r\nFor example,\r\nS = \"ADOBECODEBANC\"\r\nT = \"ABC\"\r\n\r\n\r\nMinimum window is \"BANC\".\r\n\r\n\r\n\r\nNote:\r\nIf there is no such window in S that covers all characters in T, return the empty string \"\".\r\n\r\n\r\nIf there are multiple such windows, you are guaranteed that there will always be only one unique minimum window in S.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"a\"\\n\"a\"'",
- "testable": true
+ "testable": true,
+ "slug": "minimum-window-substring",
+ "category": "algorithms",
+ "fname": "76.minimum-window-substring.algorithms.py"
 }

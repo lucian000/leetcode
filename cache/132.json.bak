@@ -1,1 +1,73 @@
-{"id": 132, "ids": "132", "state": "None", "name": "Palindrome Partitioning II", "key": "palindrome-partitioning-ii", "link": "https://leetcode.com/problems/palindrome-partitioning-ii", "locked": false, "percent": 24.04478833776901, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven a string s, partition s such that every substring of the partition is a palindrome.\r\n\r\n\r\nReturn the minimum cuts needed for a palindrome partitioning of s.\r\n\r\n\r\nFor example, given s = \"aab\",\r\nReturn 1 since the palindrome partitioning [\"aa\",\"b\"] could be produced using 1 cut.\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int minCut(string s) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int minCut(String s) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def minCut(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int minCut(char* s) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int MinCut(string s) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {string} s\r\n * @return {number}\r\n */\r\nvar minCut = function(s) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String} s\r\n# @return {Integer}\r\ndef min_cut(s)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func minCut(_ s: String) -> Int {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func minCut(s string) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def minCut(s: String): Int = {\n        \n    }\n}"}], "testcase": "'\"aab\"'", "testable": true}
+{
+ "id": 132,
+ "ids": "132",
+ "state": "None",
+ "name": "Palindrome Partitioning II",
+ "key": "palindrome-partitioning-ii",
+ "link": "https://leetcode.com/problems/palindrome-partitioning-ii",
+ "locked": false,
+ "percent": 24.054830108703083,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "70.4K",
+ "totalSubmit": "292.5K",
+ "desc": "\r\nGiven a string s, partition s such that every substring of the partition is a palindrome.\r\n\r\n\r\nReturn the minimum cuts needed for a palindrome partitioning of s.\r\n\r\n\r\nFor example, given s = \"aab\",\r\nReturn 1 since the palindrome partitioning [\"aa\",\"b\"] could be produced using 1 cut.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int minCut(string s) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int minCut(String s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def minCut(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int minCut(char* s) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int MinCut(string s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @return {number}\r\n */\r\nvar minCut = function(s) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @return {Integer}\r\ndef min_cut(s)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func minCut(_ s: String) -> Int {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func minCut(s string) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def minCut(s: String): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'\"aab\"'",
+ "testable": true,
+ "slug": "palindrome-partitioning-ii",
+ "category": "algorithms",
+ "fname": "132.palindrome-partitioning-ii.algorithms.py"
+}

@@ -6,12 +6,12 @@
  "key": "rotate-image",
  "link": "https://leetcode.com/problems/rotate-image",
  "locked": false,
- "percent": 38.343904483443666,
+ "percent": 38.37473709078858,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "117K",
+ "totalSubmit": "304.9K",
  "desc": "You are given an n x n 2D matrix representing an image.\r\nRotate the image by 90 degrees (clockwise).\r\nFollow up:\r\nCould you do this in-place?",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[1]]'",
- "testable": true
+ "testable": true,
+ "slug": "rotate-image",
+ "category": "algorithms",
+ "fname": "48.rotate-image.algorithms.py"
 }

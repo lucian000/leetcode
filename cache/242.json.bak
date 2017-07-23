@@ -1,1 +1,73 @@
-{"id": 242, "ids": "242", "state": "None", "name": "Valid Anagram", "key": "valid-anagram", "link": "https://leetcode.com/problems/valid-anagram", "locked": false, "percent": 46.16680417053546, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given two strings s and t, write a function to determine if t is an anagram of s. \r\n\r\nFor example,\r\ns = \"anagram\", t = \"nagaram\", return true.\r\ns = \"rat\", t = \"car\", return false.\r\n\r\n\r\nNote:\r\nYou may assume the string contains only lowercase alphabets.\r\n\r\nFollow up:\r\nWhat if the inputs contain unicode characters? How would you adapt your solution to such case?", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    bool isAnagram(string s, string t) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public boolean isAnagram(String s, String t) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def isAnagram(self, s, t):\r\n        \"\"\"\r\n        :type s: str\r\n        :type t: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "bool isAnagram(char* s, char* t) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public bool IsAnagram(string s, string t) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {string} s\r\n * @param {string} t\r\n * @return {boolean}\r\n */\r\nvar isAnagram = function(s, t) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String} s\r\n# @param {String} t\r\n# @return {Boolean}\r\ndef is_anagram(s, t)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func isAnagram(_ s: String, _ t: String) -> Bool {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func isAnagram(s string, t string) bool {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def isAnagram(s: String, t: String): Boolean = {\n        \n    }\n}"}], "testcase": "'\"\"\\n\"\"'", "testable": true}
+{
+ "id": 242,
+ "ids": "242",
+ "state": "None",
+ "name": "Valid Anagram",
+ "key": "valid-anagram",
+ "link": "https://leetcode.com/problems/valid-anagram",
+ "locked": false,
+ "percent": 46.20345192775567,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "161.4K",
+ "totalSubmit": "349.4K",
+ "desc": "Given two strings s and t, write a function to determine if t is an anagram of s. \r\n\r\nFor example,\r\ns = \"anagram\", t = \"nagaram\", return true.\r\ns = \"rat\", t = \"car\", return false.\r\n\r\n\r\nNote:\r\nYou may assume the string contains only lowercase alphabets.\r\n\r\nFollow up:\r\nWhat if the inputs contain unicode characters? How would you adapt your solution to such case?",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool isAnagram(string s, string t) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean isAnagram(String s, String t) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def isAnagram(self, s, t):\r\n        \"\"\"\r\n        :type s: str\r\n        :type t: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool isAnagram(char* s, char* t) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool IsAnagram(string s, string t) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @param {string} t\r\n * @return {boolean}\r\n */\r\nvar isAnagram = function(s, t) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @param {String} t\r\n# @return {Boolean}\r\ndef is_anagram(s, t)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func isAnagram(_ s: String, _ t: String) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func isAnagram(s string, t string) bool {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def isAnagram(s: String, t: String): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'\"\"\\n\"\"'",
+ "testable": true,
+ "slug": "valid-anagram",
+ "category": "algorithms",
+ "fname": "242.valid-anagram.algorithms.py"
+}

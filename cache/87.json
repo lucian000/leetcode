@@ -6,12 +6,12 @@
  "key": "scramble-string",
  "link": "https://leetcode.com/problems/scramble-string",
  "locked": false,
- "percent": 28.992742527340106,
+ "percent": 29.027009437032216,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "64.2K",
+ "totalSubmit": "221.3K",
  "desc": "\r\nGiven a string s1, we may represent it as a binary tree by partitioning it to two non-empty substrings recursively.\r\n\r\n\r\nBelow is one possible representation of s1 = \"great\":\r\n\r\n\r\n    great\r\n   /    \\\r\n  gr    eat\r\n / \\    /  \\\r\ng   r  e   at\r\n           / \\\r\n          a   t\r\n\r\n\r\nTo scramble the string, we may choose any non-leaf node and swap its two children.\r\n\r\n\r\nFor example, if we choose the node \"gr\" and swap its two children, it produces a scrambled string \"rgeat\".\r\n\r\n\r\n    rgeat\r\n   /    \\\r\n  rg    eat\r\n / \\    /  \\\r\nr   g  e   at\r\n           / \\\r\n          a   t\r\n\r\n\r\nWe say that \"rgeat\" is a scrambled string of \"great\".\r\n\r\n\r\nSimilarly, if we continue to swap the children of nodes \"eat\" and \"at\", it produces a scrambled string \"rgtae\".\r\n\r\n\r\n    rgtae\r\n   /    \\\r\n  rg    tae\r\n / \\    /  \\\r\nr   g  ta  e\r\n       / \\\r\n      t   a\r\n\r\n\r\nWe say that \"rgtae\" is a scrambled string of \"great\".\r\n\r\n\r\nGiven two strings s1 and s2 of the same length, determine if s2 is a scrambled string of s1.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"a\"\\n\"a\"'",
- "testable": true
+ "testable": true,
+ "slug": "scramble-string",
+ "category": "algorithms",
+ "fname": "87.scramble-string.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "range-sum-query-immutable",
  "link": "https://leetcode.com/problems/range-sum-query-immutable",
  "locked": false,
- "percent": 29.088287397519878,
+ "percent": 29.14845998081637,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "71.1K",
+ "totalSubmit": "244K",
  "desc": "Given an integer array nums, find the sum of the elements between indices i and j (i \u2264 j), inclusive.\r\n\r\nExample:\r\n\r\nGiven nums = [-2, 0, 3, -5, 2, -1]\r\n\r\nsumRange(0, 2) -> 1\r\nsumRange(2, 5) -> -1\r\nsumRange(0, 5) -> -3\r\n\r\n\r\n\r\nNote:\r\n\r\nYou may assume that the array does not change.\r\nThere are many calls to sumRange function.\r\n\r\n",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'[\"NumArray\",\"sumRange\",\"sumRange\",\"sumRange\"]\\n[[[-2,0,3,-5,2,-1]],[0,2],[2,5],[0,5]]'",
- "testable": true
+ "testable": true,
+ "slug": "range-sum-query-immutable",
+ "category": "algorithms",
+ "fname": "303.range-sum-query-immutable.algorithms.py"
 }

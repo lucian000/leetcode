@@ -6,12 +6,12 @@
  "key": "convert-sorted-list-to-binary-search-tree",
  "link": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree",
  "locked": false,
- "percent": 33.807852682024865,
+ "percent": 33.83450873010154,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "108K",
+ "totalSubmit": "319.2K",
  "desc": "Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "convert-sorted-list-to-binary-search-tree",
+ "category": "algorithms",
+ "fname": "109.convert-sorted-list-to-binary-search-tree.algorithms.py"
 }

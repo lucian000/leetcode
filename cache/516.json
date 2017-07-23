@@ -6,12 +6,12 @@
  "key": "longest-palindromic-subsequence",
  "link": "https://leetcode.com/problems/longest-palindromic-subsequence",
  "locked": false,
- "percent": 42.482225353035616,
+ "percent": 42.52367741318282,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "13.3K",
+ "totalSubmit": "31.4K",
  "desc": "\r\nGiven a string s, find the longest palindromic subsequence's length in s. You may assume that the maximum length of s is 1000.\r\n\r\n\r\nExample 1:\r\nInput: \r\n\r\n\"bbbab\"\r\n\r\nOutput: \r\n\r\n4\r\n\r\nOne possible longest palindromic subsequence is \"bbbb\".\r\n\r\n\r\nExample 2:\r\nInput:\r\n\r\n\"cbbd\"\r\n\r\nOutput:\r\n\r\n2\r\n\r\nOne possible longest palindromic subsequence is \"bb\".\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"bbbab\"'",
- "testable": true
+ "testable": true,
+ "slug": "longest-palindromic-subsequence",
+ "category": "algorithms",
+ "fname": "516.longest-palindromic-subsequence.algorithms.py"
 }

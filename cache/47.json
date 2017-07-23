@@ -6,12 +6,12 @@
  "key": "permutations-ii",
  "link": "https://leetcode.com/problems/permutations-ii",
  "locked": false,
- "percent": 32.47804130291385,
+ "percent": 32.522579770333756,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "122.4K",
+ "totalSubmit": "376.3K",
  "desc": "\r\nGiven a collection of numbers that might contain duplicates, return all possible unique permutations.\r\n\r\n\r\n\r\nFor example,\r\n[1,1,2] have the following unique permutations:\r\n\r\n[\r\n  [1,1,2],\r\n  [1,2,1],\r\n  [2,1,1]\r\n]\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,1,2]'",
- "testable": true
+ "testable": true,
+ "slug": "permutations-ii",
+ "category": "algorithms",
+ "fname": "47.permutations-ii.algorithms.py"
 }

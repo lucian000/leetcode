@@ -6,12 +6,12 @@
  "key": "all-oone-data-structure",
  "link": "https://leetcode.com/problems/all-oone-data-structure",
  "locked": false,
- "percent": 27.673073334577346,
+ "percent": 27.72937905468026,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "6K",
+ "totalSubmit": "21.6K",
  "desc": "Implement a data structure supporting the following operations:\r\n\r\n\r\n\r\nInc(Key) - Inserts a new key  with value 1. Or increments an existing key by 1. Key is guaranteed to be a non-empty string.\r\nDec(Key) - If Key's value is 1, remove it from the data structure. Otherwise decrements an existing key by 1. If the key does not exist, this function does nothing. Key is guaranteed to be a non-empty string.\r\nGetMaxKey() - Returns one of the keys with maximal value. If no element exists, return an empty string \"\".\r\nGetMinKey() - Returns one of the keys with minimal value. If no element exists, return an empty string \"\".\r\n\r\n\r\n\r\n\r\nChallenge: Perform all these in O(1) time complexity.\r\n",
  "templates": [
   {
@@ -46,5 +46,8 @@
   }
  ],
  "testcase": "'[\"AllOne\",\"getMaxKey\",\"getMinKey\"]\\n[[],[],[]]'",
- "testable": true
+ "testable": true,
+ "slug": "all-oone-data-structure",
+ "category": "algorithms",
+ "fname": "432.all-oone-data-structure.algorithms.py"
 }

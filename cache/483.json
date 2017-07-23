@@ -6,12 +6,12 @@
  "key": "smallest-good-base",
  "link": "https://leetcode.com/problems/smallest-good-base",
  "locked": false,
- "percent": 32.0771850170261,
+ "percent": 32.10070222620649,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "4.3K",
+ "totalSubmit": "13.4K",
  "desc": "For an integer n, we call k>=2 a good base of n, if all digits of n base k are 1.\r\nNow given a string representing n, you should return the smallest good base of n in string format. \r\n\r\nExample 1:\r\n\r\nInput: \"13\"\r\nOutput: \"3\"\r\nExplanation: 13 base 3 is 111.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \"4681\"\r\nOutput: \"8\"\r\nExplanation: 4681 base 8 is 11111.\r\n\r\n\r\n\r\nExample 3:\r\n\r\nInput: \"1000000000000000000\"\r\nOutput: \"999999999999999999\"\r\nExplanation: 1000000000000000000 base 999999999999999999 is 11.\r\n\r\n\r\n\r\nNote:\r\n\r\nThe range of n is [3, 10^18].\r\nThe string representing n is always valid and will not have leading zeros.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"13\"'",
- "testable": true
+ "testable": true,
+ "slug": "smallest-good-base",
+ "category": "algorithms",
+ "fname": "483.smallest-good-base.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "minimum-absolute-difference-in-bst",
  "link": "https://leetcode.com/problems/minimum-absolute-difference-in-bst",
  "locked": false,
- "percent": 47.06436914052271,
+ "percent": 46.98344353887949,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "18.3K",
+ "totalSubmit": "39K",
  "desc": "Given a binary search tree with non-negative values, find the minimum absolute difference between values of any two nodes.\r\n\r\n\r\nExample:\r\n\r\nInput:\r\n\r\n   1\r\n    \\\r\n     3\r\n    /\r\n   2\r\n\r\nOutput:\r\n1\r\n\r\nExplanation:\r\nThe minimum absolute difference is 1, which is the difference between 2 and 1 (or between 2 and 3).\r\n\r\n\r\n\r\n\r\nNote:\r\nThere are at least two nodes in this BST.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,null,3,2]'",
- "testable": true
+ "testable": true,
+ "slug": "minimum-absolute-difference-in-bst",
+ "category": "algorithms",
+ "fname": "530.minimum-absolute-difference-in-bst.algorithms.py"
 }

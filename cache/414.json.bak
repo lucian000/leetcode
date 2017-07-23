@@ -1,1 +1,73 @@
-{"id": 414, "ids": "414", "state": "None", "name": "Third Maximum Number", "key": "third-maximum-number", "link": "https://leetcode.com/problems/third-maximum-number", "locked": false, "percent": 27.814444368843226, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).\r\n\r\nExample 1:\r\n\r\nInput: [3, 2, 1]\r\n\r\nOutput: 1\r\n\r\nExplanation: The third maximum is 1.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: [1, 2]\r\n\r\nOutput: 2\r\n\r\nExplanation: The third maximum does not exist, so the maximum (2) is returned instead.\r\n\r\n\r\n\r\nExample 3:\r\n\r\nInput: [2, 2, 3, 1]\r\n\r\nOutput: 1\r\n\r\nExplanation: Note that the third maximum here means the third maximum distinct number.\r\nBoth numbers with value 2 are both considered as second maximum.\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int thirdMax(vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int thirdMax(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def thirdMax(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\""}, {"value": "c", "text": "C", "defaultCode": "int thirdMax(int* nums, int numsSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int ThirdMax(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar thirdMax = function(nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef third_max(nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func thirdMax(_ nums: [Int]) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func thirdMax(nums []int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def thirdMax(nums: Array[Int]): Int = {\n        \n    }\n}"}], "testcase": "'[3,2,1]'", "testable": true}
+{
+ "id": 414,
+ "ids": "414",
+ "state": "None",
+ "name": "Third Maximum Number",
+ "key": "third-maximum-number",
+ "link": "https://leetcode.com/problems/third-maximum-number",
+ "locked": false,
+ "percent": 27.809667223282442,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "37.3K",
+ "totalSubmit": "134.1K",
+ "desc": "Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).\r\n\r\nExample 1:\r\n\r\nInput: [3, 2, 1]\r\n\r\nOutput: 1\r\n\r\nExplanation: The third maximum is 1.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: [1, 2]\r\n\r\nOutput: 2\r\n\r\nExplanation: The third maximum does not exist, so the maximum (2) is returned instead.\r\n\r\n\r\n\r\nExample 3:\r\n\r\nInput: [2, 2, 3, 1]\r\n\r\nOutput: 1\r\n\r\nExplanation: Note that the third maximum here means the third maximum distinct number.\r\nBoth numbers with value 2 are both considered as second maximum.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int thirdMax(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int thirdMax(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def thirdMax(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\""
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int thirdMax(int* nums, int numsSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int ThirdMax(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar thirdMax = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef third_max(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func thirdMax(_ nums: [Int]) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func thirdMax(nums []int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def thirdMax(nums: Array[Int]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[3,2,1]'",
+ "testable": true,
+ "slug": "third-maximum-number",
+ "category": "algorithms",
+ "fname": "414.third-maximum-number.algorithms.py"
+}

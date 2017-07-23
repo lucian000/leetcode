@@ -6,12 +6,12 @@
  "key": "search-a-2d-matrix-ii",
  "link": "https://leetcode.com/problems/search-a-2d-matrix-ii",
  "locked": false,
- "percent": 38.364733804096225,
+ "percent": 38.40093971002956,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "79.1K",
+ "totalSubmit": "206K",
  "desc": "Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:\r\n\r\n\r\n\r\nIntegers in each row are sorted in ascending from left to right.\r\nIntegers in each column are sorted in ascending from top to bottom.\r\n\r\n\r\n\r\n\r\nFor example,\r\n\r\nConsider the following matrix:\r\n\r\n\r\n[\r\n  [1,   4,  7, 11, 15],\r\n  [2,   5,  8, 12, 19],\r\n  [3,   6,  9, 16, 22],\r\n  [10, 13, 14, 17, 24],\r\n  [18, 21, 23, 26, 30]\r\n]\r\n\r\n\r\nGiven target = 5, return true.\r\nGiven target = 20, return false.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]]\\n5'",
- "testable": true
+ "testable": true,
+ "slug": "search-a-2d-matrix-ii",
+ "category": "algorithms",
+ "fname": "240.search-a-2d-matrix-ii.algorithms.py"
 }

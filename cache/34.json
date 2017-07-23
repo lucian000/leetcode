@@ -6,12 +6,12 @@
  "key": "search-for-a-range",
  "link": "https://leetcode.com/problems/search-for-a-range",
  "locked": false,
- "percent": 31.30149636443512,
+ "percent": 31.314846549306747,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "140.7K",
+ "totalSubmit": "449.3K",
  "desc": "Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.\r\n\r\nYour algorithm's runtime complexity must be in the order of O(log n).\r\n\r\nIf the target is not found in the array, return [-1, -1].\r\n\r\n\r\nFor example,\r\nGiven [5, 7, 7, 8, 8, 10] and target value 8,\r\nreturn [3, 4].\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[5,7,7,8,8,10]\\n8'",
- "testable": true
+ "testable": true,
+ "slug": "search-for-a-range",
+ "category": "algorithms",
+ "fname": "34.search-for-a-range.algorithms.py"
 }

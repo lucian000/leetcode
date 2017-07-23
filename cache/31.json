@@ -6,12 +6,12 @@
  "key": "next-permutation",
  "link": "https://leetcode.com/problems/next-permutation",
  "locked": false,
- "percent": 28.709952858647522,
+ "percent": 28.722465840483,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "113K",
+ "totalSubmit": "393.4K",
  "desc": "\r\nImplement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.\r\n\r\n\r\nIf such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).\r\n\r\n\r\nThe replacement must be in-place, do not allocate extra memory.\r\n\r\n\r\nHere are some examples. Inputs are in the left-hand column and its corresponding outputs are in the right-hand column.\r\n1,2,3 \u2192 1,3,2\r\n3,2,1 \u2192 1,2,3\r\n1,1,5 \u2192 1,5,1\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1]'",
- "testable": true
+ "testable": true,
+ "slug": "next-permutation",
+ "category": "algorithms",
+ "fname": "31.next-permutation.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "water-and-jug-problem",
  "link": "https://leetcode.com/problems/water-and-jug-problem",
  "locked": false,
- "percent": 27.193466504800796,
+ "percent": 27.233397831404474,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "14.9K",
+ "totalSubmit": "54.8K",
  "desc": "You are given two jugs with capacities x and y litres. There is an infinite amount of water supply available.\r\nYou need to determine whether it is possible to measure exactly z litres using these two jugs.\r\n\r\nIf z liters of water is measurable, you must have z liters of water contained within one or both buckets by the end.\r\n\r\n\r\nOperations allowed:\r\n\r\nFill any of the jugs completely with water.\r\nEmpty any of the jugs.\r\nPour water from one jug into another till the other jug is completely full or the first jug itself is empty.\r\n\r\n\r\n\r\nExample 1: (From the famous \"Die Hard\" example)\r\n\r\nInput: x = 3, y = 5, z = 4\r\nOutput: True\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: x = 2, y = 6, z = 5\r\nOutput: False\r\n\r\n\r\n\r\nCredits:Special thanks to @vinod23 for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'3\\n5\\n4'",
- "testable": true
+ "testable": true,
+ "slug": "water-and-jug-problem",
+ "category": "algorithms",
+ "fname": "365.water-and-jug-problem.algorithms.py"
 }

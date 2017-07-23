@@ -6,13 +6,13 @@
  "key": "minimum-size-subarray-sum",
  "link": "https://leetcode.com/problems/minimum-size-subarray-sum",
  "locked": false,
- "percent": 30.316045322428256,
+ "percent": 30.32800678856971,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
- "desc": "\r\nGiven an array of n positive integers and a positive integer s, find the minimal length of a contiguous subarray of which the sum ? s. If there isn't one, return 0 instead.\r\n\r\n\r\nFor example, given the array [2,3,1,2,4,3] and s = 7,\r\nthe subarray [4,3] has the minimal length under the problem constraint.\r\n\r\n\r\nclick to show more practice.\r\n\r\nMore practice:\r\n\r\nIf you have figured out the O(n) solution, try coding another solution of which the time complexity is O(n log n).\r\n\r\n\r\nCredits:Special thanks to @Freezen for adding this problem and creating all test cases.",
+ "totalAC": "84.7K",
+ "totalSubmit": "279.3K",
+ "desc": "\r\nGiven an array of n positive integers and a positive integer s, find the minimal length of a contiguous subarray of which the sum \u2265 s. If there isn't one, return 0 instead.\r\n\r\n\r\nFor example, given the array [2,3,1,2,4,3] and s = 7,\r\nthe subarray [4,3] has the minimal length under the problem constraint.\r\n\r\n\r\nclick to show more practice.\r\n\r\nMore practice:\r\n\r\nIf you have figured out the O(n) solution, try coding another solution of which the time complexity is O(n log n).\r\n\r\n\r\nCredits:Special thanks to @Freezen for adding this problem and creating all test cases.",
  "templates": [
   {
    "value": "cpp",
@@ -62,9 +62,12 @@
   {
    "value": "scala",
    "text": "Scala",
-   "defaultCode": "object Solution {\n    def minSubArrayLen(s: Int, nums: Array[Int]): Int = {\n        \n    }\n}"
+   "defaultCode": "object Solution {\r\n    def minSubArrayLen(s: Int, nums: Array[Int]): Int = {\r\n        \r\n    }\r\n}"
   }
  ],
  "testcase": "'7\\n[2,3,1,2,4,3]'",
- "testable": true
+ "testable": true,
+ "slug": "minimum-size-subarray-sum",
+ "category": "algorithms",
+ "fname": "209.minimum-size-subarray-sum.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "add-digits",
  "link": "https://leetcode.com/problems/add-digits",
  "locked": false,
- "percent": 51.02497342433253,
+ "percent": 51.03985895636309,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "166.2K",
+ "totalSubmit": "325.6K",
  "desc": "\r\nGiven a non-negative integer num, repeatedly add all its digits until the result has only one digit. \r\n\r\n\r\n\r\nFor example:\r\n\r\n\r\nGiven num = 38, the process is like: 3 + 8 = 11, 1 + 1 = 2. Since 2 has only one digit, return it.\r\n\r\n\r\nFollow up:\r\nCould you do it without any loop/recursion in O(1) runtime?\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'0'",
- "testable": true
+ "testable": true,
+ "slug": "add-digits",
+ "category": "algorithms",
+ "fname": "258.add-digits.algorithms.py"
 }

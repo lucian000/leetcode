@@ -6,12 +6,12 @@
  "key": "magical-string",
  "link": "https://leetcode.com/problems/magical-string",
  "locked": false,
- "percent": 45.22721302863147,
+ "percent": 45.29045643153527,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "8.7K",
+ "totalSubmit": "19.3K",
  "desc": "\r\nA magical string S consists of only '1' and '2' and obeys the following rules:\r\n\r\n\r\nThe string S is magical because concatenating the number of contiguous occurrences of characters '1' and '2' generates the string S itself.\r\n\r\n\r\n\r\nThe first few elements of string S is the following:\r\nS = \"1221121221221121122\u2026\u2026\"\r\n\r\n\r\n\r\nIf we group the consecutive '1's and '2's in S, it will be:\r\n\r\n\r\n1   22  11  2  1  22  1  22  11  2  11  22 ......\r\n\r\n\r\nand the occurrences of '1's or '2's in each group are:\r\n\r\n\r\n1   2\t   2    1   1    2     1    2     2    1    2    2 ......\r\n\r\n\r\n\r\nYou can see that the occurrence sequence above is the S itself. \r\n\r\n\r\n\r\nGiven an integer N as input, return the number of '1's in the first N number in the magical string S.\r\n\r\n\r\nNote:\r\nN will not exceed 100,000.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: 6\r\nOutput: 3\r\nExplanation: The first 6 elements of magical string S is \"12211\" and it contains three 1's, so return 3.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'1'",
- "testable": true
+ "testable": true,
+ "slug": "magical-string",
+ "category": "algorithms",
+ "fname": "481.magical-string.algorithms.py"
 }

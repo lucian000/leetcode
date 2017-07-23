@@ -6,12 +6,12 @@
  "key": "remove-element",
  "link": "https://leetcode.com/problems/remove-element",
  "locked": false,
- "percent": 38.7314409195088,
+ "percent": 38.787496744337034,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "205.5K",
+ "totalSubmit": "529.8K",
  "desc": "Given an array and a value, remove all instances of that value in place and return the new length.\r\n\r\n\r\nDo not allocate extra space for another array, you must do this in place with constant memory.\r\n\r\nThe order of elements can be changed. It doesn't matter what you leave beyond the new length.\r\n\r\n\r\nExample:\r\nGiven input array nums = [3,2,2,3], val = 3\r\n\r\n\r\nYour function should return length = 2, with the first two elements of nums being 2.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[3,2,2,3]\\n3'",
- "testable": true
+ "testable": true,
+ "slug": "remove-element",
+ "category": "algorithms",
+ "fname": "27.remove-element.algorithms.py"
 }

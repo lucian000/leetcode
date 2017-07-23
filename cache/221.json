@@ -6,12 +6,12 @@
  "key": "maximal-square",
  "link": "https://leetcode.com/problems/maximal-square",
  "locked": false,
- "percent": 28.576939503740544,
+ "percent": 28.62072113190324,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "62.7K",
+ "totalSubmit": "219.1K",
  "desc": "\r\nGiven a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.\r\n\r\n\r\nFor example, given the following matrix:\r\n\r\n1 0 1 0 0\r\n1 0 1 1 1\r\n1 1 1 1 1\r\n1 0 0 1 0\r\n\r\nReturn 4.\r\n\r\n\r\nCredits:Special thanks to @Freezen for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[\"10100\",\"10111\",\"11111\",\"10010\"]'",
- "testable": true
+ "testable": true,
+ "slug": "maximal-square",
+ "category": "algorithms",
+ "fname": "221.maximal-square.algorithms.py"
 }

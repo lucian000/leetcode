@@ -1,1 +1,73 @@
-{"id": 68, "ids": "68", "state": "None", "name": "Text Justification", "key": "text-justification", "link": "https://leetcode.com/problems/text-justification", "locked": false, "percent": 18.893329527072034, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven an array of words and a length L, format the text such that each line has exactly L characters and is fully (left and right) justified.\r\n \r\n\r\n\r\nYou should pack your words in a greedy approach; that is, pack as many words as you can in each line. Pad extra spaces ' ' when necessary so that each line has exactly L characters.\r\n\r\n\r\n\r\nExtra spaces between words should be distributed as evenly as possible. If the number of spaces on a line do not divide evenly between words, the empty slots on the left will be assigned more spaces than the slots on the right.\r\n\r\n\r\n\r\nFor the last line of text, it should be left justified and no extra space is inserted between words.\r\n\r\n\r\n\r\nFor example,\r\nwords: [\"This\", \"is\", \"an\", \"example\", \"of\", \"text\", \"justification.\"]\r\nL: 16.\r\n\r\n\r\n\r\nReturn the formatted lines as:\r\n\r\n[\r\n   \"This    is    an\",\r\n   \"example  of text\",\r\n   \"justification.  \"\r\n]\r\n\r\n\r\n\r\n\r\nNote: Each word is guaranteed not to exceed L in length.\r\n\r\n\r\n\r\nclick to show corner cases.\r\n\r\nCorner Cases:\r\n\r\n\r\nA line other than the last line might contain only one word. What should you do in this case?\r\nIn this case, that line should be left-justified.\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<string> fullJustify(vector<string>& words, int maxWidth) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public List<String> fullJustify(String[] words, int maxWidth) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def fullJustify(self, words, maxWidth):\r\n        \"\"\"\r\n        :type words: List[str]\r\n        :type maxWidth: int\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** fullJustify(char** words, int wordsSize, int maxWidth, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public IList<string> FullJustify(string[] words, int maxWidth) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {string[]} words\r\n * @param {number} maxWidth\r\n * @return {string[]}\r\n */\r\nvar fullJustify = function(words, maxWidth) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String[]} words\r\n# @param {Integer} max_width\r\n# @return {String[]}\r\ndef full_justify(words, max_width)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func fullJustify(_ words: [String], _ maxWidth: Int) -> [String] {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func fullJustify(words []string, maxWidth int) []string {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def fullJustify(words: Array[String], maxWidth: Int): List[String] = {\n        \n    }\n}"}], "testcase": "'[\"\"]\\n0'", "testable": true}
+{
+ "id": 68,
+ "ids": "68",
+ "state": "None",
+ "name": "Text Justification",
+ "key": "text-justification",
+ "link": "https://leetcode.com/problems/text-justification",
+ "locked": false,
+ "percent": 18.918003124142302,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "55.8K",
+ "totalSubmit": "295.2K",
+ "desc": "\r\nGiven an array of words and a length L, format the text such that each line has exactly L characters and is fully (left and right) justified.\r\n \r\n\r\n\r\nYou should pack your words in a greedy approach; that is, pack as many words as you can in each line. Pad extra spaces ' ' when necessary so that each line has exactly L characters.\r\n\r\n\r\n\r\nExtra spaces between words should be distributed as evenly as possible. If the number of spaces on a line do not divide evenly between words, the empty slots on the left will be assigned more spaces than the slots on the right.\r\n\r\n\r\n\r\nFor the last line of text, it should be left justified and no extra space is inserted between words.\r\n\r\n\r\n\r\nFor example,\r\nwords: [\"This\", \"is\", \"an\", \"example\", \"of\", \"text\", \"justification.\"]\r\nL: 16.\r\n\r\n\r\n\r\nReturn the formatted lines as:\r\n\r\n[\r\n   \"This    is    an\",\r\n   \"example  of text\",\r\n   \"justification.  \"\r\n]\r\n\r\n\r\n\r\n\r\nNote: Each word is guaranteed not to exceed L in length.\r\n\r\n\r\n\r\nclick to show corner cases.\r\n\r\nCorner Cases:\r\n\r\n\r\nA line other than the last line might contain only one word. What should you do in this case?\r\nIn this case, that line should be left-justified.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<string> fullJustify(vector<string>& words, int maxWidth) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<String> fullJustify(String[] words, int maxWidth) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def fullJustify(self, words, maxWidth):\r\n        \"\"\"\r\n        :type words: List[str]\r\n        :type maxWidth: int\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** fullJustify(char** words, int wordsSize, int maxWidth, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<string> FullJustify(string[] words, int maxWidth) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string[]} words\r\n * @param {number} maxWidth\r\n * @return {string[]}\r\n */\r\nvar fullJustify = function(words, maxWidth) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String[]} words\r\n# @param {Integer} max_width\r\n# @return {String[]}\r\ndef full_justify(words, max_width)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func fullJustify(_ words: [String], _ maxWidth: Int) -> [String] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func fullJustify(words []string, maxWidth int) []string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def fullJustify(words: Array[String], maxWidth: Int): List[String] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[\"\"]\\n0'",
+ "testable": true,
+ "slug": "text-justification",
+ "category": "algorithms",
+ "fname": "68.text-justification.algorithms.py"
+}

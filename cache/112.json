@@ -6,12 +6,12 @@
  "key": "path-sum",
  "link": "https://leetcode.com/problems/path-sum",
  "locked": false,
- "percent": 33.81234116092305,
+ "percent": 33.84443508953726,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "167.2K",
+ "totalSubmit": "494.1K",
  "desc": "\r\nGiven a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum.\r\n\r\n\r\nFor example:\r\nGiven the below binary tree and sum = 22,\r\n\r\n              5\r\n             / \\\r\n            4   8\r\n           /   / \\\r\n          11  13  4\r\n         /  \\      \\\r\n        7    2      1\r\n\r\n\r\n\r\nreturn true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]\\n1'",
- "testable": true
+ "testable": true,
+ "slug": "path-sum",
+ "category": "algorithms",
+ "fname": "112.path-sum.algorithms.py"
 }

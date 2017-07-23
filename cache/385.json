@@ -6,12 +6,12 @@
  "key": "mini-parser",
  "link": "https://leetcode.com/problems/mini-parser",
  "locked": false,
- "percent": 30.266622457139512,
+ "percent": 30.323827936201063,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "15.7K",
+ "totalSubmit": "51.7K",
  "desc": "Given a nested list of integers represented as a string, implement a parser to deserialize it.\r\n\r\nEach element is either an integer, or a list -- whose elements may also be integers or other lists.\r\n\r\nNote:\r\nYou may assume that the string is well-formed:\r\n\r\nString is non-empty.\r\nString does not contain white spaces.\r\nString contains only digits 0-9, [, - ,, ].\r\n\r\n\r\n\r\nExample 1:\r\n\r\nGiven s = \"324\",\r\n\r\nYou should return a NestedInteger object which contains a single integer 324.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nGiven s = \"[123,[456,[789]]]\",\r\n\r\nReturn a NestedInteger object containing a nested list with 2 elements:\r\n\r\n1. An integer containing value 123.\r\n2. A nested list containing two elements:\r\n    i.  An integer containing value 456.\r\n    ii. A nested list with one element:\r\n         a. An integer containing value 789.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"324\"'",
- "testable": true
+ "testable": true,
+ "slug": "mini-parser",
+ "category": "algorithms",
+ "fname": "385.mini-parser.algorithms.py"
 }

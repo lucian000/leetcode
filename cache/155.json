@@ -6,12 +6,12 @@
  "key": "min-stack",
  "link": "https://leetcode.com/problems/min-stack",
  "locked": false,
- "percent": 28.28433308077305,
+ "percent": 28.34637804662945,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "133.4K",
+ "totalSubmit": "470.6K",
  "desc": "\r\nDesign a stack that supports push, pop, top, and retrieving the minimum element in constant time.\r\n\r\n\r\npush(x) -- Push element x onto stack.\r\n\r\n\r\npop() -- Removes the element on top of the stack.\r\n\r\n\r\ntop() -- Get the top element.\r\n\r\n\r\ngetMin() -- Retrieve the minimum element in the stack.\r\n\r\n\r\n\r\n\r\nExample:\r\n\r\nMinStack minStack = new MinStack();\r\nminStack.push(-2);\r\nminStack.push(0);\r\nminStack.push(-3);\r\nminStack.getMin();   --> Returns -3.\r\nminStack.pop();\r\nminStack.top();      --> Returns 0.\r\nminStack.getMin();   --> Returns -2.\r\n\r\n",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]\\n[[],[-2],[0],[-3],[],[],[],[]]'",
- "testable": true
+ "testable": true,
+ "slug": "min-stack",
+ "category": "algorithms",
+ "fname": "155.min-stack.algorithms.py"
 }

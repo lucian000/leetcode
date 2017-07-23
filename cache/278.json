@@ -6,12 +6,12 @@
  "key": "first-bad-version",
  "link": "https://leetcode.com/problems/first-bad-version",
  "locked": false,
- "percent": 25.092435368749126,
+ "percent": 25.12500639341028,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "103.2K",
+ "totalSubmit": "410.7K",
  "desc": "\r\nYou are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad. \r\n\r\n\r\n\r\nSuppose you have n versions [1, 2, ..., n] and you want to find out the first bad one, which causes all the following ones to be bad.\r\n\r\n\r\n\r\nYou are given an API bool isBadVersion(version) which will return whether version is bad. Implement a function to find the first bad version. You should minimize the number of calls to the API.\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -51,5 +51,8 @@
   }
  ],
  "testcase": "'1 version\\n1 is the first bad version.'",
- "testable": false
+ "testable": false,
+ "slug": "first-bad-version",
+ "category": "algorithms",
+ "fname": "278.first-bad-version.algorithms.py"
 }

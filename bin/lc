@@ -56,7 +56,9 @@ d/do: do an excercise! Some letters can follow, including:
     Uppercase means negative, e.g. D(not done)
     If not, it will automatically choose the easiest level left.
 sh: execute a command after 'sh'.
-download: download all souce files to the dir 'source'.
+download: download 'algorithm' souce files to the dir 'source'.
+    If you want to download others (like 'shell', 'databass'), use 'download all'
+    You can also type 'download shell databass'.
 indent: make all json files have indent
 
 If you use Python, you can add the following to ~/.vimrc:
@@ -99,22 +101,27 @@ def get_cmd(cmd):
         texts = f.readlines()
     return texts
 #%% get the list
-def get_list(n=0,q=''):
+def get_list(n=0,q='',cat=["algorithms"]):
     '''
     n=index
     q=
-    e(easy),m(medium),h(hard),d(done),l(locked),s(starred)
-    Uppercase means negative, e.g. D(not done)
+        e(easy),m(medium),h(hard),d(done),l(locked),s(starred)
+        Uppercase means negative, e.g. D(not done)
+    cat= 'all' : get all categories
+        [a,b,c]: get categories a, b, and c
     '''
-    if not os.path.exists(dc+'all.json'):
+    if not os.path.exists(dc+'problems.json'):
         get_cmd(lc_cli + 'list')
-    all_ = load(dc+'all.json')
+    all_ = load(dc+'problems.json')
     if n>0:
         for i in all_:
             if i['id']==n:
                 return i
     else:
-        lst = all_
+        if cat =='all':
+            lst = all_
+        else:
+            lst = [i for i in all_ if i["category"] in cat]
         if 'e' in q:
             lst = [i for i in lst if i['level']=='Easy']
         if 'E' in q:
@@ -166,11 +173,11 @@ class problem(object):
         self.id = int(n) # index - int
         self.ids = str(n) # index -str
         self.__dict__.update(get_list(self.id))
-        self.fname = self.ids+'.'+self.key+'.py'
+        self.fname = self.ids+'.'+self.slug+'.'+self.category+'.py'
         self.loaded = False
     def load(self):
         'load all information about the problem'
-        f1 = dc+self.key+'.json'
+        f1 = dc+self.ids+'.'+self.slug+'.'+self.category+'.json'
         f2 = d + self.ids+'.json'
         if os.path.exists(f1):
             self.__dict__.update(load(f1))
@@ -185,12 +192,16 @@ class problem(object):
         self.cache()
     def download(self):
         'if cannot find json file in path d, save it'
-        f1 = dc+self.key+'.json'
+        f1 = dc+self.ids+'.'+self.slug+'.'+self.category+'.json'
         f2 = d + self.ids+'.json'
+        find = True
         if not os.path.exists(f1):
             get_cmd(lc_cli + 'show '+self.ids)
+            find = False
         if not os.path.exists(f2):
-            shutil.copy(dc+self.key+'.json', d+self.ids+'.json')
+            shutil.copy(dc+self.ids+'.'+self.slug+'.'+self.category+'.json', d+self.ids+'.json')
+            find = False
+        return find
     def cache(self):
         if not self.loaded:
             self.load()
@@ -214,6 +225,9 @@ class problem(object):
     def write(self):
         if not self.loaded:
             self.load()
+        if os.path.exists(self.fname):
+            print('There is a file here! Please check.')
+            return -1
         try:
             codes = [i['defaultCode'] for i in self.templates if i['value']=='python3'][0]
         except:
@@ -229,9 +243,6 @@ class problem(object):
         txt = txt.replace('\n','\n# ')
         txt += '\n'+ codes
         txt = txt.replace('\r\n','\n')
-        if os.path.exists(self.fname):
-            print('There is a file here. Please check!')
-            return -1
         with open(self.fname,'w') as f:
             f.write(txt)
         return 0
@@ -283,6 +294,10 @@ class problem(object):
         x,y = [float(i) for i in x],[float(i) for i in y]
         yourx = self.submit_your['status_runtime']
         yourx = float(yourx.replace('ms',''))
+        beat = 0
+        for i,xi in enumerate(x):
+            if xi>yourx:
+                beat += y[i]
         plt.figure()
         bound = max(y)*1.2
         plt.ylim([0,bound])
@@ -290,8 +305,10 @@ class problem(object):
         plt.plot(x,y,'g',alpha=0.5)
         plt.vlines(yourx,min(y),bound,'r',alpha=0.7)
         plt.xlabel('Runtime (ms)')
-        plt.ylabel('Frequency (%)')        
+        plt.ylabel('Frequency (%)') 
+        plt.title('Your runtime beats '+str(round(beat,4))+'% of python submissions')
         plt.text(yourx,bound*0.95,str(yourx)+' ms')
+        plt.show()
 #%% checking dependence
 if not os.path.exists('./do_not_check'):
     pry('Checking node and editor...')
@@ -315,54 +332,73 @@ def indent(d):
     for f in fs:
         store(d+f, load(d+f))
 
-def down():
+def down(ps,p):
     'download all source files'
     rm_dir(dc)
     rm_dir(d)
     #rm_dir(dsave)
-    lst = get_list()
+    if p.strip()=='all':
+        lst = get_list(cat='all')
+    elif len(ps)>0:
+        lst = get_list(cat=ps)
+    else:
+        lst = get_list()
     idlst = [i['id'] for i in lst if not i['locked']]
     pry('Downloading...')
     pba = pb.progressbarClass(len(idlst), '=')
     pba.progress(0)
     for ni,i in enumerate(idlst):
         p = problem(i)
-        p.download()
+        find = p.download()
         p.cache()
-        pba.progress(ni+1)
+        pba.progress(ni+1, find)
+    pba.done()
     pry('Finished.')
 
  
-def do_all(ps,p):
+def do_all(ps,p,resume=False):
     'automatically solve a question'
-    pry('Checking the question list...')
-    if len(ps)>0:
-        lst = get_list(q=p)
-    else:
-        lst = get_list(q='LDe')
-        if len(lst)==0:
-            lst = get_list(q='LDm')
+    if not resume:
+        pry('Checking the question list...')
+        if len(ps)>0:
+            lst = get_list(q=p)
+        else:
+            lst = get_list(q='LDe')
             if len(lst)==0:
-                lst = get_list(q='LDh')
-    if len(lst)==0:
-        prr('No unlocked questions are found!')
-        return 
-    ind = np.random.choice([i['id'] for i in lst]) # index of question
+                lst = get_list(q='LDm')
+                if len(lst)==0:
+                    lst = get_list(q='LDh')
+        if len(lst)==0:
+            prr('No unlocked questions are found!')
+            return 
+        ind = np.random.choice([i['id'] for i in lst]) # index of question
+    else:
+        if len(ps)==0:
+            prr('Please enter an index after the code!')
+            return -1
+        try:
+            ind = int(p)
+        except:
+            prr('Please enter an int!')
+            return -1
     prob = problem(ind)
     prob.load()
     print('\n')
     prob.show()
-    returncode = prob.write()
-    if returncode== -1:
-        return -1
+    if not resume:
+        returncode = prob.write()
+        if returncode== -1:
+            return -1
+    else:
+        if not os.path.exists(prob.fname):
+            prr('Can not find '+prob.fname+'. Are you sure you want to resume?')
+            return -1
     # webbrowser.open_new_tab(prob.link)
     while True:
         pry('\nPlease write your codes in vim, remember to save it...')
         # the time used
         prob.edit()
-        testnum = prob.test()
-        if testnum==-1:
-            return -1
+        prob.test()
         pry('What do you want next?')
         pry('c/[Enter] = change codes, s = submit, e = exit')
         ip2 = input(addy('?> '))
@@ -400,16 +436,18 @@ while(True):
     cmd = ips[0]
     pars = ips[1:]
     par = " ".join(pars)
-    if cmd=='exit':
+    if cmd in ['exit','e']:
         break
     elif cmd in ['h','help']:
         h()
     elif cmd in ['d','do']:
         do_all(pars,par)
+    elif cmd in ['resume','rs']:
+        do_all(pars,par,resume=True)
     elif cmd=='sh':
         os.system(par)
     elif cmd=='download':
-        down()
+        down(pars,par)
     elif cmd=='cwd':
         print(sys.path[0])
     elif cmd=='indent':

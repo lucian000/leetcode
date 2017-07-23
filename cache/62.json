@@ -6,12 +6,12 @@
  "key": "unique-paths",
  "link": "https://leetcode.com/problems/unique-paths",
  "locked": false,
- "percent": 40.793591836617175,
+ "percent": 40.8381178304168,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "142.6K",
+ "totalSubmit": "349.2K",
  "desc": "A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).\r\n\r\nThe robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).\r\n\r\nHow many possible unique paths are there?\r\n\r\n\r\n\r\nAbove is a 3 x 7 grid. How many possible unique paths are there?\r\n\r\n\r\nNote: m and n will be at most 100.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'1\\n2'",
- "testable": true
+ "testable": true,
+ "slug": "unique-paths",
+ "category": "algorithms",
+ "fname": "62.unique-paths.algorithms.py"
 }

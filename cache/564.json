@@ -6,12 +6,12 @@
  "key": "find-the-closest-palindrome",
  "link": "https://leetcode.com/problems/find-the-closest-palindrome",
  "locked": false,
- "percent": 16.53890824622532,
+ "percent": 16.67044852885561,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "2.2K",
+ "totalSubmit": "13.2K",
  "desc": "Given an integer n, find the closest integer (not including itself), which is a palindrome. \r\n\r\nThe 'closest' is defined as absolute difference minimized between two integers.\r\n\r\nExample 1:\r\n\r\nInput: \"123\"\r\nOutput: \"121\"\r\n\r\n\r\n\r\nNote:\r\n\r\nThe input n is a positive integer represented by string, whose length will not exceed 18.\r\nIf there is a tie, return the smaller one as answer.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"1\"'",
- "testable": true
+ "testable": true,
+ "slug": "find-the-closest-palindrome",
+ "category": "algorithms",
+ "fname": "564.find-the-closest-palindrome.algorithms.py"
 }

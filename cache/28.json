@@ -6,12 +6,12 @@
  "key": "implement-strstr",
  "link": "https://leetcode.com/problems/implement-strstr",
  "locked": false,
- "percent": 27.927861416429927,
+ "percent": 27.949402361223143,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "190.6K",
+ "totalSubmit": "681.9K",
  "desc": "\r\nImplement strStr().\r\n\r\n\r\nReturns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"\"\\n\"\"'",
- "testable": true
+ "testable": true,
+ "slug": "implement-strstr",
+ "category": "algorithms",
+ "fname": "28.implement-strstr.algorithms.py"
 }

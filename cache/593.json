@@ -6,12 +6,12 @@
  "key": "valid-square",
  "link": "https://leetcode.com/problems/valid-square",
  "locked": false,
- "percent": 39.369544953817474,
+ "percent": 39.49174701748652,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "4.8K",
+ "totalSubmit": "12.2K",
  "desc": "Given the coordinates of four points in 2D space, return whether the four points could construct a square.\r\n\r\nThe coordinate (x,y) of a point is represented by an integer array with two integers.\r\n\r\nExample:\r\n\r\nInput: p1 = [0,0], p2 = [1,1], p3 = [1,0], p4 = [0,1]\r\nOutput: True\r\n\r\n\r\n\r\n Note: \r\n\r\nAll the input integers are in the range [-10000, 10000].\r\nA valid square has four equal sides with positive length and four equal angles (90-degree angles).\r\nInput points have no order.\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'[0,0]\\n[1,1]\\n[1,0]\\n[0,1]'",
- "testable": true
+ "testable": true,
+ "slug": "valid-square",
+ "category": "algorithms",
+ "fname": "593.valid-square.algorithms.py"
 }

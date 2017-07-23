@@ -1,1 +1,73 @@
-{"id": 238, "ids": "238", "state": "None", "name": "Product of Array Except Self", "key": "product-of-array-except-self", "link": "https://leetcode.com/problems/product-of-array-except-self", "locked": false, "percent": 48.76319126062412, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven an array of n integers where n > 1, nums, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].\r\n\r\nSolve it without division and in O(n).\r\n\r\nFor example, given [1,2,3,4], return [24,12,8,6].\r\n\r\nFollow up:\r\nCould you solve it with constant space complexity? (Note: The output array does not count as extra space for the purpose of space complexity analysis.)", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> productExceptSelf(vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int[] productExceptSelf(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def productExceptSelf(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* productExceptSelf(int* nums, int numsSize, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int[] ProductExceptSelf(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number[]}\r\n */\r\nvar productExceptSelf = function(nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer[]}\r\ndef product_except_self(nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func productExceptSelf(_ nums: [Int]) -> [Int] {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func productExceptSelf(nums []int) []int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def productExceptSelf(nums: Array[Int]): Array[Int] = {\n        \n    }\n}"}], "testcase": "'[0,0]'", "testable": true}
+{
+ "id": 238,
+ "ids": "238",
+ "state": "None",
+ "name": "Product of Array Except Self",
+ "key": "product-of-array-except-self",
+ "link": "https://leetcode.com/problems/product-of-array-except-self",
+ "locked": false,
+ "percent": 48.80134444768959,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "101.9K",
+ "totalSubmit": "208.9K",
+ "desc": "\r\nGiven an array of n integers where n > 1, nums, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].\r\n\r\nSolve it without division and in O(n).\r\n\r\nFor example, given [1,2,3,4], return [24,12,8,6].\r\n\r\nFollow up:\r\nCould you solve it with constant space complexity? (Note: The output array does not count as extra space for the purpose of space complexity analysis.)",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> productExceptSelf(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int[] productExceptSelf(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def productExceptSelf(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* productExceptSelf(int* nums, int numsSize, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int[] ProductExceptSelf(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number[]}\r\n */\r\nvar productExceptSelf = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer[]}\r\ndef product_except_self(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func productExceptSelf(_ nums: [Int]) -> [Int] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func productExceptSelf(nums []int) []int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def productExceptSelf(nums: Array[Int]): Array[Int] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[0,0]'",
+ "testable": true,
+ "slug": "product-of-array-except-self",
+ "category": "algorithms",
+ "fname": "238.product-of-array-except-self.algorithms.py"
+}

@@ -6,12 +6,12 @@
  "key": "partition-list",
  "link": "https://leetcode.com/problems/partition-list",
  "locked": false,
- "percent": 32.471222568100934,
+ "percent": 32.503356720363456,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "101K",
+ "totalSubmit": "310.6K",
  "desc": "Given a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.\r\n\r\n\r\nYou should preserve the original relative order of the nodes in each of the two partitions.\r\n\r\n\r\nFor example,\r\nGiven 1->4->3->2->5->2 and x = 3,\r\nreturn 1->2->2->4->3->5.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]\\n0'",
- "testable": true
+ "testable": true,
+ "slug": "partition-list",
+ "category": "algorithms",
+ "fname": "86.partition-list.algorithms.py"
 }

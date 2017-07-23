@@ -6,12 +6,12 @@
  "key": "binary-tree-level-order-traversal-ii",
  "link": "https://leetcode.com/problems/binary-tree-level-order-traversal-ii",
  "locked": false,
- "percent": 39.80461632836176,
+ "percent": 39.85999951346486,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "131.1K",
+ "totalSubmit": "328.9K",
  "desc": "Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).\r\n\r\n\r\nFor example:\r\nGiven binary tree [3,9,20,null,null,15,7],\r\n\r\n    3\r\n   / \\\r\n  9  20\r\n    /  \\\r\n   15   7\r\n\r\n\r\n\r\nreturn its bottom-up level order traversal as:\r\n\r\n[\r\n  [15,7],\r\n  [9,20],\r\n  [3]\r\n]\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[3,9,20,null,null,15,7]'",
- "testable": true
+ "testable": true,
+ "slug": "binary-tree-level-order-traversal-ii",
+ "category": "algorithms",
+ "fname": "107.binary-tree-level-order-traversal-ii.algorithms.py"
 }

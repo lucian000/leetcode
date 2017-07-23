@@ -6,12 +6,12 @@
  "key": "binary-tree-inorder-traversal",
  "link": "https://leetcode.com/problems/binary-tree-inorder-traversal",
  "locked": false,
- "percent": 46.18849930884187,
+ "percent": 46.25677024344842,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "206.3K",
+ "totalSubmit": "445.9K",
  "desc": "Given a binary tree, return the inorder traversal of its nodes' values.\r\n\r\n\r\nFor example:\r\nGiven binary tree [1,null,2,3],\r\n\r\n   1\r\n    \\\r\n     2\r\n    /\r\n   3\r\n\r\n\r\n\r\nreturn [1,3,2].\r\n\r\n\r\nNote: Recursive solution is trivial, could you do it iteratively?",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,null,2,3]'",
- "testable": true
+ "testable": true,
+ "slug": "binary-tree-inorder-traversal",
+ "category": "algorithms",
+ "fname": "94.binary-tree-inorder-traversal.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "sort-list",
  "link": "https://leetcode.com/problems/sort-list",
  "locked": false,
- "percent": 28.51451979190714,
+ "percent": 28.531924851240223,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "106.7K",
+ "totalSubmit": "373.9K",
  "desc": "Sort a linked list in O(n log n) time using constant space complexity.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "sort-list",
+ "category": "algorithms",
+ "fname": "148.sort-list.algorithms.py"
 }

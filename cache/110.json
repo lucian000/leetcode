@@ -6,12 +6,12 @@
  "key": "balanced-binary-tree",
  "link": "https://leetcode.com/problems/balanced-binary-tree",
  "locked": false,
- "percent": 37.28744062425748,
+ "percent": 37.32038778019088,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "178.2K",
+ "totalSubmit": "477.5K",
  "desc": "Given a binary tree, determine if it is height-balanced.\r\n\r\n\r\n\r\nFor this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "balanced-binary-tree",
+ "category": "algorithms",
+ "fname": "110.balanced-binary-tree.algorithms.py"
 }

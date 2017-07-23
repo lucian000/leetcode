@@ -6,12 +6,12 @@
  "key": "delete-node-in-a-linked-list",
  "link": "https://leetcode.com/problems/delete-node-in-a-linked-list",
  "locked": false,
- "percent": 46.32172321953786,
+ "percent": 46.34543090617076,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "157.6K",
+ "totalSubmit": "340K",
  "desc": "\r\nWrite a function to delete a node (except the tail) in a singly linked list, given only access to that node.\r\n\r\n\r\n\r\nSupposed the linked list is 1 -> 2 -> 3 -> 4 and you are given the third node with value 3, the linked list should become 1 -> 2 -> 4 after calling your function.\r\n",
  "templates": [
   {
@@ -51,5 +51,8 @@
   }
  ],
  "testcase": "'[0,1]\\nnode at index 0 (node.val = 0)'",
- "testable": false
+ "testable": false,
+ "slug": "delete-node-in-a-linked-list",
+ "category": "algorithms",
+ "fname": "237.delete-node-in-a-linked-list.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "ones-and-zeroes",
  "link": "https://leetcode.com/problems/ones-and-zeroes",
  "locked": false,
- "percent": 38.65080165372593,
+ "percent": 38.84158415841584,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "11.8K",
+ "totalSubmit": "30.3K",
  "desc": "In the computer world, use restricted resource you have to generate maximum benefit is what we always want to pursue.\r\nFor now, suppose you are a dominator of m 0s and n 1s respectively. On the other hand, there is an array with strings consisting of only 0s and 1s.\r\n\r\n\r\nNow your task is to find the maximum number of strings that you can form with given m 0s and n 1s. Each 0 and 1 can be used at most once.\r\n\r\n\r\n\r\nNote:\r\n\r\nThe given numbers of 0s and 1s will both not exceed 100\r\nThe size of given string array won't exceed 600.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: Array = {\"10\", \"0001\", \"111001\", \"1\", \"0\"}, m = 5, n = 3\r\nOutput: 4\r\n\r\nExplanation: This are totally 4 strings can be formed by the using of 5 0s and 3 1s, which are \u201c10,\u201d0001\u201d,\u201d1\u201d,\u201d0\u201d\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: Array = {\"10\", \"0\", \"1\"}, m = 1, n = 1\r\nOutput: 2\r\n\r\nExplanation: You could form \"10\", but then you'd have nothing left. Better form \"0\" and \"1\".\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[\"10\",\"0001\",\"111001\",\"1\",\"0\"]\\n5\\n3'",
- "testable": true
+ "testable": true,
+ "slug": "ones-and-zeroes",
+ "category": "algorithms",
+ "fname": "474.ones-and-zeroes.algorithms.py"
 }

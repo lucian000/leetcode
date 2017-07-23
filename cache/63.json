@@ -6,12 +6,12 @@
  "key": "unique-paths-ii",
  "link": "https://leetcode.com/problems/unique-paths-ii",
  "locked": false,
- "percent": 31.565649713426012,
+ "percent": 31.589510663638627,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "105.3K",
+ "totalSubmit": "333.5K",
  "desc": "Follow up for \"Unique Paths\":\r\n\r\nNow consider if some obstacles are added to the grids. How many unique paths would there be?\r\n\r\nAn obstacle and empty space is marked as 1 and 0 respectively in the grid.\r\n\r\nFor example,\r\nThere is one obstacle in the middle of a 3x3 grid as illustrated below.\r\n\r\n[\r\n  [0,0,0],\r\n  [0,1,0],\r\n  [0,0,0]\r\n]\r\n\r\nThe total number of unique paths is 2.\r\n\r\nNote: m and n will be at most 100.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[0]]'",
- "testable": true
+ "testable": true,
+ "slug": "unique-paths-ii",
+ "category": "algorithms",
+ "fname": "63.unique-paths-ii.algorithms.py"
 }

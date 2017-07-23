@@ -6,12 +6,12 @@
  "key": "length-of-last-word",
  "link": "https://leetcode.com/problems/length-of-last-word",
  "locked": false,
- "percent": 31.763576234169008,
+ "percent": 31.775495762784114,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "149.1K",
+ "totalSubmit": "469.3K",
  "desc": "Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.\r\n\r\nIf the last word does not exist, return 0.\r\n\r\nNote: A word is defined as a character sequence consists of non-space characters only.\r\n\r\n\r\nFor example, \r\nGiven s = \"Hello World\",\r\nreturn 5.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"\"'",
- "testable": true
+ "testable": true,
+ "slug": "length-of-last-word",
+ "category": "algorithms",
+ "fname": "58.length-of-last-word.algorithms.py"
 }

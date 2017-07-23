@@ -6,12 +6,12 @@
  "key": "basic-calculator",
  "link": "https://leetcode.com/problems/basic-calculator",
  "locked": false,
- "percent": 26.813836072617896,
+ "percent": 26.84828442389606,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "50.2K",
+ "totalSubmit": "186.9K",
  "desc": "Implement a basic calculator to evaluate a simple expression string.\r\n\r\nThe expression string may contain open ( and closing parentheses ), the plus + or minus sign -, non-negative integers and empty spaces  .\r\n\r\nYou may assume that the given expression is always valid.\r\n\r\nSome examples:\r\n\r\n\"1 + 1\" = 2\r\n\" 2-1 + 2 \" = 3\r\n\"(1+(4+5+2)-3)+(6+8)\" = 23\r\n\r\n\r\n\r\n\r\nNote: Do not use the eval built-in library function.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"0\"'",
- "testable": true
+ "testable": true,
+ "slug": "basic-calculator",
+ "category": "algorithms",
+ "fname": "224.basic-calculator.algorithms.py"
 }

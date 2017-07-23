@@ -6,12 +6,12 @@
  "key": "most-frequent-subtree-sum",
  "link": "https://leetcode.com/problems/most-frequent-subtree-sum",
  "locked": false,
- "percent": 52.3555974927546,
+ "percent": 52.17476939237764,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "15.9K",
+ "totalSubmit": "30.5K",
  "desc": "\r\nGiven the root of a tree, you are asked to find the most frequent subtree sum. The subtree sum of a node is defined as the sum of all the node values formed by the subtree rooted at that node (including the node itself). So what is the most frequent subtree sum value? If there is a tie, return all the values with the highest frequency in any order.\r\n\r\n\r\nExamples 1\r\nInput:\r\n\r\n  5\r\n /  \\\r\n2   -3\r\n\r\nreturn [2, -3, 4], since all the values happen only once, return all of them in any order.\r\n\r\n\r\nExamples 2\r\nInput:\r\n\r\n  5\r\n /  \\\r\n2   -5\r\n\r\nreturn [2], since 2 happens twice, however -5 only occur once.\r\n\r\n\r\nNote:\r\nYou may assume the sum of values in any subtree is in the range of 32-bit signed integer.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[5,2,-3]'",
- "testable": true
+ "testable": true,
+ "slug": "most-frequent-subtree-sum",
+ "category": "algorithms",
+ "fname": "508.most-frequent-subtree-sum.algorithms.py"
 }

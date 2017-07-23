@@ -6,12 +6,12 @@
  "key": "word-break",
  "link": "https://leetcode.com/problems/word-break",
  "locked": false,
- "percent": 29.611574860135793,
+ "percent": 29.64721405724451,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "151K",
+ "totalSubmit": "509.3K",
  "desc": "\r\nGiven a non-empty string s and a dictionary wordDict containing a list of non-empty words, determine if s can be segmented into a space-separated sequence of one or more dictionary words. You may assume the dictionary does not contain duplicate words.\r\n\r\n\r\nFor example, given\r\ns = \"leetcode\",\r\ndict = [\"leet\", \"code\"].\r\n\r\n\r\n\r\nReturn true because \"leetcode\" can be segmented as \"leet code\".\r\n\r\n\r\n\r\nUPDATE (2017/1/4):\r\nThe wordDict parameter had been changed to a list of strings (instead of a set of strings). Please reload the code definition to get the latest changes.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"leetcode\"\\n[\"leet\",\"code\"]'",
- "testable": true
+ "testable": true,
+ "slug": "word-break",
+ "category": "algorithms",
+ "fname": "139.word-break.algorithms.py"
 }

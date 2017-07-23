@@ -6,12 +6,12 @@
  "key": "contains-duplicate-ii",
  "link": "https://leetcode.com/problems/contains-duplicate-ii",
  "locked": false,
- "percent": 32.21584017940914,
+ "percent": 32.23876348524095,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "113.3K",
+ "totalSubmit": "351.3K",
  "desc": "\r\nGiven an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such that nums[i] = nums[j] and the absolute difference between i and j is at most k.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]\\n0'",
- "testable": true
+ "testable": true,
+ "slug": "contains-duplicate-ii",
+ "category": "algorithms",
+ "fname": "219.contains-duplicate-ii.algorithms.py"
 }

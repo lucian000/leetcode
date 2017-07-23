@@ -6,12 +6,12 @@
  "key": "total-hamming-distance",
  "link": "https://leetcode.com/problems/total-hamming-distance",
  "locked": false,
- "percent": 46.44335301583798,
+ "percent": 46.45541116145311,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "17.1K",
+ "totalSubmit": "36.9K",
  "desc": "The Hamming distance between two integers is the number of positions at which the corresponding bits are different.\r\n\r\nNow your job is to find the total Hamming distance between all pairs of the given numbers.\r\n\r\n\r\nExample:\r\n\r\nInput: 4, 14, 2\r\n\r\nOutput: 6\r\n\r\nExplanation: In binary representation, the 4 is 0100, 14 is 1110, and 2 is 0010 (just\r\nshowing the four bits relevant in this case). So the answer will be:\r\nHammingDistance(4, 14) + HammingDistance(4, 2) + HammingDistance(14, 2) = 2 + 2 + 2 = 6.\r\n\r\n\r\n\r\nNote:\r\n\r\nElements of the given array are in the range of 0  to 10^9\r\nLength of the array will not exceed 10^4. \r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[4,14,2]'",
- "testable": true
+ "testable": true,
+ "slug": "total-hamming-distance",
+ "category": "algorithms",
+ "fname": "477.total-hamming-distance.algorithms.py"
 }

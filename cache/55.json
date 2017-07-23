@@ -6,12 +6,12 @@
  "key": "jump-game",
  "link": "https://leetcode.com/problems/jump-game",
  "locked": false,
- "percent": 29.484141967151217,
+ "percent": 29.504332104534036,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "125.7K",
+ "totalSubmit": "426.1K",
  "desc": "\r\nGiven an array of non-negative integers, you are initially positioned at the first index of the array.\r\n\r\n\r\nEach element in the array represents your maximum jump length at that position. \r\n\r\n\r\nDetermine if you are able to reach the last index.\r\n\r\n\r\n\r\nFor example:\r\nA = [2,3,1,1,4], return true.\r\n\r\n\r\nA = [3,2,1,0,4], return false.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[2,3,1,1,4]'",
- "testable": true
+ "testable": true,
+ "slug": "jump-game",
+ "category": "algorithms",
+ "fname": "55.jump-game.algorithms.py"
 }

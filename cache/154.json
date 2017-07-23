@@ -6,12 +6,12 @@
  "key": "find-minimum-in-rotated-sorted-array-ii",
  "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii",
  "locked": false,
- "percent": 36.96587578636898,
+ "percent": 36.986212188146666,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "79.5K",
+ "totalSubmit": "215.1K",
  "desc": "\r\nFollow up for \"Find Minimum in Rotated Sorted Array\":\r\nWhat if duplicates are allowed?\r\n\r\nWould this affect the run-time complexity? How and why?\r\n\r\n\r\nSuppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.\r\n\r\n(i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).\r\n\r\nFind the minimum element.\r\n\r\nThe array may contain duplicates.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1]'",
- "testable": true
+ "testable": true,
+ "slug": "find-minimum-in-rotated-sorted-array-ii",
+ "category": "algorithms",
+ "fname": "154.find-minimum-in-rotated-sorted-array-ii.algorithms.py"
 }

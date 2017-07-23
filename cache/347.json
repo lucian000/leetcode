@@ -6,12 +6,12 @@
  "key": "top-k-frequent-elements",
  "link": "https://leetcode.com/problems/top-k-frequent-elements",
  "locked": false,
- "percent": 47.823861475913304,
+ "percent": 47.85779001920777,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "66K",
+ "totalSubmit": "138K",
  "desc": "\r\nGiven a non-empty array of integers, return the k most frequent elements.\r\n\r\nFor example,\r\nGiven [1,1,1,2,2,3] and k = 2, return [1,2].\r\n\r\n\r\nNote: \r\n\r\nYou may assume k is always valid, 1 ? k ? number of unique elements.\r\nYour algorithm's time complexity must be better than O(n log n), where n is the array's size.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,1,1,2,2,3]\\n2'",
- "testable": true
+ "testable": true,
+ "slug": "top-k-frequent-elements",
+ "category": "algorithms",
+ "fname": "347.top-k-frequent-elements.algorithms.py"
 }

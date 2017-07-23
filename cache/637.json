@@ -6,12 +6,12 @@
  "key": "average-of-levels-in-binary-tree",
  "link": "https://leetcode.com/problems/average-of-levels-in-binary-tree",
  "locked": false,
- "percent": 59.59131795072351,
+ "percent": 58.49172286940527,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "7.6K",
+ "totalSubmit": "13.1K",
  "desc": "Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.\r\n\r\nExample 1:\r\n\r\nInput:\r\n    3\r\n   / \\\r\n  9  20\r\n    /  \\\r\n   15   7\r\nOutput: [3, 14.5, 11]\r\nExplanation:\r\nThe average value of nodes on level 0 is 3,  on level 1 is 14.5, and on level 2 is 11. Hence return [3, 14.5, 11].\r\n\r\n\r\n\r\nNote:\r\n\r\nThe range of node's value is in the range of 32-bit signed integer.\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'[3,9,20,15,7]'",
- "testable": true
+ "testable": true,
+ "slug": "average-of-levels-in-binary-tree",
+ "category": "algorithms",
+ "fname": "637.average-of-levels-in-binary-tree.algorithms.py"
 }

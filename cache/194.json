@@ -1,0 +1,27 @@
+{
+ "id": 194,
+ "ids": "194",
+ "state": "None",
+ "name": "Transpose File",
+ "slug": "transpose-file",
+ "link": "https://leetcode.com/problems/transpose-file",
+ "locked": false,
+ "percent": 20.459272818038105,
+ "level": "Medium",
+ "starred": false,
+ "category": "shell",
+ "fname": "194.transpose-file.shell.py",
+ "loaded": true,
+ "totalAC": "4.9K",
+ "totalSubmit": "24K",
+ "desc": "Given a text file file.txt, transpose its content.\r\n\r\nYou may assume that each row has the same number of columns and each field is separated by the ' ' character.\r\n\r\n\r\nFor example, if file.txt has the following content:\r\n\r\nname age\r\nalice 21\r\nryan 30\r\n\r\n\r\n\r\n\r\nOutput the following:\r\n\r\nname alice ryan\r\nage 21 30\r\n\r\n",
+ "templates": [
+  {
+   "value": "bash",
+   "text": "Bash",
+   "defaultCode": "# Read from the file file.txt and print its transposed content to stdout.\r\n"
+  }
+ ],
+ "testcase": "'a'",
+ "testable": false
+}

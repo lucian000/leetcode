@@ -6,12 +6,12 @@
  "key": "subsets-ii",
  "link": "https://leetcode.com/problems/subsets-ii",
  "locked": false,
- "percent": 35.800098410730605,
+ "percent": 35.856855352320785,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "112.6K",
+ "totalSubmit": "314.1K",
  "desc": "\r\nGiven a collection of integers that might contain duplicates, nums, return all possible subsets.\r\n\r\nNote: The solution set must not contain duplicate subsets.\r\n\r\n\r\nFor example,\r\nIf nums = [1,2,2], a solution is:\r\n\r\n\r\n\r\n[\r\n  [2],\r\n  [1],\r\n  [1,2,2],\r\n  [2,2],\r\n  [1,2],\r\n  []\r\n]\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,2,2]'",
- "testable": true
+ "testable": true,
+ "slug": "subsets-ii",
+ "category": "algorithms",
+ "fname": "90.subsets-ii.algorithms.py"
 }

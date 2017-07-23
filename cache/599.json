@@ -6,12 +6,12 @@
  "key": "minimum-index-sum-of-two-lists",
  "link": "https://leetcode.com/problems/minimum-index-sum-of-two-lists",
  "locked": false,
- "percent": 47.8641635999441,
+ "percent": 47.63812458727713,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "10.8K",
+ "totalSubmit": "22.7K",
  "desc": "\r\nSuppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings. \r\n\r\n\r\nYou need to help them find out their common interest with the least list index sum. If there is a choice tie between answers, output all of them with no order requirement. You could assume there always exists an answer.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\n[\"Shogun\", \"Tapioca Express\", \"Burger King\", \"KFC\"]\r\n[\"Piatti\", \"The Grill at Torrey Pines\", \"Hungry Hunter Steakhouse\", \"Shogun\"]\r\nOutput: [\"Shogun\"]\r\nExplanation: The only restaurant they both like is \"Shogun\".\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\n[\"Shogun\", \"Tapioca Express\", \"Burger King\", \"KFC\"]\r\n[\"KFC\", \"Shogun\", \"Burger King\"]\r\nOutput: [\"Shogun\"]\r\nExplanation: The restaurant they both like and have the least index sum is \"Shogun\" with index sum 1 (0+1).\r\n\r\n\r\n\r\n\r\nNote:\r\n\r\nThe length of both lists will be in the range of [1, 1000].\r\nThe length of strings in both lists will be in the range of [1, 30].\r\nThe index is starting from 0 to the list length minus 1.\r\nNo duplicates in both lists.\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'[\"Shogun\",\"Tapioca Express\",\"Burger King\",\"KFC\"]\\n[\"Piatti\",\"The Grill at Torrey Pines\",\"Hungry Hunter Steakhouse\",\"Shogun\"]'",
- "testable": true
+ "testable": true,
+ "slug": "minimum-index-sum-of-two-lists",
+ "category": "algorithms",
+ "fname": "599.minimum-index-sum-of-two-lists.algorithms.py"
 }

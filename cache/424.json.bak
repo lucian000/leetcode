@@ -1,1 +1,73 @@
-{"id": 424, "ids": "424", "state": "None", "name": "Longest Repeating Character Replacement", "key": "longest-repeating-character-replacement", "link": "https://leetcode.com/problems/longest-repeating-character-replacement", "locked": false, "percent": 41.97914123269036, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given a string that consists of only uppercase English letters, you can replace any letter in the string with another letter at most k times. Find the length of a longest substring containing all repeating letters you can get after performing the above operations.\r\n\r\nNote:\r\nBoth the string's length and k will not exceed 104.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\ns = \"ABAB\", k = 2\r\n\r\nOutput:\r\n4\r\n\r\nExplanation:\r\nReplace the two 'A's with two 'B's or vice versa.\r\n\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\ns = \"AABABBA\", k = 1\r\n\r\nOutput:\r\n4\r\n\r\nExplanation:\r\nReplace the one 'A' in the middle with 'B' and form \"AABBBBA\".\r\nThe substring \"BBBB\" has the longest repeating letters, which is 4.\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int characterReplacement(string s, int k) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int characterReplacement(String s, int k) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def characterReplacement(self, s, k):\r\n        \"\"\"\r\n        :type s: str\r\n        :type k: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int characterReplacement(char* s, int k) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int CharacterReplacement(string s, int k) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {string} s\r\n * @param {number} k\r\n * @return {number}\r\n */\r\nvar characterReplacement = function(s, k) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String} s\r\n# @param {Integer} k\r\n# @return {Integer}\r\ndef character_replacement(s, k)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func characterReplacement(_ s: String, _ k: Int) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func characterReplacement(s string, k int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def characterReplacement(s: String, k: Int): Int = {\n        \n    }\n}"}], "testcase": "'\"ABAB\"\\n2'", "testable": true}
+{
+ "id": 424,
+ "ids": "424",
+ "state": "None",
+ "name": "Longest Repeating Character Replacement",
+ "key": "longest-repeating-character-replacement",
+ "link": "https://leetcode.com/problems/longest-repeating-character-replacement",
+ "locked": false,
+ "percent": 42.046825971518224,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "12.2K",
+ "totalSubmit": "29K",
+ "desc": "Given a string that consists of only uppercase English letters, you can replace any letter in the string with another letter at most k times. Find the length of a longest substring containing all repeating letters you can get after performing the above operations.\r\n\r\nNote:\r\nBoth the string's length and k will not exceed 104.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\ns = \"ABAB\", k = 2\r\n\r\nOutput:\r\n4\r\n\r\nExplanation:\r\nReplace the two 'A's with two 'B's or vice versa.\r\n\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\ns = \"AABABBA\", k = 1\r\n\r\nOutput:\r\n4\r\n\r\nExplanation:\r\nReplace the one 'A' in the middle with 'B' and form \"AABBBBA\".\r\nThe substring \"BBBB\" has the longest repeating letters, which is 4.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int characterReplacement(string s, int k) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int characterReplacement(String s, int k) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def characterReplacement(self, s, k):\r\n        \"\"\"\r\n        :type s: str\r\n        :type k: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int characterReplacement(char* s, int k) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int CharacterReplacement(string s, int k) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @param {number} k\r\n * @return {number}\r\n */\r\nvar characterReplacement = function(s, k) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @param {Integer} k\r\n# @return {Integer}\r\ndef character_replacement(s, k)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func characterReplacement(_ s: String, _ k: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func characterReplacement(s string, k int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def characterReplacement(s: String, k: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'\"ABAB\"\\n2'",
+ "testable": true,
+ "slug": "longest-repeating-character-replacement",
+ "category": "algorithms",
+ "fname": "424.longest-repeating-character-replacement.algorithms.py"
+}

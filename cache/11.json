@@ -6,12 +6,12 @@
  "key": "container-with-most-water",
  "link": "https://leetcode.com/problems/container-with-most-water",
  "locked": false,
- "percent": 36.45882045225772,
+ "percent": 36.47462460455376,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "139.2K",
+ "totalSubmit": "381.5K",
  "desc": "Given n non-negative integers a1, a2, ..., an, where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.\r\n\r\nNote: You may not slant the container and n is at least 2.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,1]'",
- "testable": true
+ "testable": true,
+ "slug": "container-with-most-water",
+ "category": "algorithms",
+ "fname": "11.container-with-most-water.algorithms.py"
 }

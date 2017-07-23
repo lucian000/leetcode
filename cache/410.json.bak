@@ -1,1 +1,73 @@
-{"id": 410, "ids": "410", "state": "None", "name": "Split Array Largest Sum", "key": "split-array-largest-sum", "link": "https://leetcode.com/problems/split-array-largest-sum", "locked": false, "percent": 36.47796898361232, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given an array which consists of non-negative integers and an integer m, you can split the array into m non-empty continuous subarrays. Write an algorithm to minimize the largest sum among these m subarrays.\r\n\r\n\r\nNote:\r\nIf n is the length of array, assume the following constraints are satisfied:\r\n\r\n1 \u2264 n \u2264 1000\r\n1 \u2264 m \u2264 min(50, n)\r\n\r\n\r\n\r\nExamples: \r\n\r\nInput:\r\nnums = [7,2,5,10,8]\r\nm = 2\r\n\r\nOutput:\r\n18\r\n\r\nExplanation:\r\nThere are four ways to split nums into two subarrays.\r\nThe best way is to split it into [7,2,5] and [10,8],\r\nwhere the largest sum among the two subarrays is only 18.\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int splitArray(vector<int>& nums, int m) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int splitArray(int[] nums, int m) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def splitArray(self, nums, m):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :type m: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int splitArray(int* nums, int numsSize, int m) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int SplitArray(int[] nums, int m) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @param {number} m\r\n * @return {number}\r\n */\r\nvar splitArray = function(nums, m) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @param {Integer} m\r\n# @return {Integer}\r\ndef split_array(nums, m)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func splitArray(_ nums: [Int], _ m: Int) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func splitArray(nums []int, m int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def splitArray(nums: Array[Int], m: Int): Int = {\n        \n    }\n}"}], "testcase": "'[7,2,5,10,8]\\n2'", "testable": true}
+{
+ "id": 410,
+ "ids": "410",
+ "state": "None",
+ "name": "Split Array Largest Sum",
+ "key": "split-array-largest-sum",
+ "link": "https://leetcode.com/problems/split-array-largest-sum",
+ "locked": false,
+ "percent": 36.47658489964957,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "12.6K",
+ "totalSubmit": "34.5K",
+ "desc": "Given an array which consists of non-negative integers and an integer m, you can split the array into m non-empty continuous subarrays. Write an algorithm to minimize the largest sum among these m subarrays.\r\n\r\n\r\nNote:\r\nIf n is the length of array, assume the following constraints are satisfied:\r\n\r\n1 \u2264 n \u2264 1000\r\n1 \u2264 m \u2264 min(50, n)\r\n\r\n\r\n\r\nExamples: \r\n\r\nInput:\r\nnums = [7,2,5,10,8]\r\nm = 2\r\n\r\nOutput:\r\n18\r\n\r\nExplanation:\r\nThere are four ways to split nums into two subarrays.\r\nThe best way is to split it into [7,2,5] and [10,8],\r\nwhere the largest sum among the two subarrays is only 18.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int splitArray(vector<int>& nums, int m) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int splitArray(int[] nums, int m) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def splitArray(self, nums, m):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :type m: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int splitArray(int* nums, int numsSize, int m) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int SplitArray(int[] nums, int m) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @param {number} m\r\n * @return {number}\r\n */\r\nvar splitArray = function(nums, m) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @param {Integer} m\r\n# @return {Integer}\r\ndef split_array(nums, m)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func splitArray(_ nums: [Int], _ m: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func splitArray(nums []int, m int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def splitArray(nums: Array[Int], m: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[7,2,5,10,8]\\n2'",
+ "testable": true,
+ "slug": "split-array-largest-sum",
+ "category": "algorithms",
+ "fname": "410.split-array-largest-sum.algorithms.py"
+}

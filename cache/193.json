@@ -1,0 +1,27 @@
+{
+ "id": 193,
+ "ids": "193",
+ "state": "None",
+ "name": "Valid Phone Numbers",
+ "slug": "valid-phone-numbers",
+ "link": "https://leetcode.com/problems/valid-phone-numbers",
+ "locked": false,
+ "percent": 24.027843910845068,
+ "level": "Easy",
+ "starred": false,
+ "category": "shell",
+ "fname": "193.valid-phone-numbers.shell.py",
+ "loaded": true,
+ "totalAC": "10.6K",
+ "totalSubmit": "44.1K",
+ "desc": "Given a text file file.txt that contains list of phone numbers (one per line), write a one liner bash script to print all valid phone numbers.\r\n\r\nYou may assume that a valid phone number must appear in one of the following two formats: (xxx) xxx-xxxx or xxx-xxx-xxxx. (x means a digit)\r\n\r\nYou may also assume each line in the text file must not contain leading or trailing white spaces.\r\n\r\nFor example, assume that file.txt has the following content:\r\n\r\n987-123-4567\r\n123 456 7890\r\n(123) 456-7890\r\n\r\n\r\nYour script should output the following valid phone numbers:\r\n\r\n987-123-4567\r\n(123) 456-7890\r\n",
+ "templates": [
+  {
+   "value": "bash",
+   "text": "Bash",
+   "defaultCode": "# Read from the file file.txt and output all valid phone numbers to stdout.\r\n"
+  }
+ ],
+ "testcase": "'0'",
+ "testable": false
+}

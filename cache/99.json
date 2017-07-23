@@ -6,12 +6,12 @@
  "key": "recover-binary-search-tree",
  "link": "https://leetcode.com/problems/recover-binary-search-tree",
  "locked": false,
- "percent": 29.75202292853324,
+ "percent": 29.78362580133024,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "74.3K",
+ "totalSubmit": "249.4K",
  "desc": "\r\nTwo elements of a binary search tree (BST) are swapped by mistake.\r\n\r\nRecover the tree without changing its structure.\r\n\r\n\r\nNote:\r\nA solution using O(n) space is pretty straight forward. Could you devise a constant space solution?\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[0,1]'",
- "testable": true
+ "testable": true,
+ "slug": "recover-binary-search-tree",
+ "category": "algorithms",
+ "fname": "99.recover-binary-search-tree.algorithms.py"
 }

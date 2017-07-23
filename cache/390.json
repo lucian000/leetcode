@@ -6,12 +6,12 @@
  "key": "elimination-game",
  "link": "https://leetcode.com/problems/elimination-game",
  "locked": false,
- "percent": 41.495334052124775,
+ "percent": 41.56278727707299,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "11.3K",
+ "totalSubmit": "27.2K",
  "desc": "\r\nThere is a list of sorted integers from 1 to n. Starting from left to right, remove the first number and every other number afterward until you reach the end of the list.\r\n\r\nRepeat the previous step again, but this time from right to left, remove the right most number and every other number from the remaining numbers.\r\n\r\nWe keep repeating the steps again, alternating left to right and right to left, until a single number remains.\r\n\r\nFind the last number that remains starting with a list of length n.\r\n\r\nExample:\r\n\r\nInput:\r\nn = 9,\r\n1 2 3 4 5 6 7 8 9\r\n2 4 6 8\r\n2 6\r\n6\r\n\r\nOutput:\r\n6\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'9'",
- "testable": true
+ "testable": true,
+ "slug": "elimination-game",
+ "category": "algorithms",
+ "fname": "390.elimination-game.algorithms.py"
 }

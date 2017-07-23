@@ -6,12 +6,12 @@
  "key": "implement-queue-using-stacks",
  "link": "https://leetcode.com/problems/implement-queue-using-stacks",
  "locked": false,
- "percent": 36.469171293060626,
+ "percent": 36.499126773263065,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "83.4K",
+ "totalSubmit": "228.5K",
  "desc": "\r\nImplement the following operations of a queue using stacks.\r\n\r\n\r\npush(x) -- Push element x to the back of queue.\r\n\r\n\r\npop() -- Removes the element from in front of queue.\r\n\r\n\r\npeek() -- Get the front element.\r\n\r\n\r\nempty() -- Return whether the queue is empty.\r\n\r\n\r\nNotes:\r\n\r\nYou must use only standard operations of a stack -- which means only push to top, peek/pop from top, size, and is empty operations are valid.\r\nDepending on your language, stack may not be supported natively. You may simulate a stack by using a list or deque (double-ended queue), as long as you use only standard operations of a stack.\r\nYou may assume that all operations are valid (for example, no pop or peek operations will be called on an empty queue).\r\n\r\n",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'[\"MyQueue\",\"empty\"]\\n[[],[]]'",
- "testable": true
+ "testable": true,
+ "slug": "implement-queue-using-stacks",
+ "category": "algorithms",
+ "fname": "232.implement-queue-using-stacks.algorithms.py"
 }

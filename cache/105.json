@@ -6,12 +6,12 @@
  "key": "construct-binary-tree-from-preorder-and-inorder-traversal",
  "link": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal",
  "locked": false,
- "percent": 31.986831265524057,
+ "percent": 32.01700438057012,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "103.9K",
+ "totalSubmit": "324.4K",
  "desc": "Given preorder and inorder traversal of a tree, construct the binary tree.\r\n\r\nNote:\r\nYou may assume that duplicates do not exist in the tree.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]\\n[]'",
- "testable": true
+ "testable": true,
+ "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+ "category": "algorithms",
+ "fname": "105.construct-binary-tree-from-preorder-and-inorder-traversal.algorithms.py"
 }

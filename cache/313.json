@@ -6,12 +6,12 @@
  "key": "super-ugly-number",
  "link": "https://leetcode.com/problems/super-ugly-number",
  "locked": false,
- "percent": 37.59041591320072,
+ "percent": 37.6299567577514,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "36.8K",
+ "totalSubmit": "97.8K",
  "desc": "\r\n    Write a program to find the nth super ugly number.\r\n\r\n\r\n\r\n    Super ugly numbers are positive numbers whose all prime factors are in the given prime list\r\n    primes of size k. For example, [1, 2, 4, 7, 8, 13, 14, 16, 19, 26, 28, 32]\r\n is the sequence of the first 12 super ugly numbers given primes\r\n    = [2, 7, 13, 19] of size 4.\r\n\r\n\r\n\r\n    Note:\r\n    (1) 1 is a super ugly number for any given primes.\r\n    (2) The given numbers in primes are in ascending order.\r\n    (3) 0 < k \u2264 100, 0 < n \u2264 106, 0 < primes[i] < 1000.\r\n    (4) The nth super ugly number is guaranteed to fit in a 32-bit signed integer.\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'1\\n[2,3,5]'",
- "testable": true
+ "testable": true,
+ "slug": "super-ugly-number",
+ "category": "algorithms",
+ "fname": "313.super-ugly-number.algorithms.py"
 }

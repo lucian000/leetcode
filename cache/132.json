@@ -6,12 +6,12 @@
  "key": "palindrome-partitioning-ii",
  "link": "https://leetcode.com/problems/palindrome-partitioning-ii",
  "locked": false,
- "percent": 24.04478833776901,
+ "percent": 24.054830108703083,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "70.4K",
+ "totalSubmit": "292.5K",
  "desc": "\r\nGiven a string s, partition s such that every substring of the partition is a palindrome.\r\n\r\n\r\nReturn the minimum cuts needed for a palindrome partitioning of s.\r\n\r\n\r\nFor example, given s = \"aab\",\r\nReturn 1 since the palindrome partitioning [\"aa\",\"b\"] could be produced using 1 cut.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"aab\"'",
- "testable": true
+ "testable": true,
+ "slug": "palindrome-partitioning-ii",
+ "category": "algorithms",
+ "fname": "132.palindrome-partitioning-ii.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "number-complement",
  "link": "https://leetcode.com/problems/number-complement",
  "locked": false,
- "percent": 61.38521358009425,
+ "percent": 61.33725241684307,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "45.5K",
+ "totalSubmit": "74.2K",
  "desc": "Given a positive integer, output its complement number. The complement strategy is to flip the bits of its binary representation.\r\n\r\nNote:\r\n\r\nThe given integer is guaranteed to fit within the range of a 32-bit signed integer.\r\nYou could assume no leading zero bit in the integer\u2019s binary representation.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: 5\r\nOutput: 2\r\nExplanation: The binary representation of 5 is 101 (no leading zero bits), and its complement is 010. So you need to output 2.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: 1\r\nOutput: 0\r\nExplanation: The binary representation of 1 is 1 (no leading zero bits), and its complement is 0. So you need to output 0.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'5'",
- "testable": true
+ "testable": true,
+ "slug": "number-complement",
+ "category": "algorithms",
+ "fname": "476.number-complement.algorithms.py"
 }

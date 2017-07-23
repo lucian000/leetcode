@@ -6,12 +6,12 @@
  "key": "fraction-to-recurring-decimal",
  "link": "https://leetcode.com/problems/fraction-to-recurring-decimal",
  "locked": false,
- "percent": 17.397206552233854,
+ "percent": 17.41059949844223,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "52.1K",
+ "totalSubmit": "299.5K",
  "desc": "Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.\r\n\r\nIf the fractional part is repeating, enclose the repeating part in parentheses.\r\n\r\nFor example,\r\n\r\nGiven numerator = 1, denominator = 2, return \"0.5\".\r\nGiven numerator = 2, denominator = 1, return \"2\".\r\nGiven numerator = 2, denominator = 3, return \"0.(6)\".\r\n\r\n\r\n\r\nCredits:Special thanks to @Shangrila for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'1\\n5'",
- "testable": true
+ "testable": true,
+ "slug": "fraction-to-recurring-decimal",
+ "category": "algorithms",
+ "fname": "166.fraction-to-recurring-decimal.algorithms.py"
 }

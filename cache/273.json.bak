@@ -1,1 +1,73 @@
-{"id": 273, "ids": "273", "state": "None", "name": "Integer to English Words", "key": "integer-to-english-words", "link": "https://leetcode.com/problems/integer-to-english-words", "locked": false, "percent": 21.952469818449913, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nConvert a non-negative integer to its english words representation. Given input is guaranteed to be less than 231 - 1.\r\n\r\n\r\nFor example,\r\n\r\n123 -> \"One Hundred Twenty Three\"\r\n12345 -> \"Twelve Thousand Three Hundred Forty Five\"\r\n1234567 -> \"One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven\"", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    string numberToWords(int num) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public String numberToWords(int num) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def numberToWords(self, num):\r\n        \"\"\"\r\n        :type num: int\r\n        :rtype: str\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "char* numberToWords(int num) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public string NumberToWords(int num) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number} num\r\n * @return {string}\r\n */\r\nvar numberToWords = function(num) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer} num\r\n# @return {String}\r\ndef number_to_words(num)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func numberToWords(_ num: Int) -> String {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func numberToWords(num int) string {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def numberToWords(num: Int): String = {\n        \n    }\n}"}], "testcase": "'123'", "testable": true}
+{
+ "id": 273,
+ "ids": "273",
+ "state": "None",
+ "name": "Integer to English Words",
+ "key": "integer-to-english-words",
+ "link": "https://leetcode.com/problems/integer-to-english-words",
+ "locked": false,
+ "percent": 21.95092649271449,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "38.4K",
+ "totalSubmit": "174.8K",
+ "desc": "\r\nConvert a non-negative integer to its english words representation. Given input is guaranteed to be less than 231 - 1.\r\n\r\n\r\nFor example,\r\n\r\n123 -> \"One Hundred Twenty Three\"\r\n12345 -> \"Twelve Thousand Three Hundred Forty Five\"\r\n1234567 -> \"One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven\"",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    string numberToWords(int num) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public String numberToWords(int num) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def numberToWords(self, num):\r\n        \"\"\"\r\n        :type num: int\r\n        :rtype: str\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "char* numberToWords(int num) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public string NumberToWords(int num) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number} num\r\n * @return {string}\r\n */\r\nvar numberToWords = function(num) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} num\r\n# @return {String}\r\ndef number_to_words(num)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func numberToWords(_ num: Int) -> String {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func numberToWords(num int) string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def numberToWords(num: Int): String = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'123'",
+ "testable": true,
+ "slug": "integer-to-english-words",
+ "category": "algorithms",
+ "fname": "273.integer-to-english-words.algorithms.py"
+}

@@ -6,12 +6,12 @@
  "key": "non-negative-integers-without-consecutive-ones",
  "link": "https://leetcode.com/problems/non-negative-integers-without-consecutive-ones",
  "locked": false,
- "percent": 27.876001885902877,
+ "percent": 27.916524119055765,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "2.4K",
+ "totalSubmit": "8.8K",
  "desc": "Given a positive integer n, find the number of non-negative integers less than or equal to n, whose binary representations do NOT contain consecutive ones.\r\n\r\nExample 1:\r\n\r\nInput: 5\r\nOutput: 5\r\nExplanation: \r\nHere are the non-negative integers <= 5 with their corresponding binary representations:\r\n0 : 0\r\n1 : 1\r\n2 : 10\r\n3 : 11\r\n4 : 100\r\n5 : 101\r\nAmong them, only integer 3 disobeys the rule (two consecutive ones) and the other 5 satisfy the rule. \r\n\r\n\r\n\r\nNote:\r\n1 <= n <= 109\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'1'",
- "testable": true
+ "testable": true,
+ "slug": "non-negative-integers-without-consecutive-ones",
+ "category": "algorithms",
+ "fname": "600.non-negative-integers-without-consecutive-ones.algorithms.py"
 }

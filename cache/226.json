@@ -6,12 +6,12 @@
  "key": "invert-binary-tree",
  "link": "https://leetcode.com/problems/invert-binary-tree",
  "locked": false,
- "percent": 51.50742545538925,
+ "percent": 51.5696375892447,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "178.5K",
+ "totalSubmit": "346.1K",
  "desc": "Invert a binary tree.\r\n     4\r\n   /   \\\r\n  2     7\r\n / \\   / \\\r\n1   3 6   9\r\n\r\nto\r\n     4\r\n   /   \\\r\n  7     2\r\n / \\   / \\\r\n9   6 3   1\r\n\r\nTrivia:\r\nThis problem was inspired by this original tweet by Max Howell:\r\nGoogle: 90% of our engineers use the software you wrote (Homebrew), but you can\u2019t invert a binary tree on a whiteboard so fuck off.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "invert-binary-tree",
+ "category": "algorithms",
+ "fname": "226.invert-binary-tree.algorithms.py"
 }

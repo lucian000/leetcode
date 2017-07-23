@@ -6,12 +6,12 @@
  "key": "delete-node-in-a-bst",
  "link": "https://leetcode.com/problems/delete-node-in-a-bst",
  "locked": false,
- "percent": 36.401786641736784,
+ "percent": 36.4999692692221,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "17.8K",
+ "totalSubmit": "48.8K",
  "desc": "Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.\r\n\r\nBasically, the deletion can be divided into two stages:\r\n\r\nSearch for a node to remove.\r\nIf the node is found, delete the node.\r\n\r\n\r\n\r\nNote: Time complexity should be O(height of tree).\r\n\r\nExample:\r\n\r\nroot = [5,3,6,2,4,null,7]\r\nkey = 3\r\n\r\n    5\r\n   / \\\r\n  3   6\r\n / \\   \\\r\n2   4   7\r\n\r\nGiven key to delete is 3. So we find the node with value 3 and delete it.\r\n\r\nOne valid answer is [5,4,6,2,null,null,7], shown in the following BST.\r\n\r\n    5\r\n   / \\\r\n  4   6\r\n /     \\\r\n2       7\r\n\r\nAnother valid answer is [5,2,6,null,4,null,7].\r\n\r\n    5\r\n   / \\\r\n  2   6\r\n   \\   \\\r\n    4   7\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[5,3,6,2,4,null,7]\\n3'",
- "testable": true
+ "testable": true,
+ "slug": "delete-node-in-a-bst",
+ "category": "algorithms",
+ "fname": "450.delete-node-in-a-bst.algorithms.py"
 }

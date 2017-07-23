@@ -1,1 +1,73 @@
-{"id": 306, "ids": "306", "state": "None", "name": "Additive Number", "key": "additive-number", "link": "https://leetcode.com/problems/additive-number", "locked": false, "percent": 27.55052403484721, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Additive number is a string whose digits can form additive sequence.\r\n\r\nA valid additive sequence should contain at least three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two.\r\n\r\n\r\nFor example:\r\n\"112358\" is an additive number because the digits can form an additive sequence: 1, 1, 2, 3, 5, 8.\r\n1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8\r\n\"199100199\" is also an additive number, the additive sequence is: 1, 99, 100, 199.\r\n1 + 99 = 100, 99 + 100 = 199\r\n\r\n\r\n\r\nNote: Numbers in the additive sequence cannot have leading zeros, so sequence 1, 2, 03 or 1, 02, 3 is invalid.\r\n\r\n\r\nGiven a string containing only digits '0'-'9', write a function to determine if it's an additive number.\r\n\r\n\r\nFollow up:\r\nHow would you handle overflow for very large input integers?\r\n\r\n\r\nCredits:Special thanks to @jeantimex for adding this problem and creating all test cases.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    bool isAdditiveNumber(string num) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public boolean isAdditiveNumber(String num) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def isAdditiveNumber(self, num):\r\n        \"\"\"\r\n        :type num: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "bool isAdditiveNumber(char* num) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public bool IsAdditiveNumber(string num) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {string} num\r\n * @return {boolean}\r\n */\r\nvar isAdditiveNumber = function(num) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String} num\r\n# @return {Boolean}\r\ndef is_additive_number(num)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func isAdditiveNumber(_ num: String) -> Bool {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func isAdditiveNumber(num string) bool {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def isAdditiveNumber(num: String): Boolean = {\n        \n    }\n}"}], "testcase": "'\"112358\"'", "testable": true}
+{
+ "id": 306,
+ "ids": "306",
+ "state": "None",
+ "name": "Additive Number",
+ "key": "additive-number",
+ "link": "https://leetcode.com/problems/additive-number",
+ "locked": false,
+ "percent": 27.560068649885583,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "25.1K",
+ "totalSubmit": "90.9K",
+ "desc": "Additive number is a string whose digits can form additive sequence.\r\n\r\nA valid additive sequence should contain at least three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two.\r\n\r\n\r\nFor example:\r\n\"112358\" is an additive number because the digits can form an additive sequence: 1, 1, 2, 3, 5, 8.\r\n1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8\r\n\"199100199\" is also an additive number, the additive sequence is: 1, 99, 100, 199.\r\n1 + 99 = 100, 99 + 100 = 199\r\n\r\n\r\n\r\nNote: Numbers in the additive sequence cannot have leading zeros, so sequence 1, 2, 03 or 1, 02, 3 is invalid.\r\n\r\n\r\nGiven a string containing only digits '0'-'9', write a function to determine if it's an additive number.\r\n\r\n\r\nFollow up:\r\nHow would you handle overflow for very large input integers?\r\n\r\n\r\nCredits:Special thanks to @jeantimex for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool isAdditiveNumber(string num) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean isAdditiveNumber(String num) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def isAdditiveNumber(self, num):\r\n        \"\"\"\r\n        :type num: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool isAdditiveNumber(char* num) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool IsAdditiveNumber(string num) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} num\r\n * @return {boolean}\r\n */\r\nvar isAdditiveNumber = function(num) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} num\r\n# @return {Boolean}\r\ndef is_additive_number(num)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func isAdditiveNumber(_ num: String) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func isAdditiveNumber(num string) bool {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def isAdditiveNumber(num: String): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'\"112358\"'",
+ "testable": true,
+ "slug": "additive-number",
+ "category": "algorithms",
+ "fname": "306.additive-number.algorithms.py"
+}

@@ -1,0 +1,27 @@
+{
+ "id": 177,
+ "ids": "177",
+ "state": "None",
+ "name": "Nth Highest Salary",
+ "slug": "nth-highest-salary",
+ "link": "https://leetcode.com/problems/nth-highest-salary",
+ "locked": false,
+ "percent": 16.923231325077975,
+ "level": "Medium",
+ "starred": false,
+ "category": "database",
+ "fname": "177.nth-highest-salary.database.py",
+ "loaded": true,
+ "totalAC": "21.9K",
+ "totalSubmit": "129.5K",
+ "desc": "\r\nWrite a SQL query to get the nth highest salary from the Employee table.\r\n\r\n\r\n\r\n+----+--------+\r\n| Id | Salary |\r\n+----+--------+\r\n| 1  | 100    |\r\n| 2  | 200    |\r\n| 3  | 300    |\r\n+----+--------+\r\n\r\n\r\nFor example, given the above Employee table, the nth highest salary where n = 2 is 200. If there is no nth highest salary, then the query should return null.\r\n\r\n\r\n+------------------------+\r\n| getNthHighestSalary(2) |\r\n+------------------------+\r\n| 200                    |\r\n+------------------------+\r\n",
+ "templates": [
+  {
+   "value": "mysql",
+   "text": "MySQL",
+   "defaultCode": "CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT\r\nBEGIN\r\n  RETURN (\r\n      # Write your MySQL query statement below.\r\n      \r\n  );\r\nEND"
+  }
+ ],
+ "testcase": "'{\"headers\": {\"Employee\": [\"Id\", \"Salary\"]}, \"argument\": 2, \"rows\": {\"Employee\": [[1, 100], [2, 200], [3, 300]]}}'",
+ "testable": true
+}

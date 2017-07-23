@@ -6,12 +6,12 @@
  "key": "concatenated-words",
  "link": "https://leetcode.com/problems/concatenated-words",
  "locked": false,
- "percent": 30.09405806276567,
+ "percent": 30.05846917080085,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "6.8K",
+ "totalSubmit": "22.6K",
  "desc": "Given a list of words (without duplicates), please write a program that returns all concatenated words in the given list of words.\r\nA concatenated word is defined as a string that is comprised entirely of at least two shorter words in the given array.\r\n\r\nExample:\r\n\r\nInput: [\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]\r\n\r\nOutput: [\"catsdogcats\",\"dogcatsdog\",\"ratcatdogcat\"]\r\n\r\nExplanation: \"catsdogcats\" can be concatenated by \"cats\", \"dog\" and \"cats\";  \"dogcatsdog\" can be concatenated by \"dog\", \"cats\" and \"dog\"; \"ratcatdogcat\" can be concatenated by \"rat\", \"cat\", \"dog\" and \"cat\".\r\n\r\n\r\n\r\nNote:\r\n\r\nThe number of elements of the given array will not exceed 10,000 \r\nThe length sum of elements in the given array will not exceed 600,000. \r\nAll the input string will only include lower case letters.\r\nThe returned elements order does not matter. \r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]'",
- "testable": true
+ "testable": true,
+ "slug": "concatenated-words",
+ "category": "algorithms",
+ "fname": "472.concatenated-words.algorithms.py"
 }

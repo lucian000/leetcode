@@ -6,12 +6,12 @@
  "key": "single-number-iii",
  "link": "https://leetcode.com/problems/single-number-iii",
  "locked": false,
- "percent": 51.20524596156922,
+ "percent": 51.266932270916335,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "67.6K",
+ "totalSubmit": "131.8K",
  "desc": "\r\nGiven an array of numbers nums, in which exactly two elements appear only once and all the other elements appear exactly twice. Find the two elements that appear only once.\r\n\r\n\r\nFor example:\r\n\r\n\r\nGiven nums = [1, 2, 1, 3, 2, 5], return [3, 5].\r\n\r\n\r\nNote:\r\n\r\nThe order of the result is not important. So in the above example, [5, 3] is also correct.\r\nYour algorithm should run in linear runtime complexity. Could you implement it using only constant space complexity?\r\n\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,2,1,3,2,5]'",
- "testable": true
+ "testable": true,
+ "slug": "single-number-iii",
+ "category": "algorithms",
+ "fname": "260.single-number-iii.algorithms.py"
 }

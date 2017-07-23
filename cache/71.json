@@ -6,12 +6,12 @@
  "key": "simplify-path",
  "link": "https://leetcode.com/problems/simplify-path",
  "locked": false,
- "percent": 25.064075273087813,
+ "percent": 25.083492162831053,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "88.2K",
+ "totalSubmit": "351.6K",
  "desc": "Given an absolute path for a file (Unix-style), simplify it.\r\n\r\nFor example,\r\npath = \"/home/\", => \"/home\"\r\npath = \"/a/./b/../../c/\", => \"/c\"\r\n\r\n\r\nclick to show corner cases.\r\n\r\nCorner Cases:\r\n\r\n\r\n\r\nDid you consider the case where path = \"/../\"?\r\nIn this case, you should return \"/\".\r\nAnother corner case is the path might contain multiple slashes '/' together, such as \"/home//foo/\".\r\nIn this case, you should ignore redundant slashes and return \"/home/foo\".\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"/\"'",
- "testable": true
+ "testable": true,
+ "slug": "simplify-path",
+ "category": "algorithms",
+ "fname": "71.simplify-path.algorithms.py"
 }

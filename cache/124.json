@@ -6,12 +6,12 @@
  "key": "binary-tree-maximum-path-sum",
  "link": "https://leetcode.com/problems/binary-tree-maximum-path-sum",
  "locked": false,
- "percent": 25.90065156882591,
+ "percent": 25.937444184116245,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "98.8K",
+ "totalSubmit": "380.7K",
  "desc": "\r\nGiven a binary tree, find the maximum path sum.\r\n\r\n\r\nFor this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.\r\n\r\n\r\nFor example:\r\nGiven the below binary tree,\r\n\r\n       1\r\n      / \\\r\n     2   3\r\n\r\n\r\n\r\nReturn 6.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,2,3]'",
- "testable": true
+ "testable": true,
+ "slug": "binary-tree-maximum-path-sum",
+ "category": "algorithms",
+ "fname": "124.binary-tree-maximum-path-sum.algorithms.py"
 }

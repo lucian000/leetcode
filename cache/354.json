@@ -6,12 +6,12 @@
  "key": "russian-doll-envelopes",
  "link": "https://leetcode.com/problems/russian-doll-envelopes",
  "locked": false,
- "percent": 32.075204753745304,
+ "percent": 32.11236445219993,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "20.6K",
+ "totalSubmit": "64.2K",
  "desc": "You have a number of envelopes with widths and heights given as a pair of integers (w, h). One envelope can fit into another if and only if both the width and height of one envelope is greater than the width and height of the other envelope.\r\n\r\n\r\nWhat is the maximum number of envelopes can you Russian doll? (put one inside other)\r\n\r\n\r\nExample:\r\nGiven envelopes = [[5,4],[6,4],[6,7],[2,3]], the maximum number of envelopes you can Russian doll is 3 ([2,3] => [5,4] => [6,7]).\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[5,4],[6,4],[6,7],[2,3]]'",
- "testable": true
+ "testable": true,
+ "slug": "russian-doll-envelopes",
+ "category": "algorithms",
+ "fname": "354.russian-doll-envelopes.algorithms.py"
 }

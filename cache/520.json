@@ -6,12 +6,12 @@
  "key": "detect-capital",
  "link": "https://leetcode.com/problems/detect-capital",
  "locked": false,
- "percent": 52.10509486250267,
+ "percent": 52.092675635276535,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "30K",
+ "totalSubmit": "57.5K",
  "desc": "\r\nGiven a word, you need to judge whether the usage of capitals in it is right or not.\r\n\r\n\r\n\r\nWe define the usage of capitals in a word to be right when one of the following cases holds:\r\n\r\nAll letters in this word are capitals, like \"USA\".\r\nAll letters in this word are not capitals, like \"leetcode\".\r\nOnly the first letter in this word is capital if it has more than one letter, like \"Google\".\r\n\r\nOtherwise, we define that this word doesn't use capitals in a right way.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: \"USA\"\r\nOutput: True\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \"FlaG\"\r\nOutput: False\r\n\r\n\r\n\r\nNote:\r\nThe input will be a non-empty word consisting of uppercase and lowercase latin letters.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"USA\"'",
- "testable": true
+ "testable": true,
+ "slug": "detect-capital",
+ "category": "algorithms",
+ "fname": "520.detect-capital.algorithms.py"
 }

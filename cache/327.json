@@ -6,12 +6,12 @@
  "key": "count-of-range-sum",
  "link": "https://leetcode.com/problems/count-of-range-sum",
  "locked": false,
- "percent": 29.55376033852664,
+ "percent": 29.541831399056242,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "18.5K",
+ "totalSubmit": "62.7K",
  "desc": "\r\n    Given an integer array nums, return the number of range sums that lie in [lower, upper] inclusive.\r\n\r\n    Range sum S(i, j) is defined as the sum of the elements in nums between indices i and \r\n    j (i ? j), inclusive.\r\n\r\n\r\n\r\n    Note:\r\n    A naive algorithm of O(n2) is trivial. You MUST do better than that.\r\n\r\n\r\n    Example:\r\n    Given nums = [-2, 5, -1], lower = -2, upper = 2,\r\n    Return 3.\r\n    The three ranges are : [0, 0], [2, 2], [0, 2] and their respective sums are: -2, -1, 2.\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[-2,5,-1]\\n-2\\n2'",
- "testable": true
+ "testable": true,
+ "slug": "count-of-range-sum",
+ "category": "algorithms",
+ "fname": "327.count-of-range-sum.algorithms.py"
 }

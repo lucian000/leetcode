@@ -6,12 +6,12 @@
  "key": "longest-common-prefix",
  "link": "https://leetcode.com/problems/longest-common-prefix",
  "locked": false,
- "percent": 31.428190393470036,
+ "percent": 31.43669262039994,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "185.4K",
+ "totalSubmit": "589.6K",
  "desc": "Write a function to find the longest common prefix string amongst an array of strings.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "longest-common-prefix",
+ "category": "algorithms",
+ "fname": "14.longest-common-prefix.algorithms.py"
 }

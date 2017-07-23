@@ -6,12 +6,12 @@
  "key": "gray-code",
  "link": "https://leetcode.com/problems/gray-code",
  "locked": false,
- "percent": 40.81045775350618,
+ "percent": 40.84210335973383,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "90.3K",
+ "totalSubmit": "221.2K",
  "desc": "The gray code is a binary numeral system where two successive values differ in only one bit.\r\n\r\nGiven a non-negative integer n representing the total number of bits in the code, print the sequence of gray code. A gray code sequence must begin with 0.\r\n\r\nFor example, given n = 2, return [0,1,3,2]. Its gray code sequence is:\r\n\r\n00 - 0\r\n01 - 1\r\n11 - 3\r\n10 - 2\r\n\r\n\r\nNote:\r\nFor a given n, a gray code sequence is not uniquely defined.\r\n\r\nFor example, [0,2,3,1] is also a valid gray code sequence according to the above definition.\r\n\r\nFor now, the judge is able to judge based on one instance of gray code sequence. Sorry about that.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'0'",
- "testable": true
+ "testable": true,
+ "slug": "gray-code",
+ "category": "algorithms",
+ "fname": "89.gray-code.algorithms.py"
 }

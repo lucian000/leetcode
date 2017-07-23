@@ -6,12 +6,12 @@
  "key": "subtree-of-another-tree",
  "link": "https://leetcode.com/problems/subtree-of-another-tree",
  "locked": false,
- "percent": 40.96486856858104,
+ "percent": 40.81228184345974,
  "level": "Easy",
  "starred": true,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "13.8K",
+ "totalSubmit": "33.8K",
  "desc": "\r\nGiven two non-empty binary trees s and t, check whether tree t has exactly the same structure and node values with a subtree of s. A subtree of s is a tree consists of a node in s and all of this node's descendants. The tree s could also be considered as a subtree of itself.\r\n\r\n\r\nExample 1:\r\n\r\nGiven tree s:\r\n\r\n     3\r\n    / \\\r\n   4   5\r\n  / \\\r\n 1   2\r\n\r\nGiven tree t:\r\n\r\n   4 \r\n  / \\\r\n 1   2\r\n\r\nReturn true, because t has the same structure and node values with a subtree of s.\r\n\r\n\r\nExample 2:\r\n\r\nGiven tree s:\r\n\r\n     3\r\n    / \\\r\n   4   5\r\n  / \\\r\n 1   2\r\n    /\r\n   0\r\n\r\nGiven tree t:\r\n\r\n   4\r\n  / \\\r\n 1   2\r\n\r\nReturn false.\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'[3,4,5,1,2]\\n[4,1,2]'",
- "testable": true
+ "testable": true,
+ "slug": "subtree-of-another-tree",
+ "category": "algorithms",
+ "fname": "572.subtree-of-another-tree.algorithms.py"
 }

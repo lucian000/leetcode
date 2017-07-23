@@ -6,12 +6,12 @@
  "key": "remove-duplicates-from-sorted-list",
  "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-list",
  "locked": false,
- "percent": 39.72011996081166,
+ "percent": 39.73929585196975,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "186.8K",
+ "totalSubmit": "470K",
  "desc": "\r\nGiven a sorted linked list, delete all duplicates such that each element appear only once.\r\n\r\n\r\nFor example,\r\nGiven 1->1->2, return 1->2.\r\nGiven 1->1->2->3->3, return 1->2->3.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "remove-duplicates-from-sorted-list",
+ "category": "algorithms",
+ "fname": "83.remove-duplicates-from-sorted-list.algorithms.py"
 }

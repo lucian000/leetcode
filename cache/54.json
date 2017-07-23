@@ -6,12 +6,12 @@
  "key": "spiral-matrix",
  "link": "https://leetcode.com/problems/spiral-matrix",
  "locked": false,
- "percent": 25.730830509841883,
+ "percent": 25.776733243204603,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "102.8K",
+ "totalSubmit": "398.8K",
  "desc": "Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.\r\n\r\n\r\n\r\nFor example,\r\nGiven the following matrix:\r\n\r\n\r\n[\r\n [ 1, 2, 3 ],\r\n [ 4, 5, 6 ],\r\n [ 7, 8, 9 ]\r\n]\r\n\r\n\r\nYou should return [1,2,3,6,9,8,7,4,5].\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[1,2,3],[4,5,6],[7,8,9]]'",
- "testable": true
+ "testable": true,
+ "slug": "spiral-matrix",
+ "category": "algorithms",
+ "fname": "54.spiral-matrix.algorithms.py"
 }

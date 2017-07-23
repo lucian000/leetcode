@@ -1,17 +1,17 @@
 {
  "id": 167,
  "ids": "167",
- "state": "None",
+ "state": "ac",
  "name": "Two Sum II - Input array is sorted",
  "key": "two-sum-ii-input-array-is-sorted",
  "link": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted",
  "locked": false,
- "percent": 47.08735391493817,
+ "percent": 47.08634077448239,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "84.4K",
+ "totalSubmit": "179.2K",
  "desc": "Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.\r\n\r\nThe function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.\r\n\r\nYou may assume that each input would have exactly one solution and you may not use the same element twice.\r\n\r\n\r\nInput: numbers={2, 7, 11, 15}, target=9\r\nOutput: index1=1, index2=2\r\n",
  "templates": [
   {
@@ -66,5 +66,39 @@
   }
  ],
  "testcase": "'[2,3,4]\\n6'",
- "testable": true
+ "testable": true,
+ "slug": "two-sum-ii-input-array-is-sorted",
+ "category": "algorithms",
+ "fname": "167.two-sum-ii-input-array-is-sorted.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "[1,3]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "35 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1500775666.39_784204_3"
+ },
+ "test_expected": {
+  "code_answer": [
+   "[1,3]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "42 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1500775666.41_784204_3"
+ },
+ "file": "167.two-sum-ii-input-array-is-sorted.algorithms.py"
 }

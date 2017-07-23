@@ -6,12 +6,12 @@
  "key": "palindrome-linked-list",
  "link": "https://leetcode.com/problems/palindrome-linked-list",
  "locked": false,
- "percent": 32.54946123259837,
+ "percent": 32.571145978510096,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "108.7K",
+ "totalSubmit": "333.7K",
  "desc": "Given a singly linked list, determine if it is a palindrome.\r\n\r\nFollow up:\r\nCould you do it in O(n) time and O(1) space?",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "palindrome-linked-list",
+ "category": "algorithms",
+ "fname": "234.palindrome-linked-list.algorithms.py"
 }

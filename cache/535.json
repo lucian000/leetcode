@@ -6,12 +6,12 @@
  "key": "encode-and-decode-tinyurl",
  "link": "https://leetcode.com/problems/encode-and-decode-tinyurl",
  "locked": false,
- "percent": 74.24829692271553,
+ "percent": 74.13059510977477,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "13.1K",
+ "totalSubmit": "17.6K",
  "desc": "Note: This is a companion problem to the System Design problem: Design TinyURL.\r\n\r\nTinyURL is a URL shortening service where you enter a URL such as https://leetcode.com/problems/design-tinyurl and it returns a short URL such as http://tinyurl.com/4e9iAk.\r\n\r\nDesign the encode and decode methods for the TinyURL service. There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.",
  "templates": [
   {
@@ -51,5 +51,8 @@
   }
  ],
  "testcase": "'\"https://leetcode.com/problems/design-tinyurl\"'",
- "testable": true
+ "testable": true,
+ "slug": "encode-and-decode-tinyurl",
+ "category": "algorithms",
+ "fname": "535.encode-and-decode-tinyurl.algorithms.py"
 }

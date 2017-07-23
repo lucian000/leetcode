@@ -6,12 +6,12 @@
  "key": "flatten-nested-list-iterator",
  "link": "https://leetcode.com/problems/flatten-nested-list-iterator",
  "locked": false,
- "percent": 41.112015595210046,
+ "percent": 41.16853024956422,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "38.7K",
+ "totalSubmit": "94.1K",
  "desc": "Given a nested list of integers, implement an iterator to flatten it.\r\n\r\nEach element is either an integer, or a list -- whose elements may also be integers or other lists.\r\n\r\nExample 1:\r\nGiven the list [[1,1],2,[1,1]],\r\n\r\nBy calling next repeatedly until hasNext returns false, the order of elements returned by next should be: [1,1,2,1,1].\r\n\r\n\r\n\r\nExample 2:\r\nGiven the list [1,[4,[6]]],\r\n\r\nBy calling next repeatedly until hasNext returns false, the order of elements returned by next should be: [1,4,6].\r\n\r\n",
  "templates": [
   {
@@ -51,5 +51,8 @@
   }
  ],
  "testcase": "'[[1,1],2,[1,1]]'",
- "testable": true
+ "testable": true,
+ "slug": "flatten-nested-list-iterator",
+ "category": "algorithms",
+ "fname": "341.flatten-nested-list-iterator.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "add-one-row-to-tree",
  "link": "https://leetcode.com/problems/add-one-row-to-tree",
  "locked": false,
- "percent": 47.89964433336537,
+ "percent": 47.425024044766985,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "5.4K",
+ "totalSubmit": "11.4K",
  "desc": "Given the root of a binary tree, then value v and depth d, you need to add a row of nodes with value v at the given depth d. The root node is at depth 1. \r\n\r\nThe adding rule is: given a positive integer depth d, for each NOT null tree nodes N in depth d-1, create two tree nodes with value v as N's left subtree root and right subtree root. And N's original left subtree should be the left subtree of the new left subtree root, its original right subtree should be the right subtree of the new right subtree root. If depth d is 1 that means there is no depth d-1 at all, then create a tree node with value v as the new root of the whole original tree, and the original tree is the new root's left subtree.\r\n\r\nExample 1:\r\n\r\nInput: \r\nA binary tree as following:\r\n       4\r\n     /   \\\r\n    2     6\r\n   / \\   / \r\n  3   1 5   \r\n\r\nv = 1\r\n\r\nd = 2\r\n\r\nOutput: \r\n       4\r\n      / \\\r\n     1   1\r\n    /     \\\r\n   2       6\r\n  / \\     / \r\n 3   1   5   \r\n\r\n\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \r\nA binary tree as following:\r\n      4\r\n     /   \r\n    2    \r\n   / \\   \r\n  3   1    \r\n\r\nv = 1\r\n\r\nd = 3\r\n\r\nOutput: \r\n      4\r\n     /   \r\n    2\r\n   / \\    \r\n  1   1\r\n /     \\  \r\n3       1\r\n\r\n\r\n\r\nNote:\r\n\r\nThe given d is in range [1, maximum depth of the given tree + 1].\r\nThe given binary tree has at least one tree node.\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'[4,2,6,3,1,5]\\n1\\n2'",
- "testable": true
+ "testable": true,
+ "slug": "add-one-row-to-tree",
+ "category": "algorithms",
+ "fname": "623.add-one-row-to-tree.algorithms.py"
 }

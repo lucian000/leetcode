@@ -6,12 +6,12 @@
  "key": "merge-two-sorted-lists",
  "link": "https://leetcode.com/problems/merge-two-sorted-lists",
  "locked": false,
- "percent": 38.97628748219926,
+ "percent": 38.98157051548656,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "234.3K",
+ "totalSubmit": "601.1K",
  "desc": "Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]\\n[]'",
- "testable": true
+ "testable": true,
+ "slug": "merge-two-sorted-lists",
+ "category": "algorithms",
+ "fname": "21.merge-two-sorted-lists.algorithms.py"
 }

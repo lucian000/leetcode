@@ -6,12 +6,12 @@
  "key": "longest-valid-parentheses",
  "link": "https://leetcode.com/problems/longest-valid-parentheses",
  "locked": false,
- "percent": 23.03766758985707,
+ "percent": 23.03679109454272,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "97.8K",
+ "totalSubmit": "424.4K",
  "desc": "Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.\r\n\r\n\r\nFor \"(()\", the longest valid parentheses substring is \"()\", which has length = 2.\r\n\r\n\r\nAnother example is \")()())\", where the longest valid parentheses substring is \"()()\", which has length = 4.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"\"'",
- "testable": true
+ "testable": true,
+ "slug": "longest-valid-parentheses",
+ "category": "algorithms",
+ "fname": "32.longest-valid-parentheses.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "longest-consecutive-sequence",
  "link": "https://leetcode.com/problems/longest-consecutive-sequence",
  "locked": false,
- "percent": 36.546465172833074,
+ "percent": 36.57918602155748,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "105.7K",
+ "totalSubmit": "288.9K",
  "desc": "\r\nGiven an unsorted array of integers, find the length of the longest consecutive elements sequence.\r\n\r\n\r\nFor example,\r\nGiven [100, 4, 200, 1, 3, 2],\r\nThe longest consecutive elements sequence is [1, 2, 3, 4]. Return its length: 4.\r\n\r\n\r\nYour algorithm should run in O(n) complexity.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[100,4,200,1,3,2]'",
- "testable": true
+ "testable": true,
+ "slug": "longest-consecutive-sequence",
+ "category": "algorithms",
+ "fname": "128.longest-consecutive-sequence.algorithms.py"
 }

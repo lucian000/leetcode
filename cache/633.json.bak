@@ -1,1 +1,78 @@
-{"id": 633, "ids": "633", "state": "ac", "name": "Sum of Square Numbers", "key": "sum-of-square-numbers", "link": "https://leetcode.com/problems/sum-of-square-numbers", "locked": false, "percent": 31.273562676720076, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven a non-negative integer c, your task is to decide whether there're two integers a and b such that a2 + b2 = c.\r\n\r\n\r\nExample 1:\r\n\r\nInput: 5\r\nOutput: True\r\nExplanation: 1 * 1 + 2 * 2 = 5\r\n\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: 3\r\nOutput: False\r\n\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\npublic:\n    bool judgeSquareSum(int c) {\n        \n    }\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\n    public boolean judgeSquareSum(int c) {\n        \n    }\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\n    def judgeSquareSum(self, c):\n        \"\"\"\n        :type c: int\n        :rtype: bool\n        \"\"\"\n        "}, {"value": "python3", "text": "Python3", "defaultCode": "class Solution:\n    def judgeSquareSum(self, c):\n        \"\"\"\n        :type c: int\n        :rtype: bool\n        \"\"\"\n        "}, {"value": "c", "text": "C", "defaultCode": "bool judgeSquareSum(int c) {\n    \n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\n    public bool JudgeSquareSum(int c) {\n        \n    }\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\n * @param {number} c\n * @return {boolean}\n */\nvar judgeSquareSum = function(c) {\n    \n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer} c\n# @return {Boolean}\ndef judge_square_sum(c)\n    \nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func judgeSquareSum(_ c: Int) -> Bool {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func judgeSquareSum(c int) bool {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def judgeSquareSum(c: Int): Boolean = {\n        \n    }\n}"}], "testcase": "'5'", "testable": true}
+{
+ "id": 633,
+ "ids": "633",
+ "state": "ac",
+ "name": "Sum of Square Numbers",
+ "key": "sum-of-square-numbers",
+ "link": "https://leetcode.com/problems/sum-of-square-numbers",
+ "locked": false,
+ "percent": 31.3915169554587,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "5.9K",
+ "totalSubmit": "18.8K",
+ "desc": "\r\nGiven a non-negative integer c, your task is to decide whether there're two integers a and b such that a2 + b2 = c.\r\n\r\n\r\nExample 1:\r\n\r\nInput: 5\r\nOutput: True\r\nExplanation: 1 * 1 + 2 * 2 = 5\r\n\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: 3\r\nOutput: False\r\n\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\npublic:\n    bool judgeSquareSum(int c) {\n        \n    }\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\n    public boolean judgeSquareSum(int c) {\n        \n    }\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\n    def judgeSquareSum(self, c):\n        \"\"\"\n        :type c: int\n        :rtype: bool\n        \"\"\"\n        "
+  },
+  {
+   "value": "python3",
+   "text": "Python3",
+   "defaultCode": "class Solution:\n    def judgeSquareSum(self, c):\n        \"\"\"\n        :type c: int\n        :rtype: bool\n        \"\"\"\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool judgeSquareSum(int c) {\n    \n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\n    public bool JudgeSquareSum(int c) {\n        \n    }\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\n * @param {number} c\n * @return {boolean}\n */\nvar judgeSquareSum = function(c) {\n    \n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} c\n# @return {Boolean}\ndef judge_square_sum(c)\n    \nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func judgeSquareSum(_ c: Int) -> Bool {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func judgeSquareSum(c int) bool {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def judgeSquareSum(c: Int): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'5'",
+ "testable": true,
+ "slug": "sum-of-square-numbers",
+ "category": "algorithms",
+ "fname": "633.sum-of-square-numbers.algorithms.py"
+}

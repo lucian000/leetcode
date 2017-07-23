@@ -1,1 +1,73 @@
-{"id": 75, "ids": "75", "state": "None", "name": "Sort Colors", "key": "sort-colors", "link": "https://leetcode.com/problems/sort-colors", "locked": false, "percent": 37.748089225608645, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven an array with n objects colored red, white or blue, sort them so that objects of the same color are adjacent, with the colors in the order red, white and blue.\r\n\r\n\r\n\r\nHere, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.\r\n\r\n\r\n\r\nNote:\r\nYou are not suppose to use the library's sort function for this problem.\r\n\r\n\r\nclick to show follow up.\r\n\r\n\r\nFollow up:\r\nA rather straight forward solution is a two-pass algorithm using counting sort.\r\nFirst, iterate the array counting number of 0's, 1's, and 2's, then overwrite array with total number of 0's, then 1's and followed by 2's.\r\nCould you come up with an one-pass algorithm using only constant space?\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    void sortColors(vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public void sortColors(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def sortColors(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: void Do not return anything, modify nums in-place instead.\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "void sortColors(int* nums, int numsSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public void SortColors(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {void} Do not return anything, modify nums in-place instead.\r\n */\r\nvar sortColors = function(nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @return {Void} Do not return anything, modify nums in-place instead.\r\ndef sort_colors(nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func sortColors(_ nums: inout [Int]) {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func sortColors(nums []int)  {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def sortColors(nums: Array[Int]): Unit = {\n        \n    }\n}"}], "testcase": "'[0]'", "testable": true}
+{
+ "id": 75,
+ "ids": "75",
+ "state": "None",
+ "name": "Sort Colors",
+ "key": "sort-colors",
+ "link": "https://leetcode.com/problems/sort-colors",
+ "locked": false,
+ "percent": 37.78286984313581,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "164.6K",
+ "totalSubmit": "435.6K",
+ "desc": "\r\nGiven an array with n objects colored red, white or blue, sort them so that objects of the same color are adjacent, with the colors in the order red, white and blue.\r\n\r\n\r\n\r\nHere, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.\r\n\r\n\r\n\r\nNote:\r\nYou are not suppose to use the library's sort function for this problem.\r\n\r\n\r\nclick to show follow up.\r\n\r\n\r\nFollow up:\r\nA rather straight forward solution is a two-pass algorithm using counting sort.\r\nFirst, iterate the array counting number of 0's, 1's, and 2's, then overwrite array with total number of 0's, then 1's and followed by 2's.\r\nCould you come up with an one-pass algorithm using only constant space?\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    void sortColors(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public void sortColors(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def sortColors(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: void Do not return anything, modify nums in-place instead.\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "void sortColors(int* nums, int numsSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public void SortColors(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {void} Do not return anything, modify nums in-place instead.\r\n */\r\nvar sortColors = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Void} Do not return anything, modify nums in-place instead.\r\ndef sort_colors(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func sortColors(_ nums: inout [Int]) {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func sortColors(nums []int)  {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def sortColors(nums: Array[Int]): Unit = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[0]'",
+ "testable": true,
+ "slug": "sort-colors",
+ "category": "algorithms",
+ "fname": "75.sort-colors.algorithms.py"
+}

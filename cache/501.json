@@ -6,12 +6,12 @@
  "key": "find-mode-in-binary-search-tree",
  "link": "https://leetcode.com/problems/find-mode-in-binary-search-tree",
  "locked": false,
- "percent": 38.066491881292826,
+ "percent": 38.09133287292818,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "17.7K",
+ "totalSubmit": "46.3K",
  "desc": "Given a binary search tree (BST) with duplicates, find all the mode(s) (the most frequently occurred element) in the given BST.\r\n\r\n\r\nAssume a BST is defined as follows:\r\n\r\nThe left subtree of a node contains only nodes with keys less than or equal to the node's key.\r\nThe right subtree of a node contains only nodes with keys greater than or equal to the node's key.\r\nBoth the left and right subtrees must also be binary search trees.\r\n\r\n\r\n\r\n\r\nFor example:\r\nGiven BST [1,null,2,2],\r\n\r\n   1\r\n    \\\r\n     2\r\n    /\r\n   2\r\n\r\n\r\n\r\nreturn [2].\r\n\r\n\r\nNote:\r\nIf a tree has more than one mode, you can return them in any order.\r\n\r\n\r\nFollow up:\r\nCould you do that without using any extra space? (Assume that the implicit stack space incurred due to recursion does not count).\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,null,2,2]'",
- "testable": true
+ "testable": true,
+ "slug": "find-mode-in-binary-search-tree",
+ "category": "algorithms",
+ "fname": "501.find-mode-in-binary-search-tree.algorithms.py"
 }

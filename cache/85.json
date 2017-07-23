@@ -6,12 +6,12 @@
  "key": "maximal-rectangle",
  "link": "https://leetcode.com/problems/maximal-rectangle",
  "locked": false,
- "percent": 27.559084516683054,
+ "percent": 27.617118048377094,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "66.8K",
+ "totalSubmit": "241.9K",
  "desc": "\r\nGiven a 2D binary matrix filled with 0's and 1's, find the largest rectangle containing only 1's and return its area.\r\n\r\n\r\nFor example, given the following matrix:\r\n\r\n1 0 1 0 0\r\n1 0 1 1 1\r\n1 1 1 1 1\r\n1 0 0 1 0\r\n\r\nReturn 6.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[\"10100\",\"10111\",\"11111\",\"10010\"]'",
- "testable": true
+ "testable": true,
+ "slug": "maximal-rectangle",
+ "category": "algorithms",
+ "fname": "85.maximal-rectangle.algorithms.py"
 }

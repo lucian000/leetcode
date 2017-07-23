@@ -6,12 +6,12 @@
  "key": "summary-ranges",
  "link": "https://leetcode.com/problems/summary-ranges",
  "locked": false,
- "percent": 29.49672246196115,
+ "percent": 29.531015642736715,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "79.3K",
+ "totalSubmit": "268.7K",
  "desc": "\r\nGiven a sorted integer array without duplicates, return the summary of its ranges.\r\n\r\n\r\nFor example, given [0,1,2,4,5,7], return [\"0->2\",\"4->5\",\"7\"].\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "summary-ranges",
+ "category": "algorithms",
+ "fname": "228.summary-ranges.algorithms.py"
 }

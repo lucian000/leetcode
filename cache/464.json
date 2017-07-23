@@ -6,12 +6,12 @@
  "key": "can-i-win",
  "link": "https://leetcode.com/problems/can-i-win",
  "locked": false,
- "percent": 24.52389946890069,
+ "percent": 24.56113436630213,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "11.2K",
+ "totalSubmit": "45.6K",
  "desc": "In the \"100 game,\" two players take turns adding, to a running total, any integer from 1..10. The player who first causes the running total to reach or exceed 100 wins. \r\n\r\nWhat if we change the game so that players cannot re-use integers? \r\n\r\nFor example, two players might take turns drawing from a common pool of numbers of 1..15 without replacement until they reach a total >= 100.\r\n\r\nGiven an integer maxChoosableInteger and another integer desiredTotal, determine if the first player to move can force a win, assuming both players play optimally. \r\n\r\nYou can always assume that maxChoosableInteger will not be larger than 20 and desiredTotal will not be larger than 300.\r\n\r\n\r\nExample\r\n\r\nInput:\r\nmaxChoosableInteger = 10\r\ndesiredTotal = 11\r\n\r\nOutput:\r\nfalse\r\n\r\nExplanation:\r\nNo matter which integer the first player choose, the first player will lose.\r\nThe first player can choose an integer from 1 up to 10.\r\nIf the first player choose 1, the second player can only choose integers from 2 up to 10.\r\nThe second player will win by choosing 10 and get a total = 11, which is >= desiredTotal.\r\nSame with other integers chosen by the first player, the second player will always win.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'10\\n11'",
- "testable": true
+ "testable": true,
+ "slug": "can-i-win",
+ "category": "algorithms",
+ "fname": "464.can-i-win.algorithms.py"
 }

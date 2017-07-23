@@ -6,12 +6,12 @@
  "key": "shuffle-an-array",
  "link": "https://leetcode.com/problems/shuffle-an-array",
  "locked": false,
- "percent": 46.28385434797744,
+ "percent": 46.311157131762876,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "26.8K",
+ "totalSubmit": "57.9K",
  "desc": "Shuffle a set of numbers without duplicates.\r\n\r\n\r\nExample:\r\n\r\n// Init an array with set 1, 2, and 3.\r\nint[] nums = {1,2,3};\r\nSolution solution = new Solution(nums);\r\n\r\n// Shuffle the array [1,2,3] and return its result. Any permutation of [1,2,3] must equally likely to be returned.\r\nsolution.shuffle();\r\n\r\n// Resets the array back to its original configuration [1,2,3].\r\nsolution.reset();\r\n\r\n// Returns the random shuffling of array [1,2,3].\r\nsolution.shuffle();\r\n\r\n",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'[\"Solution\",\"shuffle\",\"reset\",\"shuffle\"]\\n[[[1,2,3]],[],[],[]]'",
- "testable": true
+ "testable": true,
+ "slug": "shuffle-an-array",
+ "category": "algorithms",
+ "fname": "384.shuffle-an-array.algorithms.py"
 }

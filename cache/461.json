@@ -6,12 +6,12 @@
  "key": "hamming-distance",
  "link": "https://leetcode.com/problems/hamming-distance",
  "locked": false,
- "percent": 70.31631986563404,
+ "percent": 70.30234040615609,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "77.2K",
+ "totalSubmit": "109.8K",
  "desc": "The Hamming distance between two integers is the number of positions at which the corresponding bits are different.\r\n\r\nGiven two integers x and y, calculate the Hamming distance.\r\n\r\nNote:\r\n0 \u2264 x, y < 231.\r\n\r\n\r\nExample:\r\n\r\nInput: x = 1, y = 4\r\n\r\nOutput: 2\r\n\r\nExplanation:\r\n1   (0 0 0 1)\r\n4   (0 1 0 0)\r\n       ?   ?\r\n\r\nThe above arrows point to positions where the corresponding bits are different.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'1\\n4'",
- "testable": true
+ "testable": true,
+ "slug": "hamming-distance",
+ "category": "algorithms",
+ "fname": "461.hamming-distance.algorithms.py"
 }

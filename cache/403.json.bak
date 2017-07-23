@@ -1,1 +1,73 @@
-{"id": 403, "ids": "403", "state": "None", "name": "Frog Jump", "key": "frog-jump", "link": "https://leetcode.com/problems/frog-jump", "locked": false, "percent": 31.9683722041865, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "A frog is crossing a river. The river is divided into x units and at each unit there may or may not exist a stone. The frog can jump on a stone, but it must not jump into the water.\r\n\r\nGiven a list of stones' positions (in units) in sorted ascending order, determine if the frog is able to cross the river by landing on the last stone. Initially, the frog is on the first stone and assume the first jump must be 1 unit.\r\n\r\n\r\nIf the frog's last jump was k units, then its next jump must be either k - 1, k, or k + 1 units. Note that the frog can only jump in the forward direction.\r\n\r\nNote:\r\n\r\nThe number of stones is \u2265 2 and is < 1,100.\r\nEach stone's position will be a non-negative integer < 231.\r\nThe first stone's position is always 0.\r\n\r\n\r\n\r\nExample 1:\r\n\r\n[0,1,3,5,6,8,12,17]\r\n\r\nThere are a total of 8 stones.\r\nThe first stone at the 0th unit, second stone at the 1st unit,\r\nthird stone at the 3rd unit, and so on...\r\nThe last stone at the 17th unit.\r\n\r\nReturn true. The frog can jump to the last stone by jumping \r\n1 unit to the 2nd stone, then 2 units to the 3rd stone, then \r\n2 units to the 4th stone, then 3 units to the 6th stone, \r\n4 units to the 7th stone, and 5 units to the 8th stone.\r\n\r\n\r\n\r\nExample 2:\r\n\r\n[0,1,2,3,4,8,9,11]\r\n\r\nReturn false. There is no way to jump to the last stone as \r\nthe gap between the 5th and 6th stone is too large.\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    bool canCross(vector<int>& stones) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public boolean canCross(int[] stones) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def canCross(self, stones):\r\n        \"\"\"\r\n        :type stones: List[int]\r\n        :rtype: bool\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "bool canCross(int* stones, int stonesSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public bool CanCross(int[] stones) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} stones\r\n * @return {boolean}\r\n */\r\nvar canCross = function(stones) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} stones\r\n# @return {Boolean}\r\ndef can_cross(stones)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func canCross(_ stones: [Int]) -> Bool {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func canCross(stones []int) bool {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def canCross(stones: Array[Int]): Boolean = {\n        \n    }\n}"}], "testcase": "'[0,1,3,4,5,7,9,10,12]'", "testable": true}
+{
+ "id": 403,
+ "ids": "403",
+ "state": "None",
+ "name": "Frog Jump",
+ "key": "frog-jump",
+ "link": "https://leetcode.com/problems/frog-jump",
+ "locked": false,
+ "percent": 31.95825441919192,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "16.2K",
+ "totalSubmit": "50.7K",
+ "desc": "A frog is crossing a river. The river is divided into x units and at each unit there may or may not exist a stone. The frog can jump on a stone, but it must not jump into the water.\r\n\r\nGiven a list of stones' positions (in units) in sorted ascending order, determine if the frog is able to cross the river by landing on the last stone. Initially, the frog is on the first stone and assume the first jump must be 1 unit.\r\n\r\n\r\nIf the frog's last jump was k units, then its next jump must be either k - 1, k, or k + 1 units. Note that the frog can only jump in the forward direction.\r\n\r\nNote:\r\n\r\nThe number of stones is \u2265 2 and is < 1,100.\r\nEach stone's position will be a non-negative integer < 231.\r\nThe first stone's position is always 0.\r\n\r\n\r\n\r\nExample 1:\r\n\r\n[0,1,3,5,6,8,12,17]\r\n\r\nThere are a total of 8 stones.\r\nThe first stone at the 0th unit, second stone at the 1st unit,\r\nthird stone at the 3rd unit, and so on...\r\nThe last stone at the 17th unit.\r\n\r\nReturn true. The frog can jump to the last stone by jumping \r\n1 unit to the 2nd stone, then 2 units to the 3rd stone, then \r\n2 units to the 4th stone, then 3 units to the 6th stone, \r\n4 units to the 7th stone, and 5 units to the 8th stone.\r\n\r\n\r\n\r\nExample 2:\r\n\r\n[0,1,2,3,4,8,9,11]\r\n\r\nReturn false. There is no way to jump to the last stone as \r\nthe gap between the 5th and 6th stone is too large.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool canCross(vector<int>& stones) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean canCross(int[] stones) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def canCross(self, stones):\r\n        \"\"\"\r\n        :type stones: List[int]\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool canCross(int* stones, int stonesSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool CanCross(int[] stones) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} stones\r\n * @return {boolean}\r\n */\r\nvar canCross = function(stones) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} stones\r\n# @return {Boolean}\r\ndef can_cross(stones)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func canCross(_ stones: [Int]) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func canCross(stones []int) bool {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def canCross(stones: Array[Int]): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[0,1,3,4,5,7,9,10,12]'",
+ "testable": true,
+ "slug": "frog-jump",
+ "category": "algorithms",
+ "fname": "403.frog-jump.algorithms.py"
+}

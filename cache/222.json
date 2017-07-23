@@ -6,12 +6,12 @@
  "key": "count-complete-tree-nodes",
  "link": "https://leetcode.com/problems/count-complete-tree-nodes",
  "locked": false,
- "percent": 27.385897570722474,
+ "percent": 27.386613778523635,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "62.8K",
+ "totalSubmit": "229.5K",
  "desc": "Given a complete binary tree, count the number of nodes.\r\n\r\nDefinition of a complete binary tree from Wikipedia:\r\nIn a complete binary tree every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible. It can have between 1 and 2h nodes inclusive at the last level h.",
  "templates": [
   {
@@ -51,5 +51,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "count-complete-tree-nodes",
+ "category": "algorithms",
+ "fname": "222.count-complete-tree-nodes.algorithms.py"
 }

@@ -1,17 +1,18 @@
 {
  "id": 67,
  "ids": "67",
- "state": "None",
+ "state": "ac",
  "name": "Add Binary",
  "key": "add-binary",
  "link": "https://leetcode.com/problems/add-binary",
  "locked": false,
- "percent": 32.11992232533062,
+ "percent": 32.166311040131255,
  "level": "Easy",
  "starred": false,
+ "fname": "67.add-binary.algorithms.py",
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "147.5K",
+ "totalSubmit": "458.5K",
  "desc": "\r\nGiven two binary strings, return their sum (also a binary string).\r\n\r\n\r\n\r\nFor example,\r\na = \"11\"\r\nb = \"1\"\r\nReturn \"100\".\r\n",
  "templates": [
   {
@@ -66,5 +67,7 @@
   }
  ],
  "testcase": "'\"0\"\\n\"0\"'",
- "testable": true
+ "testable": true,
+ "slug": "add-binary",
+ "category": "algorithms"
 }

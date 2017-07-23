@@ -6,12 +6,12 @@
  "key": "number-of-islands",
  "link": "https://leetcode.com/problems/number-of-islands",
  "locked": false,
- "percent": 34.186473375662565,
+ "percent": 34.23637220960677,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "110.4K",
+ "totalSubmit": "322.4K",
  "desc": "Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.\r\n\r\nExample 1:\r\n11110110101100000000\r\nAnswer: 1\r\nExample 2:\r\n11000110000010000011\r\nAnswer: 3\r\n\r\nCredits:Special thanks to @mithmatt for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[\"11110\",\"11010\",\"11000\",\"00000\"]'",
- "testable": true
+ "testable": true,
+ "slug": "number-of-islands",
+ "category": "algorithms",
+ "fname": "200.number-of-islands.algorithms.py"
 }

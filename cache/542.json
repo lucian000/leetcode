@@ -6,12 +6,12 @@
  "key": "01-matrix",
  "link": "https://leetcode.com/problems/01-matrix",
  "locked": false,
- "percent": 33.068439831333116,
+ "percent": 33.01290854160945,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "8.4K",
+ "totalSubmit": "25.5K",
  "desc": "\r\nGiven a matrix consists of 0 and 1, find the distance of the nearest 0 for each cell.\r\n\r\nThe distance between two adjacent cells is 1.\r\n\r\nExample 1: \r\nInput:\r\n\r\n0 0 0\r\n0 1 0\r\n0 0 0\r\n\r\nOutput:\r\n\r\n0 0 0\r\n0 1 0\r\n0 0 0\r\n\r\n\r\n\r\nExample 2: \r\nInput:\r\n\r\n0 0 0\r\n0 1 0\r\n1 1 1\r\n\r\nOutput:\r\n\r\n0 0 0\r\n0 1 0\r\n1 2 1\r\n\r\n\r\n\r\nNote:\r\n\r\nThe number of elements of the given matrix will not exceed 10,000.\r\nThere are at least one 0 in the given matrix.\r\nThe cells are adjacent in only four directions: up, down, left and right.\r\n\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[0,0,0],[0,1,0],[0,0,0]]'",
- "testable": true
+ "testable": true,
+ "slug": "01-matrix",
+ "category": "algorithms",
+ "fname": "542.01-matrix.algorithms.py"
 }

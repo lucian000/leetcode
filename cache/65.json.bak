@@ -1,1 +1,73 @@
-{"id": 65, "ids": "65", "state": "None", "name": "Valid Number", "key": "valid-number", "link": "https://leetcode.com/problems/valid-number", "locked": false, "percent": 12.715754221126565, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Validate if a given string is numeric.\r\n\r\n\r\nSome examples:\r\n\"0\" => true\r\n\"   0.1  \" => true\r\n\"abc\" => false\r\n\"1 a\" => false\r\n\"2e10\" => true\r\n\r\n\r\nNote: It is intended for the problem statement to be ambiguous. You should gather all requirements up front before implementing one.\r\n\r\n\r\n\r\nUpdate (2015-02-10):\r\nThe signature of the C++ function had been updated. If you still see your function signature accepts a const char * argument, please click the reload button  to reset your code definition.\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    bool isNumber(string s) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public boolean isNumber(String s) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def isNumber(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "bool isNumber(char* s) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public bool IsNumber(string s) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {string} s\r\n * @return {boolean}\r\n */\r\nvar isNumber = function(s) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String} s\r\n# @return {Boolean}\r\ndef is_number(s)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func isNumber(_ s: String) -> Bool {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func isNumber(s string) bool {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def isNumber(s: String): Boolean = {\n        \n    }\n}"}], "testcase": "'\"3\"'", "testable": true}
+{
+ "id": 65,
+ "ids": "65",
+ "state": "None",
+ "name": "Valid Number",
+ "key": "valid-number",
+ "link": "https://leetcode.com/problems/valid-number",
+ "locked": false,
+ "percent": 12.715849172002855,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "68.6K",
+ "totalSubmit": "539.7K",
+ "desc": "Validate if a given string is numeric.\r\n\r\n\r\nSome examples:\r\n\"0\" => true\r\n\"   0.1  \" => true\r\n\"abc\" => false\r\n\"1 a\" => false\r\n\"2e10\" => true\r\n\r\n\r\nNote: It is intended for the problem statement to be ambiguous. You should gather all requirements up front before implementing one.\r\n\r\n\r\n\r\nUpdate (2015-02-10):\r\nThe signature of the C++ function had been updated. If you still see your function signature accepts a const char * argument, please click the reload button  to reset your code definition.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool isNumber(string s) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean isNumber(String s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def isNumber(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool isNumber(char* s) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool IsNumber(string s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @return {boolean}\r\n */\r\nvar isNumber = function(s) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @return {Boolean}\r\ndef is_number(s)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func isNumber(_ s: String) -> Bool {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func isNumber(s string) bool {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def isNumber(s: String): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'\"3\"'",
+ "testable": true,
+ "slug": "valid-number",
+ "category": "algorithms",
+ "fname": "65.valid-number.algorithms.py"
+}

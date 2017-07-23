@@ -6,12 +6,12 @@
  "key": "insert-delete-getrandom-o1",
  "link": "https://leetcode.com/problems/insert-delete-getrandom-o1",
  "locked": false,
- "percent": 39.01412115334579,
+ "percent": 39.03225806451613,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "33.5K",
+ "totalSubmit": "85.9K",
  "desc": "Design a data structure that supports all following operations in average O(1) time.\r\n\r\n\r\n\r\ninsert(val): Inserts an item val to the set if not already present.\r\nremove(val): Removes an item val from the set if present.\r\ngetRandom: Returns a random element from current set of elements. Each element must have the same probability of being returned.\r\n\r\n\r\n\r\nExample:\r\n\r\n// Init an empty set.\r\nRandomizedSet randomSet = new RandomizedSet();\r\n\r\n// Inserts 1 to the set. Returns true as 1 was inserted successfully.\r\nrandomSet.insert(1);\r\n\r\n// Returns false as 2 does not exist in the set.\r\nrandomSet.remove(2);\r\n\r\n// Inserts 2 to the set, returns true. Set now contains [1,2].\r\nrandomSet.insert(2);\r\n\r\n// getRandom should return either 1 or 2 randomly.\r\nrandomSet.getRandom();\r\n\r\n// Removes 1 from the set, returns true. Set now contains [2].\r\nrandomSet.remove(1);\r\n\r\n// 2 was already in the set, so return false.\r\nrandomSet.insert(2);\r\n\r\n// Since 2 is the only number in the set, getRandom always return 2.\r\nrandomSet.getRandom();\r\n\r\n",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'[\"RandomizedSet\",\"insert\",\"remove\",\"insert\",\"getRandom\",\"remove\",\"insert\",\"getRandom\"]\\n[[],[1],[2],[2],[],[1],[2],[]]'",
- "testable": true
+ "testable": true,
+ "slug": "insert-delete-getrandom-o1",
+ "category": "algorithms",
+ "fname": "380.insert-delete-getrandom-o1.algorithms.py"
 }

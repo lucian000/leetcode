@@ -6,12 +6,12 @@
  "key": "counting-bits",
  "link": "https://leetcode.com/problems/counting-bits",
  "locked": false,
- "percent": 61.02382773163326,
+ "percent": 61.06994152750011,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "81.3K",
+ "totalSubmit": "133.1K",
  "desc": "Given a non negative integer number num. For every numbers i in the range 0 \u2264 i \u2264 num calculate the number of 1's in their binary representation and return them as an array.\r\n\r\n\r\nExample:\r\nFor num = 5 you should return [0,1,1,2,1,2].\r\n\r\n\r\nFollow up:\r\n\r\nIt is very easy to come up with a solution with run time O(n*sizeof(integer)). But can you do it in linear time O(n) /possibly in a single pass?\r\nSpace complexity should be O(n).\r\nCan you do it like a boss? Do it without using any builtin function like __builtin_popcount  in c++ or in any other language.\r\n\r\n\r\n\r\nCredits:Special thanks to @ syedee  for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'2'",
- "testable": true
+ "testable": true,
+ "slug": "counting-bits",
+ "category": "algorithms",
+ "fname": "338.counting-bits.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "spiral-matrix-ii",
  "link": "https://leetcode.com/problems/spiral-matrix-ii",
  "locked": false,
- "percent": 39.35009350479091,
+ "percent": 39.39302351242306,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "82.1K",
+ "totalSubmit": "208.5K",
  "desc": "Given an integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.\r\n\r\n\r\nFor example,\r\nGiven n = 3,\r\n\r\nYou should return the following matrix:\r\n\r\n[\r\n [ 1, 2, 3 ],\r\n [ 8, 9, 4 ],\r\n [ 7, 6, 5 ]\r\n]\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'0'",
- "testable": true
+ "testable": true,
+ "slug": "spiral-matrix-ii",
+ "category": "algorithms",
+ "fname": "59.spiral-matrix-ii.algorithms.py"
 }

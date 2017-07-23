@@ -6,12 +6,12 @@
  "key": "restore-ip-addresses",
  "link": "https://leetcode.com/problems/restore-ip-addresses",
  "locked": false,
- "percent": 27.036648215308265,
+ "percent": 27.087650589047954,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "85.5K",
+ "totalSubmit": "315.6K",
  "desc": "Given a string containing only digits, restore it by returning all possible valid IP address combinations.\r\n\r\n\r\nFor example:\r\nGiven \"25525511135\",\r\n\r\n\r\nreturn [\"255.255.11.135\", \"255.255.111.35\"]. (Order does not matter)\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"0000\"'",
- "testable": true
+ "testable": true,
+ "slug": "restore-ip-addresses",
+ "category": "algorithms",
+ "fname": "93.restore-ip-addresses.algorithms.py"
 }

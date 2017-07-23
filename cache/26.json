@@ -6,12 +6,12 @@
  "key": "remove-duplicates-from-sorted-array",
  "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array",
  "locked": false,
- "percent": 35.532475589804314,
+ "percent": 35.516781858761135,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "240.1K",
+ "totalSubmit": "676.1K",
  "desc": "\r\nGiven a sorted array, remove the duplicates in place such that each element appear only once and return the new length.\r\n\r\n\r\nDo not allocate extra space for another array, you must do this in place with constant memory.\r\n\r\n\r\n\r\nFor example,\r\nGiven input array nums = [1,1,2],\r\n\r\n\r\nYour function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the new length.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "remove-duplicates-from-sorted-array",
+ "category": "algorithms",
+ "fname": "26.remove-duplicates-from-sorted-array.algorithms.py"
 }

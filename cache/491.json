@@ -6,12 +6,12 @@
  "key": "increasing-subsequences",
  "link": "https://leetcode.com/problems/increasing-subsequences",
  "locked": false,
- "percent": 38.9508301917061,
+ "percent": 38.83765647686693,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "9.9K",
+ "totalSubmit": "25.5K",
  "desc": "\r\nGiven an integer array, your task is to find all the different possible increasing subsequences of the given array, and the length of an increasing subsequence should be at least 2 .\r\n\r\n\r\nExample:\r\n\r\nInput: [4, 6, 7, 7]\r\nOutput: [[4, 6], [4, 7], [4, 6, 7], [4, 6, 7, 7], [6, 7], [6, 7, 7], [7,7], [4,7,7]]\r\n\r\n\r\n\r\nNote:\r\n\r\nThe length of the given array will not exceed 15.\r\nThe range of integer in the given array is [-100,100].\r\nThe given array may contain duplicates, and two equal integers should also be considered as a special case of increasing sequence.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[4,6,7,7]'",
- "testable": true
+ "testable": true,
+ "slug": "increasing-subsequences",
+ "category": "algorithms",
+ "fname": "491.increasing-subsequences.algorithms.py"
 }

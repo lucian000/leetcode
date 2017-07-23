@@ -6,12 +6,12 @@
  "key": "reverse-words-in-a-string",
  "link": "https://leetcode.com/problems/reverse-words-in-a-string",
  "locked": false,
- "percent": 15.705376291074026,
+ "percent": 15.707920038123873,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "159.9K",
+ "totalSubmit": "1M",
  "desc": "\r\nGiven an input string, reverse the string word by word.\r\n\r\n\r\n\r\nFor example,\r\nGiven s = \"the sky is blue\",\r\nreturn \"blue is sky the\".\r\n\r\n\r\n\r\nUpdate (2015-02-12):\r\nFor C programmers: Try to solve it in-place in O(1) space.\r\n\r\n\r\nclick to show clarification.\r\n\r\nClarification:\r\n\r\n\r\n\r\nWhat constitutes a word?\r\nA sequence of non-space characters constitutes a word.\r\nCould the input string contain leading or trailing spaces?\r\nYes. However, your reversed string should not contain leading or trailing spaces.\r\nHow about multiple spaces between two words?\r\nReduce them to a single space in the reversed string.\r\n\r\n\r\n",
  "templates": [
   {
@@ -46,5 +46,8 @@
   }
  ],
  "testcase": "'\"\"'",
- "testable": false
+ "testable": false,
+ "slug": "reverse-words-in-a-string",
+ "category": "algorithms",
+ "fname": "151.reverse-words-in-a-string.algorithms.py"
 }

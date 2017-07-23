@@ -6,12 +6,12 @@
  "key": "find-all-duplicates-in-an-array",
  "link": "https://leetcode.com/problems/find-all-duplicates-in-an-array",
  "locked": false,
- "percent": 55.15630234321279,
+ "percent": 55.26561850671838,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "31.9K",
+ "totalSubmit": "57.8K",
  "desc": "Given an array of integers, 1 \u2264 a[i] \u2264 n (n = size of array), some elements appear twice and others appear once.\r\n\r\nFind all the elements that appear twice in this array.\r\n\r\nCould you do it without extra space and in O(n) runtime?\r\n\r\nExample:\r\n\r\nInput:\r\n[4,3,2,7,8,2,3,1]\r\n\r\nOutput:\r\n[2,3]\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[4,3,2,7,8,2,3,1]'",
- "testable": true
+ "testable": true,
+ "slug": "find-all-duplicates-in-an-array",
+ "category": "algorithms",
+ "fname": "442.find-all-duplicates-in-an-array.algorithms.py"
 }

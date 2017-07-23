@@ -1,1 +1,73 @@
-{"id": 47, "ids": "47", "state": "None", "name": "Permutations II", "key": "permutations-ii", "link": "https://leetcode.com/problems/permutations-ii", "locked": false, "percent": 32.47804130291385, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven a collection of numbers that might contain duplicates, return all possible unique permutations.\r\n\r\n\r\n\r\nFor example,\r\n[1,1,2] have the following unique permutations:\r\n\r\n[\r\n  [1,1,2],\r\n  [1,2,1],\r\n  [2,1,1]\r\n]\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<vector<int>> permuteUnique(vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public List<List<Integer>> permuteUnique(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def permuteUnique(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[List[int]]\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of arrays of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint** permuteUnique(int* nums, int numsSize, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public IList<IList<int>> PermuteUnique(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number[][]}\r\n */\r\nvar permuteUnique = function(nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer[][]}\r\ndef permute_unique(nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func permuteUnique(_ nums: [Int]) -> [[Int]] {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func permuteUnique(nums []int) [][]int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def permuteUnique(nums: Array[Int]): List[List[Int]] = {\n        \n    }\n}"}], "testcase": "'[1,1,2]'", "testable": true}
+{
+ "id": 47,
+ "ids": "47",
+ "state": "None",
+ "name": "Permutations II",
+ "key": "permutations-ii",
+ "link": "https://leetcode.com/problems/permutations-ii",
+ "locked": false,
+ "percent": 32.522579770333756,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "122.4K",
+ "totalSubmit": "376.3K",
+ "desc": "\r\nGiven a collection of numbers that might contain duplicates, return all possible unique permutations.\r\n\r\n\r\n\r\nFor example,\r\n[1,1,2] have the following unique permutations:\r\n\r\n[\r\n  [1,1,2],\r\n  [1,2,1],\r\n  [2,1,1]\r\n]\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<vector<int>> permuteUnique(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<List<Integer>> permuteUnique(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def permuteUnique(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[List[int]]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of arrays of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint** permuteUnique(int* nums, int numsSize, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<IList<int>> PermuteUnique(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number[][]}\r\n */\r\nvar permuteUnique = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer[][]}\r\ndef permute_unique(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func permuteUnique(_ nums: [Int]) -> [[Int]] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func permuteUnique(nums []int) [][]int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def permuteUnique(nums: Array[Int]): List[List[Int]] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[1,1,2]'",
+ "testable": true,
+ "slug": "permutations-ii",
+ "category": "algorithms",
+ "fname": "47.permutations-ii.algorithms.py"
+}

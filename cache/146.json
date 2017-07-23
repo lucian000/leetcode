@@ -6,12 +6,12 @@
  "key": "lru-cache",
  "link": "https://leetcode.com/problems/lru-cache",
  "locked": false,
- "percent": 17.4423863954688,
+ "percent": 17.48323807992018,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "128.3K",
+ "totalSubmit": "733.7K",
  "desc": "\r\nDesign and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and put.\r\n\r\n\r\n\r\nget(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.\r\nput(key, value) - Set or insert the value if the key is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item.\r\n\r\n\r\nFollow up:\r\nCould you do both operations in O(1) time complexity?\r\n\r\nExample:\r\n\r\nLRUCache cache = new LRUCache( 2 /* capacity */ );\r\n\r\ncache.put(1, 1);\r\ncache.put(2, 2);\r\ncache.get(1);       // returns 1\r\ncache.put(3, 3);    // evicts key 2\r\ncache.get(2);       // returns -1 (not found)\r\ncache.put(4, 4);    // evicts key 1\r\ncache.get(1);       // returns -1 (not found)\r\ncache.get(3);       // returns 3\r\ncache.get(4);       // returns 4\r\n\r\n",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'[\"LRUCache\",\"put\",\"put\",\"get\",\"put\",\"get\",\"put\",\"get\",\"get\",\"get\"]\\n[[2],[1,1],[2,2],[1],[3,3],[2],[4,4],[1],[3],[4]]'",
- "testable": true
+ "testable": true,
+ "slug": "lru-cache",
+ "category": "algorithms",
+ "fname": "146.lru-cache.algorithms.py"
 }

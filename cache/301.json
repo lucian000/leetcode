@@ -6,12 +6,12 @@
  "key": "remove-invalid-parentheses",
  "link": "https://leetcode.com/problems/remove-invalid-parentheses",
  "locked": false,
- "percent": 35.00145717973271,
+ "percent": 35.031231409875076,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "42.4K",
+ "totalSubmit": "121K",
  "desc": "\r\nRemove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results.\r\n\r\nNote: The input string may contain letters other than the parentheses ( and ). \r\n\r\n\r\n\r\nExamples:\r\n\r\n\"()())()\" -> [\"()()()\", \"(())()\"]\r\n\"(a)())()\" -> [\"(a)()()\", \"(a())()\"]\r\n\")(\" -> [\"\"]\r\n\r\n\r\n\r\nCredits:Special thanks to @hpplayer for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"()())()\"'",
- "testable": true
+ "testable": true,
+ "slug": "remove-invalid-parentheses",
+ "category": "algorithms",
+ "fname": "301.remove-invalid-parentheses.algorithms.py"
 }

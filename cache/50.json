@@ -6,12 +6,12 @@
  "key": "powx-n",
  "link": "https://leetcode.com/problems/powx-n",
  "locked": false,
- "percent": 26.44184696668726,
+ "percent": 26.419069617224476,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "156.3K",
+ "totalSubmit": "591.7K",
  "desc": "Implement pow(x, n).\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'8.88023\\n3'",
- "testable": true
+ "testable": true,
+ "slug": "powx-n",
+ "category": "algorithms",
+ "fname": "50.powx-n.algorithms.py"
 }

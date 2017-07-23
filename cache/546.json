@@ -6,12 +6,12 @@
  "key": "remove-boxes",
  "link": "https://leetcode.com/problems/remove-boxes",
  "locked": false,
- "percent": 31.789137380191693,
+ "percent": 31.759989654726496,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "2.5K",
+ "totalSubmit": "7.7K",
  "desc": "Given several boxes with different colors represented by different positive numbers. \r\nYou may experience several rounds to remove boxes until there is no box left. Each time you can choose some continuous boxes with the same color (composed of k boxes, k >= 1), remove them and get k*k points.\r\nFind the maximum points you can get.\r\n\r\n\r\nExample 1:\r\nInput: \r\n\r\n[1, 3, 2, 2, 2, 3, 4, 3, 1]\r\n\r\nOutput:\r\n\r\n23\r\n\r\nExplanation: \r\n\r\n[1, 3, 2, 2, 2, 3, 4, 3, 1] \r\n----> [1, 3, 3, 4, 3, 1] (3*3=9 points) \r\n----> [1, 3, 3, 3, 1] (1*1=1 points) \r\n----> [1, 1] (3*3=9 points) \r\n----> [] (2*2=4 points)\r\n\r\n\r\n\r\nNote:\r\nThe number of boxes n would not exceed 100.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,3,2,2,2,3,4,3,1]'",
- "testable": true
+ "testable": true,
+ "slug": "remove-boxes",
+ "category": "algorithms",
+ "fname": "546.remove-boxes.algorithms.py"
 }

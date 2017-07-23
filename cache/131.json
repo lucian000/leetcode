@@ -6,12 +6,12 @@
  "key": "palindrome-partitioning",
  "link": "https://leetcode.com/problems/palindrome-partitioning",
  "locked": false,
- "percent": 32.842869871901286,
+ "percent": 32.89879270485487,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "97.3K",
+ "totalSubmit": "295.9K",
  "desc": "\r\nGiven a string s, partition s such that every substring of the partition is a palindrome.\r\n\r\n\r\nReturn all possible palindrome partitioning of s.\r\n\r\n\r\nFor example, given s = \"aab\",\r\n\r\nReturn\r\n\r\n[\r\n  [\"aa\",\"b\"],\r\n  [\"a\",\"a\",\"b\"]\r\n]\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"aab\"'",
- "testable": true
+ "testable": true,
+ "slug": "palindrome-partitioning",
+ "category": "algorithms",
+ "fname": "131.palindrome-partitioning.algorithms.py"
 }

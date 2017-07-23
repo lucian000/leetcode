@@ -6,12 +6,12 @@
  "key": "sum-of-left-leaves",
  "link": "https://leetcode.com/problems/sum-of-left-leaves",
  "locked": false,
- "percent": 46.91965553137125,
+ "percent": 46.904211563955265,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "55.2K",
+ "totalSubmit": "117.7K",
  "desc": "Find the sum of all left leaves in a given binary tree.\r\n\r\nExample:\r\n\r\n    3\r\n   / \\\r\n  9  20\r\n    /  \\\r\n   15   7\r\n\r\nThere are two left leaves in the binary tree, with values 9 and 15 respectively. Return 24.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[3,9,20,null,null,15,7]'",
- "testable": true
+ "testable": true,
+ "slug": "sum-of-left-leaves",
+ "category": "algorithms",
+ "fname": "404.sum-of-left-leaves.algorithms.py"
 }

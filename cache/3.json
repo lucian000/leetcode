@@ -6,12 +6,12 @@
  "key": "longest-substring-without-repeating-characters",
  "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
  "locked": false,
- "percent": 24.22783274285896,
+ "percent": 24.25250575646756,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "315.1K",
+ "totalSubmit": "1.3M",
  "desc": "Given a string, find the length of the longest substring without repeating characters.\r\n\r\nExamples:\r\n\r\nGiven \"abcabcbb\", the answer is \"abc\", which the length is 3.\r\n\r\nGiven \"bbbbb\", the answer is \"b\", with the length of 1.\r\n\r\nGiven \"pwwkew\", the answer is \"wke\", with the length of 3. Note that the answer must be a substring, \"pwke\" is a subsequence and not a substring.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"abcabcbb\"'",
- "testable": true
+ "testable": true,
+ "slug": "longest-substring-without-repeating-characters",
+ "category": "algorithms",
+ "fname": "3.longest-substring-without-repeating-characters.algorithms.py"
 }

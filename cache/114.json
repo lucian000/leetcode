@@ -6,12 +6,12 @@
  "key": "flatten-binary-tree-to-linked-list",
  "link": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list",
  "locked": false,
- "percent": 34.82736715225028,
+ "percent": 34.85802709604813,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "128.9K",
+ "totalSubmit": "369.7K",
  "desc": "\r\nGiven a binary tree, flatten it to a linked list in-place.\r\n\r\n\r\n\r\nFor example,\r\nGiven\r\n\r\n         1\r\n        / \\\r\n       2   5\r\n      / \\   \\\r\n     3   4   6\r\n\r\n\r\n\r\nThe flattened tree should look like:\r\n\r\n   1\r\n    \\\r\n     2\r\n      \\\r\n       3\r\n        \\\r\n         4\r\n          \\\r\n           5\r\n            \\\r\n             6\r\n\r\n\r\nclick to show hints.\r\n\r\nHints:\r\nIf you notice carefully in the flattened tree, each node's right child points to the next node of a pre-order traversal.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "flatten-binary-tree-to-linked-list",
+ "category": "algorithms",
+ "fname": "114.flatten-binary-tree-to-linked-list.algorithms.py"
 }

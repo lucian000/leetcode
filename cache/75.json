@@ -6,12 +6,12 @@
  "key": "sort-colors",
  "link": "https://leetcode.com/problems/sort-colors",
  "locked": false,
- "percent": 37.748089225608645,
+ "percent": 37.78286984313581,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "164.6K",
+ "totalSubmit": "435.6K",
  "desc": "\r\nGiven an array with n objects colored red, white or blue, sort them so that objects of the same color are adjacent, with the colors in the order red, white and blue.\r\n\r\n\r\n\r\nHere, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.\r\n\r\n\r\n\r\nNote:\r\nYou are not suppose to use the library's sort function for this problem.\r\n\r\n\r\nclick to show follow up.\r\n\r\n\r\nFollow up:\r\nA rather straight forward solution is a two-pass algorithm using counting sort.\r\nFirst, iterate the array counting number of 0's, 1's, and 2's, then overwrite array with total number of 0's, then 1's and followed by 2's.\r\nCould you come up with an one-pass algorithm using only constant space?\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[0]'",
- "testable": true
+ "testable": true,
+ "slug": "sort-colors",
+ "category": "algorithms",
+ "fname": "75.sort-colors.algorithms.py"
 }

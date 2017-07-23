@@ -6,12 +6,12 @@
  "key": "reverse-string-ii",
  "link": "https://leetcode.com/problems/reverse-string-ii",
  "locked": false,
- "percent": 43.97684912693742,
+ "percent": 44.07568163833002,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "18.4K",
+ "totalSubmit": "41.7K",
  "desc": "\r\nGiven a string and an integer k, you need to reverse the first k characters for every 2k characters counting from the start of the string. If there are less than k characters left, reverse all of them. If there are less than 2k but greater than or equal to k characters, then reverse the first k characters and left the other as original.\r\n\r\n\r\nExample:\r\n\r\nInput: s = \"abcdefg\", k = 2\r\nOutput: \"bacdfeg\"\r\n\r\n\r\n\r\nRestrictions: \r\n\r\n The string consists of lower English letters only.\r\n Length of the given string and k will in the range [1, 10000]\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"abcdefg\"\\n2'",
- "testable": true
+ "testable": true,
+ "slug": "reverse-string-ii",
+ "category": "algorithms",
+ "fname": "541.reverse-string-ii.algorithms.py"
 }

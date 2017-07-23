@@ -1,17 +1,17 @@
 {
  "id": 434,
  "ids": "434",
- "state": "None",
+ "state": "ac",
  "name": "Number of Segments in a String",
  "key": "number-of-segments-in-a-string",
  "link": "https://leetcode.com/problems/number-of-segments-in-a-string",
  "locked": false,
- "percent": 36.75746636035445,
+ "percent": 36.76102031089039,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "23.9K",
+ "totalSubmit": "65K",
  "desc": "Count the number of segments in a string, where a segment is defined to be a contiguous sequence of non-space characters.\r\n\r\nPlease note that the string does not contain any non-printable characters.\r\n\r\nExample:\r\n\r\nInput: \"Hello, my name is John\"\r\nOutput: 5\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,187 @@
   }
  ],
  "testcase": "'\"Hello, my name is John\"'",
- "testable": true
+ "testable": true,
+ "slug": "number-of-segments-in-a-string",
+ "category": "algorithms",
+ "fname": "434.number-of-segments-in-a-string.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "5"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1500742132.09_784204_1"
+ },
+ "test_expected": {
+  "code_answer": [
+   "5"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1500742132.11_784204_1"
+ },
+ "submit_chart": [
+  [
+   "26",
+   "0.3454"
+  ],
+  [
+   "28",
+   "1.3817"
+  ],
+  [
+   "29",
+   "5.1813"
+  ],
+  [
+   "32",
+   "17.0984"
+  ],
+  [
+   "33",
+   "1.3817"
+  ],
+  [
+   "35",
+   "10.5354"
+  ],
+  [
+   "36",
+   "8.6356"
+  ],
+  [
+   "38",
+   "4.6632"
+  ],
+  [
+   "39",
+   "12.7807"
+  ],
+  [
+   "42",
+   "9.6718"
+  ],
+  [
+   "45",
+   "5.1813"
+  ],
+  [
+   "46",
+   "3.2815"
+  ],
+  [
+   "48",
+   "1.8998"
+  ],
+  [
+   "49",
+   "4.8359"
+  ],
+  [
+   "52",
+   "4.1451"
+  ],
+  [
+   "55",
+   "0.6908"
+  ],
+  [
+   "56",
+   "0.6908"
+  ],
+  [
+   "58",
+   "0.6908"
+  ],
+  [
+   "59",
+   "1.8998"
+  ],
+  [
+   "62",
+   "1.3817"
+  ],
+  [
+   "65",
+   "1.2090"
+  ],
+  [
+   "66",
+   "0.3454"
+  ],
+  [
+   "69",
+   "0.1727"
+  ],
+  [
+   "72",
+   "0.3454"
+  ],
+  [
+   "75",
+   "0.1727"
+  ],
+  [
+   "79",
+   "0.1727"
+  ],
+  [
+   "82",
+   "0.3454"
+  ],
+  [
+   "85",
+   "0.1727"
+  ],
+  [
+   "89",
+   "0.1727"
+  ],
+  [
+   "95",
+   "0.1727"
+  ],
+  [
+   "106",
+   "0.1727"
+  ],
+  [
+   "118",
+   "0.1727"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 26,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "42 ms",
+  "compare_result": "11111111111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 26,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 434,
+  "name": "Your",
+  "id": 110679457
+ },
+ "file": "434.number-of-segments-in-a-string.algorithms.py"
 }

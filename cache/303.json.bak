@@ -1,1 +1,68 @@
-{"id": 303, "ids": "303", "state": "None", "name": "Range Sum Query - Immutable", "key": "range-sum-query-immutable", "link": "https://leetcode.com/problems/range-sum-query-immutable", "locked": false, "percent": 29.088287397519878, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given an integer array nums, find the sum of the elements between indices i and j (i \u2264 j), inclusive.\r\n\r\nExample:\r\n\r\nGiven nums = [-2, 0, 3, -5, 2, -1]\r\n\r\nsumRange(0, 2) -> 1\r\nsumRange(2, 5) -> -1\r\nsumRange(0, 5) -> -3\r\n\r\n\r\n\r\nNote:\r\n\r\nYou may assume that the array does not change.\r\nThere are many calls to sumRange function.\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class NumArray {\r\npublic:\r\n    NumArray(vector<int> nums) {\r\n        \r\n    }\r\n    \r\n    int sumRange(int i, int j) {\r\n        \r\n    }\r\n};\r\n\r\n/**\r\n * Your NumArray object will be instantiated and called as such:\r\n * NumArray obj = new NumArray(nums);\r\n * int param_1 = obj.sumRange(i,j);\r\n */"}, {"value": "java", "text": "Java", "defaultCode": "public class NumArray {\r\n\r\n    public NumArray(int[] nums) {\r\n        \r\n    }\r\n    \r\n    public int sumRange(int i, int j) {\r\n        \r\n    }\r\n}\r\n\r\n/**\r\n * Your NumArray object will be instantiated and called as such:\r\n * NumArray obj = new NumArray(nums);\r\n * int param_1 = obj.sumRange(i,j);\r\n */"}, {"value": "python", "text": "Python", "defaultCode": "class NumArray(object):\r\n\r\n    def __init__(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        \"\"\"\r\n        \r\n\r\n    def sumRange(self, i, j):\r\n        \"\"\"\r\n        :type i: int\r\n        :type j: int\r\n        :rtype: int\r\n        \"\"\"\r\n        \r\n\r\n\r\n# Your NumArray object will be instantiated and called as such:\r\n# obj = NumArray(nums)\r\n# param_1 = obj.sumRange(i,j)"}, {"value": "c", "text": "C", "defaultCode": "typedef struct {\n    \n} NumArray;\n\nNumArray* numArrayCreate(int* nums, int numsSize) {\n    \n}\n\nint numArraySumRange(NumArray* obj, int i, int j) {\n    \n}\n\nvoid numArrayFree(NumArray* obj) {\n    \n}\n\n/**\n * Your NumArray struct will be instantiated and called as such:\n * struct NumArray* obj = numArrayCreate(nums, numsSize);\n * int param_1 = numArraySumRange(obj, i, j);\n * numArrayFree(obj);\n */"}, {"value": "csharp", "text": "C#", "defaultCode": "public class NumArray {\r\n\r\n    public NumArray(int[] nums) {\r\n        \r\n    }\r\n    \r\n    public int SumRange(int i, int j) {\r\n        \r\n    }\r\n}\r\n\r\n/**\r\n * Your NumArray object will be instantiated and called as such:\r\n * NumArray obj = new NumArray(nums);\r\n * int param_1 = obj.SumRange(i,j);\r\n */"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n */\r\nvar NumArray = function(nums) {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} i \r\n * @param {number} j\r\n * @return {number}\r\n */\r\nNumArray.prototype.sumRange = function(i, j) {\r\n    \r\n};\r\n\r\n/** \r\n * Your NumArray object will be instantiated and called as such:\r\n * var obj = Object.create(NumArray).createNew(nums)\r\n * var param_1 = obj.sumRange(i,j)\r\n */"}, {"value": "ruby", "text": "Ruby", "defaultCode": "class NumArray\r\n\r\n=begin\r\n    :type nums: Integer[]\r\n=end\r\n    def initialize(nums)\r\n        \r\n    end\r\n\r\n\r\n=begin\r\n    :type i: Integer\r\n    :type j: Integer\r\n    :rtype: Integer\r\n=end\r\n    def sum_range(i, j)\r\n        \r\n    end\r\n\r\n\r\nend\r\n\r\n# Your NumArray object will be instantiated and called as such:\r\n# obj = NumArray.new(nums)\r\n# param_1 = obj.sum_range(i,j)"}, {"value": "golang", "text": "Go", "defaultCode": "type NumArray struct {\n    \n}\n\n\nfunc Constructor(nums []int) NumArray {\n    \n}\n\n\nfunc (this *NumArray) SumRange(i int, j int) int {\n    \n}\n\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * obj := Constructor(nums);\n * param_1 := obj.SumRange(i,j);\n */"}, {"value": "scala", "text": "Scala", "defaultCode": "class NumArray(var _nums: Array[Int]) {\n    \n    def sumRange(int i, int j) : Int = {\n\n    }\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * var obj = new NumArray(nums);\n * Int param_1 = obj.sumRange(i,j);\n */"}], "testcase": "'[\"NumArray\",\"sumRange\",\"sumRange\",\"sumRange\"]\\n[[[-2,0,3,-5,2,-1]],[0,2],[2,5],[0,5]]'", "testable": true}
+{
+ "id": 303,
+ "ids": "303",
+ "state": "None",
+ "name": "Range Sum Query - Immutable",
+ "key": "range-sum-query-immutable",
+ "link": "https://leetcode.com/problems/range-sum-query-immutable",
+ "locked": false,
+ "percent": 29.14845998081637,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "71.1K",
+ "totalSubmit": "244K",
+ "desc": "Given an integer array nums, find the sum of the elements between indices i and j (i \u2264 j), inclusive.\r\n\r\nExample:\r\n\r\nGiven nums = [-2, 0, 3, -5, 2, -1]\r\n\r\nsumRange(0, 2) -> 1\r\nsumRange(2, 5) -> -1\r\nsumRange(0, 5) -> -3\r\n\r\n\r\n\r\nNote:\r\n\r\nYou may assume that the array does not change.\r\nThere are many calls to sumRange function.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class NumArray {\r\npublic:\r\n    NumArray(vector<int> nums) {\r\n        \r\n    }\r\n    \r\n    int sumRange(int i, int j) {\r\n        \r\n    }\r\n};\r\n\r\n/**\r\n * Your NumArray object will be instantiated and called as such:\r\n * NumArray obj = new NumArray(nums);\r\n * int param_1 = obj.sumRange(i,j);\r\n */"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class NumArray {\r\n\r\n    public NumArray(int[] nums) {\r\n        \r\n    }\r\n    \r\n    public int sumRange(int i, int j) {\r\n        \r\n    }\r\n}\r\n\r\n/**\r\n * Your NumArray object will be instantiated and called as such:\r\n * NumArray obj = new NumArray(nums);\r\n * int param_1 = obj.sumRange(i,j);\r\n */"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class NumArray(object):\r\n\r\n    def __init__(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        \"\"\"\r\n        \r\n\r\n    def sumRange(self, i, j):\r\n        \"\"\"\r\n        :type i: int\r\n        :type j: int\r\n        :rtype: int\r\n        \"\"\"\r\n        \r\n\r\n\r\n# Your NumArray object will be instantiated and called as such:\r\n# obj = NumArray(nums)\r\n# param_1 = obj.sumRange(i,j)"
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "typedef struct {\n    \n} NumArray;\n\nNumArray* numArrayCreate(int* nums, int numsSize) {\n    \n}\n\nint numArraySumRange(NumArray* obj, int i, int j) {\n    \n}\n\nvoid numArrayFree(NumArray* obj) {\n    \n}\n\n/**\n * Your NumArray struct will be instantiated and called as such:\n * struct NumArray* obj = numArrayCreate(nums, numsSize);\n * int param_1 = numArraySumRange(obj, i, j);\n * numArrayFree(obj);\n */"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class NumArray {\r\n\r\n    public NumArray(int[] nums) {\r\n        \r\n    }\r\n    \r\n    public int SumRange(int i, int j) {\r\n        \r\n    }\r\n}\r\n\r\n/**\r\n * Your NumArray object will be instantiated and called as such:\r\n * NumArray obj = new NumArray(nums);\r\n * int param_1 = obj.SumRange(i,j);\r\n */"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n */\r\nvar NumArray = function(nums) {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} i \r\n * @param {number} j\r\n * @return {number}\r\n */\r\nNumArray.prototype.sumRange = function(i, j) {\r\n    \r\n};\r\n\r\n/** \r\n * Your NumArray object will be instantiated and called as such:\r\n * var obj = Object.create(NumArray).createNew(nums)\r\n * var param_1 = obj.sumRange(i,j)\r\n */"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "class NumArray\r\n\r\n=begin\r\n    :type nums: Integer[]\r\n=end\r\n    def initialize(nums)\r\n        \r\n    end\r\n\r\n\r\n=begin\r\n    :type i: Integer\r\n    :type j: Integer\r\n    :rtype: Integer\r\n=end\r\n    def sum_range(i, j)\r\n        \r\n    end\r\n\r\n\r\nend\r\n\r\n# Your NumArray object will be instantiated and called as such:\r\n# obj = NumArray.new(nums)\r\n# param_1 = obj.sum_range(i,j)"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "type NumArray struct {\n    \n}\n\n\nfunc Constructor(nums []int) NumArray {\n    \n}\n\n\nfunc (this *NumArray) SumRange(i int, j int) int {\n    \n}\n\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * obj := Constructor(nums);\n * param_1 := obj.SumRange(i,j);\n */"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "class NumArray(var _nums: Array[Int]) {\n    \n    def sumRange(int i, int j) : Int = {\n\n    }\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * var obj = new NumArray(nums);\n * Int param_1 = obj.sumRange(i,j);\n */"
+  }
+ ],
+ "testcase": "'[\"NumArray\",\"sumRange\",\"sumRange\",\"sumRange\"]\\n[[[-2,0,3,-5,2,-1]],[0,2],[2,5],[0,5]]'",
+ "testable": true,
+ "slug": "range-sum-query-immutable",
+ "category": "algorithms",
+ "fname": "303.range-sum-query-immutable.algorithms.py"
+}

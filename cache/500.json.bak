@@ -1,1 +1,73 @@
-{"id": 500, "ids": "500", "state": "None", "name": "Keyboard Row", "key": "keyboard-row", "link": "https://leetcode.com/problems/keyboard-row", "locked": false, "percent": 60.12143534388447, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given a List of words, return the words that can be typed using letters of alphabet on only one row's of American keyboard like the image below. \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: [\"Hello\", \"Alaska\", \"Dad\", \"Peace\"]\r\nOutput: [\"Alaska\", \"Dad\"]\r\n\r\n\r\n\r\nNote:\r\n\r\nYou may use one character in the keyboard more than once.\r\nYou may assume the input string will only contain letters of alphabet.\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\npublic:\n    vector<string> findWords(vector<string>& words) {\n        \n    }\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\n    public String[] findWords(String[] words) {\n        \n    }\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\n    def findWords(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\n * Return an array of size *returnSize.\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** findWords(char** words, int wordsSize, int* returnSize) {\n    \n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\n    public string[] FindWords(string[] words) {\n        \n    }\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\n * @param {string[]} words\n * @return {string[]}\n */\nvar findWords = function(words) {\n    \n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String[]} words\n# @return {String[]}\ndef find_words(words)\n    \nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func findWords(_ words: [String]) -> [String] {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func findWords(words []string) []string {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def findWords(words: Array[String]): Array[String] = {\n        \n    }\n}"}], "testcase": "'[\"Hello\",\"Alaska\",\"Dad\",\"Peace\"]'", "testable": true}
+{
+ "id": 500,
+ "ids": "500",
+ "state": "None",
+ "name": "Keyboard Row",
+ "key": "keyboard-row",
+ "link": "https://leetcode.com/problems/keyboard-row",
+ "locked": false,
+ "percent": 59.98436333913785,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "33.8K",
+ "totalSubmit": "56.3K",
+ "desc": "Given a List of words, return the words that can be typed using letters of alphabet on only one row's of American keyboard like the image below. \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: [\"Hello\", \"Alaska\", \"Dad\", \"Peace\"]\r\nOutput: [\"Alaska\", \"Dad\"]\r\n\r\n\r\n\r\nNote:\r\n\r\nYou may use one character in the keyboard more than once.\r\nYou may assume the input string will only contain letters of alphabet.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\npublic:\n    vector<string> findWords(vector<string>& words) {\n        \n    }\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\n    public String[] findWords(String[] words) {\n        \n    }\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\n    def findWords(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\n * Return an array of size *returnSize.\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** findWords(char** words, int wordsSize, int* returnSize) {\n    \n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\n    public string[] FindWords(string[] words) {\n        \n    }\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\n * @param {string[]} words\n * @return {string[]}\n */\nvar findWords = function(words) {\n    \n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String[]} words\n# @return {String[]}\ndef find_words(words)\n    \nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func findWords(_ words: [String]) -> [String] {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func findWords(words []string) []string {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def findWords(words: Array[String]): Array[String] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[\"Hello\",\"Alaska\",\"Dad\",\"Peace\"]'",
+ "testable": true,
+ "slug": "keyboard-row",
+ "category": "algorithms",
+ "fname": "500.keyboard-row.algorithms.py"
+}

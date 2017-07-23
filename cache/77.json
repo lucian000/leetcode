@@ -6,12 +6,12 @@
  "key": "combinations",
  "link": "https://leetcode.com/problems/combinations",
  "locked": false,
- "percent": 39.344764443726355,
+ "percent": 39.39184589226007,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "117.5K",
+ "totalSubmit": "298.2K",
  "desc": "\r\nGiven two integers n and k, return all possible combinations of k numbers out of 1 ... n.\r\n\r\n\r\nFor example,\r\nIf n = 4 and k = 2, a solution is:\r\n\r\n\r\n\r\n[\r\n  [2,4],\r\n  [3,4],\r\n  [2,3],\r\n  [1,2],\r\n  [1,3],\r\n  [1,4],\r\n]\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'4\\n2'",
- "testable": true
+ "testable": true,
+ "slug": "combinations",
+ "category": "algorithms",
+ "fname": "77.combinations.algorithms.py"
 }

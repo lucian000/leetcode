@@ -6,12 +6,12 @@
  "key": "linked-list-cycle-ii",
  "link": "https://leetcode.com/problems/linked-list-cycle-ii",
  "locked": false,
- "percent": 31.020558591183683,
+ "percent": 31.013102107175875,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "116.8K",
+ "totalSubmit": "376.5K",
  "desc": "\r\nGiven a linked list, return the node where the cycle begins. If there is no cycle, return null.\r\n\r\n\r\n\r\nNote: Do not modify the linked list.\r\n\r\n\r\nFollow up:\r\nCan you solve it without using extra space?\r\n",
  "templates": [
   {
@@ -46,5 +46,8 @@
   }
  ],
  "testcase": "'[]\\nno cycle'",
- "testable": false
+ "testable": false,
+ "slug": "linked-list-cycle-ii",
+ "category": "algorithms",
+ "fname": "142.linked-list-cycle-ii.algorithms.py"
 }

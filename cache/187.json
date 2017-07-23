@@ -6,12 +6,12 @@
  "key": "repeated-dna-sequences",
  "link": "https://leetcode.com/problems/repeated-dna-sequences",
  "locked": false,
- "percent": 31.14725235129613,
+ "percent": 31.196617819293284,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "76.5K",
+ "totalSubmit": "245.1K",
  "desc": "\r\nAll DNA is composed of a series of nucleotides abbreviated as A, C, G, and T, for example: \"ACGAATTCCG\". When studying DNA, it is sometimes useful to identify repeated sequences within the DNA.\r\n\r\nWrite a function to find all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule.\r\n\r\n\r\nFor example,\r\n\r\nGiven s = \"AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT\",\r\n\r\nReturn:\r\n[\"AAAAACCCCC\", \"CCCCCAAAAA\"].\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT\"'",
- "testable": true
+ "testable": true,
+ "slug": "repeated-dna-sequences",
+ "category": "algorithms",
+ "fname": "187.repeated-dna-sequences.algorithms.py"
 }

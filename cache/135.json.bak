@@ -1,1 +1,73 @@
-{"id": 135, "ids": "135", "state": "None", "name": "Candy", "key": "candy", "link": "https://leetcode.com/problems/candy", "locked": false, "percent": 24.561715507214934, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nThere are N children standing in a line. Each child is assigned a rating value. \r\n\r\n\r\nYou are giving candies to these children subjected to the following requirements:\r\n\r\n\r\nEach child must have at least one candy.\r\nChildren with a higher rating get more candies than their neighbors.\r\n\r\n\r\nWhat is the minimum candies you must give?\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int candy(vector<int>& ratings) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int candy(int[] ratings) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def candy(self, ratings):\r\n        \"\"\"\r\n        :type ratings: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int candy(int* ratings, int ratingsSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int Candy(int[] ratings) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} ratings\r\n * @return {number}\r\n */\r\nvar candy = function(ratings) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} ratings\r\n# @return {Integer}\r\ndef candy(ratings)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func candy(_ ratings: [Int]) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func candy(ratings []int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def candy(ratings: Array[Int]): Int = {\n        \n    }\n}"}], "testcase": "'[0]'", "testable": true}
+{
+ "id": 135,
+ "ids": "135",
+ "state": "None",
+ "name": "Candy",
+ "key": "candy",
+ "link": "https://leetcode.com/problems/candy",
+ "locked": false,
+ "percent": 24.584303646484152,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "69.3K",
+ "totalSubmit": "281.7K",
+ "desc": "\r\nThere are N children standing in a line. Each child is assigned a rating value. \r\n\r\n\r\nYou are giving candies to these children subjected to the following requirements:\r\n\r\n\r\nEach child must have at least one candy.\r\nChildren with a higher rating get more candies than their neighbors.\r\n\r\n\r\nWhat is the minimum candies you must give?\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int candy(vector<int>& ratings) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int candy(int[] ratings) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def candy(self, ratings):\r\n        \"\"\"\r\n        :type ratings: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int candy(int* ratings, int ratingsSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int Candy(int[] ratings) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} ratings\r\n * @return {number}\r\n */\r\nvar candy = function(ratings) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} ratings\r\n# @return {Integer}\r\ndef candy(ratings)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func candy(_ ratings: [Int]) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func candy(ratings []int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def candy(ratings: Array[Int]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[0]'",
+ "testable": true,
+ "slug": "candy",
+ "category": "algorithms",
+ "fname": "135.candy.algorithms.py"
+}

@@ -6,12 +6,12 @@
  "key": "search-in-rotated-sorted-array",
  "link": "https://leetcode.com/problems/search-in-rotated-sorted-array",
  "locked": false,
- "percent": 32.12195642692779,
+ "percent": 32.10998708995207,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "177.3K",
+ "totalSubmit": "552.3K",
  "desc": "Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.\r\n\r\n(i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).\r\n\r\nYou are given a target value to search. If found in the array return its index, otherwise return -1.\r\n\r\nYou may assume no duplicate exists in the array.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]\\n5'",
- "testable": true
+ "testable": true,
+ "slug": "search-in-rotated-sorted-array",
+ "category": "algorithms",
+ "fname": "33.search-in-rotated-sorted-array.algorithms.py"
 }

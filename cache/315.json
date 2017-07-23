@@ -6,12 +6,12 @@
  "key": "count-of-smaller-numbers-after-self",
  "link": "https://leetcode.com/problems/count-of-smaller-numbers-after-self",
  "locked": false,
- "percent": 34.328373858429536,
+ "percent": 34.346434862366195,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "33K",
+ "totalSubmit": "95.9K",
  "desc": "\r\nYou are given an integer array nums and you have to return a new counts array.\r\nThe counts array has the property where counts[i] is \r\nthe number of smaller elements to the right of nums[i].\r\n\r\n\r\nExample:\r\n\r\n\r\nGiven nums = [5, 2, 6, 1]\r\n\r\nTo the right of 5 there are 2 smaller elements (2 and 1).\r\nTo the right of 2 there is only 1 smaller element (1).\r\nTo the right of 6 there is 1 smaller element (1).\r\nTo the right of 1 there is 0 smaller element.\r\n\r\n\r\n\r\nReturn the array [2, 1, 1, 0].\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[5,2,6,1]'",
- "testable": true
+ "testable": true,
+ "slug": "count-of-smaller-numbers-after-self",
+ "category": "algorithms",
+ "fname": "315.count-of-smaller-numbers-after-self.algorithms.py"
 }

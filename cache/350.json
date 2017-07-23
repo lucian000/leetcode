@@ -6,12 +6,12 @@
  "key": "intersection-of-two-arrays-ii",
  "link": "https://leetcode.com/problems/intersection-of-two-arrays-ii",
  "locked": false,
- "percent": 44.53651227933034,
+ "percent": 44.56686905523979,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "68.9K",
+ "totalSubmit": "154.7K",
  "desc": "\r\nGiven two arrays, write a function to compute their intersection.\r\n\r\n\r\nExample:\r\nGiven nums1 = [1, 2, 2, 1], nums2 = [2, 2], return [2, 2].\r\n\r\n\r\nNote:\r\n\r\nEach element in the result should appear as many times as it shows in both arrays.\r\nThe result can be in any order.\r\n\r\n\r\n\r\nFollow up:\r\n\r\nWhat if the given array is already sorted? How would you optimize your algorithm?\r\nWhat if nums1's size is small compared to nums2's size? Which algorithm is better?\r\nWhat if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]\\n[]'",
- "testable": true
+ "testable": true,
+ "slug": "intersection-of-two-arrays-ii",
+ "category": "algorithms",
+ "fname": "350.intersection-of-two-arrays-ii.algorithms.py"
 }

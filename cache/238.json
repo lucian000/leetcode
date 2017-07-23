@@ -6,12 +6,12 @@
  "key": "product-of-array-except-self",
  "link": "https://leetcode.com/problems/product-of-array-except-self",
  "locked": false,
- "percent": 48.76319126062412,
+ "percent": 48.80134444768959,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "101.9K",
+ "totalSubmit": "208.9K",
  "desc": "\r\nGiven an array of n integers where n > 1, nums, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].\r\n\r\nSolve it without division and in O(n).\r\n\r\nFor example, given [1,2,3,4], return [24,12,8,6].\r\n\r\nFollow up:\r\nCould you solve it with constant space complexity? (Note: The output array does not count as extra space for the purpose of space complexity analysis.)",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[0,0]'",
- "testable": true
+ "testable": true,
+ "slug": "product-of-array-except-self",
+ "category": "algorithms",
+ "fname": "238.product-of-array-except-self.algorithms.py"
 }

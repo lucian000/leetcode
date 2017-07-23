@@ -6,12 +6,12 @@
  "key": "populating-next-right-pointers-in-each-node",
  "link": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node",
  "locked": false,
- "percent": 36.93328358045151,
+ "percent": 36.92471932200428,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "135.2K",
+ "totalSubmit": "366.3K",
  "desc": "\r\nGiven a binary tree\r\n\r\n    struct TreeLinkNode {\r\n      TreeLinkNode *left;\r\n      TreeLinkNode *right;\r\n      TreeLinkNode *next;\r\n    }\r\n\r\n\r\n\r\nPopulate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to NULL.\r\n\r\nInitially, all next pointers are set to NULL.\r\n\r\n\r\nNote:\r\n\r\nYou may only use constant extra space.\r\nYou may assume that it is a perfect binary tree (ie, all leaves are at the same level, and every parent has two children).\r\n\r\n\r\n\r\n\r\nFor example,\r\nGiven the following perfect binary tree,\r\n\r\n         1\r\n       /  \\\r\n      2    3\r\n     / \\  / \\\r\n    4  5  6  7\r\n\r\n\r\n\r\nAfter calling your function, the tree should look like:\r\n\r\n         1 -> NULL\r\n       /  \\\r\n      2 -> 3 -> NULL\r\n     / \\  / \\\r\n    4->5->6->7 -> NULL\r\n\r\n",
  "templates": [
   {
@@ -41,5 +41,8 @@
   }
  ],
  "testcase": "'{}'",
- "testable": false
+ "testable": false,
+ "slug": "populating-next-right-pointers-in-each-node",
+ "category": "algorithms",
+ "fname": "116.populating-next-right-pointers-in-each-node.algorithms.py"
 }

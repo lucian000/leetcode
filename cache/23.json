@@ -6,12 +6,12 @@
  "key": "merge-k-sorted-lists",
  "link": "https://leetcode.com/problems/merge-k-sorted-lists",
  "locked": false,
- "percent": 27.036822472164133,
+ "percent": 27.054961068146106,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "154.1K",
+ "totalSubmit": "569.6K",
  "desc": "\r\nMerge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "merge-k-sorted-lists",
+ "category": "algorithms",
+ "fname": "23.merge-k-sorted-lists.algorithms.py"
 }

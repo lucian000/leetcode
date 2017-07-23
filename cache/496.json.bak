@@ -1,1 +1,73 @@
-{"id": 496, "ids": "496", "state": "None", "name": "Next Greater Element I", "key": "next-greater-element-i", "link": "https://leetcode.com/problems/next-greater-element-i", "locked": false, "percent": 57.13733075435203, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nYou are given two arrays (without duplicates) nums1 and nums2 where nums1\u2019s elements are subset of nums2. Find all the next greater numbers for nums1's elements in the corresponding places of nums2. \r\n\r\n\r\n\r\nThe Next Greater Number of a number x in nums1 is the first greater number to its right in nums2. If it does not exist, output -1 for this number.\r\n\r\n\r\nExample 1:\r\n\r\nInput: nums1 = [4,1,2], nums2 = [1,3,4,2].\r\nOutput: [-1,3,-1]\r\nExplanation:\r\n    For number 4 in the first array, you cannot find the next greater number for it in the second array, so output -1.\r\n    For number 1 in the first array, the next greater number for it in the second array is 3.\r\n    For number 2 in the first array, there is no next greater number for it in the second array, so output -1.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: nums1 = [2,4], nums2 = [1,2,3,4].\r\nOutput: [3,-1]\r\nExplanation:\r\n    For number 2 in the first array, the next greater number for it in the second array is 3.\r\n    For number 4 in the first array, there is no next greater number for it in the second array, so output -1.\r\n\r\n\r\n\r\n\r\nNote:\r\n\r\nAll elements in nums1 and nums2 are unique.\r\nThe length of both nums1 and nums2 would not exceed 1000.\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> nextGreaterElement(vector<int>& findNums, vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int[] nextGreaterElement(int[] findNums, int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def nextGreaterElement(self, findNums, nums):\r\n        \"\"\"\r\n        :type findNums: List[int]\r\n        :type nums: List[int]\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* nextGreaterElement(int* findNums, int findNumsSize, int* nums, int numsSize, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int[] NextGreaterElement(int[] findNums, int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} findNums\r\n * @param {number[]} nums\r\n * @return {number[]}\r\n */\r\nvar nextGreaterElement = function(findNums, nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} find_nums\r\n# @param {Integer[]} nums\r\n# @return {Integer[]}\r\ndef next_greater_element(find_nums, nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func nextGreaterElement(_ findNums: [Int], _ nums: [Int]) -> [Int] {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func nextGreaterElement(findNums []int, nums []int) []int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def nextGreaterElement(nums1: Array[Int], nums2: Array[Int]): Array[Int] = {\n        \n    }\n}"}], "testcase": "'[4,1,2]\\n[1,3,4,2]'", "testable": true}
+{
+ "id": 496,
+ "ids": "496",
+ "state": "None",
+ "name": "Next Greater Element I",
+ "key": "next-greater-element-i",
+ "link": "https://leetcode.com/problems/next-greater-element-i",
+ "locked": false,
+ "percent": 56.90173323000737,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "30.1K",
+ "totalSubmit": "52.9K",
+ "desc": "\r\nYou are given two arrays (without duplicates) nums1 and nums2 where nums1\u2019s elements are subset of nums2. Find all the next greater numbers for nums1's elements in the corresponding places of nums2. \r\n\r\n\r\n\r\nThe Next Greater Number of a number x in nums1 is the first greater number to its right in nums2. If it does not exist, output -1 for this number.\r\n\r\n\r\nExample 1:\r\n\r\nInput: nums1 = [4,1,2], nums2 = [1,3,4,2].\r\nOutput: [-1,3,-1]\r\nExplanation:\r\n    For number 4 in the first array, you cannot find the next greater number for it in the second array, so output -1.\r\n    For number 1 in the first array, the next greater number for it in the second array is 3.\r\n    For number 2 in the first array, there is no next greater number for it in the second array, so output -1.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: nums1 = [2,4], nums2 = [1,2,3,4].\r\nOutput: [3,-1]\r\nExplanation:\r\n    For number 2 in the first array, the next greater number for it in the second array is 3.\r\n    For number 4 in the first array, there is no next greater number for it in the second array, so output -1.\r\n\r\n\r\n\r\n\r\nNote:\r\n\r\nAll elements in nums1 and nums2 are unique.\r\nThe length of both nums1 and nums2 would not exceed 1000.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> nextGreaterElement(vector<int>& findNums, vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int[] nextGreaterElement(int[] findNums, int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def nextGreaterElement(self, findNums, nums):\r\n        \"\"\"\r\n        :type findNums: List[int]\r\n        :type nums: List[int]\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* nextGreaterElement(int* findNums, int findNumsSize, int* nums, int numsSize, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int[] NextGreaterElement(int[] findNums, int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} findNums\r\n * @param {number[]} nums\r\n * @return {number[]}\r\n */\r\nvar nextGreaterElement = function(findNums, nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} find_nums\r\n# @param {Integer[]} nums\r\n# @return {Integer[]}\r\ndef next_greater_element(find_nums, nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func nextGreaterElement(_ findNums: [Int], _ nums: [Int]) -> [Int] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func nextGreaterElement(findNums []int, nums []int) []int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def nextGreaterElement(nums1: Array[Int], nums2: Array[Int]): Array[Int] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[4,1,2]\\n[1,3,4,2]'",
+ "testable": true,
+ "slug": "next-greater-element-i",
+ "category": "algorithms",
+ "fname": "496.next-greater-element-i.algorithms.py"
+}

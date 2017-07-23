@@ -6,12 +6,12 @@
  "key": "max-points-on-a-line",
  "link": "https://leetcode.com/problems/max-points-on-a-line",
  "locked": false,
- "percent": 15.321538547458061,
+ "percent": 15.31668369267165,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "79.8K",
+ "totalSubmit": "520.8K",
  "desc": "Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "max-points-on-a-line",
+ "category": "algorithms",
+ "fname": "149.max-points-on-a-line.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "valid-anagram",
  "link": "https://leetcode.com/problems/valid-anagram",
  "locked": false,
- "percent": 46.16680417053546,
+ "percent": 46.20345192775567,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "161.4K",
+ "totalSubmit": "349.4K",
  "desc": "Given two strings s and t, write a function to determine if t is an anagram of s. \r\n\r\nFor example,\r\ns = \"anagram\", t = \"nagaram\", return true.\r\ns = \"rat\", t = \"car\", return false.\r\n\r\n\r\nNote:\r\nYou may assume the string contains only lowercase alphabets.\r\n\r\nFollow up:\r\nWhat if the inputs contain unicode characters? How would you adapt your solution to such case?",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"\"\\n\"\"'",
- "testable": true
+ "testable": true,
+ "slug": "valid-anagram",
+ "category": "algorithms",
+ "fname": "242.valid-anagram.algorithms.py"
 }

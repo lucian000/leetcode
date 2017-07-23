@@ -6,12 +6,12 @@
  "key": "find-median-from-data-stream",
  "link": "https://leetcode.com/problems/find-median-from-data-stream",
  "locked": false,
- "percent": 26.12940959182417,
+ "percent": 26.195135416986165,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "42.7K",
+ "totalSubmit": "163K",
  "desc": "Median is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle value.\r\nExamples: \r\n[2,3,4] , the median is 3\r\n[2,3], the median is (2 + 3) / 2 = 2.5 \r\n\r\n\r\nDesign a data structure that supports the following two operations:\r\n\r\n\r\nvoid addNum(int num) - Add a integer number from the data stream to the data structure.\r\ndouble findMedian() - Return the median of all elements so far.\r\n\r\n\r\n\r\nFor example:\r\n\r\naddNum(1)\r\naddNum(2)\r\nfindMedian() -> 1.5\r\naddNum(3) \r\nfindMedian() -> 2\r\n\r\n\r\nCredits:Special thanks to @Louis1992 for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'[\"MedianFinder\",\"addNum\",\"addNum\",\"findMedian\",\"addNum\",\"findMedian\"]\\n[[],[1],[2],[],[3],[]]'",
- "testable": true
+ "testable": true,
+ "slug": "find-median-from-data-stream",
+ "category": "algorithms",
+ "fname": "295.find-median-from-data-stream.algorithms.py"
 }

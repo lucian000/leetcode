@@ -6,12 +6,12 @@
  "key": "combination-sum",
  "link": "https://leetcode.com/problems/combination-sum",
  "locked": false,
- "percent": 38.14874213762202,
+ "percent": 38.22480054599798,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "162.5K",
+ "totalSubmit": "425.1K",
  "desc": "\r\nGiven a set of candidate numbers (C) (without duplicates) and a target number (T), find all unique combinations in C where the candidate numbers sums to T. \r\n\r\n\r\nThe same repeated number may be chosen from C unlimited number of times.\r\n\r\n\r\nNote:\r\n\r\nAll numbers (including target) will be positive integers.\r\nThe solution set must not contain duplicate combinations.\r\n\r\n\r\n\r\n\r\nFor example, given candidate set [2, 3, 6, 7] and target 7, \r\nA solution set is: \r\n\r\n[\r\n  [7],\r\n  [2, 2, 3]\r\n]\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[2,3,6,7]\\n7'",
- "testable": true
+ "testable": true,
+ "slug": "combination-sum",
+ "category": "algorithms",
+ "fname": "39.combination-sum.algorithms.py"
 }

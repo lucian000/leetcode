@@ -1,1 +1,73 @@
-{"id": 29, "ids": "29", "state": "None", "name": "Divide Two Integers", "key": "divide-two-integers", "link": "https://leetcode.com/problems/divide-two-integers", "locked": false, "percent": 15.977308587250816, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nDivide two integers without using multiplication, division and mod operator.\r\n\r\n\r\nIf it is overflow, return MAX_INT.\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int divide(int dividend, int divisor) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int divide(int dividend, int divisor) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def divide(self, dividend, divisor):\r\n        \"\"\"\r\n        :type dividend: int\r\n        :type divisor: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int divide(int dividend, int divisor) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int Divide(int dividend, int divisor) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number} dividend\r\n * @param {number} divisor\r\n * @return {number}\r\n */\r\nvar divide = function(dividend, divisor) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer} dividend\r\n# @param {Integer} divisor\r\n# @return {Integer}\r\ndef divide(dividend, divisor)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func divide(_ dividend: Int, _ divisor: Int) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func divide(dividend int, divisor int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def divide(dividend: Int, divisor: Int): Int = {\n        \n    }\n}"}], "testcase": "'0\\n1'", "testable": true}
+{
+ "id": 29,
+ "ids": "29",
+ "state": "None",
+ "name": "Divide Two Integers",
+ "key": "divide-two-integers",
+ "link": "https://leetcode.com/problems/divide-two-integers",
+ "locked": false,
+ "percent": 15.97201550352096,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "104.6K",
+ "totalSubmit": "655.1K",
+ "desc": "\r\nDivide two integers without using multiplication, division and mod operator.\r\n\r\n\r\nIf it is overflow, return MAX_INT.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int divide(int dividend, int divisor) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int divide(int dividend, int divisor) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def divide(self, dividend, divisor):\r\n        \"\"\"\r\n        :type dividend: int\r\n        :type divisor: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int divide(int dividend, int divisor) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int Divide(int dividend, int divisor) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number} dividend\r\n * @param {number} divisor\r\n * @return {number}\r\n */\r\nvar divide = function(dividend, divisor) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} dividend\r\n# @param {Integer} divisor\r\n# @return {Integer}\r\ndef divide(dividend, divisor)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func divide(_ dividend: Int, _ divisor: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func divide(dividend int, divisor int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def divide(dividend: Int, divisor: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'0\\n1'",
+ "testable": true,
+ "slug": "divide-two-integers",
+ "category": "algorithms",
+ "fname": "29.divide-two-integers.algorithms.py"
+}

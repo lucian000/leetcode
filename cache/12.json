@@ -6,12 +6,12 @@
  "key": "integer-to-roman",
  "link": "https://leetcode.com/problems/integer-to-roman",
  "locked": false,
- "percent": 44.3954354492613,
+ "percent": 44.47695354699316,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "108.7K",
+ "totalSubmit": "244.4K",
  "desc": "Given an integer, convert it to a roman numeral.\r\n\r\n\r\nInput is guaranteed to be within the range from 1 to 3999.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'1'",
- "testable": true
+ "testable": true,
+ "slug": "integer-to-roman",
+ "category": "algorithms",
+ "fname": "12.integer-to-roman.algorithms.py"
 }

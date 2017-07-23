@@ -6,12 +6,12 @@
  "key": "power-of-four",
  "link": "https://leetcode.com/problems/power-of-four",
  "locked": false,
- "percent": 38.34499109449274,
+ "percent": 38.37682280677076,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "65.5K",
+ "totalSubmit": "170.6K",
  "desc": "\r\nGiven an integer (signed 32 bits), write a function to check whether it is a power of 4.\r\n\r\nExample:\r\nGiven num = 16, return true.\r\nGiven num = 5, return false.\r\n\r\n\r\nFollow up: Could you solve it without loops/recursion?\r\n\r\nCredits:Special thanks to @yukuairoy  for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'16'",
- "testable": true
+ "testable": true,
+ "slug": "power-of-four",
+ "category": "algorithms",
+ "fname": "342.power-of-four.algorithms.py"
 }

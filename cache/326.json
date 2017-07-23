@@ -6,12 +6,12 @@
  "key": "power-of-three",
  "link": "https://leetcode.com/problems/power-of-three",
  "locked": false,
- "percent": 40.077355573060586,
+ "percent": 40.103883603898126,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "96.7K",
+ "totalSubmit": "241K",
  "desc": "\r\n    Given an integer, write a function to determine if it is a power of three.\r\n\r\n\r\n    Follow up:\r\n    Could you do it without using any loop / recursion?\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'27'",
- "testable": true
+ "testable": true,
+ "slug": "power-of-three",
+ "category": "algorithms",
+ "fname": "326.power-of-three.algorithms.py"
 }

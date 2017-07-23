@@ -6,12 +6,12 @@
  "key": "remove-linked-list-elements",
  "link": "https://leetcode.com/problems/remove-linked-list-elements",
  "locked": false,
- "percent": 32.190658440287265,
+ "percent": 32.22949546652667,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "117.9K",
+ "totalSubmit": "365.7K",
  "desc": "Remove all elements from a linked list of integers that have value val.\r\n\r\nExample\r\nGiven: 1 --> 2 --> 6 --> 3 --> 4 --> 5 --> 6,  val = 6\r\nReturn: 1 --> 2 --> 3 --> 4 --> 5\r\n\r\n\r\nCredits:Special thanks to @mithmatt for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,2,6,3,4,5,6]\\n6'",
- "testable": true
+ "testable": true,
+ "slug": "remove-linked-list-elements",
+ "category": "algorithms",
+ "fname": "203.remove-linked-list-elements.algorithms.py"
 }

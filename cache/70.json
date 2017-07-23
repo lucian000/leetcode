@@ -6,12 +6,12 @@
  "key": "climbing-stairs",
  "link": "https://leetcode.com/problems/climbing-stairs",
  "locked": false,
- "percent": 39.79126738141506,
+ "percent": 39.81319116284521,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "180.2K",
+ "totalSubmit": "452.4K",
  "desc": "You are climbing a stair case. It takes n steps to reach to the top.\r\n\r\nEach time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?\r\n\r\n\r\nNote: Given n will be a positive integer.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'1'",
- "testable": true
+ "testable": true,
+ "slug": "climbing-stairs",
+ "category": "algorithms",
+ "fname": "70.climbing-stairs.algorithms.py"
 }

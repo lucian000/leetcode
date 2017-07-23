@@ -6,12 +6,12 @@
  "key": "populating-next-right-pointers-in-each-node-ii",
  "link": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii",
  "locked": false,
- "percent": 33.72806010357722,
+ "percent": 33.72964458143531,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "98.9K",
+ "totalSubmit": "293.3K",
  "desc": "Follow up for problem \"Populating Next Right Pointers in Each Node\".\r\nWhat if the given tree could be any binary tree? Would your previous solution still work?\r\n\r\nNote:\r\nYou may only use constant extra space.\r\n\r\n\r\nFor example,\r\nGiven the following binary tree,\r\n\r\n         1\r\n       /  \\\r\n      2    3\r\n     / \\    \\\r\n    4   5    7\r\n\r\n\r\n\r\nAfter calling your function, the tree should look like:\r\n\r\n         1 -> NULL\r\n       /  \\\r\n      2 -> 3 -> NULL\r\n     / \\    \\\r\n    4-> 5 -> 7 -> NULL\r\n\r\n",
  "templates": [
   {
@@ -41,5 +41,8 @@
   }
  ],
  "testcase": "'{}'",
- "testable": false
+ "testable": false,
+ "slug": "populating-next-right-pointers-in-each-node-ii",
+ "category": "algorithms",
+ "fname": "117.populating-next-right-pointers-in-each-node-ii.algorithms.py"
 }

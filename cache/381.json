@@ -6,12 +6,12 @@
  "key": "insert-delete-getrandom-o1-duplicates-allowed",
  "link": "https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed",
  "locked": false,
- "percent": 28.700883624741493,
+ "percent": 28.701040874260162,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "15.5K",
+ "totalSubmit": "53.9K",
  "desc": "Design a data structure that supports all following operations in average O(1) time.\r\nNote: Duplicate elements are allowed.\r\n\r\n\r\ninsert(val): Inserts an item val to the collection.\r\nremove(val): Removes an item val from the collection if present.\r\ngetRandom: Returns a random element from current collection of elements. The probability of each element being returned is linearly related to the number of same value the collection contains.\r\n\r\n\r\n\r\nExample:\r\n\r\n// Init an empty collection.\r\nRandomizedCollection collection = new RandomizedCollection();\r\n\r\n// Inserts 1 to the collection. Returns true as the collection did not contain 1.\r\ncollection.insert(1);\r\n\r\n// Inserts another 1 to the collection. Returns false as the collection contained 1. Collection now contains [1,1].\r\ncollection.insert(1);\r\n\r\n// Inserts 2 to the collection, returns true. Collection now contains [1,1,2].\r\ncollection.insert(2);\r\n\r\n// getRandom should return 1 with the probability 2/3, and returns 2 with the probability 1/3.\r\ncollection.getRandom();\r\n\r\n// Removes 1 from the collection, returns true. Collection now contains [1,2].\r\ncollection.remove(1);\r\n\r\n// getRandom should return 1 and 2 both equally likely.\r\ncollection.getRandom();\r\n\r\n",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'[\"RandomizedCollection\",\"insert\",\"insert\",\"insert\",\"getRandom\",\"remove\",\"getRandom\"]\\n[[],[1],[1],[2],[],[1],[]]'",
- "testable": true
+ "testable": true,
+ "slug": "insert-delete-getrandom-o1-duplicates-allowed",
+ "category": "algorithms",
+ "fname": "381.insert-delete-getrandom-o1-duplicates-allowed.algorithms.py"
 }

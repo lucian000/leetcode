@@ -1,1 +1,927 @@
-{"id": 438, "ids": "438", "state": "None", "name": "Find All Anagrams in a String", "key": "find-all-anagrams-in-a-string", "link": "https://leetcode.com/problems/find-all-anagrams-in-a-string", "locked": false, "percent": 33.60541252686947, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.\r\n\r\nStrings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.\r\n\r\nThe order of output does not matter.\r\n\r\nExample 1:\r\n\r\nInput:\r\ns: \"cbaebabacd\" p: \"abc\"\r\n\r\nOutput:\r\n[0, 6]\r\n\r\nExplanation:\r\nThe substring with start index = 0 is \"cba\", which is an anagram of \"abc\".\r\nThe substring with start index = 6 is \"bac\", which is an anagram of \"abc\".\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\ns: \"abab\" p: \"ab\"\r\n\r\nOutput:\r\n[0, 1, 2]\r\n\r\nExplanation:\r\nThe substring with start index = 0 is \"ab\", which is an anagram of \"ab\".\r\nThe substring with start index = 1 is \"ba\", which is an anagram of \"ab\".\r\nThe substring with start index = 2 is \"ab\", which is an anagram of \"ab\".\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> findAnagrams(string s, string p) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public List<Integer> findAnagrams(String s, String p) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def findAnagrams(self, s, p):\r\n        \"\"\"\r\n        :type s: str\r\n        :type p: str\r\n        :rtype: List[int]\r\n        \"\"\""}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* findAnagrams(char* s, char* p, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public IList<int> FindAnagrams(string s, string p) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {string} s\r\n * @param {string} p\r\n * @return {number[]}\r\n */\r\nvar findAnagrams = function(s, p) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String} s\r\n# @param {String} p\r\n# @return {Integer[]}\r\ndef find_anagrams(s, p)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func findAnagrams(_ s: String, _ p: String) -> [Int] {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func findAnagrams(s string, p string) []int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def findAnagrams(s: String, p: String): List[Int] = {\n        \n    }\n}"}], "testcase": "'\"cbaebabacd\"\\n\"abc\"'", "testable": true}
+{
+ "id": 438,
+ "ids": "438",
+ "state": "ac",
+ "name": "Find All Anagrams in a String",
+ "key": "find-all-anagrams-in-a-string",
+ "link": "https://leetcode.com/problems/find-all-anagrams-in-a-string",
+ "locked": false,
+ "percent": 33.63654089889831,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "34.5K",
+ "totalSubmit": "102.6K",
+ "desc": "Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.\r\n\r\nStrings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.\r\n\r\nThe order of output does not matter.\r\n\r\nExample 1:\r\n\r\nInput:\r\ns: \"cbaebabacd\" p: \"abc\"\r\n\r\nOutput:\r\n[0, 6]\r\n\r\nExplanation:\r\nThe substring with start index = 0 is \"cba\", which is an anagram of \"abc\".\r\nThe substring with start index = 6 is \"bac\", which is an anagram of \"abc\".\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\ns: \"abab\" p: \"ab\"\r\n\r\nOutput:\r\n[0, 1, 2]\r\n\r\nExplanation:\r\nThe substring with start index = 0 is \"ab\", which is an anagram of \"ab\".\r\nThe substring with start index = 1 is \"ba\", which is an anagram of \"ab\".\r\nThe substring with start index = 2 is \"ab\", which is an anagram of \"ab\".\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> findAnagrams(string s, string p) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<Integer> findAnagrams(String s, String p) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def findAnagrams(self, s, p):\r\n        \"\"\"\r\n        :type s: str\r\n        :type p: str\r\n        :rtype: List[int]\r\n        \"\"\""
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* findAnagrams(char* s, char* p, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<int> FindAnagrams(string s, string p) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @param {string} p\r\n * @return {number[]}\r\n */\r\nvar findAnagrams = function(s, p) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @param {String} p\r\n# @return {Integer[]}\r\ndef find_anagrams(s, p)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func findAnagrams(_ s: String, _ p: String) -> [Int] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func findAnagrams(s string, p string) []int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def findAnagrams(s: String, p: String): List[Int] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'\"cbaebabacd\"\\n\"abc\"'",
+ "testable": true,
+ "fname": "438.find-all-anagrams-in-a-string.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "[0,6]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "39 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1500711059.36_784204_21"
+ },
+ "test_expected": {
+  "code_answer": [
+   "[0,6]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "35 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1500711059.38_784204_21"
+ },
+ "slug": "find-all-anagrams-in-a-string",
+ "category": "algorithms",
+ "submit_chart": [
+  [
+   "109",
+   "0.3135"
+  ],
+  [
+   "112",
+   "0.1567"
+  ],
+  [
+   "119",
+   "0.1567"
+  ],
+  [
+   "125",
+   "0.1567"
+  ],
+  [
+   "138",
+   "0.1567"
+  ],
+  [
+   "139",
+   "0.1567"
+  ],
+  [
+   "142",
+   "0.1567"
+  ],
+  [
+   "145",
+   "0.1567"
+  ],
+  [
+   "146",
+   "0.3135"
+  ],
+  [
+   "148",
+   "0.1567"
+  ],
+  [
+   "152",
+   "0.4702"
+  ],
+  [
+   "155",
+   "0.4702"
+  ],
+  [
+   "156",
+   "0.1567"
+  ],
+  [
+   "158",
+   "0.1567"
+  ],
+  [
+   "159",
+   "0.4702"
+  ],
+  [
+   "162",
+   "0.6270"
+  ],
+  [
+   "165",
+   "0.4702"
+  ],
+  [
+   "166",
+   "0.4702"
+  ],
+  [
+   "168",
+   "0.4702"
+  ],
+  [
+   "169",
+   "1.0972"
+  ],
+  [
+   "172",
+   "1.7241"
+  ],
+  [
+   "173",
+   "0.1567"
+  ],
+  [
+   "175",
+   "1.2539"
+  ],
+  [
+   "176",
+   "1.4107"
+  ],
+  [
+   "178",
+   "0.1567"
+  ],
+  [
+   "179",
+   "1.5674"
+  ],
+  [
+   "182",
+   "1.8809"
+  ],
+  [
+   "183",
+   "0.1567"
+  ],
+  [
+   "185",
+   "0.7837"
+  ],
+  [
+   "186",
+   "0.4702"
+  ],
+  [
+   "188",
+   "1.0972"
+  ],
+  [
+   "189",
+   "1.7241"
+  ],
+  [
+   "192",
+   "1.7241"
+  ],
+  [
+   "193",
+   "0.1567"
+  ],
+  [
+   "195",
+   "0.9404"
+  ],
+  [
+   "196",
+   "0.9404"
+  ],
+  [
+   "198",
+   "0.7837"
+  ],
+  [
+   "199",
+   "1.4107"
+  ],
+  [
+   "202",
+   "1.7241"
+  ],
+  [
+   "203",
+   "0.1567"
+  ],
+  [
+   "205",
+   "0.9404"
+  ],
+  [
+   "206",
+   "1.0972"
+  ],
+  [
+   "208",
+   "0.7837"
+  ],
+  [
+   "209",
+   "1.0972"
+  ],
+  [
+   "212",
+   "1.4107"
+  ],
+  [
+   "215",
+   "0.7837"
+  ],
+  [
+   "216",
+   "0.1567"
+  ],
+  [
+   "218",
+   "0.7837"
+  ],
+  [
+   "219",
+   "0.4702"
+  ],
+  [
+   "222",
+   "2.1944"
+  ],
+  [
+   "225",
+   "0.3135"
+  ],
+  [
+   "226",
+   "0.1567"
+  ],
+  [
+   "228",
+   "0.3135"
+  ],
+  [
+   "229",
+   "0.7837"
+  ],
+  [
+   "232",
+   "1.0972"
+  ],
+  [
+   "235",
+   "0.6270"
+  ],
+  [
+   "236",
+   "0.1567"
+  ],
+  [
+   "239",
+   "0.6270"
+  ],
+  [
+   "242",
+   "0.6270"
+  ],
+  [
+   "245",
+   "0.3135"
+  ],
+  [
+   "246",
+   "0.6270"
+  ],
+  [
+   "248",
+   "0.1567"
+  ],
+  [
+   "249",
+   "0.7837"
+  ],
+  [
+   "252",
+   "0.4702"
+  ],
+  [
+   "253",
+   "0.1567"
+  ],
+  [
+   "255",
+   "0.9404"
+  ],
+  [
+   "256",
+   "0.7837"
+  ],
+  [
+   "258",
+   "0.6270"
+  ],
+  [
+   "259",
+   "0.3135"
+  ],
+  [
+   "262",
+   "0.6270"
+  ],
+  [
+   "263",
+   "0.1567"
+  ],
+  [
+   "265",
+   "0.9404"
+  ],
+  [
+   "266",
+   "0.3135"
+  ],
+  [
+   "269",
+   "0.6270"
+  ],
+  [
+   "272",
+   "0.6270"
+  ],
+  [
+   "275",
+   "0.7837"
+  ],
+  [
+   "276",
+   "0.6270"
+  ],
+  [
+   "278",
+   "0.6270"
+  ],
+  [
+   "279",
+   "0.7837"
+  ],
+  [
+   "282",
+   "1.0972"
+  ],
+  [
+   "285",
+   "0.4702"
+  ],
+  [
+   "288",
+   "0.4702"
+  ],
+  [
+   "289",
+   "0.3135"
+  ],
+  [
+   "292",
+   "1.7241"
+  ],
+  [
+   "295",
+   "0.4702"
+  ],
+  [
+   "296",
+   "0.4702"
+  ],
+  [
+   "298",
+   "0.4702"
+  ],
+  [
+   "299",
+   "0.1567"
+  ],
+  [
+   "302",
+   "0.7837"
+  ],
+  [
+   "305",
+   "0.4702"
+  ],
+  [
+   "306",
+   "0.3135"
+  ],
+  [
+   "308",
+   "0.3135"
+  ],
+  [
+   "312",
+   "0.7837"
+  ],
+  [
+   "315",
+   "0.4702"
+  ],
+  [
+   "316",
+   "0.3135"
+  ],
+  [
+   "318",
+   "0.3135"
+  ],
+  [
+   "319",
+   "0.6270"
+  ],
+  [
+   "322",
+   "0.7837"
+  ],
+  [
+   "325",
+   "0.7837"
+  ],
+  [
+   "328",
+   "0.1567"
+  ],
+  [
+   "329",
+   "0.7837"
+  ],
+  [
+   "332",
+   "0.6270"
+  ],
+  [
+   "335",
+   "0.1567"
+  ],
+  [
+   "336",
+   "0.3135"
+  ],
+  [
+   "338",
+   "0.4702"
+  ],
+  [
+   "339",
+   "1.4107"
+  ],
+  [
+   "342",
+   "0.9404"
+  ],
+  [
+   "345",
+   "0.9404"
+  ],
+  [
+   "346",
+   "0.3135"
+  ],
+  [
+   "348",
+   "0.3135"
+  ],
+  [
+   "349",
+   "0.6270"
+  ],
+  [
+   "352",
+   "1.0972"
+  ],
+  [
+   "353",
+   "0.1567"
+  ],
+  [
+   "355",
+   "0.9404"
+  ],
+  [
+   "356",
+   "0.3135"
+  ],
+  [
+   "358",
+   "0.4702"
+  ],
+  [
+   "359",
+   "0.1567"
+  ],
+  [
+   "362",
+   "2.3511"
+  ],
+  [
+   "365",
+   "1.0972"
+  ],
+  [
+   "366",
+   "0.1567"
+  ],
+  [
+   "368",
+   "0.1567"
+  ],
+  [
+   "369",
+   "0.6270"
+  ],
+  [
+   "372",
+   "0.7837"
+  ],
+  [
+   "375",
+   "0.4702"
+  ],
+  [
+   "376",
+   "0.3135"
+  ],
+  [
+   "378",
+   "0.1567"
+  ],
+  [
+   "379",
+   "0.9404"
+  ],
+  [
+   "382",
+   "0.6270"
+  ],
+  [
+   "386",
+   "0.1567"
+  ],
+  [
+   "388",
+   "0.1567"
+  ],
+  [
+   "389",
+   "0.7837"
+  ],
+  [
+   "392",
+   "1.0972"
+  ],
+  [
+   "393",
+   "0.1567"
+  ],
+  [
+   "395",
+   "0.7837"
+  ],
+  [
+   "399",
+   "0.4702"
+  ],
+  [
+   "402",
+   "0.3135"
+  ],
+  [
+   "405",
+   "0.3135"
+  ],
+  [
+   "406",
+   "0.1567"
+  ],
+  [
+   "408",
+   "0.1567"
+  ],
+  [
+   "409",
+   "0.1567"
+  ],
+  [
+   "412",
+   "0.4702"
+  ],
+  [
+   "415",
+   "0.4702"
+  ],
+  [
+   "418",
+   "0.4702"
+  ],
+  [
+   "419",
+   "0.3135"
+  ],
+  [
+   "422",
+   "0.4702"
+  ],
+  [
+   "425",
+   "0.1567"
+  ],
+  [
+   "429",
+   "0.3135"
+  ],
+  [
+   "435",
+   "0.1567"
+  ],
+  [
+   "436",
+   "0.3135"
+  ],
+  [
+   "438",
+   "0.1567"
+  ],
+  [
+   "439",
+   "0.4702"
+  ],
+  [
+   "442",
+   "0.1567"
+  ],
+  [
+   "445",
+   "0.1567"
+  ],
+  [
+   "446",
+   "0.1567"
+  ],
+  [
+   "449",
+   "0.3135"
+  ],
+  [
+   "455",
+   "0.1567"
+  ],
+  [
+   "459",
+   "0.3135"
+  ],
+  [
+   "469",
+   "0.1567"
+  ],
+  [
+   "472",
+   "0.3135"
+  ],
+  [
+   "475",
+   "0.1567"
+  ],
+  [
+   "479",
+   "0.1567"
+  ],
+  [
+   "482",
+   "0.1567"
+  ],
+  [
+   "485",
+   "0.3135"
+  ],
+  [
+   "486",
+   "0.1567"
+  ],
+  [
+   "495",
+   "0.3135"
+  ],
+  [
+   "496",
+   "0.3135"
+  ],
+  [
+   "499",
+   "0.1567"
+  ],
+  [
+   "516",
+   "0.1567"
+  ],
+  [
+   "528",
+   "0.1567"
+  ],
+  [
+   "532",
+   "0.1567"
+  ],
+  [
+   "562",
+   "0.1567"
+  ],
+  [
+   "572",
+   "0.1567"
+  ],
+  [
+   "582",
+   "0.3135"
+  ],
+  [
+   "585",
+   "0.1567"
+  ],
+  [
+   "602",
+   "0.1567"
+  ],
+  [
+   "616",
+   "0.1567"
+  ],
+  [
+   "622",
+   "0.1567"
+  ],
+  [
+   "639",
+   "0.1567"
+  ],
+  [
+   "645",
+   "0.1567"
+  ],
+  [
+   "678",
+   "0.1567"
+  ],
+  [
+   "679",
+   "0.1567"
+  ],
+  [
+   "689",
+   "0.3135"
+  ],
+  [
+   "722",
+   "0.1567"
+  ],
+  [
+   "732",
+   "0.1567"
+  ],
+  [
+   "735",
+   "0.1567"
+  ],
+  [
+   "738",
+   "0.1567"
+  ],
+  [
+   "749",
+   "0.1567"
+  ],
+  [
+   "759",
+   "0.1567"
+  ],
+  [
+   "858",
+   "0.1567"
+  ],
+  [
+   "869",
+   "0.1567"
+  ],
+  [
+   "885",
+   "0.3135"
+  ],
+  [
+   "895",
+   "0.1567"
+  ],
+  [
+   "929",
+   "0.3135"
+  ],
+  [
+   "945",
+   "0.1567"
+  ],
+  [
+   "976",
+   "0.1567"
+  ],
+  [
+   "1012",
+   "0.1567"
+  ],
+  [
+   "1082",
+   "0.1567"
+  ],
+  [
+   "1262",
+   "0.1567"
+  ],
+  [
+   "1615",
+   "0.1567"
+  ],
+  [
+   "1785",
+   "0.1567"
+  ],
+  [
+   "1866",
+   "0.1567"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 36,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "169 ms",
+  "compare_result": "111111111111111111111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 36,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 438,
+  "name": "Your",
+  "id": 110648472
+ }
+}

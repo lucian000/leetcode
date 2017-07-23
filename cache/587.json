@@ -6,12 +6,12 @@
  "key": "erect-the-fence",
  "link": "https://leetcode.com/problems/erect-the-fence",
  "locked": false,
- "percent": 30.329789151198415,
+ "percent": 30.60579455662862,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "1.7K",
+ "totalSubmit": "5.7K",
  "desc": "There are some trees, where each tree is represented by (x,y) coordinate in a two-dimensional garden. Your job is to fence the entire garden using the minimum length of rope as it is expensive. The garden is well fenced only if all the trees are enclosed. Your task is to help find the coordinates of trees which are exactly located on the fence perimeter.\r\n\r\nExample 1:\r\n\r\nInput: [[1,1],[2,2],[2,0],[2,4],[3,3],[4,2]]\r\nOutput: [[1,1],[2,0],[4,2],[3,3],[2,4]]\r\nExplanation:\r\n\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: [[1,2],[2,2],[4,2]]\r\nOutput: [[1,2],[2,2],[4,2]]\r\nExplanation:\r\n\r\nEven you only have trees in a line, you need to use rope to enclose them. \r\n\r\n\r\n\r\n Note: \r\n\r\nAll trees should be enclosed together. You cannot cut the rope to enclose trees that will separate them in more than one group.\r\nAll input integers will range from 0 to 100. \r\nThe garden has at least one tree. \r\nAll coordinates are distinct. \r\nInput points have NO order. No order required for output.\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'[[1,1],[2,2],[2,0],[2,4],[3,3],[4,2]]'",
- "testable": true
+ "testable": true,
+ "slug": "erect-the-fence",
+ "category": "algorithms",
+ "fname": "587.erect-the-fence.algorithms.py"
 }

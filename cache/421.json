@@ -6,12 +6,12 @@
  "key": "maximum-xor-of-two-numbers-in-an-array",
  "link": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array",
  "locked": false,
- "percent": 45.22512090457053,
+ "percent": 45.3715248525695,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "13.5K",
+ "totalSubmit": "29.7K",
  "desc": "Given a non-empty array of numbers, a0, a1, a2, \u2026 , an-1, where 0 \u2264 ai < 231.\r\n\r\nFind the maximum result of ai XOR aj, where 0 \u2264 i, j < n.\r\n\r\nCould you do this in O(n) runtime?\r\n\r\nExample:\r\n\r\nInput: [3, 10, 5, 25, 2, 8]\r\n\r\nOutput: 28\r\n\r\nExplanation: The maximum result is 5 ^ 25 = 28.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[3,10,5,25,2,8]'",
- "testable": true
+ "testable": true,
+ "slug": "maximum-xor-of-two-numbers-in-an-array",
+ "category": "algorithms",
+ "fname": "421.maximum-xor-of-two-numbers-in-an-array.algorithms.py"
 }

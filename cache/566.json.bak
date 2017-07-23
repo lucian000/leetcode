@@ -1,17 +1,18 @@
 {
  "id": 566,
  "ids": "566",
- "state": "None",
+ "state": "ac",
  "name": "Reshape the Matrix",
  "key": "reshape-the-matrix",
  "link": "https://leetcode.com/problems/reshape-the-matrix",
  "locked": false,
- "percent": 59.638182267226476,
+ "percent": 59.76616841793695,
  "level": "Easy",
  "starred": false,
+ "fname": "566.reshape-the-matrix.algorithms.py",
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "20.2K",
+ "totalSubmit": "33.8K",
  "desc": "In MATLAB, there is a very useful function called 'reshape', which can reshape a matrix into a new one with different size but keep its original data.\r\n\r\n\r\n\r\nYou're given a matrix represented by a two-dimensional array, and two positive integers r and c representing the row number and column number of the wanted reshaped matrix, respectively.\r\n\r\n The reshaped matrix need to be filled with all the elements of the original matrix in the same row-traversing order as they were.\r\n\r\n\r\n\r\nIf the 'reshape' operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.\r\n\r\n\r\nExample 1:\r\n\r\nInput: \r\nnums = \r\n[[1,2],\r\n [3,4]]\r\nr = 1, c = 4\r\nOutput: \r\n[[1,2,3,4]]\r\nExplanation:The row-traversing of nums is [1,2,3,4]. The new reshaped matrix is a 1 * 4 matrix, fill it row by row by using the previous list.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \r\nnums = \r\n[[1,2],\r\n [3,4]]\r\nr = 2, c = 4\r\nOutput: \r\n[[1,2],\r\n [3,4]]\r\nExplanation:There is no way to reshape a 2 * 2 matrix to a 2 * 4 matrix. So output the original matrix.\r\n\r\n\r\n\r\nNote:\r\n\r\nThe height and width of the given matrix is in range [1, 100].\r\nThe given r and c are all positive.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +67,7 @@
   }
  ],
  "testcase": "'[[1,2],[3,4]]\\n1\\n4'",
- "testable": true
+ "testable": true,
+ "slug": "reshape-the-matrix",
+ "category": "algorithms"
 }

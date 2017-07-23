@@ -6,12 +6,12 @@
  "key": "guess-number-higher-or-lower-ii",
  "link": "https://leetcode.com/problems/guess-number-higher-or-lower-ii",
  "locked": false,
- "percent": 35.69359564671411,
+ "percent": 35.71191668601373,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "21.5K",
+ "totalSubmit": "60.3K",
  "desc": "We are playing the Guess Game. The game is as follows: \r\n\r\nI pick a number from 1 to n. You have to guess which number I picked.\r\n\r\nEvery time you guess wrong, I'll tell you whether the number I picked is higher or lower. \r\n\r\nHowever, when you guess a particular number x,  and you guess wrong, you pay $x. You win the game when you guess the number I picked.\r\n\r\n\r\nExample:\r\n\r\nn = 10, I pick 8.\r\n\r\nFirst round:  You guess 5, I tell you that it's higher. You pay $5.\r\nSecond round: You guess 7, I tell you that it's higher. You pay $7.\r\nThird round:  You guess 9, I tell you that it's lower. You pay $9.\r\n\r\nGame over. 8 is the number I picked.\r\n\r\nYou end up paying $5 + $7 + $9 = $21.\r\n\r\n\r\n\r\nGiven a particular n \u2265 1, find out how much money you need to have to guarantee a win.\r\n\r\nCredits:Special thanks to @agave and @StefanPochmann for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'1'",
- "testable": true
+ "testable": true,
+ "slug": "guess-number-higher-or-lower-ii",
+ "category": "algorithms",
+ "fname": "375.guess-number-higher-or-lower-ii.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "insertion-sort-list",
  "link": "https://leetcode.com/problems/insertion-sort-list",
  "locked": false,
- "percent": 32.89360675512666,
+ "percent": 32.914835605453085,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "102.6K",
+ "totalSubmit": "311.8K",
  "desc": "Sort a linked list using insertion sort.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "insertion-sort-list",
+ "category": "algorithms",
+ "fname": "147.insertion-sort-list.algorithms.py"
 }

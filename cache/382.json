@@ -6,12 +6,12 @@
  "key": "linked-list-random-node",
  "link": "https://leetcode.com/problems/linked-list-random-node",
  "locked": false,
- "percent": 46.8088748887215,
+ "percent": 46.821958305724046,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "27.6K",
+ "totalSubmit": "58.9K",
  "desc": "Given a singly linked list, return a random node's value from the linked list. Each node must have the same probability of being chosen.\r\n\r\nFollow up:\r\nWhat if the linked list is extremely large and its length is unknown to you? Could you solve this efficiently without using extra space?\r\n\r\n\r\nExample:\r\n\r\n// Init a singly linked list [1,2,3].\r\nListNode head = new ListNode(1);\r\nhead.next = new ListNode(2);\r\nhead.next.next = new ListNode(3);\r\nSolution solution = new Solution(head);\r\n\r\n// getRandom() should return either 1, 2, or 3 randomly. Each element should have equal probability of returning.\r\nsolution.getRandom();\r\n\r\n",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'[\"Solution\",\"getRandom\"]\\n[[[1,2,3]],[]]'",
- "testable": true
+ "testable": true,
+ "slug": "linked-list-random-node",
+ "category": "algorithms",
+ "fname": "382.linked-list-random-node.algorithms.py"
 }

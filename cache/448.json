@@ -6,12 +6,12 @@
  "key": "find-all-numbers-disappeared-in-an-array",
  "link": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array",
  "locked": false,
- "percent": 51.748053041464956,
+ "percent": 51.73309597491177,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "50K",
+ "totalSubmit": "96.6K",
  "desc": "Given an array of integers where 1 \u2264 a[i] \u2264 n (n = size of array), some elements appear twice and others appear once.\r\n\r\nFind all the elements of [1, n] inclusive that do not appear in this array.\r\n\r\nCould you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.\r\n\r\nExample:\r\n\r\nInput:\r\n[4,3,2,7,8,2,3,1]\r\n\r\nOutput:\r\n[5,6]\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'[4,3,2,7,8,2,3,1]'",
- "testable": true
+ "testable": true,
+ "slug": "find-all-numbers-disappeared-in-an-array",
+ "category": "algorithms",
+ "fname": "448.find-all-numbers-disappeared-in-an-array.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "group-anagrams",
  "link": "https://leetcode.com/problems/group-anagrams",
  "locked": false,
- "percent": 34.17923089115188,
+ "percent": 34.24842595194777,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "139K",
+ "totalSubmit": "405.8K",
  "desc": "Given an array of strings, group anagrams together.\r\n\r\n\r\nFor example, given: [\"eat\", \"tea\", \"tan\", \"ate\", \"nat\", \"bat\"], \r\nReturn:\r\n\r\n[\r\n  [\"ate\", \"eat\",\"tea\"],\r\n  [\"nat\",\"tan\"],\r\n  [\"bat\"]\r\n]\r\n\r\nNote: All inputs will be in lower-case.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]'",
- "testable": true
+ "testable": true,
+ "slug": "group-anagrams",
+ "category": "algorithms",
+ "fname": "49.group-anagrams.algorithms.py"
 }

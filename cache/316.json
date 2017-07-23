@@ -6,12 +6,12 @@
  "key": "remove-duplicate-letters",
  "link": "https://leetcode.com/problems/remove-duplicate-letters",
  "locked": false,
- "percent": 29.371322993144357,
+ "percent": 29.327308364471996,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "30.4K",
+ "totalSubmit": "103.6K",
  "desc": "\r\nGiven a string which contains only lowercase letters, remove duplicate letters so that every letter appear once and only once. You must make sure your result is the smallest in lexicographical order among all possible results.\r\n\r\n\r\n\r\nExample:\r\n\r\n\r\nGiven \"bcabc\"\r\nReturn \"abc\"\r\n\r\n\r\nGiven \"cbacdcbc\"\r\nReturn \"acdb\"\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"bcabc\"'",
- "testable": true
+ "testable": true,
+ "slug": "remove-duplicate-letters",
+ "category": "algorithms",
+ "fname": "316.remove-duplicate-letters.algorithms.py"
 }

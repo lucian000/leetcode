@@ -6,12 +6,12 @@
  "key": "h-index-ii",
  "link": "https://leetcode.com/problems/h-index-ii",
  "locked": false,
- "percent": 34.23536148283248,
+ "percent": 34.25568289748623,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "48.7K",
+ "totalSubmit": "142.1K",
  "desc": "\r\nFollow up for H-Index: What if the citations array is sorted in ascending order? Could you optimize your algorithm?\r\n",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "h-index-ii",
+ "category": "algorithms",
+ "fname": "275.h-index-ii.algorithms.py"
 }

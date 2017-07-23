@@ -6,12 +6,12 @@
  "key": "maximum-average-subarray-i",
  "link": "https://leetcode.com/problems/maximum-average-subarray-i",
  "locked": false,
- "percent": 40.298723897911835,
+ "percent": 39.36564284611823,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "5.1K",
+ "totalSubmit": "13K",
  "desc": "\r\nGiven an array consisting of n integers, find the contiguous subarray of given length k that has the maximum average value. And you need to output the maximum average value.\r\n\r\n\r\nExample 1:\r\n\r\nInput: [1,12,-5,-6,50,3], k = 4\r\nOutput: 12.75\r\nExplanation: Maximum average is (12-5-6+50)/4 = 51/4 = 12.75\r\n\r\n\r\n\r\nNote:\r\n\r\n1 <= k <= n <= 30,000.\r\nElements of the given array will be in the range [-10,000, 10,000].\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'[1,12,-5,-6,50,3]\\n4'",
- "testable": true
+ "testable": true,
+ "slug": "maximum-average-subarray-i",
+ "category": "algorithms",
+ "fname": "643.maximum-average-subarray-i.algorithms.py"
 }

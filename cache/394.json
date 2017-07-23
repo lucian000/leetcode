@@ -6,12 +6,12 @@
  "key": "decode-string",
  "link": "https://leetcode.com/problems/decode-string",
  "locked": false,
- "percent": 41.127232879606034,
+ "percent": 41.126404421156906,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "31.6K",
+ "totalSubmit": "76.7K",
  "desc": "\r\nGiven an encoded string, return it's decoded string.\r\n\r\n\r\nThe encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly k times. Note that k is guaranteed to be a positive integer.\r\n\r\n\r\nYou may assume that the input string is always valid; No extra white spaces, square brackets are well-formed, etc.\r\n\r\nFurthermore, you may assume that the original data does not contain any digits and that digits are only for those repeat numbers, k. For example, there won't be input like 3a or 2[4].\r\n\r\n\r\nExamples:\r\n\r\ns = \"3[a]2[bc]\", return \"aaabcbc\".\r\ns = \"3[a2[c]]\", return \"accaccacc\".\r\ns = \"2[abc]3[cd]ef\", return \"abcabccdcdcdef\".\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"3[a]2[bc]\"'",
- "testable": true
+ "testable": true,
+ "slug": "decode-string",
+ "category": "algorithms",
+ "fname": "394.decode-string.algorithms.py"
 }

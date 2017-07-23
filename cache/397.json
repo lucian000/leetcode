@@ -6,12 +6,12 @@
  "key": "integer-replacement",
  "link": "https://leetcode.com/problems/integer-replacement",
  "locked": false,
- "percent": 29.933559202710434,
+ "percent": 29.969800801440268,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "20.6K",
+ "totalSubmit": "68.9K",
  "desc": "\r\nGiven a positive integer n and you can do operations as follow:\r\n\r\n\r\n\r\n\r\nIf n is even, replace n with n/2.\r\nIf n is odd, you can replace n with either n + 1 or n - 1.\r\n\r\n\r\n\r\n\r\nWhat is the minimum number of replacements needed for n to become 1?\r\n\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\n8\r\n\r\nOutput:\r\n3\r\n\r\nExplanation:\r\n8 -> 4 -> 2 -> 1\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\n7\r\n\r\nOutput:\r\n4\r\n\r\nExplanation:\r\n7 -> 8 -> 4 -> 2 -> 1\r\nor\r\n7 -> 6 -> 3 -> 2 -> 1\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'8'",
- "testable": true
+ "testable": true,
+ "slug": "integer-replacement",
+ "category": "algorithms",
+ "fname": "397.integer-replacement.algorithms.py"
 }

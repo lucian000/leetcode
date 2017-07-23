@@ -6,12 +6,12 @@
  "key": "reverse-linked-list",
  "link": "https://leetcode.com/problems/reverse-linked-list",
  "locked": false,
- "percent": 45.18589774421625,
+ "percent": 45.20212682624869,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "236.6K",
+ "totalSubmit": "523.4K",
  "desc": "Reverse a singly linked list.\r\n\r\nclick to show more hints.\r\n\r\nHint:\r\nA linked list can be reversed either iteratively or recursively. Could you implement both?\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "reverse-linked-list",
+ "category": "algorithms",
+ "fname": "206.reverse-linked-list.algorithms.py"
 }

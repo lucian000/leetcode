@@ -6,12 +6,12 @@
  "key": "ransom-note",
  "link": "https://leetcode.com/problems/ransom-note",
  "locked": false,
- "percent": 47.052288801071896,
+ "percent": 47.06188990810261,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "56K",
+ "totalSubmit": "118.9K",
  "desc": "\r\nGiven an arbitrary ransom note string and another string containing letters from all the magazines, write a function that will return true if the ransom \r\nnote can be constructed from the magazines ; otherwise, it will return false. \r\n\r\n\r\nEach letter in the magazine string can only be used once in your ransom note.\r\n\r\n\r\nNote:\r\nYou may assume that both strings contain only lowercase letters.\r\n\r\n\r\n\r\ncanConstruct(\"a\", \"b\") -> false\r\ncanConstruct(\"aa\", \"ab\") -> false\r\ncanConstruct(\"aa\", \"aab\") -> true\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"a\"\\n\"b\"'",
- "testable": true
+ "testable": true,
+ "slug": "ransom-note",
+ "category": "algorithms",
+ "fname": "383.ransom-note.algorithms.py"
 }

@@ -1,1 +1,73 @@
-{"id": 52, "ids": "52", "state": "None", "name": "N-Queens II", "key": "n-queens-ii", "link": "https://leetcode.com/problems/n-queens-ii", "locked": false, "percent": 44.48842188292298, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Follow up for N-Queens problem.\r\n\r\nNow, instead outputting board configurations, return the total number of distinct solutions.\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int totalNQueens(int n) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int totalNQueens(int n) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def totalNQueens(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int totalNQueens(int n) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int TotalNQueens(int n) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar totalNQueens = function(n) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer} n\r\n# @return {Integer}\r\ndef total_n_queens(n)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func totalNQueens(_ n: Int) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func totalNQueens(n int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def totalNQueens(n: Int): Int = {\n        \n    }\n}"}], "testcase": "'1'", "testable": true}
+{
+ "id": 52,
+ "ids": "52",
+ "state": "None",
+ "name": "N-Queens II",
+ "key": "n-queens-ii",
+ "link": "https://leetcode.com/problems/n-queens-ii",
+ "locked": false,
+ "percent": 44.55558129250984,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "63.5K",
+ "totalSubmit": "142.5K",
+ "desc": "Follow up for N-Queens problem.\r\n\r\nNow, instead outputting board configurations, return the total number of distinct solutions.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int totalNQueens(int n) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int totalNQueens(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def totalNQueens(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int totalNQueens(int n) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int TotalNQueens(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar totalNQueens = function(n) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} n\r\n# @return {Integer}\r\ndef total_n_queens(n)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func totalNQueens(_ n: Int) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func totalNQueens(n int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def totalNQueens(n: Int): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'1'",
+ "testable": true,
+ "slug": "n-queens-ii",
+ "category": "algorithms",
+ "fname": "52.n-queens-ii.algorithms.py"
+}

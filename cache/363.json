@@ -6,12 +6,12 @@
  "key": "max-sum-of-rectangle-no-larger-than-k",
  "link": "https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k",
  "locked": false,
- "percent": 32.90563114317533,
+ "percent": 32.973972339608146,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "13.7K",
+ "totalSubmit": "41.6K",
  "desc": "Given a non-empty 2D matrix matrix and an integer k, find the max sum of a rectangle in the matrix such that its sum is no larger than k.\r\n\r\nExample:\r\nGiven matrix = [\r\n  [1,  0, 1],\r\n  [0, -2, 3]\r\n]\r\nk = 2\r\n\r\n\r\n\r\nThe answer is 2. Because the sum of rectangle [[0, 1], [-2, 3]] is 2 and 2 is the max number no larger than k (k = 2).\r\n\r\nNote:\r\n\r\nThe rectangle inside the matrix must have an area > 0.\r\nWhat if the number of rows is much larger than the number of columns?\r\n\r\n\r\n\r\nCredits:Special thanks to @fujiaozhu for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[1,0,1],[0,-2,3]]\\n2'",
- "testable": true
+ "testable": true,
+ "slug": "max-sum-of-rectangle-no-larger-than-k",
+ "category": "algorithms",
+ "fname": "363.max-sum-of-rectangle-no-larger-than-k.algorithms.py"
 }

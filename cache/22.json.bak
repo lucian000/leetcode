@@ -1,1 +1,73 @@
-{"id": 22, "ids": "22", "state": "None", "name": "Generate Parentheses", "key": "generate-parentheses", "link": "https://leetcode.com/problems/generate-parentheses", "locked": false, "percent": 44.4533367983982, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.\r\n\r\n\r\n\r\nFor example, given n = 3, a solution set is:\r\n\r\n\r\n[\r\n  \"((()))\",\r\n  \"(()())\",\r\n  \"(())()\",\r\n  \"()(())\",\r\n  \"()()()\"\r\n]\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<string> generateParenthesis(int n) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public List<String> generateParenthesis(int n) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def generateParenthesis(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** generateParenthesis(int n, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public IList<string> GenerateParenthesis(int n) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number} n\r\n * @return {string[]}\r\n */\r\nvar generateParenthesis = function(n) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer} n\r\n# @return {String[]}\r\ndef generate_parenthesis(n)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func generateParenthesis(_ n: Int) -> [String] {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func generateParenthesis(n int) []string {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def generateParenthesis(n: Int): List[String] = {\n        \n    }\n}"}], "testcase": "'3'", "testable": true}
+{
+ "id": 22,
+ "ids": "22",
+ "state": "None",
+ "name": "Generate Parentheses",
+ "key": "generate-parentheses",
+ "link": "https://leetcode.com/problems/generate-parentheses",
+ "locked": false,
+ "percent": 44.548874386722694,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "151.8K",
+ "totalSubmit": "340.8K",
+ "desc": "\r\nGiven n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.\r\n\r\n\r\n\r\nFor example, given n = 3, a solution set is:\r\n\r\n\r\n[\r\n  \"((()))\",\r\n  \"(()())\",\r\n  \"(())()\",\r\n  \"()(())\",\r\n  \"()()()\"\r\n]\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<string> generateParenthesis(int n) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<String> generateParenthesis(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def generateParenthesis(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: List[str]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nchar** generateParenthesis(int n, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<string> GenerateParenthesis(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number} n\r\n * @return {string[]}\r\n */\r\nvar generateParenthesis = function(n) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} n\r\n# @return {String[]}\r\ndef generate_parenthesis(n)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func generateParenthesis(_ n: Int) -> [String] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func generateParenthesis(n int) []string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def generateParenthesis(n: Int): List[String] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'3'",
+ "testable": true,
+ "slug": "generate-parentheses",
+ "category": "algorithms",
+ "fname": "22.generate-parentheses.algorithms.py"
+}

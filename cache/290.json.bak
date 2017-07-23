@@ -1,1 +1,73 @@
-{"id": 290, "ids": "290", "state": "None", "name": "Word Pattern", "key": "word-pattern", "link": "https://leetcode.com/problems/word-pattern", "locked": false, "percent": 32.90737753770876, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given a pattern and a string str, find if str follows the same pattern.\r\n Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in str.\r\n\r\nExamples:\r\n\r\npattern = \"abba\", str = \"dog cat cat dog\" should return true.\r\npattern = \"abba\", str = \"dog cat cat fish\" should return false.\r\npattern = \"aaaa\", str = \"dog cat cat dog\" should return false.\r\npattern = \"abba\", str = \"dog dog dog dog\" should return false.\r\n\r\n\r\n\r\n\r\nNotes:\r\nYou may assume pattern contains only lowercase letters, and str contains lowercase letters separated by a single space.\r\n\r\n\r\nCredits:Special thanks to @minglotus6 for adding this problem and creating all test cases.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    bool wordPattern(string pattern, string str) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public boolean wordPattern(String pattern, String str) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def wordPattern(self, pattern, str):\r\n        \"\"\"\r\n        :type pattern: str\r\n        :type str: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "bool wordPattern(char* pattern, char* str) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public bool WordPattern(string pattern, string str) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {string} pattern\r\n * @param {string} str\r\n * @return {boolean}\r\n */\r\nvar wordPattern = function(pattern, str) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String} pattern\r\n# @param {String} str\r\n# @return {Boolean}\r\ndef word_pattern(pattern, str)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func wordPattern(_ pattern: String, _ str: String) -> Bool {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func wordPattern(pattern string, str string) bool {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def wordPattern(pattern: String, str: String): Boolean = {\n        \n    }\n}"}], "testcase": "'\"abba\"\\n\"dog cat cat dog\"'", "testable": true}
+{
+ "id": 290,
+ "ids": "290",
+ "state": "None",
+ "name": "Word Pattern",
+ "key": "word-pattern",
+ "link": "https://leetcode.com/problems/word-pattern",
+ "locked": false,
+ "percent": 32.9386695851885,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "79.5K",
+ "totalSubmit": "241.2K",
+ "desc": "Given a pattern and a string str, find if str follows the same pattern.\r\n Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in str.\r\n\r\nExamples:\r\n\r\npattern = \"abba\", str = \"dog cat cat dog\" should return true.\r\npattern = \"abba\", str = \"dog cat cat fish\" should return false.\r\npattern = \"aaaa\", str = \"dog cat cat dog\" should return false.\r\npattern = \"abba\", str = \"dog dog dog dog\" should return false.\r\n\r\n\r\n\r\n\r\nNotes:\r\nYou may assume pattern contains only lowercase letters, and str contains lowercase letters separated by a single space.\r\n\r\n\r\nCredits:Special thanks to @minglotus6 for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool wordPattern(string pattern, string str) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean wordPattern(String pattern, String str) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def wordPattern(self, pattern, str):\r\n        \"\"\"\r\n        :type pattern: str\r\n        :type str: str\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool wordPattern(char* pattern, char* str) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool WordPattern(string pattern, string str) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} pattern\r\n * @param {string} str\r\n * @return {boolean}\r\n */\r\nvar wordPattern = function(pattern, str) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} pattern\r\n# @param {String} str\r\n# @return {Boolean}\r\ndef word_pattern(pattern, str)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func wordPattern(_ pattern: String, _ str: String) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func wordPattern(pattern string, str string) bool {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def wordPattern(pattern: String, str: String): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'\"abba\"\\n\"dog cat cat dog\"'",
+ "testable": true,
+ "slug": "word-pattern",
+ "category": "algorithms",
+ "fname": "290.word-pattern.algorithms.py"
+}

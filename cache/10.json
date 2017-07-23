@@ -6,12 +6,12 @@
  "key": "regular-expression-matching",
  "link": "https://leetcode.com/problems/regular-expression-matching",
  "locked": false,
- "percent": 24.044384397056923,
+ "percent": 24.046997212373814,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "142.2K",
+ "totalSubmit": "591.2K",
  "desc": "Implement regular expression matching with support for '.' and '*'.\r\n\r\n\r\n'.' Matches any single character.\r\n'*' Matches zero or more of the preceding element.\r\n\r\nThe matching should cover the entire input string (not partial).\r\n\r\nThe function prototype should be:\r\nbool isMatch(const char *s, const char *p)\r\n\r\nSome examples:\r\nisMatch(\"aa\",\"a\") ? false\r\nisMatch(\"aa\",\"aa\") ? true\r\nisMatch(\"aaa\",\"aa\") ? false\r\nisMatch(\"aa\", \"a*\") ? true\r\nisMatch(\"aa\", \".*\") ? true\r\nisMatch(\"ab\", \".*\") ? true\r\nisMatch(\"aab\", \"c*a*b\") ? true\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"aa\"\\n\"a\"'",
- "testable": true
+ "testable": true,
+ "slug": "regular-expression-matching",
+ "category": "algorithms",
+ "fname": "10.regular-expression-matching.algorithms.py"
 }

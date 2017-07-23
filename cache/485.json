@@ -6,12 +6,12 @@
  "key": "max-consecutive-ones",
  "link": "https://leetcode.com/problems/max-consecutive-ones",
  "locked": false,
- "percent": 54.189252887108175,
+ "percent": 54.208941394486914,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "46.8K",
+ "totalSubmit": "86.3K",
  "desc": "Given a binary array, find the maximum number of consecutive 1s in this array.\r\n\r\nExample 1:\r\n\r\nInput: [1,1,0,1,1,1]\r\nOutput: 3\r\nExplanation: The first two digits or the last three digits are consecutive 1s.\r\n    The maximum number of consecutive 1s is 3.\r\n\r\n\r\n\r\nNote:\r\n\r\nThe input array will only contain 0 and 1.\r\nThe length of input array is a positive integer and will not exceed 10,000\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,0,1,1,0,1]'",
- "testable": true
+ "testable": true,
+ "slug": "max-consecutive-ones",
+ "category": "algorithms",
+ "fname": "485.max-consecutive-ones.algorithms.py"
 }

@@ -1,1 +1,73 @@
-{"id": 446, "ids": "446", "state": "None", "name": "Arithmetic Slices II - Subsequence", "key": "arithmetic-slices-ii-subsequence", "link": "https://leetcode.com/problems/arithmetic-slices-ii-subsequence", "locked": false, "percent": 26.13086975252501, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "A sequence of numbers is called arithmetic if it consists of at least three elements and if the difference between any two consecutive elements is the same.\r\n\r\nFor example, these are arithmetic sequences:\r\n1, 3, 5, 7, 9\r\n7, 7, 7, 7\r\n3, -1, -5, -9\r\n\r\nThe following sequence is not arithmetic. 1, 1, 2, 5, 7 \r\n\r\n\r\nA zero-indexed array A consisting of N numbers is given. A subsequence slice of that array is any sequence of integers (P0, P1, ..., Pk) such that 0 \u2264 P0 < P1 < ... < Pk < N.\r\n\r\nA subsequence slice (P0, P1, ..., Pk) of array A is called arithmetic if the sequence A[P0], A[P1], ..., A[Pk-1], A[Pk] is arithmetic. In particular, this means that k \u2265 2.\r\n\r\nThe function should return the number of arithmetic subsequence slices in the array A. \r\n\r\nThe input contains N integers. Every integer is in the range of -231 and 231-1 and 0 \u2264 N \u2264 1000. The output is guaranteed to be less than 231-1.\r\n\r\n\r\nExample:\r\n\r\nInput: [2, 4, 6, 8, 10]\r\n\r\nOutput: 7\r\n\r\nExplanation:\r\nAll arithmetic subsequence slices are:\r\n[2,4,6]\r\n[4,6,8]\r\n[6,8,10]\r\n[2,4,6,8]\r\n[4,6,8,10]\r\n[2,4,6,8,10]\r\n[2,6,10]\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int numberOfArithmeticSlices(vector<int>& A) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int numberOfArithmeticSlices(int[] A) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def numberOfArithmeticSlices(self, A):\r\n        \"\"\"\r\n        :type A: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int numberOfArithmeticSlices(int* A, int ASize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int NumberOfArithmeticSlices(int[] A) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} A\r\n * @return {number}\r\n */\r\nvar numberOfArithmeticSlices = function(A) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} a\r\n# @return {Integer}\r\ndef number_of_arithmetic_slices(a)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func numberOfArithmeticSlices(_ A: [Int]) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func numberOfArithmeticSlices(A []int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def numberOfArithmeticSlices(A: Array[Int]): Int = {\n        \n    }\n}"}], "testcase": "'[2,4,6,8,10]'", "testable": true}
+{
+ "id": 446,
+ "ids": "446",
+ "state": "None",
+ "name": "Arithmetic Slices II - Subsequence",
+ "key": "arithmetic-slices-ii-subsequence",
+ "link": "https://leetcode.com/problems/arithmetic-slices-ii-subsequence",
+ "locked": false,
+ "percent": 26.141665488477308,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "5.5K",
+ "totalSubmit": "21.2K",
+ "desc": "A sequence of numbers is called arithmetic if it consists of at least three elements and if the difference between any two consecutive elements is the same.\r\n\r\nFor example, these are arithmetic sequences:\r\n1, 3, 5, 7, 9\r\n7, 7, 7, 7\r\n3, -1, -5, -9\r\n\r\nThe following sequence is not arithmetic. 1, 1, 2, 5, 7 \r\n\r\n\r\nA zero-indexed array A consisting of N numbers is given. A subsequence slice of that array is any sequence of integers (P0, P1, ..., Pk) such that 0 \u2264 P0 < P1 < ... < Pk < N.\r\n\r\nA subsequence slice (P0, P1, ..., Pk) of array A is called arithmetic if the sequence A[P0], A[P1], ..., A[Pk-1], A[Pk] is arithmetic. In particular, this means that k \u2265 2.\r\n\r\nThe function should return the number of arithmetic subsequence slices in the array A. \r\n\r\nThe input contains N integers. Every integer is in the range of -231 and 231-1 and 0 \u2264 N \u2264 1000. The output is guaranteed to be less than 231-1.\r\n\r\n\r\nExample:\r\n\r\nInput: [2, 4, 6, 8, 10]\r\n\r\nOutput: 7\r\n\r\nExplanation:\r\nAll arithmetic subsequence slices are:\r\n[2,4,6]\r\n[4,6,8]\r\n[6,8,10]\r\n[2,4,6,8]\r\n[4,6,8,10]\r\n[2,4,6,8,10]\r\n[2,6,10]\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int numberOfArithmeticSlices(vector<int>& A) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int numberOfArithmeticSlices(int[] A) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def numberOfArithmeticSlices(self, A):\r\n        \"\"\"\r\n        :type A: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int numberOfArithmeticSlices(int* A, int ASize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int NumberOfArithmeticSlices(int[] A) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} A\r\n * @return {number}\r\n */\r\nvar numberOfArithmeticSlices = function(A) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} a\r\n# @return {Integer}\r\ndef number_of_arithmetic_slices(a)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func numberOfArithmeticSlices(_ A: [Int]) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func numberOfArithmeticSlices(A []int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def numberOfArithmeticSlices(A: Array[Int]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[2,4,6,8,10]'",
+ "testable": true,
+ "slug": "arithmetic-slices-ii-subsequence",
+ "category": "algorithms",
+ "fname": "446.arithmetic-slices-ii-subsequence.algorithms.py"
+}

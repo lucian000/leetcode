@@ -1,1 +1,73 @@
-{"id": 326, "ids": "326", "state": "None", "name": "Power of Three", "key": "power-of-three", "link": "https://leetcode.com/problems/power-of-three", "locked": false, "percent": 40.077355573060586, "level": "Easy", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\n    Given an integer, write a function to determine if it is a power of three.\r\n\r\n\r\n    Follow up:\r\n    Could you do it without using any loop / recursion?\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    bool isPowerOfThree(int n) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public boolean isPowerOfThree(int n) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def isPowerOfThree(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: bool\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "bool isPowerOfThree(int n) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public bool IsPowerOfThree(int n) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number} n\r\n * @return {boolean}\r\n */\r\nvar isPowerOfThree = function(n) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer} n\r\n# @return {Boolean}\r\ndef is_power_of_three(n)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\n    func isPowerOfThree(_ n: Int) -> Bool {\n        \n    }\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func isPowerOfThree(n int) bool {\n    \n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def isPowerOfThree(n: Int): Boolean = {\n        \n    }\n}"}], "testcase": "'27'", "testable": true}
+{
+ "id": 326,
+ "ids": "326",
+ "state": "None",
+ "name": "Power of Three",
+ "key": "power-of-three",
+ "link": "https://leetcode.com/problems/power-of-three",
+ "locked": false,
+ "percent": 40.103883603898126,
+ "level": "Easy",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "96.7K",
+ "totalSubmit": "241K",
+ "desc": "\r\n    Given an integer, write a function to determine if it is a power of three.\r\n\r\n\r\n    Follow up:\r\n    Could you do it without using any loop / recursion?\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool isPowerOfThree(int n) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean isPowerOfThree(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def isPowerOfThree(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool isPowerOfThree(int n) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool IsPowerOfThree(int n) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number} n\r\n * @return {boolean}\r\n */\r\nvar isPowerOfThree = function(n) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer} n\r\n# @return {Boolean}\r\ndef is_power_of_three(n)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\n    func isPowerOfThree(_ n: Int) -> Bool {\n        \n    }\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func isPowerOfThree(n int) bool {\n    \n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def isPowerOfThree(n: Int): Boolean = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'27'",
+ "testable": true,
+ "slug": "power-of-three",
+ "category": "algorithms",
+ "fname": "326.power-of-three.algorithms.py"
+}

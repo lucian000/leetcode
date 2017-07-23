@@ -6,12 +6,12 @@
  "key": "path-sum-iii",
  "link": "https://leetcode.com/problems/path-sum-iii",
  "locked": false,
- "percent": 39.718902608488506,
+ "percent": 39.75274224225528,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "30.5K",
+ "totalSubmit": "76.8K",
  "desc": "You are given a binary tree in which each node contains an integer value.\r\n\r\nFind the number of paths that sum to a given value.\r\n\r\nThe path does not need to start or end at the root or a leaf, but it must go downwards\r\n(traveling only from parent nodes to child nodes).\r\n\r\nThe tree has no more than 1,000 nodes and the values are in the range -1,000,000 to 1,000,000.\r\n\r\nExample:\r\n\r\nroot = [10,5,-3,3,2,null,11,3,-2,null,1], sum = 8\r\n\r\n      10\r\n     /  \\\r\n    5   -3\r\n   / \\    \\\r\n  3   2   11\r\n / \\   \\\r\n3  -2   1\r\n\r\nReturn 3. The paths that sum to 8 are:\r\n\r\n1.  5 -> 3\r\n2.  5 -> 2 -> 1\r\n3. -3 -> 11\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[10,5,-3,3,2,null,11,3,-2,null,1]\\n8'",
- "testable": true
+ "testable": true,
+ "slug": "path-sum-iii",
+ "category": "algorithms",
+ "fname": "437.path-sum-iii.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "best-time-to-buy-and-sell-stock-iv",
  "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv",
  "locked": false,
- "percent": 24.21879876006408,
+ "percent": 24.238658194942857,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "46.8K",
+ "totalSubmit": "193.1K",
  "desc": "Say you have an array for which the ith element is the price of a given stock on day i.\r\n\r\nDesign an algorithm to find the maximum profit. You may complete at most k transactions.\r\n\r\nNote:\r\nYou may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).\r\n\r\nCredits:Special thanks to @Freezen for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'2\\n[]'",
- "testable": true
+ "testable": true,
+ "slug": "best-time-to-buy-and-sell-stock-iv",
+ "category": "algorithms",
+ "fname": "188.best-time-to-buy-and-sell-stock-iv.algorithms.py"
 }

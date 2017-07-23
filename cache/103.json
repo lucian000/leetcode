@@ -6,12 +6,12 @@
  "key": "binary-tree-zigzag-level-order-traversal",
  "link": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal",
  "locked": false,
- "percent": 34.209672075738155,
+ "percent": 34.25953384535928,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "102.8K",
+ "totalSubmit": "300.1K",
  "desc": "Given a binary tree, return the zigzag level order traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).\r\n\r\n\r\nFor example:\r\nGiven binary tree [3,9,20,null,null,15,7],\r\n\r\n    3\r\n   / \\\r\n  9  20\r\n    /  \\\r\n   15   7\r\n\r\n\r\n\r\nreturn its zigzag level order traversal as:\r\n\r\n[\r\n  [3],\r\n  [20,9],\r\n  [15,7]\r\n]\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[3,9,20,null,null,15,7]'",
- "testable": true
+ "testable": true,
+ "slug": "binary-tree-zigzag-level-order-traversal",
+ "category": "algorithms",
+ "fname": "103.binary-tree-zigzag-level-order-traversal.algorithms.py"
 }

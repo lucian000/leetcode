@@ -6,12 +6,12 @@
  "key": "copy-list-with-random-pointer",
  "link": "https://leetcode.com/problems/copy-list-with-random-pointer",
  "locked": false,
- "percent": 26.353627165151774,
+ "percent": 26.3355846847502,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "115.9K",
+ "totalSubmit": "440.1K",
  "desc": "\r\nA linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.\r\n\r\n\r\n\r\nReturn a deep copy of the list.\r\n",
  "templates": [
   {
@@ -46,5 +46,8 @@
   }
  ],
  "testcase": "'{}'",
- "testable": false
+ "testable": false,
+ "slug": "copy-list-with-random-pointer",
+ "category": "algorithms",
+ "fname": "138.copy-list-with-random-pointer.algorithms.py"
 }

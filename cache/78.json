@@ -6,12 +6,12 @@
  "key": "subsets",
  "link": "https://leetcode.com/problems/subsets",
  "locked": false,
- "percent": 39.903712574850296,
+ "percent": 39.99422548755258,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "167.6K",
+ "totalSubmit": "419.1K",
  "desc": "\r\nGiven a set of distinct integers, nums, return all possible subsets.\r\n\r\nNote: The solution set must not contain duplicate subsets.\r\n\r\n\r\nFor example,\r\nIf nums = [1,2,3], a solution is:\r\n\r\n\r\n\r\n[\r\n  [3],\r\n  [1],\r\n  [2],\r\n  [1,2,3],\r\n  [1,3],\r\n  [2,3],\r\n  [1,2],\r\n  []\r\n]\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,2,3]'",
- "testable": true
+ "testable": true,
+ "slug": "subsets",
+ "category": "algorithms",
+ "fname": "78.subsets.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "minimum-depth-of-binary-tree",
  "link": "https://leetcode.com/problems/minimum-depth-of-binary-tree",
  "locked": false,
- "percent": 32.98739376028947,
+ "percent": 33.011650785077734,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "171.1K",
+ "totalSubmit": "518.4K",
  "desc": "Given a binary tree, find its minimum depth.\r\n\r\nThe minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "minimum-depth-of-binary-tree",
+ "category": "algorithms",
+ "fname": "111.minimum-depth-of-binary-tree.algorithms.py"
 }

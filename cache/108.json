@@ -6,12 +6,12 @@
  "key": "convert-sorted-array-to-binary-search-tree",
  "link": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree",
  "locked": false,
- "percent": 41.891865397057764,
+ "percent": 41.936448209417414,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "129.1K",
+ "totalSubmit": "307.8K",
  "desc": "Given an array where elements are sorted in ascending order, convert it to a height balanced BST.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "convert-sorted-array-to-binary-search-tree",
+ "category": "algorithms",
+ "fname": "108.convert-sorted-array-to-binary-search-tree.algorithms.py"
 }

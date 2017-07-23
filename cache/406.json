@@ -6,12 +6,12 @@
  "key": "queue-reconstruction-by-height",
  "link": "https://leetcode.com/problems/queue-reconstruction-by-height",
  "locked": false,
- "percent": 55.253227408143,
+ "percent": 55.3206790594286,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "25.4K",
+ "totalSubmit": "45.9K",
  "desc": "Suppose you have a random list of people standing in a queue. Each person is described by a pair of integers (h, k), where h is the height of the person and k is the number of people in front of this person who have a height greater than or equal to h. Write an algorithm to reconstruct the queue.\r\n\r\n\r\nNote:\r\nThe number of people is less than 1,100.\r\n\r\n\r\nExample\r\n\r\nInput:\r\n[[7,0], [4,4], [7,1], [5,0], [6,1], [5,2]]\r\n\r\nOutput:\r\n[[5,0], [7,0], [5,2], [6,1], [4,4], [7,1]]\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[7,0],[4,4],[7,1],[5,0],[6,1],[5,2]]'",
- "testable": true
+ "testable": true,
+ "slug": "queue-reconstruction-by-height",
+ "category": "algorithms",
+ "fname": "406.queue-reconstruction-by-height.algorithms.py"
 }

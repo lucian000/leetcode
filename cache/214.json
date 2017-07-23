@@ -6,12 +6,12 @@
  "key": "shortest-palindrome",
  "link": "https://leetcode.com/problems/shortest-palindrome",
  "locked": false,
- "percent": 24.04714635760405,
+ "percent": 24.0624573439605,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "40.5K",
+ "totalSubmit": "168.5K",
  "desc": "\r\nGiven a string S, you are allowed to convert it to a palindrome by adding characters in front of it. Find and return the shortest palindrome you can find by performing this transformation.\r\n\r\n\r\nFor example: \r\nGiven \"aacecaaa\", return \"aaacecaaa\".\r\nGiven \"abcd\", return \"dcbabcd\".\r\n\r\nCredits:Special thanks to @ifanchu for adding this problem and creating all test cases. Thanks to @Freezen for additional test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"aacecaaa\"'",
- "testable": true
+ "testable": true,
+ "slug": "shortest-palindrome",
+ "category": "algorithms",
+ "fname": "214.shortest-palindrome.algorithms.py"
 }

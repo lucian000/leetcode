@@ -6,12 +6,12 @@
  "key": "contains-duplicate",
  "link": "https://leetcode.com/problems/contains-duplicate",
  "locked": false,
- "percent": 45.44011519943067,
+ "percent": 45.48528137209566,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "164.3K",
+ "totalSubmit": "361.2K",
  "desc": "\r\nGiven an array of integers, find if the array contains any duplicates. Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "contains-duplicate",
+ "category": "algorithms",
+ "fname": "217.contains-duplicate.algorithms.py"
 }

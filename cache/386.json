@@ -6,12 +6,12 @@
  "key": "lexicographical-numbers",
  "link": "https://leetcode.com/problems/lexicographical-numbers",
  "locked": false,
- "percent": 40.90001890796025,
+ "percent": 40.93987704490987,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "19.6K",
+ "totalSubmit": "48K",
  "desc": "\r\nGiven an integer n, return 1 - n in lexicographical order.\r\n\r\n\r\n\r\nFor example, given 13, return: [1,10,11,12,13,2,3,4,5,6,7,8,9].\r\n\r\n\r\n\r\nPlease optimize your algorithm to use less time and space. The input size may be as large as 5,000,000.\r\n",
  "templates": [
   {
@@ -41,5 +41,8 @@
   }
  ],
  "testcase": "'13'",
- "testable": true
+ "testable": true,
+ "slug": "lexicographical-numbers",
+ "category": "algorithms",
+ "fname": "386.lexicographical-numbers.algorithms.py"
 }

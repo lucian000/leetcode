@@ -6,12 +6,12 @@
  "key": "longest-substring-with-at-least-k-repeating-characters",
  "link": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters",
  "locked": false,
- "percent": 35.46379058737687,
+ "percent": 35.53119349005425,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "15.7K",
+ "totalSubmit": "44.3K",
  "desc": "\r\nFind the length of the longest substring T of a given string (consists of lowercase letters only) such that every character in T appears no less than k times.\r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\ns = \"aaabb\", k = 3\r\n\r\nOutput:\r\n3\r\n\r\nThe longest substring is \"aaa\", as 'a' is repeated 3 times.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\ns = \"ababbc\", k = 2\r\n\r\nOutput:\r\n5\r\n\r\nThe longest substring is \"ababb\", as 'a' is repeated 2 times and 'b' is repeated 3 times.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"aaabb\"\\n3'",
- "testable": true
+ "testable": true,
+ "slug": "longest-substring-with-at-least-k-repeating-characters",
+ "category": "algorithms",
+ "fname": "395.longest-substring-with-at-least-k-repeating-characters.algorithms.py"
 }

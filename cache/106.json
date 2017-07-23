@@ -6,12 +6,12 @@
  "key": "construct-binary-tree-from-inorder-and-postorder-traversal",
  "link": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal",
  "locked": false,
- "percent": 31.942088167053363,
+ "percent": 31.964201218430237,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "86.5K",
+ "totalSubmit": "270.5K",
  "desc": "Given inorder and postorder traversal of a tree, construct the binary tree.\r\n\r\nNote:\r\nYou may assume that duplicates do not exist in the tree.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]\\n[]'",
- "testable": true
+ "testable": true,
+ "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+ "category": "algorithms",
+ "fname": "106.construct-binary-tree-from-inorder-and-postorder-traversal.algorithms.py"
 }

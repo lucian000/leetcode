@@ -6,12 +6,12 @@
  "key": "surrounded-regions",
  "link": "https://leetcode.com/problems/surrounded-regions",
  "locked": false,
- "percent": 18.250709752284273,
+ "percent": 18.270881417116428,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "82.8K",
+ "totalSubmit": "453.2K",
  "desc": "\r\nGiven a 2D board containing 'X' and 'O' (the letter O), capture all regions surrounded by 'X'.\r\n\r\nA region is captured by flipping all 'O's into 'X's in that surrounded region.\r\n\r\n\r\n\r\nFor example,\r\n\r\nX X X X\r\nX O O X\r\nX X O X\r\nX O X X\r\n\r\n\r\n\r\n\r\nAfter running your function, the board should be:\r\n\r\nX X X X\r\nX X X X\r\nX X X X\r\nX O X X\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[\"XXXX\",\"XOOX\",\"XXOX\",\"XOXX\"]'",
- "testable": true
+ "testable": true,
+ "slug": "surrounded-regions",
+ "category": "algorithms",
+ "fname": "130.surrounded-regions.algorithms.py"
 }

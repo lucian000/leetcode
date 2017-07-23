@@ -6,12 +6,12 @@
  "key": "rotate-list",
  "link": "https://leetcode.com/problems/rotate-list",
  "locked": false,
- "percent": 24.326778078685198,
+ "percent": 24.33355002919885,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "110.5K",
+ "totalSubmit": "453.9K",
  "desc": "Given a list, rotate the list to the right by k places, where k is non-negative.\r\n\r\nFor example:\r\nGiven 1->2->3->4->5->NULL and k = 2,\r\nreturn 4->5->1->2->3->NULL.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]\\n0'",
- "testable": true
+ "testable": true,
+ "slug": "rotate-list",
+ "category": "algorithms",
+ "fname": "61.rotate-list.algorithms.py"
 }

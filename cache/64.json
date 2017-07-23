@@ -6,12 +6,12 @@
  "key": "minimum-path-sum",
  "link": "https://leetcode.com/problems/minimum-path-sum",
  "locked": false,
- "percent": 38.27056121039833,
+ "percent": 38.30190956391139,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "114.3K",
+ "totalSubmit": "298.4K",
  "desc": "Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.\r\n\r\nNote: You can only move either down or right at any point in time.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[0]]'",
- "testable": true
+ "testable": true,
+ "slug": "minimum-path-sum",
+ "category": "algorithms",
+ "fname": "64.minimum-path-sum.algorithms.py"
 }

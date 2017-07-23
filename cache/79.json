@@ -6,12 +6,12 @@
  "key": "word-search",
  "link": "https://leetcode.com/problems/word-search",
  "locked": false,
- "percent": 26.527733765789947,
+ "percent": 26.56654711068468,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "129.1K",
+ "totalSubmit": "485.7K",
  "desc": "\r\nGiven a 2D board and a word, find if the word exists in the grid.\r\n\r\n\r\nThe word can be constructed from letters of sequentially adjacent cell, where \"adjacent\" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.\r\n\r\n\r\n\r\nFor example,\r\nGiven board = \r\n\r\n[\r\n  ['A','B','C','E'],\r\n  ['S','F','C','S'],\r\n  ['A','D','E','E']\r\n]\r\n\r\n\r\nword = \"ABCCED\", -> returns true,\r\nword = \"SEE\", -> returns true,\r\nword = \"ABCB\", -> returns false.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[\"ABCE\",\"SFCS\",\"ADEE\"]\\n\"ABCCED\"'",
- "testable": true
+ "testable": true,
+ "slug": "word-search",
+ "category": "algorithms",
+ "fname": "79.word-search.algorithms.py"
 }

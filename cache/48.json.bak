@@ -1,1 +1,73 @@
-{"id": 48, "ids": "48", "state": "None", "name": "Rotate Image", "key": "rotate-image", "link": "https://leetcode.com/problems/rotate-image", "locked": false, "percent": 38.343904483443666, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "You are given an n x n 2D matrix representing an image.\r\nRotate the image by 90 degrees (clockwise).\r\nFollow up:\r\nCould you do this in-place?", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    void rotate(vector<vector<int>>& matrix) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public void rotate(int[][] matrix) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def rotate(self, matrix):\r\n        \"\"\"\r\n        :type matrix: List[List[int]]\r\n        :rtype: void Do not return anything, modify matrix in-place instead.\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "void rotate(int** matrix, int matrixRowSize, int matrixColSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public void Rotate(int[,] matrix) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[][]} matrix\r\n * @return {void} Do not return anything, modify matrix in-place instead.\r\n */\r\nvar rotate = function(matrix) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[][]} matrix\r\n# @return {Void} Do not return anything, modify matrix in-place instead.\r\ndef rotate(matrix)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func rotate(_ matrix: inout [[Int]]) {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func rotate(matrix [][]int)  {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def rotate(matrix: Array[Array[Int]]): Unit = {\n        \n    }\n}"}], "testcase": "'[[1]]'", "testable": true}
+{
+ "id": 48,
+ "ids": "48",
+ "state": "None",
+ "name": "Rotate Image",
+ "key": "rotate-image",
+ "link": "https://leetcode.com/problems/rotate-image",
+ "locked": false,
+ "percent": 38.37473709078858,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "117K",
+ "totalSubmit": "304.9K",
+ "desc": "You are given an n x n 2D matrix representing an image.\r\nRotate the image by 90 degrees (clockwise).\r\nFollow up:\r\nCould you do this in-place?",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    void rotate(vector<vector<int>>& matrix) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public void rotate(int[][] matrix) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def rotate(self, matrix):\r\n        \"\"\"\r\n        :type matrix: List[List[int]]\r\n        :rtype: void Do not return anything, modify matrix in-place instead.\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "void rotate(int** matrix, int matrixRowSize, int matrixColSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public void Rotate(int[,] matrix) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[][]} matrix\r\n * @return {void} Do not return anything, modify matrix in-place instead.\r\n */\r\nvar rotate = function(matrix) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[][]} matrix\r\n# @return {Void} Do not return anything, modify matrix in-place instead.\r\ndef rotate(matrix)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func rotate(_ matrix: inout [[Int]]) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func rotate(matrix [][]int)  {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def rotate(matrix: Array[Array[Int]]): Unit = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[[1]]'",
+ "testable": true,
+ "slug": "rotate-image",
+ "category": "algorithms",
+ "fname": "48.rotate-image.algorithms.py"
+}

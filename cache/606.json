@@ -6,12 +6,12 @@
  "key": "construct-string-from-binary-tree",
  "link": "https://leetcode.com/problems/construct-string-from-binary-tree",
  "locked": false,
- "percent": 51.43850931677019,
+ "percent": 51.24709167054444,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "11K",
+ "totalSubmit": "21.5K",
  "desc": "You need to construct a string consists of parenthesis and integers from a binary tree with the preorder traversing way.\r\n\r\nThe null node needs to be represented by empty parenthesis pair \"()\". And you need to omit all the empty parenthesis pairs that don't affect the one-to-one mapping relationship between the string and the original binary tree.\r\n\r\nExample 1:\r\n\r\nInput: Binary tree: [1,2,3,4]\r\n       1\r\n     /   \\\r\n    2     3\r\n   /    \r\n  4     \r\n\r\nOutput: \"1(2(4))(3)\"\r\nExplanation: Originallay it needs to be \"1(2(4)())(3()())\", but you need to omit all the unnecessary empty parenthesis pairs. And it will be \"1(2(4))(3)\".\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: Binary tree: [1,2,3,null,4]\r\n       1\r\n     /   \\\r\n    2     3\r\n     \\  \r\n      4 \r\n\r\nOutput: \"1(2()(4))(3)\"\r\nExplanation: Almost the same as the first example, except we can't omit the first parenthesis pair to break the one-to-one mapping relationship between the input and the output.\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'[1,2,3,4]'",
- "testable": true
+ "testable": true,
+ "slug": "construct-string-from-binary-tree",
+ "category": "algorithms",
+ "fname": "606.construct-string-from-binary-tree.algorithms.py"
 }

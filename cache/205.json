@@ -6,12 +6,12 @@
  "key": "isomorphic-strings",
  "link": "https://leetcode.com/problems/isomorphic-strings",
  "locked": false,
- "percent": 33.61241492792318,
+ "percent": 33.631163547088775,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "107.1K",
+ "totalSubmit": "318.5K",
  "desc": "Given two strings s and t, determine if they are isomorphic.\r\n\r\nTwo strings are isomorphic if the characters in s can be replaced to get t.\r\n\r\nAll occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character but a character may map to itself.\r\n\r\nFor example,\r\nGiven \"egg\", \"add\", return true.\r\n\r\nGiven \"foo\", \"bar\", return false.\r\n\r\nGiven \"paper\", \"title\", return true.\r\n\r\nNote:\r\nYou may assume both s and t have the same length.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"egg\"\\n\"add\"'",
- "testable": true
+ "testable": true,
+ "slug": "isomorphic-strings",
+ "category": "algorithms",
+ "fname": "205.isomorphic-strings.algorithms.py"
 }

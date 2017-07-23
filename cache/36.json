@@ -6,12 +6,12 @@
  "key": "valid-sudoku",
  "link": "https://leetcode.com/problems/valid-sudoku",
  "locked": false,
- "percent": 35.44670701546965,
+ "percent": 35.50223168584415,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "121.4K",
+ "totalSubmit": "342K",
  "desc": "Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules.\r\n\r\nThe Sudoku board could be partially filled, where empty cells are filled with the character '.'.\r\n\r\n\r\n\r\nA partially filled sudoku which is valid.\r\n\r\n\r\nNote:\r\nA valid Sudoku board (partially filled) is not necessarily solvable. Only the filled cells need to be validated.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[\".87654321\",\"2........\",\"3........\",\"4........\",\"5........\",\"6........\",\"7........\",\"8........\",\"9........\"]'",
- "testable": true
+ "testable": true,
+ "slug": "valid-sudoku",
+ "category": "algorithms",
+ "fname": "36.valid-sudoku.algorithms.py"
 }

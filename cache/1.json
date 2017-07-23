@@ -6,12 +6,12 @@
  "key": "two-sum",
  "link": "https://leetcode.com/problems/two-sum",
  "locked": false,
- "percent": 33.931974950780344,
+ "percent": 34.032768581058384,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "557.2K",
+ "totalSubmit": "1.6M",
  "desc": "Given an array of integers, return indices of the two numbers such that they add up to a specific target.\r\n\r\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\r\n\r\n\r\nExample:\r\n\r\nGiven nums = [2, 7, 11, 15], target = 9,\r\n\r\nBecause nums[0] + nums[1] = 2 + 7 = 9,\r\nreturn [0, 1].\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'[3,2,4]\\n6'",
- "testable": true
+ "testable": true,
+ "slug": "two-sum",
+ "category": "algorithms",
+ "fname": "1.two-sum.algorithms.py"
 }

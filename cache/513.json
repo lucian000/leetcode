@@ -6,12 +6,12 @@
  "key": "find-bottom-left-tree-value",
  "link": "https://leetcode.com/problems/find-bottom-left-tree-value",
  "locked": false,
- "percent": 55.55289229785874,
+ "percent": 55.527995245846576,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "21.5K",
+ "totalSubmit": "38.7K",
  "desc": "\r\nGiven a binary tree, find the leftmost value in the last row of the tree. \r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\n\r\n    2\r\n   / \\\r\n  1   3\r\n\r\nOutput:\r\n1\r\n\r\n\r\n\r\n  Example 2: \r\n\r\nInput:\r\n\r\n        1\r\n       / \\\r\n      2   3\r\n     /   / \\\r\n    4   5   6\r\n       /\r\n      7\r\n\r\nOutput:\r\n7\r\n\r\n\r\n\r\nNote:\r\nYou may assume the tree (i.e., the given root node) is not NULL.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[2,1,3]'",
- "testable": true
+ "testable": true,
+ "slug": "find-bottom-left-tree-value",
+ "category": "algorithms",
+ "fname": "513.find-bottom-left-tree-value.algorithms.py"
 }

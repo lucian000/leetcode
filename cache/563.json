@@ -6,12 +6,12 @@
  "key": "binary-tree-tilt",
  "link": "https://leetcode.com/problems/binary-tree-tilt",
  "locked": false,
- "percent": 46.927374301675975,
+ "percent": 46.90320458946907,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "12.8K",
+ "totalSubmit": "27.4K",
  "desc": "Given a binary tree, return the tilt of the whole tree.\r\n\r\nThe tilt of a tree node is defined as the absolute difference between the sum of all left subtree node values and the sum of all right subtree node values. Null node has tilt 0.\r\n\r\nThe tilt of the whole tree is defined as the sum of all nodes' tilt.\r\n\r\nExample:\r\n\r\nInput: \r\n         1\r\n       /   \\\r\n      2     3\r\nOutput: 1\r\nExplanation: \r\nTilt of node 2 : 0\r\nTilt of node 3 : 0\r\nTilt of node 1 : |2-3| = 1\r\nTilt of binary tree : 0 + 0 + 1 = 1\r\n\r\n\r\n\r\nNote:\r\n\r\nThe sum of node values in any subtree won't exceed the range of 32-bit integer. \r\nAll the tilt values won't exceed the range of 32-bit integer.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,2,3]'",
- "testable": true
+ "testable": true,
+ "slug": "binary-tree-tilt",
+ "category": "algorithms",
+ "fname": "563.binary-tree-tilt.algorithms.py"
 }

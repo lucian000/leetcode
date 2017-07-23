@@ -6,12 +6,12 @@
  "key": "smallest-range",
  "link": "https://leetcode.com/problems/smallest-range",
  "locked": false,
- "percent": 44.219790675547095,
+ "percent": 43.57968620974401,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "2.1K",
+ "totalSubmit": "4.8K",
  "desc": "You have k lists of sorted integers in ascending order. Find the smallest range that includes at least one number from each of the k lists. \r\n\r\nWe define the range [a,b] is smaller than range [c,d] if b-a < d-c or a < c if b-a == d-c.\r\n\r\nExample 1:\r\n\r\nInput:[[4,10,15,24,26], [0,9,12,20], [5,18,22,30]]\r\nOutput: [20,24]\r\nExplanation: \r\nList 1: [4, 10, 15, 24,26], 24 is in range [20,24].\r\nList 2: [0, 9, 12, 20], 20 is in range [20,24].\r\nList 3: [5, 18, 22, 30], 22 is in range [20,24].\r\n\r\n\r\n\r\n\r\nNote:\r\n\r\nThe given list may contain duplicates, so ascending order means >= here.\r\n1 <= k <= 3500\r\n -105 <= value of elements <= 105.\r\nFor Java users, please note that the input type has been changed to List<List<Integer>>. And after you reset the code template, you'll see this point.\r\n\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'[[4,10,15,24,26],[0,9,12,20],[5,18,22,30]]'",
- "testable": true
+ "testable": true,
+ "slug": "smallest-range",
+ "category": "algorithms",
+ "fname": "632.smallest-range.algorithms.py"
 }

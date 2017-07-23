@@ -6,12 +6,12 @@
  "key": "candy",
  "link": "https://leetcode.com/problems/candy",
  "locked": false,
- "percent": 24.561715507214934,
+ "percent": 24.584303646484152,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "69.3K",
+ "totalSubmit": "281.7K",
  "desc": "\r\nThere are N children standing in a line. Each child is assigned a rating value. \r\n\r\n\r\nYou are giving candies to these children subjected to the following requirements:\r\n\r\n\r\nEach child must have at least one candy.\r\nChildren with a higher rating get more candies than their neighbors.\r\n\r\n\r\nWhat is the minimum candies you must give?\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[0]'",
- "testable": true
+ "testable": true,
+ "slug": "candy",
+ "category": "algorithms",
+ "fname": "135.candy.algorithms.py"
 }

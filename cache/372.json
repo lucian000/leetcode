@@ -6,12 +6,12 @@
  "key": "super-pow",
  "link": "https://leetcode.com/problems/super-pow",
  "locked": false,
- "percent": 34.15558566951808,
+ "percent": 34.186829370923626,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "16.3K",
+ "totalSubmit": "47.5K",
  "desc": "\r\nYour task is to calculate ab mod 1337 where a is a positive integer and b is an extremely large positive integer given in the form of an array.\r\n\r\n\r\nExample1:\r\n\r\na = 2\r\nb = [3]\r\n\r\nResult: 8\r\n\r\n\r\n\r\nExample2:\r\n\r\na = 2\r\nb = [1,0]\r\n\r\nResult: 1024\r\n\r\n\r\n\r\nCredits:Special thanks to @Stomach_ache for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'2\\n[3]'",
- "testable": true
+ "testable": true,
+ "slug": "super-pow",
+ "category": "algorithms",
+ "fname": "372.super-pow.algorithms.py"
 }

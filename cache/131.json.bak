@@ -1,1 +1,73 @@
-{"id": 131, "ids": "131", "state": "None", "name": "Palindrome Partitioning", "key": "palindrome-partitioning", "link": "https://leetcode.com/problems/palindrome-partitioning", "locked": false, "percent": 32.842869871901286, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven a string s, partition s such that every substring of the partition is a palindrome.\r\n\r\n\r\nReturn all possible palindrome partitioning of s.\r\n\r\n\r\nFor example, given s = \"aab\",\r\n\r\nReturn\r\n\r\n[\r\n  [\"aa\",\"b\"],\r\n  [\"a\",\"a\",\"b\"]\r\n]\r\n\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<vector<string>> partition(string s) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public List<List<String>> partition(String s) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def partition(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: List[List[str]]\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of arrays of size *returnSize.\r\n * The sizes of the arrays are returned as *columnSizes array.\r\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\r\n */\r\nchar*** partition(char* s, int** columnSizes, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public IList<IList<string>> Partition(string s) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {string} s\r\n * @return {string[][]}\r\n */\r\nvar partition = function(s) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {String} s\r\n# @return {String[][]}\r\ndef partition(s)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func partition(_ s: String) -> [[String]] {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func partition(s string) [][]string {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def partition(s: String): List[List[String]] = {\n        \n    }\n}"}], "testcase": "'\"aab\"'", "testable": true}
+{
+ "id": 131,
+ "ids": "131",
+ "state": "None",
+ "name": "Palindrome Partitioning",
+ "key": "palindrome-partitioning",
+ "link": "https://leetcode.com/problems/palindrome-partitioning",
+ "locked": false,
+ "percent": 32.89879270485487,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "97.3K",
+ "totalSubmit": "295.9K",
+ "desc": "\r\nGiven a string s, partition s such that every substring of the partition is a palindrome.\r\n\r\n\r\nReturn all possible palindrome partitioning of s.\r\n\r\n\r\nFor example, given s = \"aab\",\r\n\r\nReturn\r\n\r\n[\r\n  [\"aa\",\"b\"],\r\n  [\"a\",\"a\",\"b\"]\r\n]\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<vector<string>> partition(string s) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public List<List<String>> partition(String s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def partition(self, s):\r\n        \"\"\"\r\n        :type s: str\r\n        :rtype: List[List[str]]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of arrays of size *returnSize.\r\n * The sizes of the arrays are returned as *columnSizes array.\r\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\r\n */\r\nchar*** partition(char* s, int** columnSizes, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public IList<IList<string>> Partition(string s) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} s\r\n * @return {string[][]}\r\n */\r\nvar partition = function(s) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} s\r\n# @return {String[][]}\r\ndef partition(s)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func partition(_ s: String) -> [[String]] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func partition(s string) [][]string {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def partition(s: String): List[List[String]] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'\"aab\"'",
+ "testable": true,
+ "slug": "palindrome-partitioning",
+ "category": "algorithms",
+ "fname": "131.palindrome-partitioning.algorithms.py"
+}

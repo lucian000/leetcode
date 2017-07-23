@@ -6,12 +6,12 @@
  "key": "keyboard-row",
  "link": "https://leetcode.com/problems/keyboard-row",
  "locked": false,
- "percent": 60.12143534388447,
+ "percent": 59.98436333913785,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "33.8K",
+ "totalSubmit": "56.3K",
  "desc": "Given a List of words, return the words that can be typed using letters of alphabet on only one row's of American keyboard like the image below. \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: [\"Hello\", \"Alaska\", \"Dad\", \"Peace\"]\r\nOutput: [\"Alaska\", \"Dad\"]\r\n\r\n\r\n\r\nNote:\r\n\r\nYou may use one character in the keyboard more than once.\r\nYou may assume the input string will only contain letters of alphabet.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[\"Hello\",\"Alaska\",\"Dad\",\"Peace\"]'",
- "testable": true
+ "testable": true,
+ "slug": "keyboard-row",
+ "category": "algorithms",
+ "fname": "500.keyboard-row.algorithms.py"
 }

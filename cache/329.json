@@ -6,12 +6,12 @@
  "key": "longest-increasing-path-in-a-matrix",
  "link": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix",
  "locked": false,
- "percent": 36.16449761619205,
+ "percent": 36.19708727333682,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "36.7K",
+ "totalSubmit": "101.4K",
  "desc": "Given an integer matrix, find the length of the longest increasing path.\r\n\r\n\r\nFrom each cell, you can either move to four directions: left, right, up or down. You may NOT move diagonally or move outside of the boundary (i.e. wrap-around is not allowed).\r\n\r\n\r\nExample 1:\r\n\r\nnums = [\r\n  [9,9,4],\r\n  [6,6,8],\r\n  [2,1,1]\r\n]\r\n\r\n\r\n\r\n\r\nReturn 4\r\n\r\nThe longest increasing path is [1, 2, 6, 9].\r\n\r\n\r\nExample 2:\r\n\r\nnums = [\r\n  [3,4,5],\r\n  [3,2,6],\r\n  [2,2,1]\r\n]\r\n\r\n\r\n\r\n\r\nReturn 4\r\n\r\nThe longest increasing path is [3, 4, 5, 6]. Moving diagonally is not allowed.\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[9,9,4],[6,6,8],[2,1,1]]'",
- "testable": true
+ "testable": true,
+ "slug": "longest-increasing-path-in-a-matrix",
+ "category": "algorithms",
+ "fname": "329.longest-increasing-path-in-a-matrix.algorithms.py"
 }

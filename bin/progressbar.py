@@ -25,10 +25,13 @@ class progressbarClass:
         #
         if not self.finalcount : return
         self.f.write('\n------------------- % Progress -------------------\n')
+        self.f.flush()
         self.time = time.time()
+        self.findn = 0 # how many cannot be calculated when evaluate the remaining time
+        self.textleft = False
         return
  
-    def progress(self, count):
+    def progress(self, count, find=False):
         #
         # Make sure I don't try to go off the end (e.g. >100%)
         #
@@ -37,8 +40,7 @@ class progressbarClass:
         # If finalcount is zero, I'm done
         #
         if self.finalcount:
-            percentcomplete=int(round(100*count/self.finalcount))
-            if percentcomplete < 1: percentcomplete=1
+            percentcomplete=round(100*count/self.finalcount,2)
         else:
             percentcomplete=100
             
@@ -49,27 +51,42 @@ class progressbarClass:
 #            for i in range(self.blockcount,blockcount):
 #                self.f.write(self.block)
 #                self.f.flush()
-        
-        for i in range(blockcount):
-            self.f.write(self.block)
-        self.f.write(str(round(100*count/self.finalcount,3)))
-        self.f.write('%')
-        if count==0:
-            remain_time = '-'
+        self.findn += find
+  
+        txt = str(percentcomplete)+'%('
+        if (count-self.findn)==0:
+            txt += '-'
         else:
-            remain_time = str(round((time.time()-self.time)/count*(self.finalcount-count)/60,3))
-        self.f.write(' Remain: '+remain_time+' min  ')
-        self.f.write('\r')
+            left_s = (time.time()-self.time)/(count-self.findn)*(self.finalcount-count)
+            if left_s>3600:
+                txt += str(round(left_s/3600,2))+'h'
+            elif left_s>60:
+                txt += str(round(left_s/60,2))+'m'
+            else:
+                txt += str(round(left_s,2))+'s'
+        txt+=' left)'
+        if self.textleft:
+            txt += self.block*(blockcount-len(txt))
+        elif blockcount+len(txt)>50:
+            txt += self.block*(blockcount-len(txt))
+            self.textleft=True
+        else:
+            txt = self.block*blockcount + txt
+        if len(txt)<50:
+            txt+=' '*(50-len(txt))
+        txt += '\r'
+        self.f.write(txt)
         self.f.flush()
-        if percentcomplete == 100: self.f.write("\n")
         self.blockcount=blockcount
         return
-    
+    def done(self):
+        self.f.write("\n")
+        self.f.flush()
 if __name__ == "__main__":
     from time import sleep
-    pb=progressbarClass(8,"*")
+    pb=progressbarClass(51,"=")
     count=0
-    while count<9:
-        count+=1
+    for count in range(52):
         pb.progress(count)
         sleep(0.2)
+    pb.done()

@@ -6,12 +6,12 @@
  "key": "binary-tree-postorder-traversal",
  "link": "https://leetcode.com/problems/binary-tree-postorder-traversal",
  "locked": false,
- "percent": 39.89759824359088,
+ "percent": 39.94190288771945,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "144.5K",
+ "totalSubmit": "361.8K",
  "desc": "Given a binary tree, return the postorder traversal of its nodes' values.\r\n\r\n\r\nFor example:\r\nGiven binary tree {1,#,2,3},\r\n\r\n   1\r\n    \\\r\n     2\r\n    /\r\n   3\r\n\r\n\r\n\r\nreturn [3,2,1].\r\n\r\n\r\nNote: Recursive solution is trivial, could you do it iteratively?",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "binary-tree-postorder-traversal",
+ "category": "algorithms",
+ "fname": "145.binary-tree-postorder-traversal.algorithms.py"
 }

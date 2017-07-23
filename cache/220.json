@@ -6,12 +6,12 @@
  "key": "contains-duplicate-iii",
  "link": "https://leetcode.com/problems/contains-duplicate-iii",
  "locked": false,
- "percent": 19.115839579411034,
+ "percent": 19.120681856730933,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "54.1K",
+ "totalSubmit": "283K",
  "desc": "\r\nGiven an array of integers, find out whether there are two distinct indices i and j in the array such that the absolute difference between nums[i] and nums[j] is at most t and the absolute difference between i and j is at most k.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]\\n0\\n0'",
- "testable": true
+ "testable": true,
+ "slug": "contains-duplicate-iii",
+ "category": "algorithms",
+ "fname": "220.contains-duplicate-iii.algorithms.py"
 }

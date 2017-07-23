@@ -6,12 +6,12 @@
  "key": "reverse-vowels-of-a-string",
  "link": "https://leetcode.com/problems/reverse-vowels-of-a-string",
  "locked": false,
- "percent": 38.38309279151532,
+ "percent": 38.39753823596085,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "79.6K",
+ "totalSubmit": "207.3K",
  "desc": "Write a function that takes a string as input and reverse only the vowels of a string.\r\n\r\n\r\nExample 1:\r\nGiven s = \"hello\", return \"holle\".\r\n\r\n\r\n\r\nExample 2:\r\nGiven s = \"leetcode\", return \"leotcede\".\r\n\r\n\r\n\r\nNote:\r\nThe vowels does not include the letter \"y\".\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"hello\"'",
- "testable": true
+ "testable": true,
+ "slug": "reverse-vowels-of-a-string",
+ "category": "algorithms",
+ "fname": "345.reverse-vowels-of-a-string.algorithms.py"
 }

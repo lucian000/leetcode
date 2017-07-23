@@ -6,12 +6,12 @@
  "key": "create-maximum-number",
  "link": "https://leetcode.com/problems/create-maximum-number",
  "locked": false,
- "percent": 24.42514052120593,
+ "percent": 24.448069748472246,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "18.3K",
+ "totalSubmit": "74.8K",
  "desc": "\r\n    Given two arrays of length m and n with digits 0-9 representing two numbers.\r\n    Create the maximum number of length k <= m + n from digits of the two. The relative order of the digits\r\n    from the same array must be preserved. Return an array of the k digits. You should try to optimize your time and space complexity.\r\n\r\n\r\n\r\n    Example 1:\r\n\r\n\r\n    nums1 = [3, 4, 6, 5]\r\n    nums2 = [9, 1, 2, 5, 8, 3]\r\n    k = 5\r\n    return [9, 8, 6, 5, 3]\r\n\r\n\r\n    Example 2:\r\n\r\n\r\n    nums1 = [6, 7]\r\n    nums2 = [6, 0, 4]\r\n    k = 5\r\n    return [6, 7, 6, 0, 4]\r\n\r\n\r\n    Example 3:\r\n\r\n\r\n    nums1 = [3, 9]\r\n    nums2 = [8, 9]\r\n    k = 3\r\n    return [9, 8, 9]\r\n\r\n\r\nCredits:Special thanks to @dietpepsi for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[3,4,6,5]\\n[9,1,2,5,8,3]\\n5'",
- "testable": true
+ "testable": true,
+ "slug": "create-maximum-number",
+ "category": "algorithms",
+ "fname": "321.create-maximum-number.algorithms.py"
 }

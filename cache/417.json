@@ -6,12 +6,12 @@
  "key": "pacific-atlantic-water-flow",
  "link": "https://leetcode.com/problems/pacific-atlantic-water-flow",
  "locked": false,
- "percent": 33.537596756358276,
+ "percent": 33.508859157476046,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "14.8K",
+ "totalSubmit": "44.2K",
  "desc": "Given an m x n matrix of non-negative integers representing the height of each unit cell in a continent, the \"Pacific ocean\" touches the left and top edges of the matrix and the \"Atlantic ocean\" touches the right and bottom edges.\r\n\r\nWater can only flow in four directions (up, down, left, or right) from a cell to another one with height equal or lower.\r\n\r\nFind the list of grid coordinates where water can flow to both the Pacific and Atlantic ocean.\r\n\r\nNote:\r\n\r\nThe order of returned grid coordinates does not matter.\r\nBoth m and n are less than 150.\r\n\r\n\r\nExample:\r\n\r\nGiven the following 5x5 matrix:\r\n\r\n  Pacific ~   ~   ~   ~   ~ \r\n       ~  1   2   2   3  (5) *\r\n       ~  3   2   3  (4) (4) *\r\n       ~  2   4  (5)  3   1  *\r\n       ~ (6) (7)  1   4   5  *\r\n       ~ (5)  1   1   2   4  *\r\n          *   *   *   *   * Atlantic\r\n\r\nReturn:\r\n\r\n[[0, 4], [1, 3], [1, 4], [2, 2], [3, 0], [3, 1], [4, 0]] (positions with parentheses in above matrix).\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[1,2,2,3,5],[3,2,3,4,4],[2,4,5,3,1],[6,7,1,4,5],[5,1,1,2,4]]'",
- "testable": true
+ "testable": true,
+ "slug": "pacific-atlantic-water-flow",
+ "category": "algorithms",
+ "fname": "417.pacific-atlantic-water-flow.algorithms.py"
 }

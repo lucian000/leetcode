@@ -6,12 +6,12 @@
  "key": "increasing-triplet-subsequence",
  "link": "https://leetcode.com/problems/increasing-triplet-subsequence",
  "locked": false,
- "percent": 39.03616982767654,
+ "percent": 39.038003853273395,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "41.3K",
+ "totalSubmit": "105.9K",
  "desc": "\r\nGiven an unsorted array return whether an increasing subsequence of length 3 exists or not in the array.\r\n\r\n\r\nFormally the function should:\r\nReturn true if there exists i, j, k  \r\nsuch that arr[i] < arr[j] < arr[k] given 0 \u2264 i < j < k \u2264 n-1 \r\nelse return false.\r\n\r\n\r\n\r\nYour algorithm should run in O(n) time complexity and O(1) space complexity.\r\n\r\n\r\nExamples:\r\nGiven [1, 2, 3, 4, 5],\r\nreturn true.\r\n\r\n\r\nGiven [5, 4, 3, 2, 1],\r\nreturn false.\r\n\r\n\r\nCredits:Special thanks to @DjangoUnchained for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,2,3,4,5]'",
- "testable": true
+ "testable": true,
+ "slug": "increasing-triplet-subsequence",
+ "category": "algorithms",
+ "fname": "334.increasing-triplet-subsequence.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "divide-two-integers",
  "link": "https://leetcode.com/problems/divide-two-integers",
  "locked": false,
- "percent": 15.977308587250816,
+ "percent": 15.97201550352096,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "104.6K",
+ "totalSubmit": "655.1K",
  "desc": "\r\nDivide two integers without using multiplication, division and mod operator.\r\n\r\n\r\nIf it is overflow, return MAX_INT.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'0\\n1'",
- "testable": true
+ "testable": true,
+ "slug": "divide-two-integers",
+ "category": "algorithms",
+ "fname": "29.divide-two-integers.algorithms.py"
 }

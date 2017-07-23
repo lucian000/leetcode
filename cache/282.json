@@ -6,12 +6,12 @@
  "key": "expression-add-operators",
  "link": "https://leetcode.com/problems/expression-add-operators",
  "locked": false,
- "percent": 29.529735259063223,
+ "percent": 29.53892639982094,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "31.7K",
+ "totalSubmit": "107.2K",
  "desc": "\r\nGiven a string that contains only digits 0-9 and a target value, return all possibilities to add binary operators (not unary) +, -, or * between the digits so they evaluate to the target value.\r\n\r\n\r\nExamples: \r\n\"123\", 6 -> [\"1+2+3\", \"1*2*3\"] \r\n\"232\", 8 -> [\"2*3+2\", \"2+3*2\"]\r\n\"105\", 5 -> [\"1*0+5\",\"10-5\"]\r\n\"00\", 0 -> [\"0+0\", \"0-0\", \"0*0\"]\r\n\"3456237490\", 9191 -> []\r\n\r\n\r\nCredits:Special thanks to @davidtan1890 for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"123\"\\n6'",
- "testable": true
+ "testable": true,
+ "slug": "expression-add-operators",
+ "category": "algorithms",
+ "fname": "282.expression-add-operators.algorithms.py"
 }

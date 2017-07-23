@@ -1,1 +1,73 @@
-{"id": 239, "ids": "239", "state": "None", "name": "Sliding Window Maximum", "key": "sliding-window-maximum", "link": "https://leetcode.com/problems/sliding-window-maximum", "locked": false, "percent": 32.74819294881251, "level": "Hard", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "Given an array nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.\r\n\r\nFor example,\r\nGiven nums = [1,3,-1,-3,5,3,6,7], and k = 3.\r\n\r\n\r\nWindow position                Max\r\n---------------               -----\r\n[1  3  -1] -3  5  3  6  7       3\r\n 1 [3  -1  -3] 5  3  6  7       3\r\n 1  3 [-1  -3  5] 3  6  7       5\r\n 1  3  -1 [-3  5  3] 6  7       5\r\n 1  3  -1  -3 [5  3  6] 7       6\r\n 1  3  -1  -3  5 [3  6  7]      7\r\n\r\n\r\nTherefore, return the max sliding window as [3,3,5,5,6,7].\r\n\r\nNote: \r\nYou may assume k is always valid, ie: 1 \u2264 k \u2264 input array's size for non-empty array.\r\n\r\nFollow up:\r\nCould you solve it in linear time?", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> maxSlidingWindow(vector<int>& nums, int k) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int[] maxSlidingWindow(int[] nums, int k) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def maxSlidingWindow(self, nums, k):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :type k: int\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int[] MaxSlidingWindow(int[] nums, int k) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @param {number} k\r\n * @return {number[]}\r\n */\r\nvar maxSlidingWindow = function(nums, k) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @param {Integer} k\r\n# @return {Integer[]}\r\ndef max_sliding_window(nums, k)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func maxSlidingWindow(nums []int, k int) []int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def maxSlidingWindow(nums: Array[Int], k: Int): Array[Int] = {\n        \n    }\n}"}], "testcase": "'[]\\n0'", "testable": true}
+{
+ "id": 239,
+ "ids": "239",
+ "state": "None",
+ "name": "Sliding Window Maximum",
+ "key": "sliding-window-maximum",
+ "link": "https://leetcode.com/problems/sliding-window-maximum",
+ "locked": false,
+ "percent": 32.765048381016214,
+ "level": "Hard",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "62.6K",
+ "totalSubmit": "191K",
+ "desc": "Given an array nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.\r\n\r\nFor example,\r\nGiven nums = [1,3,-1,-3,5,3,6,7], and k = 3.\r\n\r\n\r\nWindow position                Max\r\n---------------               -----\r\n[1  3  -1] -3  5  3  6  7       3\r\n 1 [3  -1  -3] 5  3  6  7       3\r\n 1  3 [-1  -3  5] 3  6  7       5\r\n 1  3  -1 [-3  5  3] 6  7       5\r\n 1  3  -1  -3 [5  3  6] 7       6\r\n 1  3  -1  -3  5 [3  6  7]      7\r\n\r\n\r\nTherefore, return the max sliding window as [3,3,5,5,6,7].\r\n\r\nNote: \r\nYou may assume k is always valid, ie: 1 \u2264 k \u2264 input array's size for non-empty array.\r\n\r\nFollow up:\r\nCould you solve it in linear time?",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> maxSlidingWindow(vector<int>& nums, int k) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int[] maxSlidingWindow(int[] nums, int k) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def maxSlidingWindow(self, nums, k):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :type k: int\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int[] MaxSlidingWindow(int[] nums, int k) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @param {number} k\r\n * @return {number[]}\r\n */\r\nvar maxSlidingWindow = function(nums, k) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @param {Integer} k\r\n# @return {Integer[]}\r\ndef max_sliding_window(nums, k)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func maxSlidingWindow(nums []int, k int) []int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def maxSlidingWindow(nums: Array[Int], k: Int): Array[Int] = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[]\\n0'",
+ "testable": true,
+ "slug": "sliding-window-maximum",
+ "category": "algorithms",
+ "fname": "239.sliding-window-maximum.algorithms.py"
+}

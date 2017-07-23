@@ -1,1 +1,53 @@
-{"id": 138, "ids": "138", "state": "None", "name": "Copy List with Random Pointer", "key": "copy-list-with-random-pointer", "link": "https://leetcode.com/problems/copy-list-with-random-pointer", "locked": false, "percent": 26.353627165151774, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nA linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.\r\n\r\n\r\n\r\nReturn a deep copy of the list.\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "/**\r\n * Definition for singly-linked list with a random pointer.\r\n * struct RandomListNode {\r\n *     int label;\r\n *     RandomListNode *next, *random;\r\n *     RandomListNode(int x) : label(x), next(NULL), random(NULL) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    RandomListNode *copyRandomList(RandomListNode *head) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "/**\r\n * Definition for singly-linked list with a random pointer.\r\n * class RandomListNode {\r\n *     int label;\r\n *     RandomListNode next, random;\r\n *     RandomListNode(int x) { this.label = x; }\r\n * };\r\n */\r\npublic class Solution {\r\n    public RandomListNode copyRandomList(RandomListNode head) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "# Definition for singly-linked list with a random pointer.\r\n# class RandomListNode(object):\r\n#     def __init__(self, x):\r\n#         self.label = x\r\n#         self.next = None\r\n#         self.random = None\r\n\r\nclass Solution(object):\r\n    def copyRandomList(self, head):\r\n        \"\"\"\r\n        :type head: RandomListNode\r\n        :rtype: RandomListNode\r\n        \"\"\""}, {"value": "c", "text": "C", "defaultCode": "/**\r\n * Definition for singly-linked list with a random pointer.\r\n * struct RandomListNode {\r\n *     int label;\r\n *     struct RandomListNode *next;\r\n *     struct RandomListNode *random;\r\n * };\r\n */\r\nstruct RandomListNode *copyRandomList(struct RandomListNode *head) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "/**\r\n * Definition for singly-linked list with a random pointer.\r\n * public class RandomListNode {\r\n *     public int label;\r\n *     public RandomListNode next, random;\r\n *     public RandomListNode(int x) { this.label = x; }\r\n * };\r\n */\r\npublic class Solution {\r\n    public RandomListNode CopyRandomList(RandomListNode head) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * Definition for singly-linked list with a random pointer.\r\n * function RandomListNode(label) {\r\n *     this.label = label;\r\n *     this.next = this.random = null;\r\n * }\r\n */\r\n\r\n/**\r\n * @param {RandomListNode} head\r\n * @return {RandomListNode}\r\n */\r\nvar copyRandomList = function(head) {\r\n    \r\n};"}], "testcase": "'{}'", "testable": false}
+{
+ "id": 138,
+ "ids": "138",
+ "state": "None",
+ "name": "Copy List with Random Pointer",
+ "key": "copy-list-with-random-pointer",
+ "link": "https://leetcode.com/problems/copy-list-with-random-pointer",
+ "locked": false,
+ "percent": 26.3355846847502,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "115.9K",
+ "totalSubmit": "440.1K",
+ "desc": "\r\nA linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.\r\n\r\n\r\n\r\nReturn a deep copy of the list.\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "/**\r\n * Definition for singly-linked list with a random pointer.\r\n * struct RandomListNode {\r\n *     int label;\r\n *     RandomListNode *next, *random;\r\n *     RandomListNode(int x) : label(x), next(NULL), random(NULL) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    RandomListNode *copyRandomList(RandomListNode *head) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "/**\r\n * Definition for singly-linked list with a random pointer.\r\n * class RandomListNode {\r\n *     int label;\r\n *     RandomListNode next, random;\r\n *     RandomListNode(int x) { this.label = x; }\r\n * };\r\n */\r\npublic class Solution {\r\n    public RandomListNode copyRandomList(RandomListNode head) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "# Definition for singly-linked list with a random pointer.\r\n# class RandomListNode(object):\r\n#     def __init__(self, x):\r\n#         self.label = x\r\n#         self.next = None\r\n#         self.random = None\r\n\r\nclass Solution(object):\r\n    def copyRandomList(self, head):\r\n        \"\"\"\r\n        :type head: RandomListNode\r\n        :rtype: RandomListNode\r\n        \"\"\""
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Definition for singly-linked list with a random pointer.\r\n * struct RandomListNode {\r\n *     int label;\r\n *     struct RandomListNode *next;\r\n *     struct RandomListNode *random;\r\n * };\r\n */\r\nstruct RandomListNode *copyRandomList(struct RandomListNode *head) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "/**\r\n * Definition for singly-linked list with a random pointer.\r\n * public class RandomListNode {\r\n *     public int label;\r\n *     public RandomListNode next, random;\r\n *     public RandomListNode(int x) { this.label = x; }\r\n * };\r\n */\r\npublic class Solution {\r\n    public RandomListNode CopyRandomList(RandomListNode head) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * Definition for singly-linked list with a random pointer.\r\n * function RandomListNode(label) {\r\n *     this.label = label;\r\n *     this.next = this.random = null;\r\n * }\r\n */\r\n\r\n/**\r\n * @param {RandomListNode} head\r\n * @return {RandomListNode}\r\n */\r\nvar copyRandomList = function(head) {\r\n    \r\n};"
+  }
+ ],
+ "testcase": "'{}'",
+ "testable": false,
+ "slug": "copy-list-with-random-pointer",
+ "category": "algorithms",
+ "fname": "138.copy-list-with-random-pointer.algorithms.py"
+}

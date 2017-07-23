@@ -1,1 +1,73 @@
-{"id": 137, "ids": "137", "state": "None", "name": "Single Number II", "key": "single-number-ii", "link": "https://leetcode.com/problems/single-number-ii", "locked": false, "percent": 41.26713834873747, "level": "Medium", "starred": false, "loaded": true, "totalAC": "", "totalSubmit": "", "desc": "\r\nGiven an array of integers, every element appears three times except for one, which appears exactly once. Find that single one.\r\n\r\n\r\n\r\nNote:\r\nYour algorithm should have a linear runtime complexity. Could you implement it without using extra memory?\r\n", "templates": [{"value": "cpp", "text": "C++", "defaultCode": "class Solution {\r\npublic:\r\n    int singleNumber(vector<int>& nums) {\r\n        \r\n    }\r\n};"}, {"value": "java", "text": "Java", "defaultCode": "public class Solution {\r\n    public int singleNumber(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "python", "text": "Python", "defaultCode": "class Solution(object):\r\n    def singleNumber(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "}, {"value": "c", "text": "C", "defaultCode": "int singleNumber(int* nums, int numsSize) {\r\n    \r\n}"}, {"value": "csharp", "text": "C#", "defaultCode": "public class Solution {\r\n    public int SingleNumber(int[] nums) {\r\n        \r\n    }\r\n}"}, {"value": "javascript", "text": "JavaScript", "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar singleNumber = function(nums) {\r\n    \r\n};"}, {"value": "ruby", "text": "Ruby", "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef single_number(nums)\r\n    \r\nend"}, {"value": "swift", "text": "Swift", "defaultCode": "class Solution {\r\n    func singleNumber(_ nums: [Int]) -> Int {\r\n        \r\n    }\r\n}"}, {"value": "golang", "text": "Go", "defaultCode": "func singleNumber(nums []int) int {\r\n    \r\n}"}, {"value": "scala", "text": "Scala", "defaultCode": "object Solution {\n    def singleNumber(nums: Array[Int]): Int = {\n        \n    }\n}"}], "testcase": "'[1]'", "testable": true}
+{
+ "id": 137,
+ "ids": "137",
+ "state": "None",
+ "name": "Single Number II",
+ "key": "single-number-ii",
+ "link": "https://leetcode.com/problems/single-number-ii",
+ "locked": false,
+ "percent": 41.3093470117158,
+ "level": "Medium",
+ "starred": false,
+ "loaded": true,
+ "totalAC": "117.7K",
+ "totalSubmit": "284.8K",
+ "desc": "\r\nGiven an array of integers, every element appears three times except for one, which appears exactly once. Find that single one.\r\n\r\n\r\n\r\nNote:\r\nYour algorithm should have a linear runtime complexity. Could you implement it without using extra memory?\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    int singleNumber(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int singleNumber(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def singleNumber(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "int singleNumber(int* nums, int numsSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int SingleNumber(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar singleNumber = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer}\r\ndef single_number(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func singleNumber(_ nums: [Int]) -> Int {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func singleNumber(nums []int) int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\n    def singleNumber(nums: Array[Int]): Int = {\n        \n    }\n}"
+  }
+ ],
+ "testcase": "'[1]'",
+ "testable": true,
+ "slug": "single-number-ii",
+ "category": "algorithms",
+ "fname": "137.single-number-ii.algorithms.py"
+}

@@ -6,12 +6,12 @@
  "key": "multiply-strings",
  "link": "https://leetcode.com/problems/multiply-strings",
  "locked": false,
- "percent": 26.940130740621797,
+ "percent": 26.951789252886744,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "104.6K",
+ "totalSubmit": "388.2K",
  "desc": "Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2.\r\n\r\nNote:\r\n\r\nThe length of both num1 and num2 is < 110.\r\nBoth num1 and num2 contains only digits 0-9.\r\nBoth num1 and num2 does not contain any leading zero.\r\nYou must not use any built-in BigInteger library or convert the inputs to integer directly.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"0\"\\n\"0\"'",
- "testable": true
+ "testable": true,
+ "slug": "multiply-strings",
+ "category": "algorithms",
+ "fname": "43.multiply-strings.algorithms.py"
 }

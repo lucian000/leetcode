@@ -6,12 +6,12 @@
  "key": "delete-operation-for-two-strings",
  "link": "https://leetcode.com/problems/delete-operation-for-two-strings",
  "locked": false,
- "percent": 44.24037377154825,
+ "percent": 44.329896907216494,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "5.9K",
+ "totalSubmit": "13.3K",
  "desc": "\r\nGiven two words word1 and word2, find the minimum number of steps required to make word1 and word2 the same, where in each step you can delete one character in either string.\r\n\r\n\r\nExample 1:\r\n\r\nInput: \"sea\", \"eat\"\r\nOutput: 2\r\nExplanation: You need one step to make \"sea\" to \"ea\" and another step to make \"eat\" to \"ea\".\r\n\r\n\r\n\r\nNote:\r\n\r\nThe length of given words won't exceed 500.\r\nCharacters in given words can only be lower-case letters.\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'\"sea\"\\n\"eat\"'",
- "testable": true
+ "testable": true,
+ "slug": "delete-operation-for-two-strings",
+ "category": "algorithms",
+ "fname": "583.delete-operation-for-two-strings.algorithms.py"
 }

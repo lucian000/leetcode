@@ -6,12 +6,12 @@
  "key": "task-scheduler",
  "link": "https://leetcode.com/problems/task-scheduler",
  "locked": false,
- "percent": 41.6,
+ "percent": 41.6768558951965,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "4.8K",
+ "totalSubmit": "11.5K",
  "desc": "Given a char array representing tasks CPU need to do. It contains capital letters A to Z where different letters represent different tasks.Tasks could be done without original order. Each task could be done in one interval. For each interval, CPU could finish one task or just be idle.\r\n\r\nHowever, there is a non-negative cooling interval n that means between two same tasks, there must be at least n intervals that CPU are doing different tasks or just be idle. \r\n\r\nYou need to return the least number of intervals the CPU will take to finish all the given tasks.\r\n\r\nExample 1:\r\n\r\nInput: tasks = ['A','A','A','B','B','B'], n = 2\r\nOutput: 8\r\nExplanation: A -> B -> idle -> A -> B -> idle -> A -> B.\r\n\r\n\r\n\r\nNote:\r\n\r\nThe number of tasks is in the range [1, 10000].\r\nThe integer n is in the range [0, 100].\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'['A','A','A','B','B','B']\\n2'",
- "testable": true
+ "testable": true,
+ "slug": "task-scheduler",
+ "category": "algorithms",
+ "fname": "621.task-scheduler.algorithms.py"
 }

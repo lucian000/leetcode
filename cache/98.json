@@ -6,12 +6,12 @@
  "key": "validate-binary-search-tree",
  "link": "https://leetcode.com/problems/validate-binary-search-tree",
  "locked": false,
- "percent": 23.14547116252767,
+ "percent": 23.175628551659056,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "168.5K",
+ "totalSubmit": "727K",
  "desc": "\r\nGiven a binary tree, determine if it is a valid binary search tree (BST).\r\n\r\n\r\n\r\nAssume a BST is defined as follows:\r\n\r\nThe left subtree of a node contains only nodes with keys less than the node's key.\r\nThe right subtree of a node contains only nodes with keys greater than the node's key.\r\nBoth the left and right subtrees must also be binary search trees.\r\n\r\n\r\n\r\nExample 1:\r\n\r\n    2\r\n   / \\\r\n  1   3\r\n\r\nBinary tree [2,1,3], return true.\r\n\r\n\r\nExample 2:\r\n\r\n    1\r\n   / \\\r\n  2   3\r\n\r\nBinary tree [1,2,3], return false.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[2,1,3]'",
- "testable": true
+ "testable": true,
+ "slug": "validate-binary-search-tree",
+ "category": "algorithms",
+ "fname": "98.validate-binary-search-tree.algorithms.py"
 }

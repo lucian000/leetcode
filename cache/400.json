@@ -6,12 +6,12 @@
  "key": "nth-digit",
  "link": "https://leetcode.com/problems/nth-digit",
  "locked": false,
- "percent": 30.15404148366953,
+ "percent": 30.061420198434487,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "23.5K",
+ "totalSubmit": "78.3K",
  "desc": "Find the nth digit of the infinite integer sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... \r\n\r\nNote:\r\nn is positive and will fit within the range of a 32-bit signed integer (n < 231).\r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\n3\r\n\r\nOutput:\r\n3\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\n11\r\n\r\nOutput:\r\n0\r\n\r\nExplanation:\r\nThe 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, which is part of the number 10.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'3'",
- "testable": true
+ "testable": true,
+ "slug": "nth-digit",
+ "category": "algorithms",
+ "fname": "400.nth-digit.algorithms.py"
 }

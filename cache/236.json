@@ -6,12 +6,12 @@
  "key": "lowest-common-ancestor-of-a-binary-tree",
  "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree",
  "locked": false,
- "percent": 29.72074449556496,
+ "percent": 29.677592113581216,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "107.5K",
+ "totalSubmit": "362.3K",
  "desc": "\r\nGiven a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.\r\n\r\n\r\n\r\nAccording to the definition of LCA on Wikipedia: \u201cThe lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).\u201d\r\n\r\n\r\n\r\n        _______3______\r\n       /              \\\r\n    ___5__          ___1__\r\n   /      \\        /      \\\r\n   6      _2       0       8\r\n         /  \\\r\n         7   4\r\n\r\n\r\n\r\nFor example, the lowest common ancestor (LCA) of nodes 5 and 1 is 3. Another example is LCA of nodes 5 and 4 is 5, since a node can be a descendant of itself according to the LCA definition.",
  "templates": [
   {
@@ -51,5 +51,8 @@
   }
  ],
  "testcase": "'[1,2]\\nnode with value 1\\nnode with value 2'",
- "testable": false
+ "testable": false,
+ "slug": "lowest-common-ancestor-of-a-binary-tree",
+ "category": "algorithms",
+ "fname": "236.lowest-common-ancestor-of-a-binary-tree.algorithms.py"
 }

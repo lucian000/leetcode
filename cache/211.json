@@ -6,12 +6,12 @@
  "key": "add-and-search-word-data-structure-design",
  "link": "https://leetcode.com/problems/add-and-search-word-data-structure-design",
  "locked": false,
- "percent": 22.368777778690614,
+ "percent": 22.422952564155036,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "54.8K",
+ "totalSubmit": "244.3K",
  "desc": "\r\nDesign a data structure that supports the following two operations:\r\n\r\n\r\nvoid addWord(word)\r\nbool search(word)\r\n\r\n\r\n\r\nsearch(word) can search a literal word or a regular expression string containing only letters a-z or .. A . means it can represent any one letter.\r\n\r\n\r\nFor example:\r\n\r\naddWord(\"bad\")\r\naddWord(\"dad\")\r\naddWord(\"mad\")\r\nsearch(\"pad\") -> false\r\nsearch(\"bad\") -> true\r\nsearch(\".ad\") -> true\r\nsearch(\"b..\") -> true\r\n\r\n\r\n\r\nNote:\r\nYou may assume that all words are consist of lowercase letters a-z.\r\n\r\n\r\nclick to show hint.\r\n\r\nYou should be familiar with how a Trie works. If not, please work on this problem: Implement Trie (Prefix Tree) first.\r\n",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'[\"WordDictionary\",\"addWord\",\"addWord\",\"addWord\",\"search\",\"search\",\"search\",\"search\"]\\n[[],[\"bad\"],[\"dad\"],[\"mad\"],[\"pad\"],[\"bad\"],[\".ad\"],[\"b..\"]]'",
- "testable": true
+ "testable": true,
+ "slug": "add-and-search-word-data-structure-design",
+ "category": "algorithms",
+ "fname": "211.add-and-search-word-data-structure-design.algorithms.py"
 }

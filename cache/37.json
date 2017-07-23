@@ -6,12 +6,12 @@
  "key": "sudoku-solver",
  "link": "https://leetcode.com/problems/sudoku-solver",
  "locked": false,
- "percent": 29.82652268366554,
+ "percent": 29.8796857516774,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "75.6K",
+ "totalSubmit": "253K",
  "desc": "Write a program to solve a Sudoku puzzle by filling the empty cells.\r\n\r\nEmpty cells are indicated by the character '.'.\r\n\r\nYou may assume that there will be only one unique solution.\r\n\r\n\r\n\r\nA sudoku puzzle...\r\n\r\n\r\n\r\n\r\n...and its solution numbers marked in red.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[\"..9748...\",\"7........\",\".2.1.9...\",\"..7...24.\",\".64.1.59.\",\".98...3..\",\"...8.3.2.\",\"........6\",\"...2759..\"]'",
- "testable": true
+ "testable": true,
+ "slug": "sudoku-solver",
+ "category": "algorithms",
+ "fname": "37.sudoku-solver.algorithms.py"
 }

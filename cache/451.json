@@ -6,12 +6,12 @@
  "key": "sort-characters-by-frequency",
  "link": "https://leetcode.com/problems/sort-characters-by-frequency",
  "locked": false,
- "percent": 50.841918412714215,
+ "percent": 50.83890974375714,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "31.1K",
+ "totalSubmit": "61.3K",
  "desc": "Given a string, sort it in decreasing order based on the frequency of characters.\r\n\r\nExample 1:\r\n\r\nInput:\r\n\"tree\"\r\n\r\nOutput:\r\n\"eert\"\r\n\r\nExplanation:\r\n'e' appears twice while 'r' and 't' both appear once.\r\nSo 'e' must appear before both 'r' and 't'. Therefore \"eetr\" is also a valid answer.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\n\"cccaaa\"\r\n\r\nOutput:\r\n\"cccaaa\"\r\n\r\nExplanation:\r\nBoth 'c' and 'a' appear three times, so \"aaaccc\" is also a valid answer.\r\nNote that \"cacaca\" is incorrect, as the same characters must be together.\r\n\r\n\r\n\r\nExample 3:\r\n\r\nInput:\r\n\"Aabb\"\r\n\r\nOutput:\r\n\"bbAa\"\r\n\r\nExplanation:\r\n\"bbaA\" is also a valid answer, but \"Aabb\" is incorrect.\r\nNote that 'A' and 'a' are treated as two different characters.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"tree\"'",
- "testable": true
+ "testable": true,
+ "slug": "sort-characters-by-frequency",
+ "category": "algorithms",
+ "fname": "451.sort-characters-by-frequency.algorithms.py"
 }

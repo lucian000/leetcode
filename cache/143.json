@@ -6,12 +6,12 @@
  "key": "reorder-list",
  "link": "https://leetcode.com/problems/reorder-list",
  "locked": false,
- "percent": 25.43601014002372,
+ "percent": 25.46325168245636,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "93.9K",
+ "totalSubmit": "368.8K",
  "desc": "\r\nGiven a singly linked list L: L0?L1?\u2026?Ln-1?Ln,\r\nreorder it to: L0?Ln?L1?Ln-1?L2?Ln-2?\u2026\r\n\r\n\r\nYou must do this in-place without altering the nodes' values.\r\n\r\n\r\nFor example,\r\nGiven {1,2,3,4}, reorder it to {1,4,2,3}.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "reorder-list",
+ "category": "algorithms",
+ "fname": "143.reorder-list.algorithms.py"
 }

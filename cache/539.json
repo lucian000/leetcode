@@ -6,12 +6,12 @@
  "key": "minimum-time-difference",
  "link": "https://leetcode.com/problems/minimum-time-difference",
  "locked": false,
- "percent": 45.77151335311573,
+ "percent": 45.73787409700722,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "8.9K",
+ "totalSubmit": "19.4K",
  "desc": "Given a list of 24-hour clock time points in \"Hour:Minutes\" format, find the minimum minutes difference between any two time points in the list. \r\n\r\nExample 1:\r\n\r\nInput: [\"23:59\",\"00:00\"]\r\nOutput: 1\r\n\r\n\r\n\r\nNote:\r\n\r\nThe number of time points in the given list is at least 2 and won't exceed 20000.\r\nThe input time is legal and ranges from 00:00 to 23:59.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[\"23:59\",\"00:00\"]'",
- "testable": true
+ "testable": true,
+ "slug": "minimum-time-difference",
+ "category": "algorithms",
+ "fname": "539.minimum-time-difference.algorithms.py"
 }

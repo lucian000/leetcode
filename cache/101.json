@@ -6,12 +6,12 @@
  "key": "symmetric-tree",
  "link": "https://leetcode.com/problems/symmetric-tree",
  "locked": false,
- "percent": 38.489233952243325,
+ "percent": 38.53106457390729,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "181.6K",
+ "totalSubmit": "471.3K",
  "desc": "Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).\r\n\r\n\r\nFor example, this binary tree [1,2,2,3,4,4,3] is symmetric:\r\n\r\n    1\r\n   / \\\r\n  2   2\r\n / \\ / \\\r\n3  4 4  3\r\n\r\n\r\n\r\nBut the following [1,2,2,null,3,null,3]  is not:\r\n\r\n    1\r\n   / \\\r\n  2   2\r\n   \\   \\\r\n   3    3\r\n\r\n\r\n\r\n\r\nNote:\r\nBonus points if you could solve it both recursively and iteratively.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,2,2,3,4,4,3]'",
- "testable": true
+ "testable": true,
+ "slug": "symmetric-tree",
+ "category": "algorithms",
+ "fname": "101.symmetric-tree.algorithms.py"
 }

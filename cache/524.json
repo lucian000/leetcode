@@ -6,12 +6,12 @@
  "key": "longest-word-in-dictionary-through-deleting",
  "link": "https://leetcode.com/problems/longest-word-in-dictionary-through-deleting",
  "locked": false,
- "percent": 42.12236306227978,
+ "percent": 42.24435769731233,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "9.4K",
+ "totalSubmit": "22.3K",
  "desc": "\r\nGiven a string and a string dictionary, find the longest string in the dictionary that can be formed by deleting some characters of the given string. If there are more than one possible results, return the longest word with the smallest lexicographical order. If there is no possible result, return the empty string.\r\n\r\nExample 1:\r\n\r\nInput:\r\ns = \"abpcplea\", d = [\"ale\",\"apple\",\"monkey\",\"plea\"]\r\n\r\nOutput: \r\n\"apple\"\r\n\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\ns = \"abpcplea\", d = [\"a\",\"b\",\"c\"]\r\n\r\nOutput: \r\n\"a\"\r\n\r\n\r\n\r\nNote:\r\n\r\nAll the strings in the input will only contain lower-case letters.\r\nThe size of the dictionary won't exceed 1,000.\r\nThe length of all the strings in the input won't exceed 1,000.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"abpcplea\"\\n[\"ale\",\"apple\",\"monkey\",\"plea\"]'",
- "testable": true
+ "testable": true,
+ "slug": "longest-word-in-dictionary-through-deleting",
+ "category": "algorithms",
+ "fname": "524.longest-word-in-dictionary-through-deleting.algorithms.py"
 }

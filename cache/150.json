@@ -6,12 +6,12 @@
  "key": "evaluate-reverse-polish-notation",
  "link": "https://leetcode.com/problems/evaluate-reverse-polish-notation",
  "locked": false,
- "percent": 26.990261157176654,
+ "percent": 27.014730934963424,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "94.4K",
+ "totalSubmit": "349.3K",
  "desc": "\r\nEvaluate the value of an arithmetic expression in Reverse Polish Notation.\r\n\r\n\r\n\r\nValid operators are +, -, *, /. Each operand may be an integer or another expression.\r\n\r\n\r\n\r\nSome examples:\r\n\r\n  [\"2\", \"1\", \"+\", \"3\", \"*\"] -> ((2 + 1) * 3) -> 9\r\n  [\"4\", \"13\", \"5\", \"/\", \"+\"] -> (4 + (13 / 5)) -> 6\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[\"18\"]'",
- "testable": true
+ "testable": true,
+ "slug": "evaluate-reverse-polish-notation",
+ "category": "algorithms",
+ "fname": "150.evaluate-reverse-polish-notation.algorithms.py"
 }

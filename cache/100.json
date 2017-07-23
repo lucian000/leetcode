@@ -6,12 +6,12 @@
  "key": "same-tree",
  "link": "https://leetcode.com/problems/same-tree",
  "locked": false,
- "percent": 46.3182892555706,
+ "percent": 46.339965965587425,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "208.3K",
+ "totalSubmit": "449.6K",
  "desc": "\r\nGiven two binary trees, write a function to check if they are equal or not.\r\n\r\n\r\nTwo binary trees are considered equal if they are structurally identical and the nodes have the same value.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]\\n[]'",
- "testable": true
+ "testable": true,
+ "slug": "same-tree",
+ "category": "algorithms",
+ "fname": "100.same-tree.algorithms.py"
 }

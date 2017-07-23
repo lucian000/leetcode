@@ -6,12 +6,12 @@
  "key": "shortest-unsorted-continuous-subarray",
  "link": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray",
  "locked": false,
- "percent": 29.76318770897234,
+ "percent": 29.721362229102166,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "11.3K",
+ "totalSubmit": "38.1K",
  "desc": "Given an integer array, you need to find one continuous subarray that if you only sort this subarray in ascending order, then the whole array will be sorted in ascending order, too.  \r\n\r\nYou need to find the shortest such subarray and output its length.\r\n\r\nExample 1:\r\n\r\nInput: [2, 6, 4, 8, 10, 9, 15]\r\nOutput: 5\r\nExplanation: You need to sort [6, 4, 8, 10, 9] in ascending order to make the whole array sorted in ascending order.\r\n\r\n\r\n\r\nNote:\r\n\r\nThen length of the input array is in range [1, 10,000].\r\nThe input array may contain duplicates, so ascending order here means <=. \r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'[2,6,4,8,10,9,15]'",
- "testable": true
+ "testable": true,
+ "slug": "shortest-unsorted-continuous-subarray",
+ "category": "algorithms",
+ "fname": "581.shortest-unsorted-continuous-subarray.algorithms.py"
 }

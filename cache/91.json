@@ -6,12 +6,12 @@
  "key": "decode-ways",
  "link": "https://leetcode.com/problems/decode-ways",
  "locked": false,
- "percent": 19.494772994783293,
+ "percent": 19.510075729619082,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "123.7K",
+ "totalSubmit": "634.2K",
  "desc": "\r\nA message containing letters from A-Z is being encoded to numbers using the following mapping:\r\n\r\n\r\n\r\n'A' -> 1\r\n'B' -> 2\r\n...\r\n'Z' -> 26\r\n\r\n\r\n\r\nGiven an encoded message containing digits, determine the total number of ways to decode it.\r\n\r\n\r\n\r\nFor example,\r\nGiven encoded message \"12\",\r\nit could be decoded as \"AB\" (1 2) or \"L\" (12).\r\n\r\n\r\n\r\nThe number of ways decoding \"12\" is 2.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"\"'",
- "testable": true
+ "testable": true,
+ "slug": "decode-ways",
+ "category": "algorithms",
+ "fname": "91.decode-ways.algorithms.py"
 }

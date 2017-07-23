@@ -6,12 +6,12 @@
  "key": "generate-parentheses",
  "link": "https://leetcode.com/problems/generate-parentheses",
  "locked": false,
- "percent": 44.4533367983982,
+ "percent": 44.548874386722694,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "151.8K",
+ "totalSubmit": "340.8K",
  "desc": "\r\nGiven n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.\r\n\r\n\r\n\r\nFor example, given n = 3, a solution set is:\r\n\r\n\r\n[\r\n  \"((()))\",\r\n  \"(()())\",\r\n  \"(())()\",\r\n  \"()(())\",\r\n  \"()()()\"\r\n]\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'3'",
- "testable": true
+ "testable": true,
+ "slug": "generate-parentheses",
+ "category": "algorithms",
+ "fname": "22.generate-parentheses.algorithms.py"
 }

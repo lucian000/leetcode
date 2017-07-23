@@ -6,12 +6,12 @@
  "key": "longest-palindromic-substring",
  "link": "https://leetcode.com/problems/longest-palindromic-substring",
  "locked": false,
- "percent": 25.15664733159373,
+ "percent": 25.165360932544985,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "213.7K",
+ "totalSubmit": "849.2K",
  "desc": "Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.\r\n\r\nExample:\r\n\r\nInput: \"babad\"\r\n\r\nOutput: \"bab\"\r\n\r\nNote: \"aba\" is also a valid answer.\r\n\r\n\r\n\r\nExample:\r\n\r\nInput: \"cbbd\"\r\n\r\nOutput: \"bb\"\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"babad\"'",
- "testable": true
+ "testable": true,
+ "slug": "longest-palindromic-substring",
+ "category": "algorithms",
+ "fname": "5.longest-palindromic-substring.algorithms.py"
 }

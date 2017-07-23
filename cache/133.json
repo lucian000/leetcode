@@ -6,12 +6,12 @@
  "key": "clone-graph",
  "link": "https://leetcode.com/problems/clone-graph",
  "locked": false,
- "percent": 25.104330146953917,
+ "percent": 25.109035650109814,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "113.2K",
+ "totalSubmit": "450.8K",
  "desc": "\r\nClone an undirected graph. Each node in the graph contains a label and a list of its neighbors.\r\n\r\n\r\n\r\n\r\nOJ's undirected graph serialization:\r\n\r\n\r\nNodes are labeled uniquely.\r\n\r\n\r\nWe use # as a separator for each node, and , as a separator for node label and each neighbor of the node.\r\n\r\n\r\n\r\n\r\nAs an example, consider the serialized graph {0,1,2#1,2#2,2}.\r\n\r\n\r\n\r\nThe graph has a total of three nodes, and therefore contains three parts as separated by #.\r\n\r\nFirst node is labeled as 0. Connect node 0 to both nodes 1 and 2.\r\nSecond node is labeled as 1. Connect node 1 to node 2.\r\nThird node is labeled as 2. Connect node 2 to node 2 (itself), thus forming a self-cycle.\r\n\r\n\r\n\r\n\r\nVisually, the graph looks like the following:\r\n\r\n       1\r\n      / \\\r\n     /   \\\r\n    0 --- 2\r\n         / \\\r\n         \\_/\r\n\r\n\r\n\r\n",
  "templates": [
   {
@@ -46,5 +46,8 @@
   }
  ],
  "testcase": "'{}'",
- "testable": false
+ "testable": false,
+ "slug": "clone-graph",
+ "category": "algorithms",
+ "fname": "133.clone-graph.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "fizz-buzz",
  "link": "https://leetcode.com/problems/fizz-buzz",
  "locked": false,
- "percent": 58.84010292824338,
+ "percent": 58.78510987419967,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "73.1K",
+ "totalSubmit": "124.3K",
  "desc": "Write a program that outputs the string representation of numbers from 1 to n.\r\n\r\nBut for multiples of three it should output \u201cFizz\u201d instead of the number and for the multiples of five output \u201cBuzz\u201d. For numbers which are multiples of both three and five output \u201cFizzBuzz\u201d.\r\n\r\nExample:\r\n\r\nn = 15,\r\n\r\nReturn:\r\n[\r\n    \"1\",\r\n    \"2\",\r\n    \"Fizz\",\r\n    \"4\",\r\n    \"Buzz\",\r\n    \"Fizz\",\r\n    \"7\",\r\n    \"8\",\r\n    \"Fizz\",\r\n    \"Buzz\",\r\n    \"11\",\r\n    \"Fizz\",\r\n    \"13\",\r\n    \"14\",\r\n    \"FizzBuzz\"\r\n]\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'1'",
- "testable": true
+ "testable": true,
+ "slug": "fizz-buzz",
+ "category": "algorithms",
+ "fname": "412.fizz-buzz.algorithms.py"
 }

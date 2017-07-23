@@ -6,12 +6,12 @@
  "key": "kth-largest-element-in-an-array",
  "link": "https://leetcode.com/problems/kth-largest-element-in-an-array",
  "locked": false,
- "percent": 38.95016322338286,
+ "percent": 38.96991342544843,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "137.2K",
+ "totalSubmit": "352K",
  "desc": "Find the kth largest element in an unsorted array. Note that it is the kth largest element in the sorted order, not the kth distinct element.\r\n\r\nFor example,\r\nGiven [3,2,1,5,6,4] and k = 2, return 5.\r\n\r\n\r\nNote: \r\nYou may assume k is always valid, 1 ? k ? array's length.\r\n\r\nCredits:Special thanks to @mithmatt for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1]\\n1'",
- "testable": true
+ "testable": true,
+ "slug": "kth-largest-element-in-an-array",
+ "category": "algorithms",
+ "fname": "215.kth-largest-element-in-an-array.algorithms.py"
 }

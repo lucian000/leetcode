@@ -6,12 +6,12 @@
  "key": "add-strings",
  "link": "https://leetcode.com/problems/add-strings",
  "locked": false,
- "percent": 41.262147154095324,
+ "percent": 41.278271220584195,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "36.1K",
+ "totalSubmit": "87.4K",
  "desc": "Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.\r\n\r\nNote:\r\n\r\nThe length of both num1 and num2 is < 5100.\r\nBoth num1 and num2 contains only digits 0-9.\r\nBoth num1 and num2 does not contain any leading zero.\r\nYou must not use any built-in BigInteger library or convert the inputs to integer directly.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"0\"\\n\"0\"'",
- "testable": true
+ "testable": true,
+ "slug": "add-strings",
+ "category": "algorithms",
+ "fname": "415.add-strings.algorithms.py"
 }

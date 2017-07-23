@@ -6,12 +6,12 @@
  "key": "repeated-substring-pattern",
  "link": "https://leetcode.com/problems/repeated-substring-pattern",
  "locked": false,
- "percent": 38.1357440296117,
+ "percent": 38.10076021131297,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "32.5K",
+ "totalSubmit": "85.4K",
  "desc": "Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.  You may assume the given string consists of lowercase English letters only and its length  will not exceed 10000. \r\n\r\nExample 1:\r\n\r\nInput: \"abab\"\r\n\r\nOutput: True\r\n\r\nExplanation: It's the substring \"ab\" twice.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \"aba\"\r\n\r\nOutput: False\r\n\r\n\r\n\r\nExample 3:\r\n\r\nInput: \"abcabcabcabc\"\r\n\r\nOutput: True\r\n\r\nExplanation: It's the substring \"abc\" four times. (And the substring \"abcabc\" twice.)\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"abab\"'",
- "testable": true
+ "testable": true,
+ "slug": "repeated-substring-pattern",
+ "category": "algorithms",
+ "fname": "459.repeated-substring-pattern.algorithms.py"
 }

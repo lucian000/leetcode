@@ -6,12 +6,12 @@
  "key": "word-pattern",
  "link": "https://leetcode.com/problems/word-pattern",
  "locked": false,
- "percent": 32.90737753770876,
+ "percent": 32.9386695851885,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "79.5K",
+ "totalSubmit": "241.2K",
  "desc": "Given a pattern and a string str, find if str follows the same pattern.\r\n Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in str.\r\n\r\nExamples:\r\n\r\npattern = \"abba\", str = \"dog cat cat dog\" should return true.\r\npattern = \"abba\", str = \"dog cat cat fish\" should return false.\r\npattern = \"aaaa\", str = \"dog cat cat dog\" should return false.\r\npattern = \"abba\", str = \"dog dog dog dog\" should return false.\r\n\r\n\r\n\r\n\r\nNotes:\r\nYou may assume pattern contains only lowercase letters, and str contains lowercase letters separated by a single space.\r\n\r\n\r\nCredits:Special thanks to @minglotus6 for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"abba\"\\n\"dog cat cat dog\"'",
- "testable": true
+ "testable": true,
+ "slug": "word-pattern",
+ "category": "algorithms",
+ "fname": "290.word-pattern.algorithms.py"
 }

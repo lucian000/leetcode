@@ -6,12 +6,12 @@
  "key": "single-number",
  "link": "https://leetcode.com/problems/single-number",
  "locked": false,
- "percent": 54.19994324892622,
+ "percent": 54.22393773928325,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "224.7K",
+ "totalSubmit": "414.3K",
  "desc": "Given an array of integers, every element appears twice except for one. Find that single one.\r\n\r\n\r\nNote:\r\nYour algorithm should have a linear runtime complexity. Could you implement it without using extra memory?\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1]'",
- "testable": true
+ "testable": true,
+ "slug": "single-number",
+ "category": "algorithms",
+ "fname": "136.single-number.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "maximum-gap",
  "link": "https://leetcode.com/problems/maximum-gap",
  "locked": false,
- "percent": 29.36989755327352,
+ "percent": 29.383541993492976,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "48.1K",
+ "totalSubmit": "163.9K",
  "desc": "Given an unsorted array, find the maximum difference between the successive elements in its sorted form.\r\n\r\nTry to solve it in linear time/space.\r\n\r\nReturn 0 if the array contains less than 2 elements.\r\n\r\nYou may assume all elements in the array are non-negative integers and fit in the 32-bit signed integer range.\r\n\r\nCredits:Special thanks to @porker2008 for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "maximum-gap",
+ "category": "algorithms",
+ "fname": "164.maximum-gap.algorithms.py"
 }

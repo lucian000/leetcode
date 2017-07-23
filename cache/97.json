@@ -6,12 +6,12 @@
  "key": "interleaving-string",
  "link": "https://leetcode.com/problems/interleaving-string",
  "locked": false,
- "percent": 24.488702579534188,
+ "percent": 24.501942286348502,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "70.6K",
+ "totalSubmit": "288.3K",
  "desc": "\r\nGiven s1, s2, s3, find whether s3 is formed by the interleaving of s1 and s2.\r\n\r\n\r\n\r\nFor example,\r\nGiven:\r\ns1 = \"aabcc\",\r\ns2 = \"dbbca\",\r\n\r\n\r\nWhen s3 = \"aadbbcbcac\", return true.\r\nWhen s3 = \"aadbbbaccc\", return false.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"\"\\n\"\"\\n\"\"'",
- "testable": true
+ "testable": true,
+ "slug": "interleaving-string",
+ "category": "algorithms",
+ "fname": "97.interleaving-string.algorithms.py"
 }

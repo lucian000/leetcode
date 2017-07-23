@@ -6,12 +6,12 @@
  "key": "combination-sum-ii",
  "link": "https://leetcode.com/problems/combination-sum-ii",
  "locked": false,
- "percent": 33.32827009056517,
+ "percent": 33.39348273607451,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "117K",
+ "totalSubmit": "350.4K",
  "desc": "\r\nGiven a collection of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.\r\n\r\n\r\nEach number in C may only be used once in the combination.\r\n\r\nNote:\r\n\r\nAll numbers (including target) will be positive integers.\r\nThe solution set must not contain duplicate combinations.\r\n\r\n\r\n\r\n\r\nFor example, given candidate set [10, 1, 2, 7, 6, 1, 5] and target 8, \r\nA solution set is: \r\n\r\n[\r\n  [1, 7],\r\n  [1, 2, 5],\r\n  [2, 6],\r\n  [1, 1, 6]\r\n]\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[10,1,2,7,6,1,5]\\n8'",
- "testable": true
+ "testable": true,
+ "slug": "combination-sum-ii",
+ "category": "algorithms",
+ "fname": "40.combination-sum-ii.algorithms.py"
 }

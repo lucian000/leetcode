@@ -6,12 +6,12 @@
  "key": "ugly-number",
  "link": "https://leetcode.com/problems/ugly-number",
  "locked": false,
- "percent": 39.07719834437849,
+ "percent": 39.10623713824522,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "102.2K",
+ "totalSubmit": "261.4K",
  "desc": "\r\nWrite a program to check whether a given number is an ugly number.\r\n\r\n\r\n\r\nUgly numbers are positive numbers whose prime factors only include 2, 3, 5. For example, 6, 8 are ugly while 14 is not ugly since it includes another prime factor 7.\r\n\r\n\r\n\r\nNote that 1 is typically treated as an ugly number.\r\n\r\n\r\nCredits:Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'-2147483648'",
- "testable": true
+ "testable": true,
+ "slug": "ugly-number",
+ "category": "algorithms",
+ "fname": "263.ugly-number.algorithms.py"
 }

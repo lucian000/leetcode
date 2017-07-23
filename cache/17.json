@@ -6,12 +6,12 @@
  "key": "letter-combinations-of-a-phone-number",
  "link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number",
  "locked": false,
- "percent": 34.197880092016774,
+ "percent": 34.25831422832903,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "156.8K",
+ "totalSubmit": "457.6K",
  "desc": "Given a digit string, return all possible letter combinations that the number could represent.\r\n\r\n\r\n\r\nA mapping of digit to letters (just like on the telephone buttons) is given below.\r\n\r\n\r\n\r\nInput:Digit string \"23\"\r\nOutput: [\"ad\", \"ae\", \"af\", \"bd\", \"be\", \"bf\", \"cd\", \"ce\", \"cf\"].\r\n\r\n\r\n\r\nNote:\r\nAlthough the above answer is in lexicographical order, your answer could be in any order you want.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"\"'",
- "testable": true
+ "testable": true,
+ "slug": "letter-combinations-of-a-phone-number",
+ "category": "algorithms",
+ "fname": "17.letter-combinations-of-a-phone-number.algorithms.py"
 }

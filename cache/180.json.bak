@@ -1,0 +1,27 @@
+{
+ "id": 180,
+ "ids": "180",
+ "state": "ac",
+ "name": "Consecutive Numbers",
+ "slug": "consecutive-numbers",
+ "link": "https://leetcode.com/problems/consecutive-numbers",
+ "locked": false,
+ "percent": 23.39614473478517,
+ "level": "Medium",
+ "starred": false,
+ "category": "database",
+ "fname": "180.consecutive-numbers.database.py",
+ "loaded": true,
+ "totalAC": "19.5K",
+ "totalSubmit": "83.2K",
+ "desc": "\r\nWrite a SQL query to find all numbers that appear at least three times consecutively.\r\n\r\n\r\n+----+-----+\r\n| Id | Num |\r\n+----+-----+\r\n| 1  |  1  |\r\n| 2  |  1  |\r\n| 3  |  1  |\r\n| 4  |  2  |\r\n| 5  |  1  |\r\n| 6  |  2  |\r\n| 7  |  2  |\r\n+----+-----+\r\n\r\n\r\nFor example, given the above Logs table, 1 is the only number that appears consecutively for at least three times.\r\n\r\n\r\n+-----------------+\r\n| ConsecutiveNums |\r\n+-----------------+\r\n| 1               |\r\n+-----------------+\r\n",
+ "templates": [
+  {
+   "value": "mysql",
+   "text": "MySQL",
+   "defaultCode": "# Write your MySQL query statement below\r\n"
+  }
+ ],
+ "testcase": "'{\"headers\": {\"Logs\": [\"Id\", \"Num\"]}, \"rows\": {\"Logs\": [[1, 1], [2, 1], [3, 1], [4, 2], [5, 1], [6, 2], [7, 2]]}}'",
+ "testable": true
+}

@@ -6,12 +6,12 @@
  "key": "unique-substrings-in-wraparound-string",
  "link": "https://leetcode.com/problems/unique-substrings-in-wraparound-string",
  "locked": false,
- "percent": 32.24211941204527,
+ "percent": 32.15679619888003,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "7.6K",
+ "totalSubmit": "23.6K",
  "desc": "Consider the string s to be the infinite wraparound string of \"abcdefghijklmnopqrstuvwxyz\", so s will look like this: \"...zabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd....\".\r\n\r\nNow we have another string p. Your job is to find out how many unique non-empty substrings of p are present in s. In particular, your input is the string p and you need to output the number of different non-empty substrings of p in the string s.\r\n\r\nNote: p consists of only lowercase English letters and the size of p might be over 10000.\r\n\r\nExample 1:\r\n\r\nInput: \"a\"\r\nOutput: 1\r\n\r\nExplanation: Only the substring \"a\" of string \"a\" is in the string \u0010s.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \"cac\"\r\nOutput: 2\r\nExplanation: There are two substrings \"a\", \"c\" of string \"cac\" in the string s.\r\n\r\n\r\n\r\nExample 3:\r\n\r\nInput: \"zab\"\r\nOutput: 6\r\nExplanation: There are six substrings \"z\", \"a\", \"b\", \"za\", \"ab\", \"zab\" of string \"zab\" in the string s.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"a\"'",
- "testable": true
+ "testable": true,
+ "slug": "unique-substrings-in-wraparound-string",
+ "category": "algorithms",
+ "fname": "467.unique-substrings-in-wraparound-string.algorithms.py"
 }

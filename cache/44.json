@@ -6,12 +6,12 @@
  "key": "wildcard-matching",
  "link": "https://leetcode.com/problems/wildcard-matching",
  "locked": false,
- "percent": 19.889131530320846,
+ "percent": 19.904164051056707,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "95.2K",
+ "totalSubmit": "478K",
  "desc": "Implement wildcard pattern matching with support for '?' and '*'.\r\n\r\n\r\n'?' Matches any single character.\r\n'*' Matches any sequence of characters (including the empty sequence).\r\n\r\nThe matching should cover the entire input string (not partial).\r\n\r\nThe function prototype should be:\r\nbool isMatch(const char *s, const char *p)\r\n\r\nSome examples:\r\nisMatch(\"aa\",\"a\") ? false\r\nisMatch(\"aa\",\"aa\") ? true\r\nisMatch(\"aaa\",\"aa\") ? false\r\nisMatch(\"aa\", \"*\") ? true\r\nisMatch(\"aa\", \"a*\") ? true\r\nisMatch(\"ab\", \"?*\") ? true\r\nisMatch(\"aab\", \"c*a*b\") ? false\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'\"aa\"\\n\"a\"'",
- "testable": true
+ "testable": true,
+ "slug": "wildcard-matching",
+ "category": "algorithms",
+ "fname": "44.wildcard-matching.algorithms.py"
 }

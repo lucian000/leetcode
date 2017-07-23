@@ -6,12 +6,12 @@
  "key": "sliding-window-median",
  "link": "https://leetcode.com/problems/sliding-window-median",
  "locked": false,
- "percent": 31.58019877312283,
+ "percent": 31.589791617888082,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "6.7K",
+ "totalSubmit": "21.4K",
  "desc": "Median is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle value.\r\nExamples: \r\n[2,3,4] , the median is 3\r\n[2,3], the median is (2 + 3) / 2 = 2.5 \r\n\r\nGiven an array nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position. Your job is to output the median array for each window in the original array.\r\n\r\nFor example,\r\nGiven nums = [1,3,-1,-3,5,3,6,7], and k = 3.\r\n\r\n\r\nWindow position                Median\r\n---------------               -----\r\n[1  3  -1] -3  5  3  6  7       1\r\n 1 [3  -1  -3] 5  3  6  7       -1\r\n 1  3 [-1  -3  5] 3  6  7       -1\r\n 1  3  -1 [-3  5  3] 6  7       3\r\n 1  3  -1  -3 [5  3  6] 7       5\r\n 1  3  -1  -3  5 [3  6  7]      6\r\n\r\n\r\nTherefore, return the median sliding window as [1,-1,-1,3,5,6].\r\n\r\nNote: \r\nYou may assume k is always valid, ie: k is always smaller than input array's size for non-empty array.",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,3,-1,-3,5,3,6,7]\\n3'",
- "testable": true
+ "testable": true,
+ "slug": "sliding-window-median",
+ "category": "algorithms",
+ "fname": "480.sliding-window-median.algorithms.py"
 }

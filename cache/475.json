@@ -6,12 +6,12 @@
  "key": "heaters",
  "link": "https://leetcode.com/problems/heaters",
  "locked": false,
- "percent": 29.51010819801437,
+ "percent": 29.464812473662032,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "17.5K",
+ "totalSubmit": "59.3K",
  "desc": "Winter is coming! Your first job during the contest is to design a standard heater with fixed warm radius to warm all the houses.\r\n\r\nNow, you are given positions of houses and heaters on a horizontal line, find out minimum radius of heaters so that all houses could be covered by those heaters.\r\n\r\nSo, your input will be the positions of houses and heaters seperately, and your expected output will be the minimum radius standard of heaters.\r\n\r\nNote:\r\n\r\nNumbers of houses and heaters you are given are non-negative and will not exceed 25000.\r\nPositions of houses and heaters you are given are non-negative and will not exceed 10^9.\r\nAs long as a house is in the heaters' warm radius range, it can be warmed.\r\nAll the heaters follow your radius standard and the warm radius will the same.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: [1,2,3],[2]\r\nOutput: 1\r\nExplanation: The only heater was placed in the position 2, and if we use the radius 1 standard, then all the houses can be warmed.\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: [1,2,3,4],[1,4]\r\nOutput: 1\r\nExplanation: The two heater was placed in the position 1 and 4. We need to use radius 1 standard, then all the houses can be warmed.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[1,2,3]\\n[2]'",
- "testable": true
+ "testable": true,
+ "slug": "heaters",
+ "category": "algorithms",
+ "fname": "475.heaters.algorithms.py"
 }

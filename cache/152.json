@@ -6,12 +6,12 @@
  "key": "maximum-product-subarray",
  "link": "https://leetcode.com/problems/maximum-product-subarray",
  "locked": false,
- "percent": 25.483767453314794,
+ "percent": 25.50582039911308,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "103.1K",
+ "totalSubmit": "404.1K",
  "desc": "\r\nFind the contiguous subarray within an array (containing at least one number) which has the largest product.\r\n\r\n\r\n\r\nFor example, given the array [2,3,-2,4],\r\nthe contiguous subarray [2,3] has the largest product = 6.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[-2]'",
- "testable": true
+ "testable": true,
+ "slug": "maximum-product-subarray",
+ "category": "algorithms",
+ "fname": "152.maximum-product-subarray.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "valid-palindrome",
  "link": "https://leetcode.com/problems/valid-palindrome",
  "locked": false,
- "percent": 26.091204334889877,
+ "percent": 26.112860668993108,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "165.7K",
+ "totalSubmit": "634.6K",
  "desc": "\r\nGiven a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.\r\n\r\n\r\n\r\nFor example,\r\n\"A man, a plan, a canal: Panama\" is a palindrome.\r\n\"race a car\" is not a palindrome.\r\n\r\n\r\n\r\nNote:\r\nHave you consider that the string might be empty? This is a good question to ask during an interview.\r\n\r\nFor the purpose of this problem, we define empty string as valid palindrome.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"\"'",
- "testable": true
+ "testable": true,
+ "slug": "valid-palindrome",
+ "category": "algorithms",
+ "fname": "125.valid-palindrome.algorithms.py"
 }

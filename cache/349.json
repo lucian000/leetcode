@@ -6,12 +6,12 @@
  "key": "intersection-of-two-arrays",
  "link": "https://leetcode.com/problems/intersection-of-two-arrays",
  "locked": false,
- "percent": 47.06904104565042,
+ "percent": 47.09789024840542,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "93.1K",
+ "totalSubmit": "197.7K",
  "desc": "\r\nGiven two arrays, write a function to compute their intersection.\r\n\r\n\r\nExample:\r\nGiven nums1 = [1, 2, 2, 1], nums2 = [2, 2], return [2].\r\n\r\n\r\nNote:\r\n\r\nEach element in the result must be unique.\r\nThe result can be in any order.\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]\\n[]'",
- "testable": true
+ "testable": true,
+ "slug": "intersection-of-two-arrays",
+ "category": "algorithms",
+ "fname": "349.intersection-of-two-arrays.algorithms.py"
 }

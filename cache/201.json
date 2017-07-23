@@ -6,12 +6,12 @@
  "key": "bitwise-and-of-numbers-range",
  "link": "https://leetcode.com/problems/bitwise-and-of-numbers-range",
  "locked": false,
- "percent": 33.87380907389685,
+ "percent": 33.89250942926382,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "55.8K",
+ "totalSubmit": "164.7K",
  "desc": "Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of all numbers in this range, inclusive.\r\n\r\n\r\nFor example, given the range [5, 7], you should return 4.\r\n\r\n\r\nCredits:Special thanks to @amrsaqr for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'0\\n0'",
- "testable": true
+ "testable": true,
+ "slug": "bitwise-and-of-numbers-range",
+ "category": "algorithms",
+ "fname": "201.bitwise-and-of-numbers-range.algorithms.py"
 }

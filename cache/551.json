@@ -6,12 +6,12 @@
  "key": "student-attendance-record-i",
  "link": "https://leetcode.com/problems/student-attendance-record-i",
  "locked": false,
- "percent": 43.659552813205686,
+ "percent": 43.70862966041686,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "14.2K",
+ "totalSubmit": "32.5K",
  "desc": "You are given a string representing an attendance record for a student. The record only contains the following three characters:\r\n\r\n\r\n\r\n'A' : Absent. \r\n'L' : Late.\r\n 'P' : Present. \r\n\r\n\r\n\r\n\r\nA student could be rewarded if his attendance record doesn't contain more than one 'A' (absent) or more than two continuous 'L' (late).    \r\n\r\nYou need to return whether the student could be rewarded according to his attendance record.\r\n\r\nExample 1:\r\n\r\nInput: \"PPALLP\"\r\nOutput: True\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \"PPALLL\"\r\nOutput: False\r\n\r\n\r\n\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'\"PPALLP\"'",
- "testable": true
+ "testable": true,
+ "slug": "student-attendance-record-i",
+ "category": "algorithms",
+ "fname": "551.student-attendance-record-i.algorithms.py"
 }

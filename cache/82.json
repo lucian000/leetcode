@@ -6,12 +6,12 @@
  "key": "remove-duplicates-from-sorted-list-ii",
  "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii",
  "locked": false,
- "percent": 29.343116328708646,
+ "percent": 29.35928780228541,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "110.5K",
+ "totalSubmit": "376.3K",
  "desc": "\r\nGiven a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.\r\n\r\n\r\nFor example,\r\nGiven 1->2->3->3->4->4->5, return 1->2->5.\r\nGiven 1->1->1->2->3, return 2->3.\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[]'",
- "testable": true
+ "testable": true,
+ "slug": "remove-duplicates-from-sorted-list-ii",
+ "category": "algorithms",
+ "fname": "82.remove-duplicates-from-sorted-list-ii.algorithms.py"
 }

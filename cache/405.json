@@ -6,12 +6,12 @@
  "key": "convert-a-number-to-hexadecimal",
  "link": "https://leetcode.com/problems/convert-a-number-to-hexadecimal",
  "locked": false,
- "percent": 41.05756428213242,
+ "percent": 41.04702022963368,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "24K",
+ "totalSubmit": "58.5K",
  "desc": "\r\nGiven an integer, write an algorithm to convert it to hexadecimal. For negative integer, two\u2019s complement method is used.\r\n\r\n\r\nNote:\r\n\r\nAll letters in hexadecimal (a-f) must be in lowercase.\r\nThe hexadecimal string must not contain extra leading 0s. If the number is zero, it is represented by a single zero character '0'; otherwise, the first character in the hexadecimal string will not be the zero character.\r\nThe given number is guaranteed to fit within the range of a 32-bit signed integer.\r\nYou must not use any method provided by the library which converts/formats the number to hex directly.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput:\r\n26\r\n\r\nOutput:\r\n\"1a\"\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput:\r\n-1\r\n\r\nOutput:\r\n\"ffffffff\"\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'26'",
- "testable": true
+ "testable": true,
+ "slug": "convert-a-number-to-hexadecimal",
+ "category": "algorithms",
+ "fname": "405.convert-a-number-to-hexadecimal.algorithms.py"
 }

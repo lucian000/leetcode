@@ -6,12 +6,12 @@
  "key": "linked-list-cycle",
  "link": "https://leetcode.com/problems/linked-list-cycle",
  "locked": false,
- "percent": 35.40538002640763,
+ "percent": 35.39824357533385,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "185.8K",
+ "totalSubmit": "525K",
  "desc": "\r\nGiven a linked list, determine if it has a cycle in it.\r\n\r\n\r\n\r\nFollow up:\r\nCan you solve it without using extra space?\r\n",
  "templates": [
   {
@@ -46,5 +46,8 @@
   }
  ],
  "testcase": "'[]\\nno cycle'",
- "testable": false
+ "testable": false,
+ "slug": "linked-list-cycle",
+ "category": "algorithms",
+ "fname": "141.linked-list-cycle.algorithms.py"
 }

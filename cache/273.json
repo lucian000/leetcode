@@ -6,12 +6,12 @@
  "key": "integer-to-english-words",
  "link": "https://leetcode.com/problems/integer-to-english-words",
  "locked": false,
- "percent": 21.952469818449913,
+ "percent": 21.95092649271449,
  "level": "Hard",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "38.4K",
+ "totalSubmit": "174.8K",
  "desc": "\r\nConvert a non-negative integer to its english words representation. Given input is guaranteed to be less than 231 - 1.\r\n\r\n\r\nFor example,\r\n\r\n123 -> \"One Hundred Twenty Three\"\r\n12345 -> \"Twelve Thousand Three Hundred Forty Five\"\r\n1234567 -> \"One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven\"",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'123'",
- "testable": true
+ "testable": true,
+ "slug": "integer-to-english-words",
+ "category": "algorithms",
+ "fname": "273.integer-to-english-words.algorithms.py"
 }

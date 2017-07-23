@@ -6,12 +6,12 @@
  "key": "set-matrix-zeroes",
  "link": "https://leetcode.com/problems/set-matrix-zeroes",
  "locked": false,
- "percent": 35.81430683311432,
+ "percent": 35.83380692936216,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "105.3K",
+ "totalSubmit": "293.9K",
  "desc": "\r\nGiven a m x n matrix, if an element is 0, set its entire row and column to 0. Do it in place.\r\n\r\n\r\nclick to show follow up.\r\n\r\nFollow up:\r\n\r\n\r\nDid you use extra space?\r\nA straight forward solution using O(mn) space is probably a bad idea.\r\nA simple improvement uses O(m + n) space, but still not the best solution.\r\nCould you devise a constant space solution?\r\n\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'[[0]]'",
- "testable": true
+ "testable": true,
+ "slug": "set-matrix-zeroes",
+ "category": "algorithms",
+ "fname": "73.set-matrix-zeroes.algorithms.py"
 }

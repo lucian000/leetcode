@@ -6,12 +6,12 @@
  "key": "sum-of-square-numbers",
  "link": "https://leetcode.com/problems/sum-of-square-numbers",
  "locked": false,
- "percent": 31.273562676720076,
+ "percent": 31.3915169554587,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "5.9K",
+ "totalSubmit": "18.8K",
  "desc": "\r\nGiven a non-negative integer c, your task is to decide whether there're two integers a and b such that a2 + b2 = c.\r\n\r\n\r\nExample 1:\r\n\r\nInput: 5\r\nOutput: True\r\nExplanation: 1 * 1 + 2 * 2 = 5\r\n\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: 3\r\nOutput: False\r\n\r\n\r\n",
  "templates": [
   {
@@ -71,5 +71,8 @@
   }
  ],
  "testcase": "'5'",
- "testable": true
+ "testable": true,
+ "slug": "sum-of-square-numbers",
+ "category": "algorithms",
+ "fname": "633.sum-of-square-numbers.algorithms.py"
 }

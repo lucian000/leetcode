@@ -6,12 +6,12 @@
  "key": "pascals-triangle-ii",
  "link": "https://leetcode.com/problems/pascals-triangle-ii",
  "locked": false,
- "percent": 36.53208516154767,
+ "percent": 36.585797054700194,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "118K",
+ "totalSubmit": "322.4K",
  "desc": "Given an index k, return the kth row of the Pascal's triangle.\r\n\r\n\r\nFor example, given k = 3,\r\nReturn [1,3,3,1].\r\n\r\n\r\n\r\nNote:\r\nCould you optimize your algorithm to use only O(k) extra space?\r\n",
  "templates": [
   {
@@ -66,5 +66,8 @@
   }
  ],
  "testcase": "'0'",
- "testable": true
+ "testable": true,
+ "slug": "pascals-triangle-ii",
+ "category": "algorithms",
+ "fname": "119.pascals-triangle-ii.algorithms.py"
 }

@@ -6,12 +6,12 @@
  "key": "random-pick-index",
  "link": "https://leetcode.com/problems/random-pick-index",
  "locked": false,
- "percent": 42.357955119271246,
+ "percent": 42.405443265959576,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "21.2K",
+ "totalSubmit": "50K",
  "desc": "\r\nGiven an array of integers with possible duplicates, randomly output the index of a given target number. You can assume that the given target number must exist in the array.\r\n\r\n\r\n\r\nNote:\r\nThe array size can be very large. Solution that uses too much extra space will not pass the judge.\r\n\r\n\r\nExample:\r\n\r\nint[] nums = new int[] {1,2,3,3,3};\r\nSolution solution = new Solution(nums);\r\n\r\n// pick(3) should return either index 2, 3, or 4 randomly. Each index should have equal probability of returning.\r\nsolution.pick(3);\r\n\r\n// pick(1) should return 0. Since in the array only nums[0] is equal to 1.\r\nsolution.pick(1);\r\n\r\n",
  "templates": [
   {
@@ -46,5 +46,8 @@
   }
  ],
  "testcase": "'[\"Solution\",\"pick\"]\\n[[[1,2,3,3,3]],[3]]'",
- "testable": true
+ "testable": true,
+ "slug": "random-pick-index",
+ "category": "algorithms",
+ "fname": "398.random-pick-index.algorithms.py"
 }

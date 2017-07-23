@@ -6,12 +6,12 @@
  "key": "implement-trie-prefix-tree",
  "link": "https://leetcode.com/problems/implement-trie-prefix-tree",
  "locked": false,
- "percent": 27.772244776746426,
+ "percent": 27.818065056137616,
  "level": "Medium",
  "starred": false,
  "loaded": true,
- "totalAC": "",
- "totalSubmit": "",
+ "totalAC": "77.1K",
+ "totalSubmit": "277.2K",
  "desc": "\r\nImplement a trie with insert, search, and startsWith methods.\r\n\r\n\r\n\r\nNote:\r\nYou may assume that all inputs are consist of lowercase letters a-z.\r\n",
  "templates": [
   {
@@ -61,5 +61,8 @@
   }
  ],
  "testcase": "'[\"Trie\",\"search\"]\\n[[],[\"a\"]]'",
- "testable": true
+ "testable": true,
+ "slug": "implement-trie-prefix-tree",
+ "category": "algorithms",
+ "fname": "208.implement-trie-prefix-tree.algorithms.py"
 }

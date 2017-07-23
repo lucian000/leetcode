@@ -1,0 +1,27 @@
+{
+ "id": 595,
+ "ids": "595",
+ "state": "None",
+ "name": "Big Countries",
+ "slug": "big-countries",
+ "link": "https://leetcode.com/problems/big-countries",
+ "locked": false,
+ "percent": 68.96324739440483,
+ "level": "Easy",
+ "starred": false,
+ "category": "database",
+ "fname": "595.big-countries.database.py",
+ "loaded": true,
+ "totalAC": "6.3K",
+ "totalSubmit": "9.1K",
+ "desc": "There is a table World \r\n\r\n+-----------------+------------+------------+--------------+---------------+\r\n| name            | continent  | area       | population   | gdp           |\r\n+-----------------+------------+------------+--------------+---------------+\r\n| Afghanistan     | Asia       | 652230     | 25500100     | 20343000      |\r\n| Albania         | Europe     | 28748      | 2831741      | 12960000      |\r\n| Algeria         | Africa     | 2381741    | 37100000     | 188681000     |\r\n| Andorra         | Europe     | 468        | 78115        | 3712000       |\r\n| Angola          | Africa     | 1246700    | 20609294     | 100990000     |\r\n+-----------------+------------+------------+--------------+---------------+\r\n\r\n\r\nA country is big if it has an area of bigger than 3 million square km or a population of more than 25 million.\r\n\r\nWrite a SQL solution to output big countries' name, population and area.\r\n\r\n\r\nFor example, according to the above table, we should output:\r\n\r\n+--------------+-------------+--------------+\r\n| name         | population  | area         |\r\n+--------------+-------------+--------------+\r\n| Afghanistan  | 25500100    | 652230       |\r\n| Algeria      | 37100000    | 2381741      |\r\n+--------------+-------------+--------------+\r\n\r\n",
+ "templates": [
+  {
+   "value": "mysql",
+   "text": "MySQL",
+   "defaultCode": "# Write your MySQL query statement below\r\n"
+  }
+ ],
+ "testcase": "'{\"headers\": {\"World\": [\"name\", \"continent\",\t\"area\",\t\"population\", \"gdp\"]}, \"rows\": {\"World\": [[\"Afghanistan\", \"Asia\", 652230, 25500100, 20343000000], [\"Albania\", \"Europe\", 28748, 2831741, 12960000000], [\"Algeria\", \"Africa\", 2381741, 37100000, 188681000000], [\"Andorra\", \"Europe\", 468, 78115,\t3712000000], [\"Angola\", \"Africa\", 1246700, 20609294, 100990000000]]}}'",
+ "testable": true
+}
