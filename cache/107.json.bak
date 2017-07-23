@@ -69,5 +69,239 @@
  "testable": true,
  "slug": "binary-tree-level-order-traversal-ii",
  "category": "algorithms",
- "fname": "107.binary-tree-level-order-traversal-ii.algorithms.py"
+ "fname": "107.binary-tree-level-order-traversal-ii.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "[[15,7],[9,20],[3]]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1500821696.03_784204_33"
+ },
+ "test_expected": {
+  "code_answer": [
+   "[[15,7],[9,20],[3]]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "36 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1500821696.05_784204_33"
+ },
+ "submit_chart": [
+  [
+   "38",
+   "0.1159"
+  ],
+  [
+   "42",
+   "5.5620"
+  ],
+  [
+   "43",
+   "0.3476"
+  ],
+  [
+   "45",
+   "9.0382"
+  ],
+  [
+   "46",
+   "8.2271"
+  ],
+  [
+   "48",
+   "4.8667"
+  ],
+  [
+   "49",
+   "12.3986"
+  ],
+  [
+   "52",
+   "13.3256"
+  ],
+  [
+   "53",
+   "0.2317"
+  ],
+  [
+   "55",
+   "6.0255"
+  ],
+  [
+   "56",
+   "3.5921"
+  ],
+  [
+   "58",
+   "3.4762"
+  ],
+  [
+   "59",
+   "6.1414"
+  ],
+  [
+   "62",
+   "6.2572"
+  ],
+  [
+   "63",
+   "0.2317"
+  ],
+  [
+   "65",
+   "2.5492"
+  ],
+  [
+   "66",
+   "1.1587"
+  ],
+  [
+   "68",
+   "1.0429"
+  ],
+  [
+   "69",
+   "2.6651"
+  ],
+  [
+   "72",
+   "2.0857"
+  ],
+  [
+   "75",
+   "1.1587"
+  ],
+  [
+   "76",
+   "0.4635"
+  ],
+  [
+   "78",
+   "0.4635"
+  ],
+  [
+   "79",
+   "0.8111"
+  ],
+  [
+   "82",
+   "1.2746"
+  ],
+  [
+   "85",
+   "1.1587"
+  ],
+  [
+   "86",
+   "0.8111"
+  ],
+  [
+   "88",
+   "0.3476"
+  ],
+  [
+   "89",
+   "0.9270"
+  ],
+  [
+   "92",
+   "0.9270"
+  ],
+  [
+   "95",
+   "0.2317"
+  ],
+  [
+   "96",
+   "0.2317"
+  ],
+  [
+   "99",
+   "0.1159"
+  ],
+  [
+   "102",
+   "0.3476"
+  ],
+  [
+   "105",
+   "0.1159"
+  ],
+  [
+   "112",
+   "0.1159"
+  ],
+  [
+   "125",
+   "0.1159"
+  ],
+  [
+   "146",
+   "0.1159"
+  ],
+  [
+   "158",
+   "0.1159"
+  ],
+  [
+   "185",
+   "0.1159"
+  ],
+  [
+   "196",
+   "0.1159"
+  ],
+  [
+   "238",
+   "0.1159"
+  ],
+  [
+   "336",
+   "0.1159"
+  ],
+  [
+   "392",
+   "0.1159"
+  ],
+  [
+   "535",
+   "0.1159"
+  ],
+  [
+   "565",
+   "0.1159"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 34,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "59 ms",
+  "compare_result": "1111111111111111111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 34,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 107,
+  "name": "Your",
+  "id": 110806657
+ }
 }

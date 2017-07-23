@@ -428,6 +428,10 @@ def do_all(ps,p,resume=False):
 ###############################
 if not os.path.exists('./not_welcome'):
     pry(welcome)
+for i in os.listdir():
+    ipart = i.split('.')
+    if ipart[0].isdigit() and ipart[-1]=='py':
+        pry("File "+i+" exists.")
 while(True):
     ip = input(addy('\nlc >> '))
     ips = ip.split()
