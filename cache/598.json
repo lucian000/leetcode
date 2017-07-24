@@ -81,14 +81,14 @@
   ],
   "code_output": [],
   "status_code": 10,
-  "status_runtime": "48 ms",
+  "status_runtime": "42 ms",
   "run_success": true,
   "state": "SUCCESS",
   "total_correct": null,
   "display_runtime": "",
   "total_testcases": null,
   "name": "Your",
-  "id": "interpret_1500908024.2_784204_16"
+  "id": "interpret_1500908334.6_784204_18"
  },
  "test_expected": {
   "code_answer": [
@@ -96,14 +96,14 @@
   ],
   "code_output": [],
   "status_code": 10,
-  "status_runtime": "33 ms",
+  "status_runtime": "36 ms",
   "run_success": true,
   "state": "SUCCESS",
   "total_correct": null,
   "display_runtime": "",
   "total_testcases": null,
   "name": "Expected",
-  "id": "interpret_expected_1500908024.22_784204_16"
+  "id": "interpret_expected_1500908334.63_784204_18"
  },
  "file": "598.range-addition-ii.algorithms.py",
  "submit_chart": [
@@ -286,7 +286,7 @@
   "user_id": 784204,
   "code_output": "",
   "status_code": 10,
-  "status_runtime": "49 ms",
+  "status_runtime": "35 ms",
   "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
   "display_runtime": "",
   "state": "SUCCESS",
@@ -296,6 +296,6 @@
   "std_output": "",
   "question_id": 598,
   "name": "Your",
-  "id": 110948338
+  "id": 110948898
  }
 }

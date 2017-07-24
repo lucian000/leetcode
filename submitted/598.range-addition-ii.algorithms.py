@@ -51,5 +51,5 @@ class Solution:
         """
         if len(ops)==0:
             return m*n
-        return  numpy.min(i[0] for i in ops) * numpy.min(i[1] for i in ops)
+        return  min(i[0] for i in ops) * min(i[1] for i in ops)
         
