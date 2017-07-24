@@ -69,5 +69,35 @@
  "testable": true,
  "slug": "merge-sorted-array",
  "category": "algorithms",
- "fname": "88.merge-sorted-array.algorithms.py"
+ "fname": "88.merge-sorted-array.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "[1]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "48 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1500886008.81_784204_7"
+ },
+ "test_expected": {
+  "code_answer": [
+   "[1]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1500886008.84_784204_7"
+ }
 }
