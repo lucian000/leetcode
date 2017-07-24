@@ -69,5 +69,35 @@
  "testable": true,
  "slug": "number-complement",
  "category": "algorithms",
- "fname": "476.number-complement.algorithms.py"
+ "fname": "476.number-complement.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "2"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "42 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1500872560.15_784204_3"
+ },
+ "test_expected": {
+  "code_answer": [
+   "2"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "0 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1500872560.17_784204_3"
+ }
 }
