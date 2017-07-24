@@ -28,17 +28,16 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
-        if len(nums)<=1:
-            return 0
-        ind2 = len(nums)-1
-        ind1 = 0
-        if nums[0]==min(nums):
-            while nums[ind1]<=nums[ind1+1]:
-                ind1+=1
-                if ind1>=ind2-1:
-                    return 0
-
-        if nums[-1]==max(nums):
-            while nums[ind2-1]<=nums[ind2]:
-                ind2-=1
-        return ind2-ind1+1     
+        sn = sorted(nums)
+        i1 = 0
+        i2 = len(nums)-1
+        while sn[i1]==nums[i1]:
+            i1+=1
+            if i1>=i2:
+                return 0
+        while sn[i2]==nums[i2]:
+            i2-=1
+            if i2<=i1:
+                return 0
+        return i2-i1+1
+            

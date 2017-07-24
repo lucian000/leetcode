@@ -428,10 +428,12 @@ def do_all(ps,p,resume=False):
 ###############################
 if not os.path.exists('./not_welcome'):
     pry(welcome)
-for i in os.listdir():
+for i in os.listdir(): # check if file needs resume
     ipart = i.split('.')
     if ipart[0].isdigit() and ipart[-1]=='py':
         pry("File "+i+" exists.")
+        if input('Resume? (y=yes,n/[Enter]=no) ').startswith('y'):
+            do_all([ipart[0]],ipart[0],resume=True)
 while(True):
     ip = input(addy('\nlc >> '))
     ips = ip.split()
