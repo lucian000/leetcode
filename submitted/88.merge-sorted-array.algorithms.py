@@ -26,8 +26,9 @@ class Solution(object):
                 nums1[i]=nums2[i]
             return
         for i in nums2[:n]:
-            while i>nums1[ind] and ind<m:
+            while i>=nums1[ind] and ind<m:
                 ind+=1
             for ind2 in range(m,ind,-1):
                 nums1[ind2] = nums1[ind2-1]
-            nums1[ind] = i             
+            nums1[ind] = i
+            m+=1             

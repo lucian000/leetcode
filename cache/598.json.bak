@@ -1,7 +1,7 @@
 {
  "id": 598,
  "ids": "598",
- "state": "None",
+ "state": "notac",
  "name": "Range Addition II",
  "key": "range-addition-ii",
  "link": "https://leetcode.com/problems/range-addition-ii",
@@ -74,5 +74,228 @@
  "testable": true,
  "slug": "range-addition-ii",
  "category": "algorithms",
- "fname": "598.range-addition-ii.algorithms.py"
+ "fname": "598.range-addition-ii.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "4"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "48 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1500908024.2_784204_16"
+ },
+ "test_expected": {
+  "code_answer": [
+   "4"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "33 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1500908024.22_784204_16"
+ },
+ "file": "598.range-addition-ii.algorithms.py",
+ "submit_chart": [
+  [
+   "35",
+   "1.8470"
+  ],
+  [
+   "36",
+   "2.1108"
+  ],
+  [
+   "38",
+   "2.5066"
+  ],
+  [
+   "39",
+   "5.9367"
+  ],
+  [
+   "42",
+   "18.2058"
+  ],
+  [
+   "43",
+   "1.0554"
+  ],
+  [
+   "45",
+   "10.2902"
+  ],
+  [
+   "46",
+   "5.4090"
+  ],
+  [
+   "48",
+   "3.9578"
+  ],
+  [
+   "49",
+   "8.8391"
+  ],
+  [
+   "52",
+   "11.4776"
+  ],
+  [
+   "53",
+   "0.3958"
+  ],
+  [
+   "55",
+   "3.9578"
+  ],
+  [
+   "56",
+   "2.3747"
+  ],
+  [
+   "58",
+   "0.9235"
+  ],
+  [
+   "59",
+   "3.6939"
+  ],
+  [
+   "62",
+   "3.5620"
+  ],
+  [
+   "63",
+   "0.3958"
+  ],
+  [
+   "65",
+   "1.9789"
+  ],
+  [
+   "66",
+   "1.0554"
+  ],
+  [
+   "68",
+   "0.3958"
+  ],
+  [
+   "69",
+   "1.4512"
+  ],
+  [
+   "72",
+   "1.9789"
+  ],
+  [
+   "75",
+   "0.9235"
+  ],
+  [
+   "76",
+   "0.2639"
+  ],
+  [
+   "78",
+   "0.3958"
+  ],
+  [
+   "79",
+   "1.0554"
+  ],
+  [
+   "82",
+   "0.7916"
+  ],
+  [
+   "85",
+   "0.3958"
+  ],
+  [
+   "86",
+   "0.1319"
+  ],
+  [
+   "89",
+   "0.2639"
+  ],
+  [
+   "92",
+   "0.2639"
+  ],
+  [
+   "95",
+   "0.1319"
+  ],
+  [
+   "96",
+   "0.1319"
+  ],
+  [
+   "98",
+   "0.1319"
+  ],
+  [
+   "106",
+   "0.1319"
+  ],
+  [
+   "112",
+   "0.1319"
+  ],
+  [
+   "115",
+   "0.1319"
+  ],
+  [
+   "116",
+   "0.1319"
+  ],
+  [
+   "125",
+   "0.3958"
+  ],
+  [
+   "129",
+   "0.1319"
+  ],
+  [
+   "138",
+   "0.1319"
+  ],
+  [
+   "166",
+   "0.1319"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 69,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "49 ms",
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 69,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 598,
+  "name": "Your",
+  "id": 110948338
+ }
 }
