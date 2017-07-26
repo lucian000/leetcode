@@ -25,6 +25,7 @@ class Solution:
         :type nums: List[int]
         :rtype: List[int]
         """
-        ans=list(range(1,n+1))
+        ans={i:True for i in range(1,len(nums)+1)}
         for i in nums:
-                    
+            ans[i]=False
+        return [i for i in ans if ans[i]]                    
