@@ -69,5 +69,35 @@
  "testable": true,
  "slug": "number-of-boomerangs",
  "category": "algorithms",
- "fname": "447.number-of-boomerangs.algorithms.py"
+ "fname": "447.number-of-boomerangs.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "0"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "59 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1501049546.71_784204_7"
+ },
+ "test_expected": {
+  "code_answer": [
+   "2"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "36 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1501049546.73_784204_7"
+ }
 }

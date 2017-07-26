@@ -421,7 +421,7 @@ def do_all(ps,p,resume=False):
         print('File exists error!')
         return
     shutil.move(prob.fname,'./submitted/'+prob.fname)
-    webbrowser.open(prob.link+'/#/discuss')
+    webbrowser.open_new(prob.link+'/#/discuss')
     prob.cache()
     os.system(lc_cli + 'stat')
     os.system(lc_cli + 'stat -g')

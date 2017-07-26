@@ -72,18 +72,18 @@
  "fname": "447.number-of-boomerangs.algorithms.py",
  "test_your": {
   "code_answer": [
-   "null"
+   "1"
   ],
   "code_output": [],
   "status_code": 10,
-  "status_runtime": "32 ms",
+  "status_runtime": "46 ms",
   "run_success": true,
   "state": "SUCCESS",
   "total_correct": null,
   "display_runtime": "",
   "total_testcases": null,
   "name": "Your",
-  "id": "interpret_1500998149.25_784204_28"
+  "id": "interpret_1501050563.13_784204_8"
  },
  "test_expected": {
   "code_answer": [
@@ -91,13 +91,13 @@
   ],
   "code_output": [],
   "status_code": 10,
-  "status_runtime": "29 ms",
+  "status_runtime": "28 ms",
   "run_success": true,
   "state": "SUCCESS",
   "total_correct": null,
   "display_runtime": "",
   "total_testcases": null,
   "name": "Expected",
-  "id": "interpret_expected_1500998149.27_784204_28"
+  "id": "interpret_expected_1501050563.15_784204_8"
  }
 }
