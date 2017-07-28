@@ -28,17 +28,18 @@ class Solution(object):
         """
         ans=0
         n=len(points)
-        dist = [[0]*n]*n
-        def distance(a,b):
-            return sum((i-j)**2 for (i,j) in zip(a,b))
+        dist = [[0]*n for i in range(n)]
         for i,ni in enumerate(points):
             for j,nj in enumerate(points[:i]):
-                d=distance(ni,nj)
+                d=sum((i-j)**2 for (i,j) in zip(ni,nj))
                 dist[i][j]=d
                 dist[j][i]=d
         for i,l in enumerate(dist):
-            for j,d0 in enumerate(l):
-                if j!=i and j>0:
-                    ans+=sum(1 for (k,d) in enumerate(l[:j]) if d==d0 and k!=i)
+            count = {}            
+            for j in l:
+                count[j] = count.get(j,0)+1
+            for j in count:
+                if count[j]>1:
+                    ans+=count[j]*(count[j]-1)
         return ans
 

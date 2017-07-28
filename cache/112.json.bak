@@ -69,5 +69,35 @@
  "testable": true,
  "slug": "path-sum",
  "category": "algorithms",
- "fname": "112.path-sum.algorithms.py"
+ "fname": "112.path-sum.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "false"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1501233189.19_784204_10"
+ },
+ "test_expected": {
+  "code_answer": [
+   "false"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "35 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1501233189.2_784204_10"
+ }
 }
