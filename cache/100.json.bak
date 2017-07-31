@@ -69,5 +69,187 @@
  "testable": true,
  "slug": "same-tree",
  "category": "algorithms",
- "fname": "100.same-tree.algorithms.py"
+ "fname": "100.same-tree.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "true"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1501511692.99_784204_4"
+ },
+ "test_expected": {
+  "code_answer": [
+   "true"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1501511693.02_784204_4"
+ },
+ "submit_chart": [
+  [
+   "28",
+   "0.2738"
+  ],
+  [
+   "29",
+   "1.9165"
+  ],
+  [
+   "32",
+   "16.1533"
+  ],
+  [
+   "33",
+   "1.9165"
+  ],
+  [
+   "35",
+   "14.3737"
+  ],
+  [
+   "36",
+   "11.1567"
+  ],
+  [
+   "38",
+   "5.4757"
+  ],
+  [
+   "39",
+   "12.5941"
+  ],
+  [
+   "42",
+   "11.8412"
+  ],
+  [
+   "43",
+   "0.4107"
+  ],
+  [
+   "45",
+   "5.2704"
+  ],
+  [
+   "46",
+   "2.9432"
+  ],
+  [
+   "48",
+   "1.5058"
+  ],
+  [
+   "49",
+   "3.2854"
+  ],
+  [
+   "52",
+   "3.8330"
+  ],
+  [
+   "55",
+   "1.8480"
+  ],
+  [
+   "56",
+   "1.1636"
+  ],
+  [
+   "58",
+   "0.4107"
+  ],
+  [
+   "59",
+   "1.0267"
+  ],
+  [
+   "62",
+   "0.7529"
+  ],
+  [
+   "65",
+   "0.5476"
+  ],
+  [
+   "66",
+   "0.2053"
+  ],
+  [
+   "68",
+   "0.1369"
+  ],
+  [
+   "69",
+   "0.0684"
+  ],
+  [
+   "72",
+   "0.3422"
+  ],
+  [
+   "75",
+   "0.0684"
+  ],
+  [
+   "76",
+   "0.0684"
+  ],
+  [
+   "82",
+   "0.0684"
+  ],
+  [
+   "86",
+   "0.0684"
+  ],
+  [
+   "95",
+   "0.0684"
+  ],
+  [
+   "99",
+   "0.0684"
+  ],
+  [
+   "119",
+   "0.0684"
+  ],
+  [
+   "168",
+   "0.0684"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 54,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "33 ms",
+  "compare_result": "111111111111111111111111111111111111111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 54,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 100,
+  "name": "Your",
+  "id": 111897029
+ }
 }
