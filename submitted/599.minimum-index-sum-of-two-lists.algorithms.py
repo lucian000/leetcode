@@ -47,4 +47,14 @@ class Solution:
         :type list2: List[str]
         :rtype: List[str]
         """
-        
+        ans = []
+        ind = 2000
+        for i in list1:
+            if i in list2:
+                indnew = list1.index(i)+list2.index(i)
+                if indnew==ind:
+                    ans.append(i)
+                elif indnew<ind:
+                    ans=[i]
+                    ind=indnew
+        return ans   
