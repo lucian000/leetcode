@@ -43,4 +43,11 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
-                
+        def get(node):
+            if not node:
+                return [],1e9
+            ns1,md1 = get(node.left)
+            ns2,md2 = get(node.right)
+            return ns1+ns2+[node.val],min([abs(i-node.val) for i in ns1+ns2]+[md1,md2])
+        ns,md=get(root)
+        return md

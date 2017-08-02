@@ -69,5 +69,163 @@
  "testable": true,
  "slug": "nim-game",
  "category": "algorithms",
- "fname": "292.nim-game.algorithms.py"
+ "fname": "292.nim-game.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "true"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1501685345.4_784204_7"
+ },
+ "test_expected": {
+  "code_answer": [
+   "true"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "0 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1501685345.43_784204_7"
+ },
+ "submit_chart": [
+  [
+   "25",
+   "0.1161"
+  ],
+  [
+   "28",
+   "1.0453"
+  ],
+  [
+   "29",
+   "6.6202"
+  ],
+  [
+   "32",
+   "23.6934"
+  ],
+  [
+   "33",
+   "2.3229"
+  ],
+  [
+   "35",
+   "10.5691"
+  ],
+  [
+   "36",
+   "8.1301"
+  ],
+  [
+   "38",
+   "4.5296"
+  ],
+  [
+   "39",
+   "11.9628"
+  ],
+  [
+   "42",
+   "10.9175"
+  ],
+  [
+   "43",
+   "0.2323"
+  ],
+  [
+   "45",
+   "4.6458"
+  ],
+  [
+   "46",
+   "1.8583"
+  ],
+  [
+   "48",
+   "1.9744"
+  ],
+  [
+   "49",
+   "3.0197"
+  ],
+  [
+   "52",
+   "2.5552"
+  ],
+  [
+   "55",
+   "1.2776"
+  ],
+  [
+   "56",
+   "0.6969"
+  ],
+  [
+   "58",
+   "0.9292"
+  ],
+  [
+   "59",
+   "0.8130"
+  ],
+  [
+   "62",
+   "0.9292"
+  ],
+  [
+   "65",
+   "0.1161"
+  ],
+  [
+   "66",
+   "0.1161"
+  ],
+  [
+   "68",
+   "0.2323"
+  ],
+  [
+   "72",
+   "0.3484"
+  ],
+  [
+   "89",
+   "0.1161"
+  ],
+  [
+   "99",
+   "0.2323"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 60,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "38 ms",
+  "compare_result": "111111111111111111111111111111111111111111111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 60,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 292,
+  "name": "Your",
+  "id": 112194323
+ }
 }
