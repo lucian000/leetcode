@@ -426,11 +426,31 @@ def do_all(ps,p,resume=False):
     os.system(lc_cli + 'stat')
     os.system(lc_cli + 'stat -g')
 
+def check_config():
+    p=os.path.expanduser('~/.lcconfig')
+    try:
+        config = load(p)
+        if config["LANG"]!='python3':
+            config["LANG"]='python3'
+            store(p,config)
+    except:
+        config = {
+	                "LANG": "python3",
+	                "USE_COLOR": True,
+	                "COLOR_THEME": "default",
+	                "AUTO_LOGIN": False
+                }
+        store(p,config)
+        
+
+        
+
 #%%############################
 # main program
 ###############################
 if not os.path.exists('./not_welcome'):
     pry(welcome)
+check_config()
 for i in os.listdir(): # check if file needs resume
     ipart = i.split('.')
     if ipart[0].isdigit() and ipart[-1]=='py':
