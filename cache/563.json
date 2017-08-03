@@ -69,5 +69,32 @@
  "testable": true,
  "slug": "binary-tree-tilt",
  "category": "algorithms",
- "fname": "563.binary-tree-tilt.algorithms.py"
+ "fname": "563.binary-tree-tilt.algorithms.py",
+ "test_your": {
+  "code_output": [],
+  "status_code": 15,
+  "status_runtime": "N/A",
+  "state": "SUCCESS",
+  "total_correct": null,
+  "run_success": false,
+  "runtime_error": "Line 56: NameError: global name 'tsum' is not defined\n",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1501754504.61_784204_18"
+ },
+ "test_expected": {
+  "code_answer": [
+   "1"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "0 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1501754504.63_784204_18"
+ }
 }
