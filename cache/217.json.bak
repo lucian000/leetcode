@@ -1,7 +1,7 @@
 {
  "id": 217,
  "ids": "217",
- "state": "None",
+ "state": "ac",
  "name": "Contains Duplicate",
  "key": "contains-duplicate",
  "link": "https://leetcode.com/problems/contains-duplicate",
@@ -69,5 +69,292 @@
  "testable": true,
  "slug": "contains-duplicate",
  "category": "algorithms",
- "fname": "217.contains-duplicate.algorithms.py"
+ "fname": "217.contains-duplicate.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "false"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "35 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1501771999.63_784204_5"
+ },
+ "test_expected": {
+  "code_answer": [
+   "false"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1501771999.65_784204_5"
+ },
+ "submit_chart": [
+  [
+   "38",
+   "0.0717"
+  ],
+  [
+   "39",
+   "0.0717"
+  ],
+  [
+   "42",
+   "2.6542"
+  ],
+  [
+   "43",
+   "0.0717"
+  ],
+  [
+   "45",
+   "4.3042"
+  ],
+  [
+   "46",
+   "3.1564"
+  ],
+  [
+   "48",
+   "3.7303"
+  ],
+  [
+   "49",
+   "9.3974"
+  ],
+  [
+   "52",
+   "13.1277"
+  ],
+  [
+   "53",
+   "0.3587"
+  ],
+  [
+   "55",
+   "9.0387"
+  ],
+  [
+   "56",
+   "5.0933"
+  ],
+  [
+   "58",
+   "3.4433"
+  ],
+  [
+   "59",
+   "7.0301"
+  ],
+  [
+   "62",
+   "8.1062"
+  ],
+  [
+   "63",
+   "0.1435"
+  ],
+  [
+   "65",
+   "4.0890"
+  ],
+  [
+   "66",
+   "1.9369"
+  ],
+  [
+   "68",
+   "1.5782"
+  ],
+  [
+   "69",
+   "2.5825"
+  ],
+  [
+   "72",
+   "3.5868"
+  ],
+  [
+   "73",
+   "0.0717"
+  ],
+  [
+   "75",
+   "1.3630"
+  ],
+  [
+   "76",
+   "0.8608"
+  ],
+  [
+   "78",
+   "0.5739"
+  ],
+  [
+   "79",
+   "1.5782"
+  ],
+  [
+   "82",
+   "2.4390"
+  ],
+  [
+   "83",
+   "0.0717"
+  ],
+  [
+   "85",
+   "1.3630"
+  ],
+  [
+   "86",
+   "0.5739"
+  ],
+  [
+   "88",
+   "0.2152"
+  ],
+  [
+   "89",
+   "1.0043"
+  ],
+  [
+   "92",
+   "0.9326"
+  ],
+  [
+   "95",
+   "0.5022"
+  ],
+  [
+   "96",
+   "0.2869"
+  ],
+  [
+   "98",
+   "0.1435"
+  ],
+  [
+   "99",
+   "0.5022"
+  ],
+  [
+   "102",
+   "0.5739"
+  ],
+  [
+   "105",
+   "0.7174"
+  ],
+  [
+   "106",
+   "0.2869"
+  ],
+  [
+   "108",
+   "0.0717"
+  ],
+  [
+   "109",
+   "0.2152"
+  ],
+  [
+   "112",
+   "0.2152"
+  ],
+  [
+   "115",
+   "0.2869"
+  ],
+  [
+   "116",
+   "0.0717"
+  ],
+  [
+   "119",
+   "0.2869"
+  ],
+  [
+   "122",
+   "0.2152"
+  ],
+  [
+   "125",
+   "0.1435"
+  ],
+  [
+   "126",
+   "0.0717"
+  ],
+  [
+   "129",
+   "0.0717"
+  ],
+  [
+   "132",
+   "0.1435"
+  ],
+  [
+   "235",
+   "0.0717"
+  ],
+  [
+   "252",
+   "0.0717"
+  ],
+  [
+   "259",
+   "0.0717"
+  ],
+  [
+   "292",
+   "0.0717"
+  ],
+  [
+   "328",
+   "0.0717"
+  ],
+  [
+   "465",
+   "0.0717"
+  ],
+  [
+   "505",
+   "0.0717"
+  ],
+  [
+   "1282",
+   "0.0717"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 18,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "52 ms",
+  "compare_result": "111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 18,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 217,
+  "name": "Your",
+  "id": 112346928
+ },
+ "file": "217.contains-duplicate.algorithms.py"
 }

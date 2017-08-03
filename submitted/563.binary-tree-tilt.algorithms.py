@@ -46,6 +46,7 @@ class Solution(object):
         """
         if not root:
             return 0
+        global tsum
         tsum=0
         def tilt(n):
             if not n:
@@ -54,7 +55,7 @@ class Solution(object):
             lt = tilt(n.left)
             rt = tilt(n.right)
             tsum+=abs(lt-rt)
-            return lt+rt
+            return lt+rt+n.val
         tilt(root)
         return tsum
                 

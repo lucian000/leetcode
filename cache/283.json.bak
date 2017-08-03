@@ -72,18 +72,18 @@
  "fname": "283.move-zeroes.algorithms.py",
  "test_your": {
   "code_answer": [
-   "[1,3,12,[0,0]]"
+   "[1,3,12,0,0]"
   ],
   "code_output": [],
   "status_code": 10,
-  "status_runtime": "32 ms",
+  "status_runtime": "28 ms",
   "run_success": true,
   "state": "SUCCESS",
   "total_correct": null,
   "display_runtime": "",
   "total_testcases": null,
   "name": "Your",
-  "id": "interpret_1501754035.27_784204_17"
+  "id": "interpret_1501759117.95_784204_20"
  },
  "test_expected": {
   "code_answer": [
@@ -98,7 +98,7 @@
   "display_runtime": "",
   "total_testcases": null,
   "name": "Expected",
-  "id": "interpret_expected_1501754035.3_784204_17"
+  "id": "interpret_expected_1501759117.97_784204_20"
  },
  "submit_chart": [
   [
@@ -1208,7 +1208,7 @@
   "user_id": 784204,
   "code_output": "",
   "status_code": 10,
-  "status_runtime": "1416 ms",
+  "status_runtime": "152 ms",
   "compare_result": "111111111111111111111",
   "display_runtime": "",
   "state": "SUCCESS",
@@ -1218,6 +1218,6 @@
   "std_output": "",
   "question_id": 283,
   "name": "Your",
-  "id": 112323545
+  "id": 112328604
  }
 }
