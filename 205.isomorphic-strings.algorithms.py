@@ -28,4 +28,14 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        
+        dicst = {}
+        dicts = {}
+        for i,si in enumerate(s):
+            if si in dicst and dicst[si]!=t[i]:
+                return False
+            elif t[i] in dicts and dicts[t[i]]!=si:
+                return False
+            else:
+                dicst[si]=t[i]
+                dicts[t[i]]=si
+        return True
