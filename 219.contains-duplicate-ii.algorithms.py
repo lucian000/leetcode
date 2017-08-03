@@ -14,9 +14,12 @@ class Solution(object):
         :type k: int
         :rtype: bool
         """
-        k=max(len(nums)-1,k)
+        n=len(nums)
+        k=min(n-1,k)
         for i in range(len(nums)-k):
             for j in range(i+1,i+k+1):
+                if j>=n:
+                    continue
                 if nums[i]==nums[j]:
                     return True
         return False
