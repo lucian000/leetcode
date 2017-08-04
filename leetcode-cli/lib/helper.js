@@ -37,8 +37,8 @@ var LANGS = [
   {lang: 'java',       ext: '.java',  style: 'c'},
   {lang: 'javascript', ext: '.js',    style: 'c'},
   {lang: 'mysql',      ext: '.sql',   style: '#'},
-  {lang: 'python3',    ext: '.py',    style: '#'},
-  {lang: 'python3',    ext: '.py3',   style: '#'},
+  {lang: 'python',     ext: '.py',   style: '#'},
+  {lang: 'python3',    ext: '.py3',    style: '#'},
   {lang: 'ruby',       ext: '.rb',    style: '#'},
   {lang: 'scala',      ext: '.scala', style: 'c'},
   {lang: 'swift',      ext: '.swift', style: 'c'}
