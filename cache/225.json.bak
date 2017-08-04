@@ -64,5 +64,155 @@
  "testable": true,
  "slug": "implement-stack-using-queues",
  "category": "algorithms",
- "fname": "225.implement-stack-using-queues.algorithms.py"
+ "fname": "225.implement-stack-using-queues.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "[null,true]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "42 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1501819709.06_784204_20"
+ },
+ "test_expected": {
+  "code_answer": [
+   "[null,true]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "52 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1501819709.07_784204_20"
+ },
+ "submit_chart": [
+  [
+   "28",
+   "1.4184"
+  ],
+  [
+   "29",
+   "8.2742"
+  ],
+  [
+   "32",
+   "25.7683"
+  ],
+  [
+   "33",
+   "0.9456"
+  ],
+  [
+   "35",
+   "11.8203"
+  ],
+  [
+   "36",
+   "9.2199"
+  ],
+  [
+   "38",
+   "3.3097"
+  ],
+  [
+   "39",
+   "9.9291"
+  ],
+  [
+   "42",
+   "9.9291"
+  ],
+  [
+   "43",
+   "0.2364"
+  ],
+  [
+   "45",
+   "5.4374"
+  ],
+  [
+   "46",
+   "1.6548"
+  ],
+  [
+   "48",
+   "2.6005"
+  ],
+  [
+   "49",
+   "1.1820"
+  ],
+  [
+   "52",
+   "2.3641"
+  ],
+  [
+   "55",
+   "1.8913"
+  ],
+  [
+   "56",
+   "0.4728"
+  ],
+  [
+   "58",
+   "0.7092"
+  ],
+  [
+   "59",
+   "0.9456"
+  ],
+  [
+   "62",
+   "0.4728"
+  ],
+  [
+   "65",
+   "0.4728"
+  ],
+  [
+   "69",
+   "0.2364"
+  ],
+  [
+   "78",
+   "0.2364"
+  ],
+  [
+   "85",
+   "0.2364"
+  ],
+  [
+   "178",
+   "0.2364"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 16,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "35 ms",
+  "compare_result": "1111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 16,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 225,
+  "name": "Your",
+  "id": 112430645
+ }
 }

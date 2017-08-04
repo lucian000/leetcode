@@ -14,12 +14,9 @@ class Solution(object):
         :type k: int
         :rtype: bool
         """
-        n=len(nums)
-        k=min(n-1,k)
-        for i in range(len(nums)-k):
-            for j in range(i+1,i+k+1):
-                if j>=n:
-                    continue
-                if nums[i]==nums[j]:
-                    return True
+        dic = {}
+        for i, v in enumerate(nums):
+            if v in dic and i - dic[v] <= k:
+                return True
+            dic[v] = i
         return False
