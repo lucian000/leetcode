@@ -1,17 +1,17 @@
 {
  "id": 479,
  "ids": "479",
- "state": "None",
+ "state": "notac",
  "name": "Largest Palindrome Product",
  "key": "largest-palindrome-product",
  "link": "https://leetcode.com/problems/largest-palindrome-product",
  "locked": false,
- "percent": 20.15188335358445,
+ "percent": 21.196524434113677,
  "level": "Easy",
- "starred": false,
+ "starred": true,
  "loaded": true,
- "totalAC": "3.3K",
- "totalSubmit": "16.5K",
+ "totalAC": "3.9K",
+ "totalSubmit": "18.2K",
  "desc": "Find the largest palindrome made from the product of two n-digit numbers.\r\n Since the result could be very large, you should return the largest palindrome mod 1337.\r\n\r\nExample:\r\nInput: 2\r\nOutput: 987\r\nExplanation: 99 x 91 = 9009, 9009 % 1337 = 987\r\n\r\n\r\n\r\n\r\nNote:\r\nThe range of n is [1,8].\r\n\r\n",
  "templates": [
   {
@@ -72,18 +72,18 @@
  "fname": "479.largest-palindrome-product.algorithms.py",
  "test_your": {
   "code_answer": [
-   "1"
+   "9"
   ],
   "code_output": [],
   "status_code": 10,
-  "status_runtime": "33 ms",
+  "status_runtime": "45 ms",
   "run_success": true,
   "state": "SUCCESS",
   "total_correct": null,
   "display_runtime": "",
   "total_testcases": null,
   "name": "Your",
-  "id": "interpret_1501921307.21_784204_11"
+  "id": "interpret_1501949401.24_784204_14"
  },
  "test_expected": {
   "code_answer": [
@@ -91,13 +91,258 @@
   ],
   "code_output": [],
   "status_code": 10,
-  "status_runtime": "38 ms",
+  "status_runtime": "55 ms",
   "run_success": true,
   "state": "SUCCESS",
   "total_correct": null,
   "display_runtime": "",
   "total_testcases": null,
   "name": "Expected",
-  "id": "interpret_expected_1501921307.24_784204_11"
+  "id": "interpret_expected_1501949401.26_784204_14"
+ },
+ "file": "479.largest-palindrome-product.algorithms.py",
+ "submit_chart": [
+  [
+   "26",
+   "0.7937"
+  ],
+  [
+   "28",
+   "2.3810"
+  ],
+  [
+   "29",
+   "5.5556"
+  ],
+  [
+   "32",
+   "12.6984"
+  ],
+  [
+   "33",
+   "1.5873"
+  ],
+  [
+   "35",
+   "6.3492"
+  ],
+  [
+   "36",
+   "6.3492"
+  ],
+  [
+   "38",
+   "2.3810"
+  ],
+  [
+   "39",
+   "6.3492"
+  ],
+  [
+   "42",
+   "8.7302"
+  ],
+  [
+   "45",
+   "3.1746"
+  ],
+  [
+   "49",
+   "3.1746"
+  ],
+  [
+   "52",
+   "1.5873"
+  ],
+  [
+   "55",
+   "0.7937"
+  ],
+  [
+   "95",
+   "0.7937"
+  ],
+  [
+   "185",
+   "0.7937"
+  ],
+  [
+   "326",
+   "0.7937"
+  ],
+  [
+   "352",
+   "0.7937"
+  ],
+  [
+   "372",
+   "0.7937"
+  ],
+  [
+   "378",
+   "0.7937"
+  ],
+  [
+   "425",
+   "0.7937"
+  ],
+  [
+   "449",
+   "1.5873"
+  ],
+  [
+   "569",
+   "0.7937"
+  ],
+  [
+   "622",
+   "0.7937"
+  ],
+  [
+   "635",
+   "0.7937"
+  ],
+  [
+   "639",
+   "0.7937"
+  ],
+  [
+   "665",
+   "0.7937"
+  ],
+  [
+   "678",
+   "0.7937"
+  ],
+  [
+   "703",
+   "0.7937"
+  ],
+  [
+   "708",
+   "0.7937"
+  ],
+  [
+   "742",
+   "0.7937"
+  ],
+  [
+   "759",
+   "0.7937"
+  ],
+  [
+   "855",
+   "0.7937"
+  ],
+  [
+   "895",
+   "0.7937"
+  ],
+  [
+   "902",
+   "0.7937"
+  ],
+  [
+   "949",
+   "0.7937"
+  ],
+  [
+   "952",
+   "1.5873"
+  ],
+  [
+   "965",
+   "0.7937"
+  ],
+  [
+   "979",
+   "1.5873"
+  ],
+  [
+   "982",
+   "0.7937"
+  ],
+  [
+   "986",
+   "0.7937"
+  ],
+  [
+   "995",
+   "0.7937"
+  ],
+  [
+   "1002",
+   "0.7937"
+  ],
+  [
+   "1012",
+   "1.5873"
+  ],
+  [
+   "1016",
+   "0.7937"
+  ],
+  [
+   "1019",
+   "0.7937"
+  ],
+  [
+   "1032",
+   "0.7937"
+  ],
+  [
+   "1036",
+   "0.7937"
+  ],
+  [
+   "1045",
+   "0.7937"
+  ],
+  [
+   "1052",
+   "0.7937"
+  ],
+  [
+   "1058",
+   "1.5873"
+  ],
+  [
+   "1069",
+   "0.7937"
+  ],
+  [
+   "1125",
+   "0.7937"
+  ],
+  [
+   "1189",
+   "0.7937"
+  ],
+  [
+   "1216",
+   "0.7937"
+  ],
+  [
+   "1279",
+   "1.5873"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 8,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "35 ms",
+  "compare_result": "11111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 8,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 479,
+  "name": "Your",
+  "id": 112605091
  }
 }

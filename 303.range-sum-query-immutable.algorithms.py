@@ -28,7 +28,7 @@ class NumArray(object):
         """
         :type nums: List[int]
         """
-        
+        self.n=nums        
 
     def sumRange(self, i, j):
         """
