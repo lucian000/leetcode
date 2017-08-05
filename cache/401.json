@@ -6,12 +6,12 @@
  "key": "binary-watch",
  "link": "https://leetcode.com/problems/binary-watch",
  "locked": false,
- "percent": 44.75161321929984,
+ "percent": 44.7817170468592,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "32K",
- "totalSubmit": "71.5K",
+ "totalAC": "31.9K",
+ "totalSubmit": "71.2K",
  "desc": "A binary watch has 4 LEDs on the top which represent the hours (0-11), and the 6 LEDs on the bottom represent the minutes (0-59).\r\nEach LED represents a zero or one, with the least significant bit on the right.\r\n\r\nFor example, the above binary watch reads \"3:25\".\r\n\r\nGiven a non-negative integer n which represents the number of LEDs that are currently on, return all possible times the watch could represent.\r\n\r\nExample:\r\nInput: n = 1Return: [\"1:00\", \"2:00\", \"4:00\", \"8:00\", \"0:01\", \"0:02\", \"0:04\", \"0:08\", \"0:16\", \"0:32\"]\r\n\r\n\r\nNote:\r\n\r\nThe order of output does not matter.\r\nThe hour must not contain a leading zero, for example \"01:00\" is not valid, it should be \"1:00\".\r\nThe minute must be consist of two digits and may contain a leading zero, for example \"10:2\" is not valid, it should be \"10:02\".\r\n\r\n",
  "templates": [
   {
@@ -70,7 +70,7 @@
  "fname": "401.binary-watch.algorithms.py",
  "test_your": {
   "code_answer": [
-   "null"
+   "[\"0:00\"]"
   ],
   "code_output": [],
   "status_code": 10,
@@ -81,7 +81,7 @@
   "display_runtime": "",
   "total_testcases": null,
   "name": "Your",
-  "id": "interpret_1500613508.27_784204_7"
+  "id": "interpret_1501916188.71_784204_5"
  },
  "test_expected": {
   "code_answer": [
@@ -96,8 +96,200 @@
   "display_runtime": "",
   "total_testcases": null,
   "name": "Expected",
-  "id": "interpret_expected_1500613508.29_784204_7"
+  "id": "interpret_expected_1501916188.73_784204_5"
  },
  "slug": "binary-watch",
- "category": "algorithms"
+ "category": "algorithms",
+ "submit_chart": [
+  [
+   "29",
+   "0.1812"
+  ],
+  [
+   "32",
+   "1.2681"
+  ],
+  [
+   "33",
+   "0.3623"
+  ],
+  [
+   "35",
+   "5.9783"
+  ],
+  [
+   "36",
+   "4.3478"
+  ],
+  [
+   "38",
+   "6.5217"
+  ],
+  [
+   "39",
+   "16.3043"
+  ],
+  [
+   "42",
+   "13.9493"
+  ],
+  [
+   "43",
+   "0.5435"
+  ],
+  [
+   "45",
+   "7.2464"
+  ],
+  [
+   "46",
+   "6.7029"
+  ],
+  [
+   "48",
+   "3.6232"
+  ],
+  [
+   "49",
+   "6.1594"
+  ],
+  [
+   "52",
+   "6.3406"
+  ],
+  [
+   "53",
+   "0.1812"
+  ],
+  [
+   "55",
+   "2.7174"
+  ],
+  [
+   "56",
+   "1.9928"
+  ],
+  [
+   "58",
+   "0.9058"
+  ],
+  [
+   "59",
+   "2.1739"
+  ],
+  [
+   "62",
+   "2.7174"
+  ],
+  [
+   "65",
+   "1.2681"
+  ],
+  [
+   "66",
+   "0.5435"
+  ],
+  [
+   "69",
+   "0.9058"
+  ],
+  [
+   "72",
+   "1.6304"
+  ],
+  [
+   "75",
+   "0.9058"
+  ],
+  [
+   "76",
+   "0.3623"
+  ],
+  [
+   "78",
+   "0.3623"
+  ],
+  [
+   "79",
+   "0.5435"
+  ],
+  [
+   "89",
+   "0.1812"
+  ],
+  [
+   "92",
+   "0.3623"
+  ],
+  [
+   "95",
+   "0.3623"
+  ],
+  [
+   "102",
+   "0.3623"
+  ],
+  [
+   "103",
+   "0.1812"
+  ],
+  [
+   "106",
+   "0.1812"
+  ],
+  [
+   "109",
+   "0.1812"
+  ],
+  [
+   "118",
+   "0.1812"
+  ],
+  [
+   "119",
+   "0.1812"
+  ],
+  [
+   "168",
+   "0.1812"
+  ],
+  [
+   "252",
+   "0.1812"
+  ],
+  [
+   "288",
+   "0.1812"
+  ],
+  [
+   "379",
+   "0.1812"
+  ],
+  [
+   "456",
+   "0.1812"
+  ],
+  [
+   "1002",
+   "0.1812"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 10,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "38 ms",
+  "compare_result": "1111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 10,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 401,
+  "name": "Your",
+  "id": 112569518
+ }
 }

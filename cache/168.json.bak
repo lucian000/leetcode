@@ -1,17 +1,17 @@
 {
  "id": 168,
  "ids": "168",
- "state": "None",
+ "state": "ac",
  "name": "Excel Sheet Column Title",
  "key": "excel-sheet-column-title",
  "link": "https://leetcode.com/problems/excel-sheet-column-title",
  "locked": false,
- "percent": 25.743998856807785,
+ "percent": 25.83651016015112,
  "level": "Easy",
  "starred": false,
  "loaded": true,
- "totalAC": "104.5K",
- "totalSubmit": "405.9K",
+ "totalAC": "106K",
+ "totalSubmit": "410K",
  "desc": "Given a positive integer, return its corresponding column title as appear in an Excel sheet.\r\n\r\nFor example:\r\n\r\n    1 -> A\r\n    2 -> B\r\n    3 -> C\r\n    ...\r\n    26 -> Z\r\n    27 -> AA\r\n    28 -> AB \r\n\r\nCredits:Special thanks to @ifanchu for adding this problem and creating all test cases.",
  "templates": [
   {
@@ -69,5 +69,168 @@
  "testable": true,
  "slug": "excel-sheet-column-title",
  "category": "algorithms",
- "fname": "168.excel-sheet-column-title.algorithms.py"
+ "fname": "168.excel-sheet-column-title.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "\"A\""
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "29 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1501913988.55_784204_3"
+ },
+ "test_expected": {
+  "code_answer": [
+   "\"A\""
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "39 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1501913988.57_784204_3"
+ },
+ "submit_chart": [
+  [
+   "25",
+   "0.1209"
+  ],
+  [
+   "26",
+   "0.8464"
+  ],
+  [
+   "28",
+   "2.5393"
+  ],
+  [
+   "29",
+   "10.1572"
+  ],
+  [
+   "32",
+   "26.8440"
+  ],
+  [
+   "33",
+   "2.1765"
+  ],
+  [
+   "35",
+   "14.8730"
+  ],
+  [
+   "36",
+   "6.7715"
+  ],
+  [
+   "38",
+   "3.7485"
+  ],
+  [
+   "39",
+   "9.6735"
+  ],
+  [
+   "42",
+   "6.8924"
+  ],
+  [
+   "43",
+   "0.6046"
+  ],
+  [
+   "45",
+   "2.2975"
+  ],
+  [
+   "46",
+   "2.1765"
+  ],
+  [
+   "48",
+   "0.9674"
+  ],
+  [
+   "49",
+   "3.1439"
+  ],
+  [
+   "52",
+   "2.2975"
+  ],
+  [
+   "53",
+   "0.1209"
+  ],
+  [
+   "55",
+   "1.2092"
+  ],
+  [
+   "56",
+   "0.4837"
+  ],
+  [
+   "58",
+   "0.6046"
+  ],
+  [
+   "59",
+   "0.3628"
+  ],
+  [
+   "62",
+   "0.4837"
+  ],
+  [
+   "72",
+   "0.1209"
+  ],
+  [
+   "79",
+   "0.1209"
+  ],
+  [
+   "82",
+   "0.1209"
+  ],
+  [
+   "85",
+   "0.1209"
+  ],
+  [
+   "86",
+   "0.1209"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 18,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "46 ms",
+  "compare_result": "111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 18,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 168,
+  "name": "Your",
+  "id": 112566327
+ },
+ "file": "168.excel-sheet-column-title.algorithms.py"
 }

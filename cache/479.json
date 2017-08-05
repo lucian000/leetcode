@@ -69,5 +69,35 @@
  "testable": true,
  "slug": "largest-palindrome-product",
  "category": "algorithms",
- "fname": "479.largest-palindrome-product.algorithms.py"
+ "fname": "479.largest-palindrome-product.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "1"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "33 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1501921307.21_784204_11"
+ },
+ "test_expected": {
+  "code_answer": [
+   "9"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "38 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1501921307.24_784204_11"
+ }
 }
