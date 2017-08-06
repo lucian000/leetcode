@@ -69,5 +69,155 @@
  "testable": true,
  "slug": "convert-a-number-to-hexadecimal",
  "category": "algorithms",
- "fname": "405.convert-a-number-to-hexadecimal.algorithms.py"
+ "fname": "405.convert-a-number-to-hexadecimal.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "\"1a\""
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502029120.79_784204_32"
+ },
+ "test_expected": {
+  "code_answer": [
+   "\"1a\""
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "0 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "0",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502029120.82_784204_32"
+ },
+ "submit_chart": [
+  [
+   "28",
+   "0.8197"
+  ],
+  [
+   "29",
+   "4.0984"
+  ],
+  [
+   "32",
+   "16.9399"
+  ],
+  [
+   "33",
+   "1.9126"
+  ],
+  [
+   "35",
+   "12.0219"
+  ],
+  [
+   "36",
+   "13.3880"
+  ],
+  [
+   "38",
+   "4.3716"
+  ],
+  [
+   "39",
+   "12.2951"
+  ],
+  [
+   "42",
+   "10.6557"
+  ],
+  [
+   "43",
+   "0.2732"
+  ],
+  [
+   "45",
+   "6.2842"
+  ],
+  [
+   "46",
+   "2.7322"
+  ],
+  [
+   "48",
+   "1.6393"
+  ],
+  [
+   "49",
+   "3.8251"
+  ],
+  [
+   "52",
+   "3.2787"
+  ],
+  [
+   "55",
+   "1.3661"
+  ],
+  [
+   "56",
+   "0.8197"
+  ],
+  [
+   "58",
+   "0.2732"
+  ],
+  [
+   "59",
+   "1.0929"
+  ],
+  [
+   "62",
+   "0.2732"
+  ],
+  [
+   "69",
+   "0.2732"
+  ],
+  [
+   "72",
+   "0.5464"
+  ],
+  [
+   "88",
+   "0.2732"
+  ],
+  [
+   "92",
+   "0.2732"
+  ],
+  [
+   "155",
+   "0.2732"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 100,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 100,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 405,
+  "name": "Your",
+  "id": 112727512
+ }
 }

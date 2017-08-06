@@ -1,0 +1,571 @@
+{
+ "id": 645,
+ "ids": "645",
+ "state": "None",
+ "name": "Set Mismatch",
+ "slug": "set-mismatch",
+ "link": "https://leetcode.com/problems/set-mismatch",
+ "locked": false,
+ "percent": 40.908212560386474,
+ "level": "Easy",
+ "starred": false,
+ "category": "algorithms",
+ "fname": "645.set-mismatch.algorithms.py",
+ "loaded": true,
+ "totalAC": "6.8K",
+ "totalSubmit": "16.7K",
+ "desc": "\r\nThe set S originally contains numbers from 1 to n. But unfortunately, due to the data error, one of the numbers in the set got duplicated to another number in the set, which results in repetition of one number and loss of another number. \r\n\r\n\r\n\r\nGiven an array nums representing the data status of this set after the error. Your task is to firstly find the number occurs twice and then find the number that is missing. Return them in the form of an array.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: nums = [1,2,2,4]\r\nOutput: [2,3]\r\n\r\n\r\n\r\nNote:\r\n\r\nThe given array size will in the range [2, 10000].\r\nThe given array's numbers won't have any order.\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    vector<int> findErrorNums(vector<int>& nums) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public int[] findErrorNums(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def findErrorNums(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[int]\r\n        \"\"\""
+  },
+  {
+   "value": "python3",
+   "text": "Python3",
+   "defaultCode": "class Solution:\r\n    def findErrorNums(self, nums):\r\n        \"\"\"\r\n        :type nums: List[int]\r\n        :rtype: List[int]\r\n        \"\"\""
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Return an array of size *returnSize.\r\n * Note: The returned array must be malloced, assume caller calls free().\r\n */\r\nint* findErrorNums(int* nums, int numsSize, int* returnSize) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public int[] FindErrorNums(int[] nums) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {number[]} nums\r\n * @return {number[]}\r\n */\r\nvar findErrorNums = function(nums) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {Integer[]} nums\r\n# @return {Integer[]}\r\ndef find_error_nums(nums)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func findErrorNums(_ nums: [Int]) -> [Int] {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func findErrorNums(nums []int) []int {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\r\n    def findErrorNums(nums: Array[Int]): Array[Int] = {\r\n        \r\n    }\r\n}"
+  }
+ ],
+ "testcase": "'[1,2,2,4]'",
+ "testable": true,
+ "test_your": {
+  "code_answer": [
+   "[2,3]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "28 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502032691.81_784204_45"
+ },
+ "test_expected": {
+  "code_answer": [
+   "[2,3]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "29 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502032691.83_784204_45"
+ },
+ "submit_chart": [
+  [
+   "52",
+   "0.0980"
+  ],
+  [
+   "55",
+   "1.1765"
+  ],
+  [
+   "56",
+   "0.5882"
+  ],
+  [
+   "58",
+   "0.4902"
+  ],
+  [
+   "59",
+   "1.6667"
+  ],
+  [
+   "62",
+   "2.6471"
+  ],
+  [
+   "63",
+   "0.2941"
+  ],
+  [
+   "65",
+   "2.7451"
+  ],
+  [
+   "66",
+   "1.4706"
+  ],
+  [
+   "68",
+   "1.4706"
+  ],
+  [
+   "69",
+   "4.7059"
+  ],
+  [
+   "72",
+   "6.1765"
+  ],
+  [
+   "73",
+   "0.2941"
+  ],
+  [
+   "75",
+   "3.0392"
+  ],
+  [
+   "76",
+   "2.9412"
+  ],
+  [
+   "78",
+   "1.4706"
+  ],
+  [
+   "79",
+   "2.4510"
+  ],
+  [
+   "82",
+   "6.0784"
+  ],
+  [
+   "83",
+   "0.1961"
+  ],
+  [
+   "85",
+   "3.6275"
+  ],
+  [
+   "86",
+   "1.5686"
+  ],
+  [
+   "88",
+   "0.5882"
+  ],
+  [
+   "89",
+   "2.1569"
+  ],
+  [
+   "92",
+   "4.0196"
+  ],
+  [
+   "95",
+   "2.4510"
+  ],
+  [
+   "96",
+   "1.2745"
+  ],
+  [
+   "98",
+   "1.0784"
+  ],
+  [
+   "99",
+   "1.6667"
+  ],
+  [
+   "102",
+   "3.1373"
+  ],
+  [
+   "105",
+   "2.8431"
+  ],
+  [
+   "106",
+   "0.7843"
+  ],
+  [
+   "108",
+   "0.5882"
+  ],
+  [
+   "109",
+   "2.0588"
+  ],
+  [
+   "112",
+   "2.4510"
+  ],
+  [
+   "113",
+   "0.0980"
+  ],
+  [
+   "115",
+   "2.2549"
+  ],
+  [
+   "116",
+   "0.5882"
+  ],
+  [
+   "118",
+   "0.8824"
+  ],
+  [
+   "119",
+   "2.0588"
+  ],
+  [
+   "122",
+   "2.6471"
+  ],
+  [
+   "125",
+   "1.4706"
+  ],
+  [
+   "126",
+   "0.6863"
+  ],
+  [
+   "128",
+   "0.5882"
+  ],
+  [
+   "129",
+   "0.5882"
+  ],
+  [
+   "132",
+   "1.2745"
+  ],
+  [
+   "135",
+   "0.6863"
+  ],
+  [
+   "136",
+   "0.2941"
+  ],
+  [
+   "138",
+   "0.4902"
+  ],
+  [
+   "139",
+   "0.3922"
+  ],
+  [
+   "142",
+   "1.2745"
+  ],
+  [
+   "143",
+   "0.1961"
+  ],
+  [
+   "145",
+   "0.8824"
+  ],
+  [
+   "146",
+   "0.1961"
+  ],
+  [
+   "148",
+   "0.1961"
+  ],
+  [
+   "149",
+   "0.2941"
+  ],
+  [
+   "152",
+   "1.6667"
+  ],
+  [
+   "155",
+   "0.8824"
+  ],
+  [
+   "156",
+   "0.2941"
+  ],
+  [
+   "158",
+   "0.3922"
+  ],
+  [
+   "159",
+   "0.3922"
+  ],
+  [
+   "162",
+   "0.4902"
+  ],
+  [
+   "163",
+   "0.0980"
+  ],
+  [
+   "165",
+   "0.2941"
+  ],
+  [
+   "166",
+   "0.2941"
+  ],
+  [
+   "168",
+   "0.1961"
+  ],
+  [
+   "169",
+   "0.2941"
+  ],
+  [
+   "172",
+   "0.5882"
+  ],
+  [
+   "175",
+   "0.2941"
+  ],
+  [
+   "176",
+   "0.0980"
+  ],
+  [
+   "179",
+   "0.3922"
+  ],
+  [
+   "182",
+   "0.1961"
+  ],
+  [
+   "189",
+   "0.1961"
+  ],
+  [
+   "199",
+   "0.0980"
+  ],
+  [
+   "202",
+   "0.2941"
+  ],
+  [
+   "206",
+   "0.0980"
+  ],
+  [
+   "209",
+   "0.0980"
+  ],
+  [
+   "212",
+   "0.3922"
+  ],
+  [
+   "218",
+   "0.1961"
+  ],
+  [
+   "225",
+   "0.1961"
+  ],
+  [
+   "235",
+   "0.0980"
+  ],
+  [
+   "249",
+   "0.0980"
+  ],
+  [
+   "255",
+   "0.0980"
+  ],
+  [
+   "259",
+   "0.0980"
+  ],
+  [
+   "265",
+   "0.0980"
+  ],
+  [
+   "289",
+   "0.0980"
+  ],
+  [
+   "322",
+   "0.0980"
+  ],
+  [
+   "342",
+   "0.0980"
+  ],
+  [
+   "345",
+   "0.0980"
+  ],
+  [
+   "359",
+   "0.0980"
+  ],
+  [
+   "362",
+   "0.0980"
+  ],
+  [
+   "369",
+   "0.0980"
+  ],
+  [
+   "375",
+   "0.0980"
+  ],
+  [
+   "378",
+   "0.0980"
+  ],
+  [
+   "396",
+   "0.0980"
+  ],
+  [
+   "398",
+   "0.0980"
+  ],
+  [
+   "399",
+   "0.0980"
+  ],
+  [
+   "402",
+   "0.0980"
+  ],
+  [
+   "405",
+   "0.0980"
+  ],
+  [
+   "415",
+   "0.0980"
+  ],
+  [
+   "422",
+   "0.0980"
+  ],
+  [
+   "445",
+   "0.1961"
+  ],
+  [
+   "452",
+   "0.0980"
+  ],
+  [
+   "466",
+   "0.0980"
+  ],
+  [
+   "472",
+   "0.0980"
+  ],
+  [
+   "475",
+   "0.0980"
+  ],
+  [
+   "508",
+   "0.0980"
+  ],
+  [
+   "562",
+   "0.0980"
+  ],
+  [
+   "672",
+   "0.0980"
+  ],
+  [
+   "872",
+   "0.0980"
+  ],
+  [
+   "895",
+   "0.0980"
+  ],
+  [
+   "1738",
+   "0.0980"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 49,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "66 ms",
+  "compare_result": "1111111111111111111111111111111111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 49,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 645,
+  "name": "Your",
+  "id": 112732321
+ }
+}

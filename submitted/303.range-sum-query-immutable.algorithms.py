@@ -28,17 +28,27 @@ class NumArray(object):
         """
         :type nums: List[int]
         """
-        self.n=nums        
-
+        self.n = nums
+        if not nums:
+            self.acc = None
+            return
+        self.acc = [nums[0]]
+        self.acci = 0
+    def accu(self,i):
+        if i>self.acci:
+            for j in range(i-self.acci):
+                self.acc.append(self.acc[-1]+self.n[self.acci+j+1])
+            self.acci = i
+        return self.acc[i]
     def sumRange(self, i, j):
         """
         :type i: int
         :type j: int
         :rtype: int
         """
-        
-
-
-# Your NumArray object will be instantiated and called as such:
-# obj = NumArray(nums)
-# param_1 = obj.sumRange(i,j)
+        if self.acc is None:
+            return 0
+        if i==0:
+            return self.accu(j)
+        else:
+            return self.accu(j)-self.accu(i-1)
