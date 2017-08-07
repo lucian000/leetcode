@@ -69,5 +69,35 @@
  "testable": true,
  "slug": "add-strings",
  "category": "algorithms",
- "fname": "415.add-strings.algorithms.py"
+ "fname": "415.add-strings.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "\"0\""
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "39 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502120863.04_784204_14"
+ },
+ "test_expected": {
+  "code_answer": [
+   "\"0\""
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "3 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502120863.06_784204_14"
+ }
 }

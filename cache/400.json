@@ -69,5 +69,151 @@
  "testable": true,
  "slug": "nth-digit",
  "category": "algorithms",
- "fname": "400.nth-digit.algorithms.py"
+ "fname": "400.nth-digit.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "3"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502116903.58_784204_4"
+ },
+ "test_expected": {
+  "code_answer": [
+   "3"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "39 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502116903.6_784204_4"
+ },
+ "submit_chart": [
+  [
+   "25",
+   "0.2525"
+  ],
+  [
+   "26",
+   "0.2525"
+  ],
+  [
+   "28",
+   "2.2727"
+  ],
+  [
+   "29",
+   "5.8081"
+  ],
+  [
+   "32",
+   "27.2727"
+  ],
+  [
+   "33",
+   "1.5152"
+  ],
+  [
+   "35",
+   "12.6263"
+  ],
+  [
+   "36",
+   "8.3333"
+  ],
+  [
+   "38",
+   "4.0404"
+  ],
+  [
+   "39",
+   "10.6061"
+  ],
+  [
+   "42",
+   "11.8687"
+  ],
+  [
+   "43",
+   "0.2525"
+  ],
+  [
+   "45",
+   "3.2828"
+  ],
+  [
+   "46",
+   "1.2626"
+  ],
+  [
+   "48",
+   "1.0101"
+  ],
+  [
+   "49",
+   "3.2828"
+  ],
+  [
+   "52",
+   "2.7778"
+  ],
+  [
+   "55",
+   "0.7576"
+  ],
+  [
+   "56",
+   "1.0101"
+  ],
+  [
+   "58",
+   "0.2525"
+  ],
+  [
+   "59",
+   "0.5051"
+  ],
+  [
+   "62",
+   "0.2525"
+  ],
+  [
+   "65",
+   "0.2525"
+  ],
+  [
+   "66",
+   "0.2525"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 70,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "28 ms",
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 70,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 400,
+  "name": "Your",
+  "id": 112875602
+ }
 }
