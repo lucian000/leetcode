@@ -41,4 +41,13 @@ class Solution:
         :type t: TreeNode
         :rtype: str
         """
-        
+        if t is None:
+            return ''
+        l = self.tree2str(t.left)
+        r = self.tree2str(t.right)
+        if r:
+            return str(t.val)+'('+l+')('+r+')'
+        elif l:
+            return str(t.val)+'('+l+')'
+        else:
+            return str(t.val)

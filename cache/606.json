@@ -74,5 +74,35 @@
  "testable": true,
  "slug": "construct-string-from-binary-tree",
  "category": "algorithms",
- "fname": "606.construct-string-from-binary-tree.algorithms.py"
+ "fname": "606.construct-string-from-binary-tree.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "\"1(2(4))(3)\""
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502083528.9_784204_1"
+ },
+ "test_expected": {
+  "code_answer": [
+   "\"1(2(4))(3)\""
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "0 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502083528.93_784204_1"
+ }
 }
