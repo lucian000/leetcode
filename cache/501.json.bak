@@ -69,5 +69,35 @@
  "testable": true,
  "slug": "find-mode-in-binary-search-tree",
  "category": "algorithms",
- "fname": "501.find-mode-in-binary-search-tree.algorithms.py"
+ "fname": "501.find-mode-in-binary-search-tree.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "[2]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502204781.23_784204_5"
+ },
+ "test_expected": {
+  "code_answer": [
+   "[2]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "39 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502204781.26_784204_5"
+ }
 }

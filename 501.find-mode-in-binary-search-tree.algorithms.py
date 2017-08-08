@@ -51,4 +51,37 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[int]
         """
-        
+        if root is None:
+            return []
+        def mode(n):
+            if n.left is None and n.right is None:
+                return [n.val], 1
+            if n.left is None:
+                mr,nr = mode(n.right)
+                if nr>1:
+                    return mr,nr
+                else:
+                    return mr+[n.val],1
+            if n.right is None:
+                ml,nl = mode(n.left)
+                if n.val in ml:
+                    return [n.val],nl+1
+                elif nl>1:
+                    return ml,nl
+                else:
+                    return ml+[n.val],1
+            mr,nr = mode(n.right)
+            ml,nl = mode(n.left)
+            if nr>nl:
+                mm,nm = mr,nr
+            elif nr<nl:
+                mm,nm = ml,nl
+            else:
+                mm,nm = mr+ml,nr
+            if n.val in mm:
+                return [n.val],nm+1
+            elif nm>1:
+                return mm,nm
+            else:
+                return mm+[n.val],1
+        return mode(root)[0]
