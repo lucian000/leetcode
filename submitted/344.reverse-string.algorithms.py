@@ -1,0 +1,20 @@
+#
+# [344] Reverse String
+# 
+# * Easy(58.99911%)
+# * Testcase Example: '"hello"'
+# * URL: https://leetcode.com/problems/reverse-string
+# 
+# Write a function that takes a string as input and returns the string reversed.
+# 
+# 
+# Example:
+# Given s = "hello", return "olleh".
+# 
+class Solution(object):
+    def reverseString(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        return s[::-1]

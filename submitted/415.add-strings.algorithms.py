@@ -35,8 +35,11 @@ class Solution(object):
         ans=[]
         for n1,n2 in zip(num1[::-1],num2[::-1]):
             a,b=table[n1][n2]
-            ans.append(str(b+m))
-            m=a
+            if m==1 and b==9:
+                ans.append('0')
+            else:
+                ans.append(str(b+m))
+                m=a
         table1 = table['1']
         for n2 in num2[::-1][len(num1):]:
             if m:
