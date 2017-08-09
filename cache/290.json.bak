@@ -69,5 +69,163 @@
  "testable": true,
  "slug": "word-pattern",
  "category": "algorithms",
- "fname": "290.word-pattern.algorithms.py"
+ "fname": "290.word-pattern.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "true"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "52 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502251771.09_784204_20"
+ },
+ "test_expected": {
+  "code_answer": [
+   "true"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "0 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502251771.13_784204_20"
+ },
+ "submit_chart": [
+  [
+   "25",
+   "0.1368"
+  ],
+  [
+   "26",
+   "0.2736"
+  ],
+  [
+   "28",
+   "2.0520"
+  ],
+  [
+   "29",
+   "6.8399"
+  ],
+  [
+   "32",
+   "21.6142"
+  ],
+  [
+   "33",
+   "0.9576"
+  ],
+  [
+   "35",
+   "15.1847"
+  ],
+  [
+   "36",
+   "8.3447"
+  ],
+  [
+   "38",
+   "5.4720"
+  ],
+  [
+   "39",
+   "9.5759"
+  ],
+  [
+   "42",
+   "9.5759"
+  ],
+  [
+   "43",
+   "0.5472"
+  ],
+  [
+   "45",
+   "3.6936"
+  ],
+  [
+   "46",
+   "2.7360"
+  ],
+  [
+   "48",
+   "1.3680"
+  ],
+  [
+   "49",
+   "2.8728"
+  ],
+  [
+   "52",
+   "3.6936"
+  ],
+  [
+   "55",
+   "1.3680"
+  ],
+  [
+   "56",
+   "0.9576"
+  ],
+  [
+   "58",
+   "0.1368"
+  ],
+  [
+   "59",
+   "1.0944"
+  ],
+  [
+   "62",
+   "0.8208"
+  ],
+  [
+   "65",
+   "0.1368"
+  ],
+  [
+   "69",
+   "0.1368"
+  ],
+  [
+   "72",
+   "0.1368"
+  ],
+  [
+   "79",
+   "0.1368"
+  ],
+  [
+   "82",
+   "0.1368"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 33,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "39 ms",
+  "compare_result": "111111111111111111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 33,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 290,
+  "name": "Your",
+  "id": 113117641
+ }
 }
