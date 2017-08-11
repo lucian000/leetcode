@@ -1,0 +1,555 @@
+{
+ "id": 653,
+ "ids": "653",
+ "state": "None",
+ "name": "Two Sum IV - Input is a BST",
+ "slug": "two-sum-iv-input-is-a-bst",
+ "link": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst",
+ "locked": false,
+ "percent": 51.46624232780177,
+ "level": "Easy",
+ "starred": false,
+ "category": "algorithms",
+ "fname": "653.two-sum-iv-input-is-a-bst.algorithms.py",
+ "loaded": true,
+ "totalAC": "4.6K",
+ "totalSubmit": "8.9K",
+ "desc": "Given a Binary Search Tree and a target number, return true if there exist two elements in the BST such that their sum is equal to the given target.\r\n\r\nExample 1:\r\n\r\nInput: \r\n    5\r\n   / \\\r\n  3   6\r\n / \\   \\\r\n2   4   7\r\n\r\nTarget = 9\r\n\r\nOutput: True\r\n\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \r\n    5\r\n   / \\\r\n  3   6\r\n / \\   \\\r\n2   4   7\r\n\r\nTarget = 28\r\n\r\nOutput: False\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     TreeNode *left;\r\n *     TreeNode *right;\r\n *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    bool findTarget(TreeNode* root, int k) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     int val;\r\n *     TreeNode left;\r\n *     TreeNode right;\r\n *     TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public boolean findTarget(TreeNode root, int k) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "# Definition for a binary tree node.\r\n# class TreeNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution(object):\r\n    def findTarget(self, root, k):\r\n        \"\"\"\r\n        :type root: TreeNode\r\n        :type k: int\r\n        :rtype: bool\r\n        \"\"\""
+  },
+  {
+   "value": "python3",
+   "text": "Python3",
+   "defaultCode": "class Solution:\r\n    def findTarget(self, root, k):\r\n        \"\"\"\r\n        :type root: TreeNode\r\n        :type k: int\r\n        :rtype: bool\r\n        \"\"\""
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * struct TreeNode {\r\n *     int val;\r\n *     struct TreeNode *left;\r\n *     struct TreeNode *right;\r\n * };\r\n */\r\nbool findTarget(struct TreeNode* root, int k) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     public int val;\r\n *     public TreeNode left;\r\n *     public TreeNode right;\r\n *     public TreeNode(int x) { val = x; }\r\n * }\r\n */\r\npublic class Solution {\r\n    public bool FindTarget(TreeNode root, int k) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @param {number} k\r\n * @return {boolean}\r\n */\r\nvar findTarget = function(root, k) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# Definition for a binary tree node.\r\n# class TreeNode\r\n#     attr_accessor :val, :left, :right\r\n#     def initialize(val)\r\n#         @val = val\r\n#         @left, @right = nil, nil\r\n#     end\r\n# end\r\n\r\n# @param {TreeNode} root\r\n# @param {Integer} k\r\n# @return {Boolean}\r\ndef find_target(root, k)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * public class TreeNode {\r\n *     public var val: Int\r\n *     public var left: TreeNode?\r\n *     public var right: TreeNode?\r\n *     public init(_ val: Int) {\r\n *         self.val = val\r\n *         self.left = nil\r\n *         self.right = nil\r\n *     }\r\n * }\r\n */\r\nclass Solution {\r\n    func findTarget(_ root: TreeNode?, _ k: Int) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * type TreeNode struct {\r\n *     Val int\r\n *     Left *TreeNode\r\n *     Right *TreeNode\r\n * }\r\n */\r\nfunc findTarget(root *TreeNode, k int) bool {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "/**\r\n * Definition for a binary tree node.\r\n * class TreeNode(var _value: Int) {\r\n *   var value: Int = _value\r\n *   var left: TreeNode = null\r\n *   var right: TreeNode = null\r\n * }\r\n */\r\nobject Solution {\r\n    def findTarget(root: TreeNode, k: Int): Boolean = {\r\n        \r\n    }\r\n}"
+  }
+ ],
+ "testcase": "'[5,3,6,2,4,null,7]\\n9'",
+ "testable": true,
+ "test_your": {
+  "code_answer": [
+   "true"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "59 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502468759.47_784204_16"
+ },
+ "test_expected": {
+  "code_answer": [
+   "true"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "36 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502468759.49_784204_16"
+ },
+ "submit_chart": [
+  [
+   "106",
+   "0.1590"
+  ],
+  [
+   "108",
+   "0.7949"
+  ],
+  [
+   "109",
+   "0.3180"
+  ],
+  [
+   "112",
+   "1.9078"
+  ],
+  [
+   "115",
+   "1.5898"
+  ],
+  [
+   "116",
+   "0.7949"
+  ],
+  [
+   "118",
+   "0.7949"
+  ],
+  [
+   "119",
+   "2.5437"
+  ],
+  [
+   "122",
+   "3.9746"
+  ],
+  [
+   "123",
+   "0.1590"
+  ],
+  [
+   "125",
+   "3.4976"
+  ],
+  [
+   "126",
+   "1.2719"
+  ],
+  [
+   "128",
+   "1.7488"
+  ],
+  [
+   "129",
+   "3.9746"
+  ],
+  [
+   "132",
+   "5.5644"
+  ],
+  [
+   "135",
+   "5.2464"
+  ],
+  [
+   "136",
+   "2.2258"
+  ],
+  [
+   "138",
+   "2.0668"
+  ],
+  [
+   "139",
+   "2.3847"
+  ],
+  [
+   "142",
+   "4.6105"
+  ],
+  [
+   "145",
+   "3.3386"
+  ],
+  [
+   "146",
+   "1.7488"
+  ],
+  [
+   "148",
+   "1.7488"
+  ],
+  [
+   "149",
+   "1.7488"
+  ],
+  [
+   "152",
+   "4.2925"
+  ],
+  [
+   "155",
+   "2.7027"
+  ],
+  [
+   "156",
+   "1.7488"
+  ],
+  [
+   "158",
+   "1.4308"
+  ],
+  [
+   "159",
+   "3.3386"
+  ],
+  [
+   "162",
+   "1.9078"
+  ],
+  [
+   "165",
+   "1.5898"
+  ],
+  [
+   "166",
+   "0.9539"
+  ],
+  [
+   "168",
+   "0.3180"
+  ],
+  [
+   "169",
+   "0.6359"
+  ],
+  [
+   "172",
+   "2.2258"
+  ],
+  [
+   "175",
+   "2.0668"
+  ],
+  [
+   "176",
+   "0.4769"
+  ],
+  [
+   "179",
+   "0.3180"
+  ],
+  [
+   "182",
+   "1.9078"
+  ],
+  [
+   "185",
+   "0.6359"
+  ],
+  [
+   "189",
+   "0.7949"
+  ],
+  [
+   "192",
+   "0.7949"
+  ],
+  [
+   "195",
+   "0.3180"
+  ],
+  [
+   "198",
+   "0.3180"
+  ],
+  [
+   "199",
+   "0.4769"
+  ],
+  [
+   "202",
+   "0.4769"
+  ],
+  [
+   "206",
+   "0.3180"
+  ],
+  [
+   "208",
+   "0.1590"
+  ],
+  [
+   "209",
+   "0.4769"
+  ],
+  [
+   "212",
+   "0.9539"
+  ],
+  [
+   "215",
+   "0.4769"
+  ],
+  [
+   "219",
+   "0.6359"
+  ],
+  [
+   "222",
+   "0.1590"
+  ],
+  [
+   "225",
+   "0.4769"
+  ],
+  [
+   "229",
+   "0.3180"
+  ],
+  [
+   "232",
+   "0.4769"
+  ],
+  [
+   "235",
+   "0.4769"
+  ],
+  [
+   "236",
+   "0.3180"
+  ],
+  [
+   "239",
+   "0.3180"
+  ],
+  [
+   "242",
+   "0.1590"
+  ],
+  [
+   "245",
+   "0.3180"
+  ],
+  [
+   "246",
+   "0.4769"
+  ],
+  [
+   "249",
+   "0.6359"
+  ],
+  [
+   "252",
+   "0.6359"
+  ],
+  [
+   "255",
+   "0.3180"
+  ],
+  [
+   "256",
+   "0.1590"
+  ],
+  [
+   "259",
+   "0.1590"
+  ],
+  [
+   "262",
+   "0.1590"
+  ],
+  [
+   "265",
+   "0.4769"
+  ],
+  [
+   "269",
+   "0.1590"
+  ],
+  [
+   "278",
+   "0.1590"
+  ],
+  [
+   "279",
+   "0.1590"
+  ],
+  [
+   "285",
+   "0.3180"
+  ],
+  [
+   "292",
+   "0.1590"
+  ],
+  [
+   "295",
+   "0.1590"
+  ],
+  [
+   "299",
+   "0.1590"
+  ],
+  [
+   "302",
+   "0.1590"
+  ],
+  [
+   "309",
+   "0.1590"
+  ],
+  [
+   "315",
+   "0.1590"
+  ],
+  [
+   "319",
+   "0.3180"
+  ],
+  [
+   "322",
+   "0.1590"
+  ],
+  [
+   "342",
+   "0.3180"
+  ],
+  [
+   "349",
+   "0.3180"
+  ],
+  [
+   "352",
+   "0.1590"
+  ],
+  [
+   "355",
+   "0.1590"
+  ],
+  [
+   "362",
+   "0.1590"
+  ],
+  [
+   "365",
+   "0.1590"
+  ],
+  [
+   "372",
+   "0.1590"
+  ],
+  [
+   "389",
+   "0.1590"
+  ],
+  [
+   "412",
+   "0.3180"
+  ],
+  [
+   "476",
+   "0.1590"
+  ],
+  [
+   "492",
+   "0.3180"
+  ],
+  [
+   "499",
+   "0.1590"
+  ],
+  [
+   "522",
+   "0.1590"
+  ],
+  [
+   "529",
+   "0.1590"
+  ],
+  [
+   "679",
+   "0.1590"
+  ],
+  [
+   "849",
+   "0.1590"
+  ],
+  [
+   "876",
+   "0.1590"
+  ],
+  [
+   "959",
+   "0.1590"
+  ],
+  [
+   "1049",
+   "0.1590"
+  ],
+  [
+   "1099",
+   "0.1590"
+  ],
+  [
+   "1102",
+   "0.1590"
+  ],
+  [
+   "1175",
+   "0.1590"
+  ],
+  [
+   "1302",
+   "0.1590"
+  ],
+  [
+   "1409",
+   "0.1590"
+  ],
+  [
+   "1439",
+   "0.1590"
+  ],
+  [
+   "1805",
+   "0.1590"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 421,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "262 ms",
+  "compare_result": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 421,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 653,
+  "name": "Your",
+  "id": 113461749
+ }
+}

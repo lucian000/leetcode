@@ -25,6 +25,4 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        if len(s)!=len(t):
-            return False
-        return collections.Counter(s)==collections.Counter(t)
+        return sorted(s)==sorted(t)
