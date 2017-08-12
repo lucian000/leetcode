@@ -69,5 +69,219 @@
  "testable": true,
  "slug": "climbing-stairs",
  "category": "algorithms",
- "fname": "70.climbing-stairs.algorithms.py"
+ "fname": "70.climbing-stairs.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "1"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "38 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502531725.74_784204_28"
+ },
+ "test_expected": {
+  "code_answer": [
+   "1"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "39 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502531725.76_784204_28"
+ },
+ "submit_chart": [
+  [
+   "25",
+   "0.4634"
+  ],
+  [
+   "26",
+   "0.1030"
+  ],
+  [
+   "28",
+   "2.5232"
+  ],
+  [
+   "29",
+   "8.5479"
+  ],
+  [
+   "32",
+   "26.3131"
+  ],
+  [
+   "33",
+   "2.1627"
+  ],
+  [
+   "35",
+   "13.2853"
+  ],
+  [
+   "36",
+   "8.1874"
+  ],
+  [
+   "38",
+   "4.7889"
+  ],
+  [
+   "39",
+   "8.6509"
+  ],
+  [
+   "42",
+   "7.8785"
+  ],
+  [
+   "43",
+   "0.2575"
+  ],
+  [
+   "45",
+   "3.1926"
+  ],
+  [
+   "46",
+   "1.9053"
+  ],
+  [
+   "48",
+   "1.3903"
+  ],
+  [
+   "49",
+   "2.6262"
+  ],
+  [
+   "52",
+   "2.8321"
+  ],
+  [
+   "53",
+   "0.0515"
+  ],
+  [
+   "55",
+   "1.4418"
+  ],
+  [
+   "56",
+   "0.4634"
+  ],
+  [
+   "58",
+   "0.3090"
+  ],
+  [
+   "59",
+   "0.6694"
+  ],
+  [
+   "62",
+   "0.5149"
+  ],
+  [
+   "65",
+   "0.2060"
+  ],
+  [
+   "66",
+   "0.1545"
+  ],
+  [
+   "68",
+   "0.0515"
+  ],
+  [
+   "69",
+   "0.1030"
+  ],
+  [
+   "72",
+   "0.1545"
+  ],
+  [
+   "76",
+   "0.0515"
+  ],
+  [
+   "79",
+   "0.1030"
+  ],
+  [
+   "82",
+   "0.0515"
+  ],
+  [
+   "85",
+   "0.0515"
+  ],
+  [
+   "86",
+   "0.0515"
+  ],
+  [
+   "88",
+   "0.1030"
+  ],
+  [
+   "92",
+   "0.0515"
+  ],
+  [
+   "96",
+   "0.0515"
+  ],
+  [
+   "105",
+   "0.0515"
+  ],
+  [
+   "112",
+   "0.0515"
+  ],
+  [
+   "159",
+   "0.0515"
+  ],
+  [
+   "182",
+   "0.0515"
+  ],
+  [
+   "229",
+   "0.0515"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 45,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "49 ms",
+  "compare_result": "111111111111111111111111111111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 45,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 70,
+  "name": "Your",
+  "id": 113552010
+ }
 }
