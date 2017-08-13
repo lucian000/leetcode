@@ -69,5 +69,35 @@
  "testable": true,
  "slug": "house-robber",
  "category": "algorithms",
- "fname": "198.house-robber.algorithms.py"
+ "fname": "198.house-robber.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "0"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502635085.34_784204_25"
+ },
+ "test_expected": {
+  "code_answer": [
+   "0"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "36 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502635085.36_784204_25"
+ }
 }

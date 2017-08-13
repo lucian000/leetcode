@@ -69,5 +69,35 @@
  "testable": true,
  "slug": "sum-of-left-leaves",
  "category": "algorithms",
- "fname": "404.sum-of-left-leaves.algorithms.py"
+ "fname": "404.sum-of-left-leaves.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "24"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "29 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502635865.05_784204_27"
+ },
+ "test_expected": {
+  "code_answer": [
+   "24"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "29 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502635865.08_784204_27"
+ }
 }

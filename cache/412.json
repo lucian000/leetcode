@@ -69,5 +69,35 @@
  "testable": true,
  "slug": "fizz-buzz",
  "category": "algorithms",
- "fname": "412.fizz-buzz.algorithms.py"
+ "fname": "412.fizz-buzz.algorithms.py",
+ "test_your": {
+  "code_answer": [
+   "[\"1\"]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502639195.5_784204_38"
+ },
+ "test_expected": {
+  "code_answer": [
+   "[\"1\"]"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "0 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502639195.53_784204_38"
+ }
 }
