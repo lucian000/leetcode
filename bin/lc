@@ -19,32 +19,14 @@ import os
 import sys
 import matplotlib.pyplot as plt
 
-os.chdir(sys.path[0]+'/../') # change dir to the root dir
-dc = os.path.expanduser('~/.lc/') # dir of cache of leetcode
-d='./source/' #dir of saved source files
-dsave='./cache/' # dir of the cache of this program
-dt='./time/' # dir for time records
-lc_cli = './leetcode-cli/leetcode '
-editor = 'vim '
-
-if not os.path.exists(dc):
-    os.makedirs(dc)
-if not os.path.exists(d):
-    os.makedirs(d)
-if not os.path.exists(dsave):
-    os.makedirs(dsave)
-if not os.path.exists(dt):
-    os.makedirs(dt)
-if not os.path.exists('./submitted/'):
-    os.makedirs('./submitted/')
 
 welcome='''
-#######################################
+#######################
 LeetCode Helper
-Version 1.0
+Version 1.1
 By Lucian
-Basing on leetcode-cli v0.10.1-dfa8759
-#######################################
+Basing on leetcode-cli
+#######################
 '''
 
 
@@ -100,8 +82,15 @@ def get_cmd(cmd):
     with os.popen(cmd) as f:
         texts = f.readlines()
     return texts
+def get_config(s):
+    'get the value of a config'
+    try:
+        return load('config.json')[s]
+    except:
+        return None
+        
 #%% get the list
-def get_list(n=0,q='',cat=["algorithms"]):
+def get_list(n=0,q='',cat=None):
     '''
     n=index
     q=
@@ -110,6 +99,8 @@ def get_list(n=0,q='',cat=["algorithms"]):
     cat= 'all' : get all categories
         [a,b,c]: get categories a, b, and c
     '''
+    if not cat:
+        cat = cat0
     if not os.path.exists(dc+'problems.json'):
         get_cmd(lc_cli + 'list')
     all_ = load(dc+'problems.json')
@@ -163,10 +154,6 @@ def rm_dir(dire,exception=[]):
             shutil.move(dire+i,dire+'bak/')
 
 #%% define class
-if os.path.exists('./debug_mode'):
-    db = ' -vv'
-else:
-    db = ''
 class problem(object):
     def __init__(self,n):
         # n can be both int or str!
@@ -309,17 +296,6 @@ class problem(object):
         plt.title('Your runtime beats '+str(round(beat,4))+'% of python submissions')
         plt.text(yourx,bound*0.95,str(yourx)+' ms')
         plt.show()
-#%% checking dependence
-if not os.path.exists('./do_not_check'):
-    pry('Checking node and editor...')
-    if os.system("node -v")!=0:
-        prr('Can not find node.js!')
-        prr('Please read:')
-        print('https://nodejs.org/')
-        exit()
-    if os.system(editor+' --version')!=0:
-        prr('Can not find the editor!')
-        exit()
 
 #%% functions for the codes accepted
 def h():
@@ -355,7 +331,6 @@ def down(ps,p):
     pba.done()
     pry('Finished.')
 
- 
 def do_all(ps,p,resume=False):
     'automatically solve a question'
     if not resume:
@@ -423,8 +398,8 @@ def do_all(ps,p,resume=False):
     shutil.move(prob.fname,'./submitted/'+prob.fname)
     webbrowser.open_new(prob.link+'/discuss')
     prob.cache()
-    os.system(lc_cli + 'stat')
-    os.system(lc_cli + 'stat -g')
+    os.system(lc_cli + 'stat -t "'+cat0+'"')
+    os.system(lc_cli + 'stat -g -t "'+cat0+'"')
 
 def check_config():
     p=os.path.expanduser('~/.lcconfig')
@@ -448,7 +423,52 @@ def check_config():
 #%%############################
 # main program
 ###############################
-if not os.path.exists('./not_welcome'):
+
+# set dirs
+os.chdir(sys.path[0]+'/../') # change dir to the root dir
+dc = os.path.expanduser('~/.lc/') # dir of cache of leetcode
+d='./source/' #dir of saved source files
+dsave='./cache/' # dir of the cache of this program
+dt='./time/' # dir for time records
+lc_cli = './leetcode-cli/leetcode '
+editor = 'vim '
+
+# check dirs
+if not os.path.exists(dc):
+    os.makedirs(dc)
+if not os.path.exists(d):
+    os.makedirs(d)
+if not os.path.exists(dsave):
+    os.makedirs(dsave)
+if not os.path.exists(dt):
+    os.makedirs(dt)
+if not os.path.exists('./submitted/'):
+    os.makedirs('./submitted/')
+
+# check debug_mode
+if get_config('debug_mode'):
+    db = ' -vv'
+else:
+    db = ''
+
+# check dependence
+if not get_config('do_not_check'):
+    pry('Checking node and editor...')
+    if os.system("node -v")!=0:
+        prr('Can not find node.js!')
+        prr('Please read:')
+        print('https://nodejs.org/')
+        exit()
+    if os.system(editor+' --version')!=0:
+        prr('Can not find the editor!')
+        exit()
+
+# get the category
+cat0 = get_config('category')
+if not cat0:
+    cat0 = "algorithms"
+
+if not get_config('not_welcome'):
     pry(welcome)
 check_config()
 for i in os.listdir(): # check if file needs resume
