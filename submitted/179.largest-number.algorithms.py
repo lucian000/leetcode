@@ -17,4 +17,14 @@ class Solution:
     # @param {integer[]} nums
     # @return {string}
     def largestNumber(self, nums):
-        
+        maxn = max(nums)
+        if maxn==0:
+            return '0'
+        self.n = len(str(maxn))+1
+        nums = (str(i) for i in nums)
+        nums = sorted([(self.fill(i),i) for i in nums],reverse = True)
+        return ''.join(i[1] for i in nums)
+    def fill(self,num):
+        while len(num)<self.n:
+            num+=num
+        return num[:self.n]
