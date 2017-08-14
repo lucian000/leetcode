@@ -6,7 +6,7 @@ author: Lucian
 """
 #%% import and setup
 try: # for using arrow keys, don't remove this line!
-    import gnureadline 
+    import gnureadline
 except:
     import readline
 import time
@@ -32,7 +32,7 @@ Basing on leetcode-cli
 
 hlp='''
 exit: exit this program
-h/help: get the help infomation  
+h/help: get the help infomation
 d/do: do an excercise! Some letters can follow, including:
     e(easy),m(medium),h(hard),d(done),s(starred)
     Uppercase means negative, e.g. D(not done)
@@ -63,7 +63,7 @@ def addr(string):
     'add red to a string'
     return '\033[1;31m' +string+ '\033[0m'
 
-#%% functions about file (or command) 
+#%% functions about file (or command)
 def store(fname,data):
     if os.path.exists(fname):
         shutil.copy(fname, fname+'.bak')
@@ -88,7 +88,7 @@ def get_config(s):
         return load('config.json')[s]
     except:
         return None
-        
+
 #%% get the list
 def get_list(n=0,q='',cat=None):
     '''
@@ -139,7 +139,7 @@ def get_list(n=0,q='',cat=None):
             lst = [i for i in lst if not i['locked']]
     return lst
 
-    
+
 #%% refresh a dir
 def rm_dir(dire,exception=[]):
     if not input('Refresh '+dire+'? (y/n) ').startswith('y'):
@@ -174,7 +174,7 @@ class problem(object):
             else:
                 get_cmd(lc_cli + 'show '+self.ids)
                 self.__dict__.update(load(f1))
-        self.testcase = "'"+self.testcase.replace('\n',r'\n')+"'"   
+        self.testcase = "'"+self.testcase.replace('\n',r'\n')+"'"
         self.loaded=True
         self.cache()
     def download(self):
@@ -292,7 +292,7 @@ class problem(object):
         plt.plot(x,y,'g',alpha=0.5)
         plt.vlines(yourx,min(y),bound,'r',alpha=0.7)
         plt.xlabel('Runtime (ms)')
-        plt.ylabel('Frequency (%)') 
+        plt.ylabel('Frequency (%)')
         plt.title('Your runtime beats '+str(round(beat,4))+'% of python submissions')
         plt.text(yourx,bound*0.95,str(yourx)+' ms')
         plt.show()
@@ -345,7 +345,7 @@ def do_all(ps,p,resume=False):
                     lst = get_list(q='LDh')
         if len(lst)==0:
             prr('No unlocked questions are found!')
-            return 
+            return
         ind = np.random.choice([i['id'] for i in lst]) # index of question
     else:
         if len(ps)==0:
@@ -392,7 +392,7 @@ def do_all(ps,p,resume=False):
                 break
             else:
                 continue
-    if os.path.exists('./submitted/'+prob.fname): 
+    if os.path.exists('./submitted/'+prob.fname):
         print('File exists error!')
         return
     shutil.move(prob.fname,'./submitted/'+prob.fname)
@@ -400,6 +400,7 @@ def do_all(ps,p,resume=False):
     prob.cache()
     os.system(lc_cli + 'stat -t "'+cat0+'"')
     os.system(lc_cli + 'stat -g -t "'+cat0+'"')
+    print(addy('[REVIEW] ')+prob.ids+'. '+prob.name+'   '+prob.link)
 
 def check_config():
     p=os.path.expanduser('~/.lcconfig')
@@ -416,9 +417,9 @@ def check_config():
 	                "AUTO_LOGIN": False
                 }
         store(p,config)
-        
 
-        
+
+
 
 #%%############################
 # main program
