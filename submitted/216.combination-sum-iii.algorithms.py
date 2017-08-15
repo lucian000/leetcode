@@ -33,4 +33,12 @@ class Solution(object):
         :type n: int
         :rtype: List[List[int]]
         """
-        if k==1 and 
+        return self.find(k,n,1)
+    def find(self,k,n,min0):
+        if k==1:
+            return [] if n>9 or n<min0 else [[n]]
+        max0 = int((n-(k-1)*k/2)/k)
+        ans = []
+        for i in range(min0,max0+1):
+            ans.extend([[i]+j for j in self.find(k-1,n-i,i+1)])
+        return ans

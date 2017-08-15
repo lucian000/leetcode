@@ -1,0 +1,601 @@
+{
+ "id": 657,
+ "ids": "657",
+ "state": "None",
+ "name": "Judge Route Circle",
+ "slug": "judge-route-circle",
+ "link": "https://leetcode.com/problems/judge-route-circle",
+ "locked": false,
+ "percent": 71.85082017951099,
+ "level": "Easy",
+ "starred": false,
+ "category": "algorithms",
+ "fname": "657.judge-route-circle.algorithms.py",
+ "loaded": true,
+ "totalAC": "4.6K",
+ "totalSubmit": "6.5K",
+ "desc": "\r\nInitially, there is a Robot at position (0, 0). Given a sequence of its moves, judge if this robot makes a circle, which means it moves back to the original place. \r\n\r\n\r\n\r\nThe move sequence is represented by a string. And each move is represent by a character. The valid robot moves are R (Right), L (Left), U (Up) and D (down). The output should be true or false representing whether the robot makes a circle.\r\n\r\n\r\nExample 1:\r\n\r\nInput: \"UD\"\r\nOutput: true\r\n\r\n\r\n\r\nExample 2:\r\n\r\nInput: \"LL\"\r\nOutput: false\r\n\r\n",
+ "templates": [
+  {
+   "value": "cpp",
+   "text": "C++",
+   "defaultCode": "class Solution {\r\npublic:\r\n    bool judgeCircle(string moves) {\r\n        \r\n    }\r\n};"
+  },
+  {
+   "value": "java",
+   "text": "Java",
+   "defaultCode": "public class Solution {\r\n    public boolean judgeCircle(String moves) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "python",
+   "text": "Python",
+   "defaultCode": "class Solution(object):\r\n    def judgeCircle(self, moves):\r\n        \"\"\"\r\n        :type moves: str\r\n        :rtype: bool\r\n        \"\"\""
+  },
+  {
+   "value": "python3",
+   "text": "Python3",
+   "defaultCode": "class Solution:\r\n    def judgeCircle(self, moves):\r\n        \"\"\"\r\n        :type moves: str\r\n        :rtype: bool\r\n        \"\"\""
+  },
+  {
+   "value": "c",
+   "text": "C",
+   "defaultCode": "bool judgeCircle(char* moves) {\r\n    \r\n}"
+  },
+  {
+   "value": "csharp",
+   "text": "C#",
+   "defaultCode": "public class Solution {\r\n    public bool JudgeCircle(string moves) {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "javascript",
+   "text": "JavaScript",
+   "defaultCode": "/**\r\n * @param {string} moves\r\n * @return {boolean}\r\n */\r\nvar judgeCircle = function(moves) {\r\n    \r\n};"
+  },
+  {
+   "value": "ruby",
+   "text": "Ruby",
+   "defaultCode": "# @param {String} moves\r\n# @return {Boolean}\r\ndef judge_circle(moves)\r\n    \r\nend"
+  },
+  {
+   "value": "swift",
+   "text": "Swift",
+   "defaultCode": "class Solution {\r\n    func judgeCircle(_ moves: String) -> Bool {\r\n        \r\n    }\r\n}"
+  },
+  {
+   "value": "golang",
+   "text": "Go",
+   "defaultCode": "func judgeCircle(moves string) bool {\r\n    \r\n}"
+  },
+  {
+   "value": "scala",
+   "text": "Scala",
+   "defaultCode": "object Solution {\r\n    def judgeCircle(moves: String): Boolean = {\r\n        \r\n    }\r\n}"
+  }
+ ],
+ "testcase": "'\"UD\"'",
+ "testable": true,
+ "langs": [
+  "cpp",
+  "java",
+  "python",
+  "python3",
+  "c",
+  "csharp",
+  "javascript",
+  "ruby",
+  "swift",
+  "golang",
+  "scala"
+ ],
+ "lang": "python3",
+ "test_your": {
+  "code_answer": [
+   "true"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "48 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502795041.01_784204_17"
+ },
+ "test_expected": {
+  "code_answer": [
+   "true"
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "32 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502795041.03_784204_17"
+ },
+ "submit_chart": [
+  [
+   "35",
+   "0.4938"
+  ],
+  [
+   "36",
+   "1.2346"
+  ],
+  [
+   "38",
+   "0.7407"
+  ],
+  [
+   "39",
+   "2.9630"
+  ],
+  [
+   "42",
+   "2.2222"
+  ],
+  [
+   "45",
+   "1.4815"
+  ],
+  [
+   "46",
+   "0.9877"
+  ],
+  [
+   "48",
+   "0.4938"
+  ],
+  [
+   "49",
+   "1.2346"
+  ],
+  [
+   "52",
+   "1.2346"
+  ],
+  [
+   "55",
+   "0.2469"
+  ],
+  [
+   "59",
+   "0.2469"
+  ],
+  [
+   "62",
+   "0.2469"
+  ],
+  [
+   "65",
+   "0.2469"
+  ],
+  [
+   "66",
+   "0.4938"
+  ],
+  [
+   "68",
+   "0.2469"
+  ],
+  [
+   "69",
+   "0.2469"
+  ],
+  [
+   "82",
+   "0.4938"
+  ],
+  [
+   "86",
+   "0.2469"
+  ],
+  [
+   "92",
+   "0.2469"
+  ],
+  [
+   "95",
+   "0.4938"
+  ],
+  [
+   "96",
+   "0.2469"
+  ],
+  [
+   "99",
+   "0.2469"
+  ],
+  [
+   "112",
+   "0.2469"
+  ],
+  [
+   "115",
+   "0.4938"
+  ],
+  [
+   "119",
+   "0.4938"
+  ],
+  [
+   "126",
+   "0.2469"
+  ],
+  [
+   "129",
+   "0.2469"
+  ],
+  [
+   "132",
+   "0.9877"
+  ],
+  [
+   "133",
+   "0.2469"
+  ],
+  [
+   "135",
+   "0.2469"
+  ],
+  [
+   "136",
+   "0.2469"
+  ],
+  [
+   "138",
+   "0.7407"
+  ],
+  [
+   "139",
+   "2.4691"
+  ],
+  [
+   "142",
+   "3.2099"
+  ],
+  [
+   "143",
+   "0.2469"
+  ],
+  [
+   "145",
+   "1.7284"
+  ],
+  [
+   "146",
+   "0.9877"
+  ],
+  [
+   "148",
+   "0.4938"
+  ],
+  [
+   "149",
+   "2.4691"
+  ],
+  [
+   "152",
+   "4.6914"
+  ],
+  [
+   "155",
+   "2.2222"
+  ],
+  [
+   "156",
+   "2.7160"
+  ],
+  [
+   "158",
+   "0.9877"
+  ],
+  [
+   "159",
+   "3.7037"
+  ],
+  [
+   "162",
+   "2.7160"
+  ],
+  [
+   "163",
+   "0.2469"
+  ],
+  [
+   "165",
+   "1.9753"
+  ],
+  [
+   "166",
+   "1.4815"
+  ],
+  [
+   "168",
+   "0.4938"
+  ],
+  [
+   "169",
+   "1.9753"
+  ],
+  [
+   "172",
+   "3.4568"
+  ],
+  [
+   "175",
+   "1.7284"
+  ],
+  [
+   "176",
+   "0.9877"
+  ],
+  [
+   "178",
+   "0.4938"
+  ],
+  [
+   "179",
+   "1.7284"
+  ],
+  [
+   "182",
+   "2.2222"
+  ],
+  [
+   "183",
+   "0.4938"
+  ],
+  [
+   "185",
+   "1.2346"
+  ],
+  [
+   "188",
+   "0.2469"
+  ],
+  [
+   "189",
+   "1.9753"
+  ],
+  [
+   "192",
+   "1.9753"
+  ],
+  [
+   "196",
+   "0.4938"
+  ],
+  [
+   "198",
+   "0.2469"
+  ],
+  [
+   "199",
+   "0.9877"
+  ],
+  [
+   "202",
+   "1.2346"
+  ],
+  [
+   "203",
+   "0.2469"
+  ],
+  [
+   "205",
+   "1.2346"
+  ],
+  [
+   "206",
+   "0.2469"
+  ],
+  [
+   "208",
+   "0.2469"
+  ],
+  [
+   "209",
+   "0.4938"
+  ],
+  [
+   "212",
+   "0.7407"
+  ],
+  [
+   "215",
+   "0.9877"
+  ],
+  [
+   "216",
+   "0.9877"
+  ],
+  [
+   "219",
+   "0.9877"
+  ],
+  [
+   "222",
+   "1.4815"
+  ],
+  [
+   "223",
+   "0.2469"
+  ],
+  [
+   "225",
+   "1.4815"
+  ],
+  [
+   "226",
+   "0.4938"
+  ],
+  [
+   "229",
+   "0.7407"
+  ],
+  [
+   "232",
+   "1.7284"
+  ],
+  [
+   "235",
+   "0.7407"
+  ],
+  [
+   "236",
+   "0.2469"
+  ],
+  [
+   "238",
+   "0.2469"
+  ],
+  [
+   "239",
+   "0.2469"
+  ],
+  [
+   "242",
+   "0.9877"
+  ],
+  [
+   "245",
+   "0.7407"
+  ],
+  [
+   "246",
+   "0.2469"
+  ],
+  [
+   "248",
+   "0.2469"
+  ],
+  [
+   "249",
+   "0.2469"
+  ],
+  [
+   "255",
+   "0.2469"
+  ],
+  [
+   "256",
+   "0.7407"
+  ],
+  [
+   "258",
+   "0.2469"
+  ],
+  [
+   "259",
+   "0.2469"
+  ],
+  [
+   "262",
+   "0.4938"
+  ],
+  [
+   "265",
+   "0.7407"
+  ],
+  [
+   "266",
+   "0.4938"
+  ],
+  [
+   "269",
+   "0.2469"
+  ],
+  [
+   "285",
+   "0.4938"
+  ],
+  [
+   "286",
+   "0.2469"
+  ],
+  [
+   "289",
+   "0.2469"
+  ],
+  [
+   "292",
+   "0.2469"
+  ],
+  [
+   "295",
+   "0.2469"
+  ],
+  [
+   "298",
+   "0.2469"
+  ],
+  [
+   "305",
+   "0.2469"
+  ],
+  [
+   "308",
+   "0.2469"
+  ],
+  [
+   "329",
+   "0.4938"
+  ],
+  [
+   "332",
+   "0.2469"
+  ],
+  [
+   "339",
+   "0.2469"
+  ],
+  [
+   "342",
+   "0.2469"
+  ],
+  [
+   "362",
+   "0.2469"
+  ],
+  [
+   "396",
+   "0.2469"
+  ],
+  [
+   "412",
+   "0.2469"
+  ],
+  [
+   "415",
+   "0.2469"
+  ],
+  [
+   "852",
+   "0.2469"
+  ]
+ ],
+ "submit_your": {
+  "lang": "python",
+  "total_testcases": 62,
+  "user_id": 784204,
+  "code_output": "",
+  "status_code": 10,
+  "status_runtime": "149 ms",
+  "compare_result": "11111111111111111111111111111111111111111111111111111111111111",
+  "display_runtime": "",
+  "state": "SUCCESS",
+  "total_correct": 62,
+  "run_success": true,
+  "judge_type": "large",
+  "std_output": "",
+  "question_id": 657,
+  "name": "Your",
+  "id": 113984126
+ }
+}

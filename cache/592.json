@@ -1,7 +1,7 @@
 {
  "id": 592,
  "ids": "592",
- "state": "None",
+ "state": "notac",
  "name": "Fraction Addition and Subtraction",
  "key": "fraction-addition-and-subtraction",
  "link": "https://leetcode.com/problems/fraction-addition-and-subtraction",
@@ -74,5 +74,50 @@
  "testable": true,
  "slug": "fraction-addition-and-subtraction",
  "category": "algorithms",
- "fname": "592.fraction-addition-and-subtraction.algorithms.py"
+ "fname": "592.fraction-addition-and-subtraction.algorithms.py3",
+ "test_your": {
+  "code_answer": [
+   "\"0/1\""
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "68 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Your",
+  "id": "interpret_1502793852.56_784204_15"
+ },
+ "test_expected": {
+  "code_answer": [
+   "\"0/1\""
+  ],
+  "code_output": [],
+  "status_code": 10,
+  "status_runtime": "0 ms",
+  "run_success": true,
+  "state": "SUCCESS",
+  "total_correct": null,
+  "display_runtime": "",
+  "total_testcases": null,
+  "name": "Expected",
+  "id": "interpret_expected_1502793852.59_784204_15"
+ },
+ "file": "592.fraction-addition-and-subtraction.algorithms.py",
+ "langs": [
+  "cpp",
+  "java",
+  "python",
+  "python3",
+  "c",
+  "csharp",
+  "javascript",
+  "ruby",
+  "swift",
+  "golang",
+  "scala"
+ ],
+ "lang": "python3"
 }
