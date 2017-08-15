@@ -57,7 +57,7 @@ cmd.handler = function(argv) {
       // show beat ratio
       if (ok) {
         core.getSubmission({id: result.id}, function(e, submission) {
-          if (!submission.distributionChart) return;
+          if (!submission) {log.info(INDENT + h.prettyText('Cases are not enough.', false));return;}
 
           var lang = submission.distributionChart.lang;
           var scores = submission.distributionChart.distribution;
