@@ -175,6 +175,12 @@ class problem(object):
                 get_cmd(lc_cli + 'show '+self.ids)
                 self.__dict__.update(load(f1))
         self.testcase = "'"+self.testcase.replace('\n',r'\n')+"'"
+        self.langs = [i['value'] for i in self.templates]
+        if 'python3' in self.langs:
+            self.lang = 'python3'
+            #self.fname += '3'
+        else:
+            self.lang = 'python'
         self.loaded=True
         self.cache()
     def download(self):
@@ -204,6 +210,7 @@ class problem(object):
             self.load()
         txt = '['+self.ids+'] '+self.name+'\n'
         txt += '* '+self.level+'('+str(round(self.percent,2))+'%)'
+        txt += '* Language: '+self.lang
         txt += '\n\n'
         txt += self.desc.strip()
         if pr:
@@ -215,13 +222,11 @@ class problem(object):
         if os.path.exists(self.fname):
             print('There is a file here! Please check.')
             return -1
-        try:
-            codes = [i['defaultCode'] for i in self.templates if i['value']=='python3'][0]
-        except:
-            codes = [i['defaultCode'] for i in self.templates if i['value']=='python'][0]
+        codes = [i['defaultCode'] for i in self.templates if i['value']==self.lang][0]
         txt = '#\n['+self.ids+'] '+self.name
         txt += '\n'
         txt += '\n* '+self.level+'('+str(round(self.percent,5))+'%)'
+        txt += '\n* Language: ' + self.lang
         txt += '\n* Testcase Example: ' + self.testcase
         txt += '\n* URL: ' + self.link
         txt += '\n'
@@ -474,7 +479,7 @@ if not get_config('not_welcome'):
 check_config()
 for i in os.listdir(): # check if file needs resume
     ipart = i.split('.')
-    if ipart[0].isdigit() and ipart[-1]=='py':
+    if ipart[0].isdigit() and ipart[-1] in ['py','py3']:
         pry("File "+i+" exists.")
         if input('Resume? (y=yes,n/[Enter]=no) ').startswith('y'):
             do_all([ipart[0]],ipart[0],resume=True)
